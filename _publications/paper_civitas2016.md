@@ -12,4 +12,4 @@ citation: 'Zanetic, André; Paes Manso, Bruno; Natal, Ariadne; <b>Oliveira, Thia
 
 [Download paper here](oliveirathiago.github.io/files/paper_civitas2016.pdf)
 
-Recommended citation: Zanetic, André; Paes Manso, Bruno; Natal, Ariadne; **Oliveira, Thiago R.** (2026). "Legitimidade da polícia: segurança pública para além da dissuasão." <i>Civitas - Revista de Ciências Sociais</i>. 16(4).
+Recommended citation: Zanetic, André; Paes Manso, Bruno; Natal, Ariadne; **Oliveira, Thiago R.** (2016). "Legitimidade da polícia: segurança pública para além da dissuasão." <i>Civitas - Revista de Ciências Sociais</i>. 16(4).
