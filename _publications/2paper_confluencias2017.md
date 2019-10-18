@@ -11,4 +11,4 @@ citation: '<b>Oliveira, Thiago R.</b> (2017). &quot;Oitivas cerimoniais: relatos
 
 [Download paper here](http://academicpages.github.io/files/paper2.pdf)
 
-Recommended citation: **Oliveira, Thiago R.** (2017). Oitivas cerimoniais: relatos descritivos do sistema de justiça juvenil paulistano. *Confluências -- Revista Interdisciplinar de Sociologia e Direito<*. 18(3).
+Recommended citation: **Oliveira, Thiago R.** (2017). Oitivas cerimoniais: relatos descritivos do sistema de justiça juvenil paulistano. *Confluências -- Revista Interdisciplinar de Sociologia e Direito*. 18(3).
