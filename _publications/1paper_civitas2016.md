@@ -1,7 +1,7 @@
 ---
 title: "Legitimidade da polícia: segurança pública para além da dissuasão"
 collection: publications
-permalink: /publication/paper_civitas2016
+permalink: /publication/1paper_civitas2016
 excerpt: '*Police legitimacy: criminal policy beyond deterrence*. Theoretical paper reviewing the most commonly adopted policing policy strategies in Brazil. We suggest that procedural justice policing is a good alternative to the widely applied deterrence-based model. [doi.org/10.15448/1984-7289.2016.4.24183](dx.doi.org/10.15448/1984-7289.2016.4.24183).'
 date: 2016-12-01
 venue: 'Civitas - Revista de Ciências Sociais'
