@@ -14,6 +14,6 @@ As a quantitative social scientist, I work with topics related to **criminology*
 
 I am very interested in **social research methods**, especially when it comes to teaching. I am generally keen on teaching topics related to research design, quantitative methods, and statistical software. My main methodological interests in quantitative social science include longitudinal data analysis, latent variable modelling and measurement, survey methods, causal inference, and R programming.
 
-Prior to joining LSE, I was a researcher at the [Centre for the Study of Violence](http://english.nevusp.org) of the University of São Paulo (NEV-USP), where I still colaborate as a *Research Fellow*. In 2015, I was a *Visiting Scholar* at the [International Institute for the Sociology of Law](http://iisj.net) in Oñati, Basque Country/Spain. I received both my BA in Social Sciences (2013) and my MA in Sociology (2016) from the University of São Paulo.
+Prior to joining LSE, I was a researcher at the [Centre for the Study of Violence](http://english.nevusp.org) of the University of São Paulo (NEV-USP), where I still colLaborate as a *Research Fellow*. In 2015, I was a *Visiting Scholar* at the [International Institute for the Sociology of Law](http://iisj.net) in Oñati, Basque Country/Spain. I received both my BA in Social Sciences (2013) and my MA in Sociology (2016) from the University of São Paulo.
 
 
