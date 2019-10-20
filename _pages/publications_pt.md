@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Publications in Portuguese"
-permalink: /publications/
+permalink: /publications_pt/
 author_profile: true
 ---
 
