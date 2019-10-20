@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Publications in English"
-permalink: /publications_en/
+permalink: /publications_eng/
 author_profile: true
 ---
 
