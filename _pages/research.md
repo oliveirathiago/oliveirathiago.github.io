@@ -10,8 +10,8 @@ redirect_from:
 {% include base_path %}
 
 
-## [Work in progresss](oliveirathiago.github.io/work-in-progress)
+## [Work in progresss](https://oliveirathiago.github.io/work-in-progress)
 
-## [Publications in English](oliveirathiago.github.io/publications_eng)
+## [Publications in English](https://oliveirathiago.github.io/publications_eng)
 
-## [Publications in Portuguese](oliveirathiago.github.io/publications_pt)
+## [Publications in Portuguese](https://oliveirathiago.github.io/publications_pt)
