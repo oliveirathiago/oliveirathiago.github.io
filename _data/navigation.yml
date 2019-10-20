@@ -5,12 +5,6 @@ main:
   
   - title: "Publications"
     url: /publications_en/
-    
-      - title: "Publications in English"
-        url: /publications_en/
-        
-      - title: "Publications in Portuguese"
-        url: /publications_pt/
 
   - title: "Talks"
     url: /talks/    
