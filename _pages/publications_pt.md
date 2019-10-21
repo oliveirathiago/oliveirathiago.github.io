@@ -10,7 +10,7 @@ author_profile: true
 
 ## *Forthcoming*
 
-### [Preditores e impactos da legitimidade policial: testando a teoria da justeza procedimental em São Paulo](http://oliveirathiago.github.io/files/paper_dados2019.pdf)
+### [5. Preditores e impactos da legitimidade policial: testando a teoria da justeza procedimental em São Paulo](http://oliveirathiago.github.io/files/paper_dados2019.pdf)
 
 *(Predictors and impacts of police legitimacy: testing the procedural justice theory in São Paulo)* 
 
@@ -19,7 +19,7 @@ Forthcoming in *Dados - Revista de Ciências Sociais*
 <details>
 <summary><i>See abstract</i></summary>
 <b>Abstract</b>: This paper provides an empirical assessment of predictors and impacts of public judgements about police legitimacy in São Paulo. We tested Tyler's process-based self-regulation model in the Brazilian context drawing on data from a representative survey of adults living in São Paulo in 2015. Our analytic strategy involved structural equation modelling to assess the mediating role of judgements about police legitimacy in a path from trust in procedural justice and public compliance with the law. Results indicate some complexity in the measurement of one's normative duty to obey the police. Based on content analysis of open-ended responses regarding reasons (not) to obey the police, we suggest four groups of respondents: moral duty to obey, disobedient protest, coercive obligation, and authority rejection. Such categories were incorporated in the model. The two former categories, which are composed by respondents who recognise the legitimacy of the authority, are associated with perceived police fairness and predict compliant behaviour, whereas the other two categories do not. Implications for policing policy in Brazil are discussed.
-  
+
 </details>
 
 Recommended citation: **Oliveira, Thiago R.**; Zanetic, André; Natal, Ariadne L. (*Forthcoming*). "Preditores e impactos da legitimidade policial: testando a teoria da justeza procedimental em São Paulo." *Dados - Revista de Ciências Sociais*.
@@ -29,11 +29,11 @@ Recommended citation: **Oliveira, Thiago R.**; Zanetic, André; Natal, Ariadne L
 
 ## 2019
 
-### [Legitimidade policial: um modelo de mensuração](http://oliveirathiago.github.io/files/paper_2019rbcs.pdf)
+### [4. Legitimidade policial: um modelo de mensuração](http://oliveirathiago.github.io/files/paper_2019rbcs.pdf)
 
 *(Police legitimacy: a measurement model)*
 
-Published in *Revista Brasileira de Ciências Sociais, 2019 
+Published in *Revista Brasileira de Ciências Sociais*, 2019 
 
 <details>
 <summary><i>See abstract</i></summary>
@@ -50,7 +50,7 @@ Recommended citation: **Oliveira, Thiago R.**; Oliveira, André R.; Adorno, Serg
 
 ## 2017
 
-### [Mecanismos sociais de decisões judiciais: um desenho misto explicativo sobre a aplicação da medida socioeducativa de internação](http://oliveirathiago.github.io/files/paper_2017rbs)
+### [3. Mecanismos sociais de decisões judiciais: um desenho misto explicativo sobre a aplicação da medida socioeducativa de internação](http://oliveirathiago.github.io/files/paper_2017rbs)
 
 *(Social mechanisms of judicial decisions: an explanatory mixed-methods research design on juvenile sentencing)*
 
@@ -69,7 +69,7 @@ Recommended citation: **Oliveira, Thiago R.** (2017). "Mecanismos sociais de dec
 Replication materials here.
 
 
-### [Oitivas cerimoniais: relatos descritivos do sistema de justiça juvenil paulistano](http://oliveirathiago.github.io/files/paper_2017confluencias.pdf)
+### [2. Oitivas cerimoniais: relatos descritivos do sistema de justiça juvenil paulistano](http://oliveirathiago.github.io/files/paper_2017confluencias.pdf)
 
 *(Ceremonial hearings: descriptive reports of the juvenile justice system in São Paulo)*
 
@@ -88,7 +88,7 @@ Recommended citation: **Oliveira, Thiago R.** (2017). "Oitivas cerimoniais: rela
 
 ## 2016
 
-### [Legitimidade da polícia: segurança pública para além da dissuasão](http://oliveirathiago.github.io/files/paper_2016civitas.pdf)
+### [1. Legitimidade da polícia: segurança pública para além da dissuasão](http://oliveirathiago.github.io/files/paper_2016civitas.pdf)
 
 *(Police legitimacy: criminal policy beyond deterrence)*
 
