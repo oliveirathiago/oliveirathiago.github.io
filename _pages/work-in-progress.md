@@ -14,9 +14,13 @@ author_profile: true
   Authors: Jon Jackson, Ian Bruton-Smith, Ben Bradford, **Thiago R. Oliveira**, & Krisztian Pósch.
 
   Reject-and-resubmit at *Journal of Quantitative Criminology*
+  
+  <details>
+  <summary>See abstract</summary>
 
   **Abstract**. *Objectives*: Test whether cooperation with the police is a social norm that varies in strength from neighborhood to neighborhood. Test whether police legitimacy plays no role with willingness to cooperate in neighborhoods where the norm is strong but is a positive predictor of cooperation in neighborhoods where the norm is weak. *Methods*: A survey of 1,057 individuals in 98 neighborhoods, defined at small spatial scale, measures (a) willingness to cooperate using a hypothetical vignette and (b) legitimacy using normative alignment indicators. A mixed-effects location-scale model estimates the cluster-level mean and variance of cooperation as a latent variable. A cross-level interaction tests whether legitimacy predicts cooperation only in neighborhoods where the norm to cooperate is weak. *Results*: Willingness to cooperate with the police clusters strongly by neighborhood and there are neighborhoods with (i) high mean and low variance, (ii) high mean and high variance, (iii) (relatively) low mean and low variance, and (iv) (relatively) low mean and high variance. Legitimacy is only a positive predictor of cooperation in neighborhoods that have a low mean and high variance. In neighborhoods where the norm to cooperate is strong, most people are willing to engage so there is little variance left over to explain. *Conclusions*: Findings support a boundary condition of procedural justice theory: namely, cooperation with the police is a social norm that varies from neighborhood to neighborhood and that legitimacy only plays a role in neighborhoods where the social norm is weak. 
 
+  </details>
 
 
 - **Violência como fator socializador na construção da legitimidade da polícia: um estudo com adolescentes de São Paulo, Brasil**
