@@ -11,7 +11,7 @@ author_profile: true
 
 - **Police legitimacy and the norm to cooperate: using a mixed effects location scale model to estimate the strength of social norms at a small spatial scale**
 
-  Authors: Jon Jackson, Ian Bruton-Smith, Ben Bradford, **Thiago R. Oliveira**, & Krisztian Pósch.
+  Authors: Jon Jackson, Ian Bruton-Smith, Ben Bradford, **Thiago R. Oliveira**, & Krisztián Pósch.
 
   Reject-and-resubmit at *Journal of Quantitative Criminology*
   
@@ -51,7 +51,7 @@ author_profile: true
 
 - **Fear and legitimacy in São Paulo: police-citizen relations in a high violence, high fear context**
 
-  Authors: Jon Jackson, Krisztian Posch, **Thiago R. Oliveira**, Ben Bradford, Ariadne Natal, André Zanetic, & Silvia Camões.
+  Authors: Jon Jackson, Krisztián Pósch, **Thiago R. Oliveira**, Ben Bradford, Ariadne Natal, André Zanetic, & Silvia Camões.
   
   <details>
   <summary><i>See abstract</i></summary>
