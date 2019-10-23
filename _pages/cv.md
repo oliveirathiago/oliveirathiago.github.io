@@ -15,6 +15,6 @@ redirect_from:
 
 <html lang="en" style="width:100%; height:50000%;">
   <body style="width:100%; height:50000%; margin:0;">
-    <iframe src="https://docs.google.com/gview?url=https://oliveirathiago.github.io/files/main.pdf&embedded=true" style="width:100%; height:400;" frameborder="0"></iframe>
+    <iframe src="https://docs.google.com/gview?url=https://oliveirathiago.github.io/files/main.pdf&embedded=true" style="width:100%; height:500px;" frameborder="0"></iframe>
   </body>
 </html>
