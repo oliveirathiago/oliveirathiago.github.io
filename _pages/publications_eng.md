@@ -10,7 +10,7 @@ author_profile: true
 
 ## 2019
 
-### [Juvenile Sentencing: A Mixed-Methods Approach](http://oliveirathiago.github.io/files/paper_2019bpsr.pdf)
+### [1. Juvenile Sentencing: A Mixed-Methods Approach](http://oliveirathiago.github.io/files/paper_2019bpsr.pdf)
 
 Published in *Brazilian Political Science Review*, 2019
 
