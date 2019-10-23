@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 
-## [Work in progresss](https://oliveirathiago.github.io/work-in-progress)
+## [:nut_and_bolt: Work in progresss](https://oliveirathiago.github.io/work-in-progress)
 
 ## [:uk: Publications in English](https://oliveirathiago.github.io/publications_eng)
 
