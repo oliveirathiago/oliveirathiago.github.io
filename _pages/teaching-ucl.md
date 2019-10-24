@@ -15,8 +15,6 @@ ______________
 
 ### 2019 / 2020
 
-- [Introduction to Quantitative Research Methods](https://uclspp.github.io/PUBL0055/seminar3.html)
-
-  Teaching Fellow (Class Teacher)
-
+- [Introduction to Quantitative Research Methods](https://uclspp.github.io/PUBL0055/seminar3.html)<br>
+  Teaching Fellow (Class Teacher)<br>
   MSc level
