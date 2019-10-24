@@ -12,12 +12,12 @@ author_profile: true
 ______________
 
 
-## [University College London (UCL)](https://oliveirathiago.github.io/teaching-ucl)
+## [:uk: University College London (UCL)](https://oliveirathiago.github.io/teaching-ucl)
 
 
-## [London School of Economics and Political Science (LSE)](https://oliveirathiago.github.io/teaching-ucl)
+## [:uk: London School of Economics and Political Science (LSE)](https://oliveirathiago.github.io/teaching-ucl)
 
   
-## [University of São Paulo](https://oliveirathiago.github.io/teaching-ucl)
+## [:brazil: University of São Paulo](https://oliveirathiago.github.io/teaching-ucl)
 
 
