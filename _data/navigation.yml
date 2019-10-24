@@ -1,21 +1,18 @@
 # main links links
 main:
-  - title: ":male: CV"
+  - title: ":landmark: CV"
     url: /cv/
   
-  - title: "Research"
+  - title: ":file-alt: Research"
     sublinks:
       - title: ":nut_and_bolt: Work in progress"
         url: /work-in-progress/
       - title: ":uk: Publications in English"
         url: /publications_eng/
       - title: ":brazil: Publications in Portuguese"
-        url: /publications_pt/
+        url: /publications_pt/    
 
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
+  - title: ":chalkboard-teacher: Teaching"
     sublinks:
       - title: "UCL"
         url: /teaching-ucl/
@@ -23,3 +20,6 @@ main:
         url: /teaching-lse/
       - title: "USP"
         url: /teaching-usp/
+        
+  - title: ":keynote: Talks"
+    url: /talks/
