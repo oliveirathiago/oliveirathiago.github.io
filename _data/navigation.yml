@@ -4,7 +4,13 @@ main:
     url: /cv/
   
   - title: "Research"
-    url: /research/
+    sublinks:
+      - title: "Work in progress"
+        url: /work-in-progress/
+      - title: "Publications in English"
+        url: /publications_eng/
+      - title: "Publications in Portuguese"
+        url: /publications_pt/
 
   - title: "Talks"
     url: /talks/    
