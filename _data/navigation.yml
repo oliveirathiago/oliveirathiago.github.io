@@ -6,10 +6,10 @@ main:
   - title: "Research"
     sublinks:
       - title: "Work in progress"
-        url: /work-in-progress/
-      - title: "Publications in English"
+        url: /:nut_and_bolt: work-in-progress/
+      - title: ":uk: Publications in English"
         url: /publications_eng/
-      - title: "Publications in Portuguese"
+      - title: ":brazil: Publications in Portuguese"
         url: /publications_pt/
 
   - title: "Talks"
