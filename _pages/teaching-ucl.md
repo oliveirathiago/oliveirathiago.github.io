@@ -7,6 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
+### Awarded a <i>Class Teaching Award</i> (LSE 2018/2019)
 ______________
 
 
