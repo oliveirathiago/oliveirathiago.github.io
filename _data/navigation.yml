@@ -1,9 +1,9 @@
 # main links links
 main:
-  - title: "<i class="landmark"></i> CV"
+  - title: "<i class="fas landmark"></i> CV"
     url: /cv/
   
-  - title: "<i class="file-alt"></i> Research"
+  - title: "<i class="fas file-alt"></i> Research"
     sublinks:
       - title: ":nut_and_bolt: Work in progress"
         url: /work-in-progress/
@@ -12,7 +12,7 @@ main:
       - title: ":brazil: Publications in Portuguese"
         url: /publications_pt/    
 
-  - title: "<i class="chalkboard-teacher"></i> Teaching"
+  - title: "<i class="fas chalkboard-teacher"></i> Teaching"
     sublinks:
       - title: "UCL"
         url: /teaching-ucl/
@@ -21,5 +21,5 @@ main:
       - title: "USP"
         url: /teaching-usp/
         
-  - title: "<i class="keynote"></i> Talks"
+  - title: "<i class="fas keynote"></i> Talks"
     url: /talks/
