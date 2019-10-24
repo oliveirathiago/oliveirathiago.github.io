@@ -15,44 +15,32 @@ ______________
 
 ### 2019 / 2020
 
-- [Introduction to R programming (MY591 Workshop)](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2019_MY591.htm)
-  
-  Instructor
-    
+- [Introduction to R programming (MY591 Workshop)](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2019_MY591.htm)<br>
+  Instructor<br>
   MSc/PhD level
   
-- [Introduction to R (Pre-Sessional Workshop)](https://oliveirathiago.github.io/files/IntroR.html)
-  
-  Instructor
-    
+- [Introduction to R (Pre-Sessional Workshop)](https://oliveirathiago.github.io/files/IntroR.html)<br>
+  Instructor<br>
   MSc level
     
     
  ### 2018 / 2019
  
-- [Multivariate Analysis and Measurement](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2019_MY455.htm)
-  
-  Graduate Teaching Assistant
-
+- [Multivariate Analysis and Measurement](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2019_MY455.htm)<br>
+  Graduate Teaching Assistant<br>
   MSc/PhD level
   
-- [Intermediate Quantitative Methods](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2019_MY465.htm)
-
-  Class Teacher
-  
+- [Intermediate Quantitative Methods](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2019_MY465.htm)<br>
+  Class Teacher<br>
   MSc level
     
     
  ### 2017 / 2018
  
-- [Intermediate Quantitative Methods](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2019_MY465.htm)
-
-   Graduate Teaching Assistant
-
+- [Intermediate Quantitative Methods](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2019_MY465.htm)<br>
+   Graduate Teaching Assistant<br>
    MSc level
 
-- [Introduction to Quantitative Analysis](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2019_MY451.htm)
-
-  Graduate Teaching Assistant
-
+- [Introduction to Quantitative Analysis](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2019_MY451.htm)<br>
+  Graduate Teaching Assistant<br>
   MSc level
