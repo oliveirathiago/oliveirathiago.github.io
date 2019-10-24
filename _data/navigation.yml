@@ -16,4 +16,10 @@ main:
     url: /talks/    
 
   - title: "Teaching"
-    url: /teaching/    
+    sublinks:
+      - title: "UCL"
+        url: /teaching-ucl/
+      - title: "LSE"
+        url: /teaching-lse/
+      - title: "USP"
+        url: /teaching-usp/
