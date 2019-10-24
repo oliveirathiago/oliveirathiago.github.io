@@ -15,9 +15,9 @@ ______________
 ## [:uk: University College London (UCL)](https://oliveirathiago.github.io/teaching-ucl)
 
 
-## [:uk: London School of Economics and Political Science (LSE)](https://oliveirathiago.github.io/teaching-ucl)
+## [:uk: London School of Economics and Political Science (LSE)](https://oliveirathiago.github.io/teaching-lse)
 
   
-## [:brazil: University of São Paulo](https://oliveirathiago.github.io/teaching-ucl)
+## [:brazil: University of São Paulo](https://oliveirathiago.github.io/teaching-usp)
 
 
