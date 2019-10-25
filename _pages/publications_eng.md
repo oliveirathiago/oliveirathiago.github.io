@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications in English :uk:"
+title: "Publications in English"
 permalink: /publications_eng/
 author_profile: true
 ---
