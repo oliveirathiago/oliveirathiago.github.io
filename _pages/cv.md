@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "<i class="fas fa-landmark"></i> CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
