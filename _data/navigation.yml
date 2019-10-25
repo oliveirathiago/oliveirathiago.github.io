@@ -1,9 +1,9 @@
 # main links links
 main:
-  - title: ":page_facing_up: CV"
+  - title: ":mortar_board: CV"
     url: /cv/
   
-  - title: ":books: Research"
+  - title: ":chart_with_upwards_trend: Research"
     sublinks:
       - title: ":nut_and_bolt: Work in progress"
         url: /work-in-progress/
@@ -12,7 +12,7 @@ main:
       - title: ":brazil: Publications in Portuguese"
         url: /publications_pt/    
 
-  - title: ":chart_with_upwards_trend: Teaching"
+  - title: ":books: Teaching"
     sublinks:
       - title: "UCL"
         url: /teaching-ucl/
