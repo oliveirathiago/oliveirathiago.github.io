@@ -273,8 +273,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
- gem:
-  - jekyll-font-awesome-sass
 
 
 # Archives
