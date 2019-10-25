@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications in Portuguese :brazil:"
+title: "Publications in Portuguese"
 permalink: /publications_pt/
 author_profile: true
 ---
