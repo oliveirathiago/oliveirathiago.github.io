@@ -31,6 +31,11 @@
   }
 }
 
+.site-title {
+  font-weight: bold;
+  font-size: $type-size-4;
+}
+
 .masthead__menu {
   float: initial;
   margin-left: 0;
@@ -38,14 +43,6 @@
   width: 85%;
   clear: both;
   font-size: $type-size-5;
-
-  .site-nav {
-    margin-left: 0;
-
-    @include breakpoint($small) {
-      float: right;
-    }
-  }
 
   ul {
     margin: 0;
