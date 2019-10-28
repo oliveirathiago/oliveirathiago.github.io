@@ -29,12 +29,11 @@ author_profile: true
 
 - **Violência como fator socializador na construção da legitimidade da polícia: um estudo com adolescentes de São Paulo, Brasil**
 
-  Authors: Renan Theodoro, Debora Piccirillo, Aline Gomes, & **Thiago R. Oliveira**.
-
   (*Violence as a socialising factor shaping police legitimacy: a study with adolescents in São Paulo, Brazil*)
+
+  Authors: Renan Theodoro, Debora Piccirillo, Aline Gomes, & **Thiago R. Oliveira**.
  
-  Under review at *Análise Social*.
- 
+  Under first review at *Análise Social*.
 
   <details>
   <summary><i>See abstract</i></summary>
