@@ -24,7 +24,7 @@ ______________
   MSc level
     
     
- ### 2018 / 2019
+### 2018 / 2019
  
 - [Multivariate Analysis and Measurement](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2019_MY455.htm)<br>
   Graduate Teaching Assistant<br>
@@ -35,7 +35,7 @@ ______________
   MSc level
     
     
- ### 2017 / 2018
+### 2017 / 2018
  
 - [Intermediate Quantitative Methods](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2019_MY465.htm)<br>
    Graduate Teaching Assistant<br>
