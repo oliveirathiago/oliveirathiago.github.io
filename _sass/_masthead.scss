@@ -32,9 +32,6 @@
 }
 
 .site-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-item-align: left;
   align-self: left;
   font-weight: bold;
@@ -42,10 +39,10 @@
 }
 
 .masthead__menu {
-  float: left;
+  float: initial;
   margin-left: 0;
   margin-right: 0;
-  width: 75%;
+  width: 85%;
   clear: both;
   font-size: $type-size-5;
 
