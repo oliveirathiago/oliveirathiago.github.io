@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
+  position: absolute;
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -38,7 +38,7 @@
   -ms-flex-item-align: left;
   align-self: left;
   font-weight: bold;
-  font-size: $type-size-4;
+  font-size: $type-size-6;
   z-index: 20;
 }
 
