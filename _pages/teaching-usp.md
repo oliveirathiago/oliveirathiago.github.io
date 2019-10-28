@@ -13,21 +13,21 @@ ______________
 
 ## [University of São Paulo](https://www.fflch.usp.br)
 
- ### 2017
+### 2017
 
  - [Research Methods and Techniques](https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=FSL0203)<br>
    Class Teacher<br>
     Undergraduate level
     
     
- ### 2015
+### 2015
  
 - [Research Methods and Techniques](https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=FSL0203)<br>
    Graduate Teaching Assistant<br>
     Undergraduate level
     
     
- ### 2013
+### 2013
  
 - [Prison in Modern Society](https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=FSL0531)<br>
    Undergraduate Teaching Assistant<br>
