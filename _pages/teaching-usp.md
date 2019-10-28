@@ -13,6 +13,7 @@ ______________
 
 ## [University of São Paulo](https://www.fflch.usp.br)
 
+
 ### 2017
 
  - [Research Methods and Techniques](https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=FSL0203)<br>
