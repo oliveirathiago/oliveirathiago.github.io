@@ -45,7 +45,7 @@ author_profile: true
 
 ## Working papers
 
-- **Do trust and legitimacy 'arrive on foot' and 'leave on horseback'? A longitudinal test of the asymmetry thesis of police-citizen contact and trustworthiness and legitimacy**
+- **Do trust and legitimacy 'arrive on foot' and 'leave on horseback'? A longitudinal test of the asymmetry thesis of police-citizen contact**
 
   Authors: **Thiago R. Oliveira**, Jon Jackson, Kristina Murphy, & Ben Bradford.
   
@@ -55,6 +55,8 @@ author_profile: true
   <b>Abstract</b>: Are trust and legitimacy hard to win and easy to lose? In this paper, we revisit the relationship between police-citizen encounters and attitudes towards the police and test the asymmetry thesis using panel data. Despite some evidence from cross-sectional studies indicating that attitudes ‘arrive on foot’ but ‘leave on horseback’, we suggest otherwise based on a longitudinal test comparing changes in trustworthiness and legitimacy. Drawing on data from a two-wave panel study of a nationally representative sample of Australian citizens, we measured (a) police-citizen encounters between waves 1 and 2, (b) satisfaction with process and outcome during those encounters, (c) respondents’ trust in police fairness and effectiveness, and (d) duty to obey the police (legitimacy). Analysis is carried out using autoregressive structural equation modeling. Results indicate slight asymmetry for trust in police effectiveness, strong symmetry for trust in police fairness, and strong asymmetry – in the opposite direction – for duty to obey. In a further investigation, latent moderated structural models find little evidence of heterogeneity in the association between police-citizen encounters and changes in trust in police fairness and duty to obey, but prior levels of perceived effectiveness moderate the association between contact and trustworthiness. In particular for changes in procedural justice and legitimacy, the association with police-citizen encounters may not be as asymmetrical as previously thought. Policing policy implications include considering public-police interactions as a potential source for enhancing police trustworthiness and legitimacy.
 
   </details>
+  
+  Manuscript available at [OSF](https://osf.io/9gdq7/).
 
 - **Fear and legitimacy in São Paulo: police-citizen relations in a high violence, high fear context**
 
