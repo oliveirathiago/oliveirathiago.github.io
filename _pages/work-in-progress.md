@@ -9,11 +9,26 @@ author_profile: true
 
 ## Submitted manuscripts
 
+- **Are trustworthiness and legitimacy 'hard to win and easy to lose'? A longitudinal test of the asymmetry thesis of police-citizen contact**
+
+  Authors: **Thiago R. Oliveira**, Jon Jackson, Kristina Murphy, & Ben Bradford.
+  
+  Under first review.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+
+  <b>Abstract</b>: The idea that trustworthiness and legitimacy are ‘hard to win and easy to lose’ — that attitudes are affected more by negative contact than by positive contact — stands as a major challenge to procedural justice theory. In this paper, we revisit the relationship between police-citizen encounters and attitudes towards the police. We analyze data from a two-wave panel study of a nationally representative sample of Australian citizens using autoregressive structural equation modeling. A longitudinal test comparing changes after an encounter indicates slight asymmetry for trust in police effectiveness, strong symmetry for trust in procedural fairness, and strong asymmetry (in the opposite direction expected) for duty to obey the police. In a further investigation, latent moderated structural models find little evidence of heterogeneity in the association between encounters and changes in trust in police procedural fairness and duty to obey, but prior levels of trust in police effectiveness moderate the association between contact and trustworthiness. We conclude with the idea that the association with police-citizen encounters may not be as asymmetrical as previously thought, particularly for changes in trust in procedural fairness and legitimacy. Policy implications include considering public-police interactions as ‘teachable moments’ and potential sources for enhancing police trustworthiness and legitimacy.
+
+  </details>
+  
+  Manuscript available at [OSF](https://osf.io/9gdq7/).
+
 - **Police legitimacy and the norm to cooperate: using a mixed effects location scale model to estimate the strength of social norms at a small spatial scale**
 
   Authors: Jon Jackson, Ian Bruton-Smith, Ben Bradford, **Thiago R. Oliveira**, & Krisztián Pósch.
 
-  Reject-and-resubmit at *Journal of Quantitative Criminology*
+  Under second review.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -34,7 +49,7 @@ author_profile: true
 
   Authors: Renan Theodoro, Debora Piccirillo, Aline Gomes, & **Thiago R. Oliveira**.
  
-  Under first review at *Análise Social*.
+  Under first review.
 
   <details>
   <summary><i>See abstract</i></summary>
@@ -44,19 +59,6 @@ author_profile: true
   </details>
 
 ## Working papers
-
-- **Do trust and legitimacy 'arrive on foot' and 'leave on horseback'? A longitudinal test of the asymmetry thesis of police-citizen contact**
-
-  Authors: **Thiago R. Oliveira**, Jon Jackson, Kristina Murphy, & Ben Bradford.
-  
-  <details>
-  <summary><i>See abstract</i></summary>
-
-  <b>Abstract</b>: Are trust and legitimacy hard to win and easy to lose? In this paper, we revisit the relationship between police-citizen encounters and attitudes towards the police and test the asymmetry thesis using panel data. Despite some evidence from cross-sectional studies indicating that attitudes ‘arrive on foot’ but ‘leave on horseback’, we suggest otherwise based on a longitudinal test comparing changes in trustworthiness and legitimacy. Drawing on data from a two-wave panel study of a nationally representative sample of Australian citizens, we measured (a) police-citizen encounters between waves 1 and 2, (b) satisfaction with process and outcome during those encounters, (c) respondents’ trust in police fairness and effectiveness, and (d) duty to obey the police (legitimacy). Analysis is carried out using autoregressive structural equation modeling. Results indicate slight asymmetry for trust in police effectiveness, strong symmetry for trust in police fairness, and strong asymmetry – in the opposite direction – for duty to obey. In a further investigation, latent moderated structural models find little evidence of heterogeneity in the association between police-citizen encounters and changes in trust in police fairness and duty to obey, but prior levels of perceived effectiveness moderate the association between contact and trustworthiness. In particular for changes in procedural justice and legitimacy, the association with police-citizen encounters may not be as asymmetrical as previously thought. Policing policy implications include considering public-police interactions as a potential source for enhancing police trustworthiness and legitimacy.
-
-  </details>
-  
-  Manuscript available at [OSF](https://osf.io/9gdq7/).
 
 - **Fear and legitimacy in São Paulo: police-citizen relations in a high violence, high fear context**
 
