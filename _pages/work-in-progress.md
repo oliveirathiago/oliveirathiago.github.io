@@ -93,9 +93,9 @@ author_profile: true
 
   </details>
 
- - **Pastas e prontuários do “Complexo do Tatuapé” (São Paulo/SP – 1990-2006): alterações nos padrões da justiça juvenil após o ECA**
+- **Pastas e prontuários do “Complexo do Tatuapé” (São Paulo/SP – 1990-2006): alterações nos padrões da justiça juvenil após o ECA**
 
-  (*Folders and records from the Tatuapé Complex (São Paulo/SP - 1990-2006): changing juvenile justice's patterns after ECA*)
+  (*Records from the Tatuapé Complex (São Paulo/SP - 1990-2006): juvenile justice's changing patterns after ECA*)
   
   Authors: **Thiago R. Oliveira**, Bruna Gisi, & Marcos César Alvarez
   
