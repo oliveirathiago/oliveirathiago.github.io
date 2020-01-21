@@ -50,7 +50,7 @@ Recommended citation: **Oliveira, Thiago R.**; Oliveira, André R.; Adorno, Serg
 
 ## 2017
 
-### [3. Mecanismos sociais de decisões judiciais: um desenho misto explicativo sobre a aplicação da medida socioeducativa de internação](http://oliveirathiago.github.io/files/paper_2017rbs)
+### [3. Mecanismos sociais de decisões judiciais: um desenho misto explicativo sobre a aplicação da medida socioeducativa de internação](http://oliveirathiago.github.io/files/paper_2017rbs.pdf)
 
 *(Social mechanisms of judicial decisions: an explanatory mixed-methods research design on juvenile sentencing)*
 
@@ -64,7 +64,7 @@ Published in *Revista Brasileira de Sociologia*, 2017
 
 Recommended citation: **Oliveira, Thiago R.** (2017). "Mecanismos sociais de decisões judiciais: um desenho misto explicativo sobre a aplicação da medida socioeducativa de internação." *Revista Brasileira de Sociologia*. 5(10). [doi.org/10.20336/rbs.205](http://doi.org/10.20336/rbs.205).
 
-[Download paper here](http://oliveirathiago.github.io/files/paper_2017rbs). 
+[Download paper here](http://oliveirathiago.github.io/files/paper_2017rbs.pdf). 
 
 Replication materials here.
 
