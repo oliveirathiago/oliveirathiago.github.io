@@ -71,17 +71,6 @@ author_profile: true
 
   </details>
 
-- **Self-legitimacy and commitment to democratic policing in Brazil: assessing the support for police militarization among São Paulo military police officers**
-
-  Authors: Viviane Cubas, Frederico Castelo Branco, **Thiago R. Oliveira**, & Justice Tankebe.
-  
-  <details>
-  <summary><i>See abstract</i></summary>
-
-  <b>Abstract</b>: To what extent do police officers who are confident of their own authority support (or oppose) police militarization? Previous work has established possible links between police officers’ self-legitimacy and their commitment to democratic policing, which is based on principles of citizen participation, equity and responsiveness. Understood as the process through which policing activities take more and more characteristics of the military culture and behavior, police militarization premises on the idea that police officers should be trained as if they were going to war. Based on this nearly diametrical distinction and given the positive association found between self-legitimacy and commitment to democratic policing, we ask whether self-legitimacy is negatively associated with support for police militarization. Using data from a survey of officers from the São Paulo Military Police in 2016, we assess the extent to which measures of self-legitimacy are correlated with such support controlling for agents’ identification with military values – we also assess the extent to which self-legitimacy mediates the effects or other variables on support for police militarization, such as perceived public support and perceived distributive justice within the organization. Results of structural equation models indicate that while identification with military values mediate some statistical effects of perception of work environment on support for police militarization, self-belief in authority vested in them does not.
-
-  </details>
-
 - **Violent policing and public support for vigilantism: assessing the reproduction of legal cynicism in São Paulo neighbourhoods**
 
   Author: **Thiago R. Oliveira**
@@ -92,6 +81,17 @@ author_profile: true
   <b>Abstract</b>: Is aggressive policing associated with an increase in the number of pro-vigilantism legal-cynical citizens? Defined as a cultural frame in which people perceive the law and the legal institutions as illegitimate, unresponsive, and ill equipped to ensure public safety, previous work shows that legal cynicism is associated with negative experiences of police stops. In this study, I expand the conceptualisation of legal cynicism in high fear, high violence contexts and include support for vigilantism as another dimension. Drawing on three waves of data from a representative survey of adult residents of eight neighbourhoods in São Paulo, Brazil, I find two different groups of respondents within the legal cynicism cultural frame: one composed of citizens who are sceptical of the law and another of citizens who morally favour vigilantism, apart from the class of people who are normatively identified with the law and the legal institutions. Latent transition probabilities show that only the latter is stable over time. However, perceived injustice during police-initiated encounters with legal officials is associated with an inflation in both legal cynicism groups: the unjust experience of being an object of suspicion makes legal sceptical respondents more likely to remain legal sceptical; and citizens who legitimate the law and the authorities more likely to transition to the pro-vigilantism class. These findings provide evidence on the consequences of aggressive policing into other dimensions of social life, with implications to people's recognition of the ruling power of the law and the legal institutions.
   
     </details>
+
+- **Self-legitimacy and commitment to democratic policing in Brazil: assessing the support for police militarization among São Paulo military police officers**
+
+  Authors: Viviane Cubas, Frederico Castelo Branco, **Thiago R. Oliveira**, & Justice Tankebe.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+
+  <b>Abstract</b>: To what extent do police officers who are confident of their own authority support (or oppose) police militarization? Previous work has established possible links between police officers’ self-legitimacy and their commitment to democratic policing, which is based on principles of citizen participation, equity and responsiveness. Understood as the process through which policing activities take more and more characteristics of the military culture and behavior, police militarization premises on the idea that police officers should be trained as if they were going to war. Based on this nearly diametrical distinction and given the positive association found between self-legitimacy and commitment to democratic policing, we ask whether self-legitimacy is negatively associated with support for police militarization. Using data from a survey of officers from the São Paulo Military Police in 2016, we assess the extent to which measures of self-legitimacy are correlated with such support controlling for agents’ identification with military values – we also assess the extent to which self-legitimacy mediates the effects or other variables on support for police militarization, such as perceived public support and perceived distributive justice within the organization. Results of structural equation models indicate that while identification with military values mediate some statistical effects of perception of work environment on support for police militarization, self-belief in authority vested in them does not.
+
+  </details>
 
  - **Pastas e prontuários do “Complexo do Tatuapé” (São Paulo/SP – 1990-2006): alterações nos padrões da justiça juvenil após o ECA**
 
