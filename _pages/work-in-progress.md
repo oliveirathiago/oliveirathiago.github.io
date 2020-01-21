@@ -9,7 +9,7 @@ author_profile: true
 
 ## Submitted manuscripts
 
-- **Are trustworthiness and legitimacy 'hard to win and easy to lose'? A longitudinal test of the asymmetry thesis of police-citizen contact**
+- **[Are trustworthiness and legitimacy 'hard to win and easy to lose'? A longitudinal test of the asymmetry thesis of police-citizen contact](https://osf.io/preprints/socarxiv/adhbm/)**
 
   Authors: **Thiago R. Oliveira**, Jon Jackson, Kristina Murphy, & Ben Bradford.
   
@@ -24,7 +24,7 @@ author_profile: true
   
   Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/adhbm/).
 
-- **Police legitimacy and the norm to cooperate: using a mixed effects location scale model to estimate the strength of social norms at a small spatial scale**
+- **[Police legitimacy and the norm to cooperate: using a mixed effects location scale model to estimate the strength of social norms at a small spatial scale](https://osf.io/preprints/socarxiv/jb74u/)**
 
   Authors: Jon Jackson, Ian Bruton-Smith, Ben Bradford, **Thiago R. Oliveira**, Krisztián Pósch, & Patrick Sturgis.
 
@@ -60,8 +60,7 @@ author_profile: true
 
 ## Working papers
 
-- **Fear and legitimacy in São Paulo, Brazil: police-citizen relations in a high violence, high fear City
-**
+- **Fear and legitimacy in São Paulo, Brazil: police-citizen relations in a high violence, high fear city**
 
   Authors: Jon Jackson, Krisztián Pósch, **Thiago R. Oliveira**, Ben Bradford, Ariadne Natal, André Zanetic, & Silvia Camões.
   
@@ -93,3 +92,27 @@ author_profile: true
   <b>Abstract</b>: Is aggressive policing associated with an increase in the number of pro-vigilantism legal-cynical citizens? Defined as a cultural frame in which people perceive the law and the legal institutions as illegitimate, unresponsive, and ill equipped to ensure public safety, previous work shows that legal cynicism is associated with negative experiences of police stops. In this study, I expand the conceptualisation of legal cynicism in high fear, high violence contexts and include support for vigilantism as another dimension. Drawing on three waves of data from a representative survey of adult residents of eight neighbourhoods in São Paulo, Brazil, I find two different groups of respondents within the legal cynicism cultural frame: one composed of citizens who are sceptical of the law and another of citizens who morally favour vigilantism, apart from the class of people who are normatively identified with the law and the legal institutions. Latent transition probabilities show that only the latter is stable over time. However, perceived injustice during police-initiated encounters with legal officials is associated with an inflation in both legal cynicism groups: the unjust experience of being an object of suspicion makes legal sceptical respondents more likely to remain legal sceptical; and citizens who legitimate the law and the authorities more likely to transition to the pro-vigilantism class. These findings provide evidence on the consequences of aggressive policing into other dimensions of social life, with implications to people's recognition of the ruling power of the law and the legal institutions.
   
     </details>
+
+ - **Pastas e prontuários do “Complexo do Tatuapé” (São Paulo/SP – 1990-2006): alterações nos padrões da justiça juvenil após o ECA**
+
+  (*Folders and records from the Tatuapé Complex (São Paulo/SP - 1990-2006): changing juvenile justice's patterns after ECA*)
+  
+  Authors: **Thiago R. Oliveira**, Bruna Gisi, & Marcos César Alvarez
+  
+  <details>
+  <summary><i>See abstract></i></summary>
+  
+  <b>Abstract</b>:
+  
+  </details>
+  
+- **Inequality and policing**
+  
+  Authors: Joel Suss & **Thiago R. Oliveira**
+  
+  <details>
+  <summary><i>See abstract></i></summary>
+  
+  <b>Abstract</b>: We study the relationship between salient, spatially-granular economic inequality and police stop and search behaviour in London. Our measure of local inequality is novel, based on real and estimated housing values. Combining this measure with granular stop and search data, we find LSOA-level inequality is strongly associated with the number of police stops, controlling for neighbourhood crime deprivation and other important contextual variables. We argue that, since police stops are discretionary, the effect of inequality is likely operating through a heightened sense of potential threat that is bred by the salience of inequality itself. Moreover, we find the interaction between local average wealth and inequality to be significant, suggesting that the effect of inequality on police stops depends on the level of average wealth: the wealthier an area is, the stronger the effect of inequality on police stops and searches. We perform a number of robustness checks, including in other metropolitan areas (Birmingham, Manchester and Liverpool), and find the results to hold.
+  
+  </details>
