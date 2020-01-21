@@ -13,7 +13,7 @@ author_profile: true
 
   Authors: **Thiago R. Oliveira**, Jon Jackson, Kristina Murphy, & Ben Bradford.
   
-  Under first review.
+  Under review at <i>Criminology</i>.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -22,13 +22,13 @@ author_profile: true
 
   </details>
   
-  Manuscript available at [OSF](https://osf.io/9gdq7/).
+  Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/adhbm/).
 
 - **Police legitimacy and the norm to cooperate: using a mixed effects location scale model to estimate the strength of social norms at a small spatial scale**
 
-  Authors: Jon Jackson, Ian Bruton-Smith, Ben Bradford, **Thiago R. Oliveira**, & Krisztián Pósch.
+  Authors: Jon Jackson, Ian Bruton-Smith, Ben Bradford, **Thiago R. Oliveira**, Krisztián Pósch, & Patrick Sturgis.
 
-  Under second review.
+  Under review after revise-and-resubmit at the <i>Journal of Quantitative Criminology</i>.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -41,7 +41,7 @@ author_profile: true
 
   </details>
 
-  See manuscript on [Academia.edu](https://www.academia.edu/38711221/Police_Legitimacy_and_the_Norm_to_Cooperate_Using_a_Mixed_Effects_Location-Scale_Model_to_Estimate_the_Strength_of_Social_Norms_at_Small_Spatial_Scale) or [Research Gate](https://www.researchgate.net/publication/332152764_Police_Legitimacy_and_the_Norm_to_Cooperate_Using_a_Mixed_Effects_Location-Scale_Model_to_Estimate_the_Strength_of_Social_Norms_at_Small_Spatial_Scale)
+  Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/jb74u/).
 
 - **Violência como fator socializador na construção da legitimidade da polícia: um estudo com adolescentes de São Paulo, Brasil**
 
@@ -49,7 +49,7 @@ author_profile: true
 
   Authors: Renan Theodoro, Debora Piccirillo, Aline Gomes, & **Thiago R. Oliveira**.
  
-  Under first review.
+  Under review at <i>Análise Social</i>.
 
   <details>
   <summary><i>See abstract</i></summary>
@@ -60,14 +60,15 @@ author_profile: true
 
 ## Working papers
 
-- **Fear and legitimacy in São Paulo: police-citizen relations in a high violence, high fear context**
+- **Fear and legitimacy in São Paulo, Brazil: police-citizen relations in a high violence, high fear City
+**
 
   Authors: Jon Jackson, Krisztián Pósch, **Thiago R. Oliveira**, Ben Bradford, Ariadne Natal, André Zanetic, & Silvia Camões.
   
   <details>
   <summary><i>See abstract</i></summary>
 
-  <b>Abstract</b>: In this paper we examine police-citizen relations in São Paulo, Brazil. Procedural justice theory posits that legitimacy operates as part of a virtuous circle, whereby normatively appropriate police behavior encourages public self-regulation and pro-active cooperation, which then reduces the need for coercive forms of social control. A key feature of procedural justice theory is the distinction between normative (consensual) and instrumental (coercive) forms of crime-control, yet can normative and instrumental police-citizen relations be so easily disentangled in a city in which many people fear crime, some people fear police, and where the image of the police as “just another (violent) gang” still has significant cultural currency? Our analysis of the nature, predictors and potential consequences of police legitimacy highlights points of similarity and difference in police-citizen relations in this high violence, high fear city of the Global South.
+  <b>Abstract</b>: In this paper we examine consensual and coercive police-citizen relations in São Paulo, Brazil. According to procedural justice theory, legitimacy operates as part of a virtuous circle, whereby normatively appropriate police behavior encourages public self-regulation and pro-active cooperation, which then reduces the need for coercive forms of social control. Tests of the theory in the US, UK, Australia and elsewhere typically pit normative versus instrumental accounts of crime-control policy against one another. But can consensual and coercive police-citizen power relations be so easily disentangled in a city in which many people fear crime, where some people fear police but tolerate extreme police violence, and where the image of the police as “just another (violent) gang” seems still to have significant cultural currency? Our analysis of the composition, predictors and potential consequences of police legitimacy highlights points of similarity and difference in police-citizen relations in this high violence, high fear city of the Global South.
 
   </details>
 
