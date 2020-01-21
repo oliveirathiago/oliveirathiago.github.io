@@ -113,6 +113,6 @@ author_profile: true
   <details>
   <summary><i>See abstract</i></summary>
   
-  <b>Abstract</b>: We study the relationship between salient, spatially-granular economic inequality and police stop and search behaviour in London. Our measure of local inequality is novel, based on real and estimated housing values. Combining this measure with granular stop and search data, we find LSOA-level inequality is strongly associated with the number of police stops, controlling for neighbourhood crime deprivation and other important contextual variables. We argue that, since police stops are discretionary, the effect of inequality is likely operating through a heightened sense of potential threat that is bred by the salience of inequality itself. Moreover, we find the interaction between local average wealth and inequality to be significant, suggesting that the effect of inequality on police stops depends on the level of average wealth: the wealthier an area is, the stronger the effect of inequality on police stops and searches. We perform a number of robustness checks, including in other metropolitan areas (Birmingham, Manchester and Liverpool), and find the results to hold.
+  <b>Abstract</b>: 
   
   </details>
