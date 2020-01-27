@@ -24,7 +24,7 @@ author_profile: true
   
   Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/adhbm/).
   
-  - **[Fear and legitimacy in São Paulo, Brazil: police-citizen relations in a high violence, high fear city](https://osf.io/preprints/socarxiv/3awrz/)**
+ - **[Fear and legitimacy in São Paulo, Brazil: police-citizen relations in a high violence, high fear city](https://osf.io/preprints/socarxiv/3awrz/)**
 
   Authors: Jon Jackson, Krisztián Pósch, **Thiago R. Oliveira**, Ben Bradford, Silvia Camões, Ariadne Natal, & André Zanetic.
   
