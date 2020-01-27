@@ -70,6 +70,8 @@ author_profile: true
   <b>Abstract</b>: In this paper we examine consensual and coercive police-citizen relations in São Paulo, Brazil. According to procedural justice theory, legitimacy operates as part of a virtuous circle, whereby normatively appropriate police behavior encourages public self-regulation and pro-active cooperation, which then reduces the need for coercive forms of social control. Tests of the theory in the US, UK, Australia and elsewhere typically pit normative versus instrumental accounts of crime-control policy against one another. But can consensual and coercive police-citizen power relations be so easily disentangled in a city in which many people fear crime, where some people fear police but tolerate extreme police violence, and where the image of the police as “just another (violent) gang” seems still to have significant cultural currency? Our analysis of the composition, predictors and potential consequences of police legitimacy highlights points of similarity and difference in police-citizen relations in this high violence, high fear city of the Global South.
 
   </details>
+  
+    Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/3awrz/).
 
 - **Violent policing and public support for vigilantism: assessing the reproduction of legal cynicism in São Paulo neighbourhoods**
 
