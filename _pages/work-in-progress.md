@@ -24,7 +24,8 @@ author_profile: true
   
   Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/adhbm/).
   
- - **[Fear and legitimacy in São Paulo, Brazil: police-citizen relations in a high violence, high fear city](https://osf.io/preprints/socarxiv/3awrz/)**
+ 
+- **[Fear and legitimacy in São Paulo, Brazil: police-citizen relations in a high violence, high fear city](https://osf.io/preprints/socarxiv/3awrz/)**
 
   Authors: Jon Jackson, Krisztián Pósch, **Thiago R. Oliveira**, Ben Bradford, Silvia Camões, Ariadne Natal, & André Zanetic.
   
@@ -37,7 +38,7 @@ author_profile: true
 
   </details>
   
-    Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/3awrz/).
+  Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/3awrz/).
 
 - **[Police legitimacy and the norm to cooperate: using a mixed effects location scale model to estimate the strength of social norms at a small spatial scale](https://osf.io/preprints/socarxiv/jb74u/)**
 
