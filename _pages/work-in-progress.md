@@ -76,7 +76,7 @@ author_profile: true
 
 ## Working papers
 
-- **Mind the gap: violent policing, legal cynicism, and the support for vigilantism in São Paulo neighborhoods**
+- **Mind the gap between law and enforcement: violent policing, legal cynicism, and the support for vigilantism in São Paulo neighborhoods**
 
   Author: **Thiago R. Oliveira**
   
