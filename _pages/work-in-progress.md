@@ -44,7 +44,7 @@ author_profile: true
 
   Authors: Jon Jackson, Ian Bruton-Smith, Ben Bradford, **Thiago R. Oliveira**, Krisztián Pósch, & Patrick Sturgis.
 
-  Under review after revise-and-resubmit at the <i>Journal of Quantitative Criminology</i>.
+  Under review after reject-and-resubmit at the <i>Journal of Quantitative Criminology</i>.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -111,7 +111,7 @@ author_profile: true
   
   </details>
   
-- **Inequality and policing**
+- **Salient inequality and the spatial distribution of stop and searches: evidence from London**
   
   Authors: Joel Suss & **Thiago R. Oliveira**
   
