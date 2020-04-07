@@ -13,8 +13,6 @@ author_profile: true
 
   Authors: **Thiago R. Oliveira**, Jon Jackson, Kristina Murphy, & Ben Bradford.
   
-  Under review at <i>Criminology</i>.
-  
   <details>
   <summary><i>See abstract</i></summary>
 
@@ -44,7 +42,7 @@ author_profile: true
 
   Authors: Jon Jackson, Ian Bruton-Smith, Ben Bradford, **Thiago R. Oliveira**, Krisztián Pósch, & Patrick Sturgis.
 
-  Under review after reject-and-resubmit at the <i>Journal of Quantitative Criminology</i>.
+  Revise-and-resubmit at the <i>Journal of Quantitative Criminology</i>.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -76,14 +74,14 @@ author_profile: true
 
 ## Working papers
 
-- **Mind the gap between law and enforcement: aggressive policing and the support for vigilantism in São Paulo neighborhoods**
+- **Mind the gap between law and enforcement: cynicism toward legal institutions in São Paulo neighborhoods**
 
   Author: **Thiago R. Oliveira**
   
   <details>
   <summary><i>See abstract</i></summary>
 
-  <b>Abstract</b>: Is aggressive policing associated with changes in legal attitudes? Previous work has shown that police legitimacy, legal legitimacy, and legal cynicism are undermined by negative experiences of police stops. In this study, I revise the conceptual definitions of different legal attitudes and suggest that legal cynicism refers to a gap between public judgements about police and legal legitimacy, whereby people perceive the legal institutions as illegitimate, unresponsive, and ill equipped to ensure public safety regardless of positive views about the law. The context is the heterogeneous city of São Paulo, Brazil, where violent interactions between armed military police officers and citizens are common in some neighborhoods but inexistent in others. Drawing on three waves of data from a representative survey of adult residents of eight neighborhoods in São Paulo, I first rely on weighted linear fixed effects and generalized synthetic control methods to assess whether aggressive police stops are associated with an increase in the gap between police and legal legitimacy. Second, dynamic panel models assess whether legal cynicism longitudinally mediates the association between violent police stops and public support for vigilantism. Aggressive policing undermines people's judgements about the legitimacy of the police, increasing the gap between the law and legal institutions and creating the conditions for them to turn to alternative strategies of law enforcement. This study provides further evidence on the consequences of aggressive policing in high-crime contexts, with implications to people's recognition of the ruling power of the law and the legal institutions.
+  <b>Abstract</b>: People judge the legitimacy of legal institutions in relation to their judgements about the legitimacy of the law. Cynicism toward legal institutions refers to the gap between the two, when people expect the law to be enforced but do not believe the police have the right to enforce it. In this study, I analyze this novel conception of cynicism toward legal institutions in the city of São Paulo, Brazil, a high-crime context where violent interactions with armed military police officers are common in some neighborhoods but nonexistent in others. Drawing on three waves of data from a representative survey of adult residents of eight neighborhoods, I study the correlates, a potential cause, and the consequences of having cynic views about the police. Mixed-effects models assess the association with common correlates of legal attitudes such as neighborhood structural conditions and police trustworthiness, traditional and weighted two-way fixed effects models assess the impact of being stopped by the police at gun point, and a cross-lagged panel model assesses the reciprocal relationship between cynicism and attitudes towards the acceptability of use of violence. Results indicate that common correlates of legal attitudes are also associated with cynicism, that overpolicing feeds cynicism toward legal institutions, and that when the gap between views on the content and the agents of the law widens, conditions are created for the public to turn to alternative strategies of law enforcement. This study provides further evidence on the costs of aggressive policing, with implications to people's recognition of the ruling power of the law and the legal institutions.
   
     </details>
 
