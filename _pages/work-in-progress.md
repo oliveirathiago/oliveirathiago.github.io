@@ -95,7 +95,18 @@ author_profile: true
   <b>Abstract</b>: To what extent do police officers who are confident of their own authority support (or oppose) police militarization? Previous work has established possible links between police officers’ self-legitimacy and their commitment to democratic policing, which is based on principles of citizen participation, equity and responsiveness. Understood as the process through which policing activities take more and more characteristics of the military culture and behavior, police militarization premises on the idea that police officers should be trained as if they were going to war. Based on this nearly diametrical distinction and given the positive association found between self-legitimacy and commitment to democratic policing, we ask whether self-legitimacy is negatively associated with support for police militarization. Using data from a survey of officers from the São Paulo Military Police in 2016, we assess the extent to which measures of self-legitimacy are correlated with such support controlling for agents’ identification with military values – we also assess the extent to which self-legitimacy mediates the effects or other variables on support for police militarization, such as perceived public support and perceived distributive justice within the organization. Results of structural equation models indicate that while identification with military values mediate some statistical effects of perception of work environment on support for police militarization, self-belief in authority vested in them does not.
 
   </details>
-
+  
+- **Salient inequality and the spatial distribution of stop and searches: evidence from London**
+  
+  Authors: Joel Suss & **Thiago R. Oliveira**
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+  
+  <b>Abstract</b>: We study the relationship between salient, spatially-granular economic inequality and police stop and search behaviour in London. Our measure of local inequality is novel, based on real and estimated housing values. Combining this measure with granular stop and search data, we find LSOA-level inequality is strongly associated with the number of police stops, controlling for neighbourhood crime deprivation and other important contextual variables. We argue that, since police stops are discretionary, the effect of inequality is likely operating through a heightened sense of potential threat that is bred by the salience of inequality itself. Moreover, we find the interaction between local average wealth and inequality to be significant, suggesting that the effect of inequality on police stops depends on the level of average wealth: the wealthier an area is, the stronger the effect of inequality on police stops and searches. We perform a number of robustness checks, including in other metropolitan areas (Birmingham, Manchester and Liverpool), and find the results to hold. 
+  
+  </details>
+  
 - **Pastas e prontuários do “Complexo do Tatuapé” (São Paulo/SP – 1990-2006): alterações nos padrões da justiça juvenil após o ECA**
 
   (*Records from the Tatuapé Complex (São Paulo/SP - 1990-2006): juvenile justice's changing patterns after ECA*)
@@ -106,16 +117,5 @@ author_profile: true
   <summary><i>See abstract</i></summary>
   
   <b>Abstract</b>:
-  
-  </details>
-  
-- **Salient inequality and the spatial distribution of stop and searches: evidence from London**
-  
-  Authors: Joel Suss & **Thiago R. Oliveira**
-  
-  <details>
-  <summary><i>See abstract</i></summary>
-  
-  <b>Abstract</b>: 
   
   </details>
