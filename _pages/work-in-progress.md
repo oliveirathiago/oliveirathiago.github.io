@@ -13,10 +13,21 @@ author_profile: true
 
   Authors: **Thiago R. Oliveira**, Jon Jackson, Kristina Murphy, & Ben Bradford.
   
+  Under review at the <i>Journal of Quantitative Criminology</i>.
+  
   <details>
   <summary><i>See abstract</i></summary>
 
-  <b>Abstract</b>: The idea that trustworthiness and legitimacy are ‘hard to win and easy to lose’ — that attitudes are affected more by negative contact than by positive contact — stands as a major challenge to procedural justice theory. In this paper, we revisit the relationship between police-citizen encounters and attitudes towards the police. We analyze data from a two-wave panel study of a nationally representative sample of Australian citizens using autoregressive structural equation modeling. A longitudinal test comparing changes after an encounter indicates slight asymmetry for trust in police effectiveness, strong symmetry for trust in procedural fairness, and strong asymmetry (in the opposite direction expected) for duty to obey the police. In a further investigation, latent moderated structural models find little evidence of heterogeneity in the association between encounters and changes in trust in police procedural fairness and duty to obey, but prior levels of trust in police effectiveness moderate the association between contact and trustworthiness. We conclude with the idea that the association with police-citizen encounters may not be as asymmetrical as previously thought, particularly for changes in trust in procedural fairness and legitimacy. Policy implications include considering public-police interactions as ‘teachable moments’ and potential sources for enhancing police trustworthiness and legitimacy.
+  <b>Abstract</b>:
+  
+  <b>Objectives</b>: Test the asymmetry thesis of police-citizen contact that police trustworthiness and legitimacy are affected more by negative than by positive experiences of interactions with legal agents by analyzing changes in attitudes towards the police after an encounter with the police. Test whether prior attitudes moderate the impact of contact on changes in attitudes towards the police.
+  
+  <b>Methods</b>: A two-wave panel survey of a nationally representative sample of Australian adults measured people’s beliefs about police trustworthiness (procedural fairness and effectiveness), their duty to obey the police, their contact with the police between the two waves, and their satisfaction with process and outcome during those encounters. Analysis is carried out using autoregressive structural equation modeling and latent moderated structural models.
+  
+  <b>Results</b>: The association between satisfaction with both process and outcome in police-citizen encounters and changes in attitudes towards the police is asymmetrical for trust in police effectiveness, symmetrical for trust in procedural fairness, and asymmetrical (in the opposite direction expected) for duty to obey the police. Little evidence of heterogeneity in the association between encounters and trust in procedural fairness and duty to obey, but prior levels of perceived effectiveness moderate the association between satisfaction with outcome and changes in trust in police effectiveness.
+  
+  <b>Conclusions</b>: The association between police-citizen encounters and attitudes towards the police may not be as asymmetrical as previously thought, particularly for changes in trust in procedural fairness and legitimacy. Policy implications include considering public-police interactions as ‘teachable moments’ and potential sources for enhancing police trustworthiness and legitimacy.
+
 
   </details>
   
