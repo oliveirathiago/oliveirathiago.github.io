@@ -9,7 +9,7 @@ author_profile: true
 
 ## Submitted manuscripts
 
-- **[Are trustworthiness and legitimacy 'hard to win and easy to lose'? A longitudinal test of the asymmetry thesis of police-citizen contact](https://osf.io/preprints/socarxiv/adhbm/)**
+- **[Are trustworthiness and legitimacy 'hard to win, easy to lose'? A longitudinal test of the asymmetry thesis of police-citizen contact](https://osf.io/preprints/socarxiv/adhbm/)**
 
   Authors: **Thiago R. Oliveira**, Jon Jackson, Kristina Murphy, & Ben Bradford.
   
@@ -20,7 +20,7 @@ author_profile: true
 
   <b>Abstract</b>:
   
-  <b>Objectives</b>: Test the asymmetry thesis of police-citizen contact that police trustworthiness and legitimacy are affected more by negative than by positive experiences of interactions with legal agents by analyzing changes in attitudes towards the police after an encounter with the police. Test whether prior attitudes moderate the impact of contact on changes in attitudes towards the police.
+  <b>Objectives</b>: Test the asymmetry thesis of police-citizen contact that police trustworthiness and legitimacy are affected more by negative than by positive experiences of interactions with legal agents by analyzing changes in attitudes towards the police after an encounter with the police. Test whether prior attitudes moderate the impact of contact on changes in attitudes towards the police.<br>
   
   <b>Methods</b>: A two-wave panel survey of a nationally representative sample of Australian adults measured people’s beliefs about police trustworthiness (procedural fairness and effectiveness), their duty to obey the police, their contact with the police between the two waves, and their satisfaction with process and outcome during those encounters. Analysis is carried out using autoregressive structural equation modeling and latent moderated structural models.
   
