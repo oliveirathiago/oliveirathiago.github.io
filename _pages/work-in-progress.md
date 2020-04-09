@@ -17,8 +17,6 @@ author_profile: true
   
   <details>
   <summary><i>See abstract</i></summary>
-
-  <b>Abstract</b>:<br>
   
   <b>Objectives</b>: Test the asymmetry thesis of police-citizen contact that police trustworthiness and legitimacy are affected more by negative than by positive experiences of interactions with legal agents by analyzing changes in attitudes towards the police after an encounter with the police. Test whether prior attitudes moderate the impact of contact on changes in attitudes towards the police.<br>
   
