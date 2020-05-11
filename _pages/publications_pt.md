@@ -8,13 +8,13 @@ author_profile: true
 {% include base_path %}
 
 
-## *Forthcoming*
+## 2020
 
-### [5. Preditores e impactos da legitimidade policial: testando a teoria da justeza procedimental em São Paulo](http://oliveirathiago.github.io/files/paper_dados2019.pdf)
+### [5. Preditores e impactos da legitimidade policial: testando a teoria da justeza procedimental em São Paulo](https://www.scielo.br/scielo.php?script=sci_arttext&pid=S0011-52582020000100205&lng=pt&nrm=iso&tlng=pt)
 
 *(Predictors and impacts of police legitimacy: testing the procedural justice theory in São Paulo)* 
 
-Forthcoming in *Dados - Revista de Ciências Sociais*
+Published in *Dados - Revista de Ciências Sociais*, 2020
 
 <details>
 <summary><i>See abstract</i></summary>
@@ -22,9 +22,9 @@ Forthcoming in *Dados - Revista de Ciências Sociais*
 
 </details>
 
-Recommended citation: **Oliveira, Thiago R.**; Zanetic, André; Natal, Ariadne L. (*Forthcoming*). "Preditores e impactos da legitimidade policial: testando a teoria da justeza procedimental em São Paulo." *Dados - Revista de Ciências Sociais*.
+Recommended citation: **Oliveira, Thiago R.**; Zanetic, André; Natal, Ariadne L. (2020). "Preditores e impactos da legitimidade policial: testando a teoria da justeza procedimental em São Paulo." *Dados - Revista de Ciências Sociais*. 63(1). [doi.org/10.1590/001152582020197](https://doi.org/10.1590/001152582020197)
 
-[Download paper here](http://oliveirathiago.github.io/files/paper_2019dados.pdf).
+[Download paper here](http://oliveirathiago.github.io/files/paper_2020dados.pdf).
 
 
 ## 2019
