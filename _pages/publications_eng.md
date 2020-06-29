@@ -20,8 +20,11 @@ author_profile: true
 
   <b>Abstract</b>.<br>
   <i>Objectives</i>: Test whethercooperation with the police can be modelledas aplace-based norm that varies in strength from one neighborhoodto the next. Estimatewhetherperceived police legitimacy predictsan  individual’s willingness  to  cooperate in weak-norm neighborhoods,but not in  strong-norm neighborhoodswhere most  people  are either willing or  unwilling to  cooperate, irrespective of  their perceptions of police legitimacy. 
+  
   <i>Methods</i>: A survey of 1,057individuals in 98 relatively high-crime English neighborhoodsdefined at a small spatial scalemeasured(a) willingness to cooperate using a hypothetical crime vignetteand (b) legitimacy using indicators of normative alignmentbetween police and citizen values. A mixed-effects,location-scale  model  estimatedthe  cluster-level  mean  and cluster-level variance  of willingness  to cooperateas a neighborhood-level latent variable. A cross-level interaction testedwhether legitimacy predicts individual-level willingness to cooperateonly in neighborhoods where the norm is weak.
+  
   <i>Results</i>:Willingness to cooperate clusteredstrongly by neighborhood. Therewere neighborhoods with (i) high meanand low variance, (ii) high meanand high variance, (iii) (relatively) low meanand low variance, and (iv) (relatively) low meanand high variance. Legitimacy was only a positive predictor of cooperation  in neighborhoods  that had a (relatively) low  mean  and  high  variance.  There  was little variance left to explain in neighborhoods where the norm was strong.
+  
   <i>Conclusions</i>: Findingssupporta  boundary  condition  of  procedural  justice  theory:  namely, that cooperationcan  be  modelled  asa place-based norm  that  variesin  strengthfrom neighborhoodto neighborhoodand that legitimacy only predicts an  individual’s willingness  to  cooperate in neighborhoods wherethe norm is relatively weak. 
 
   </details>
