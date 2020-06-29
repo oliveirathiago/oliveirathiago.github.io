@@ -47,24 +47,6 @@ author_profile: true
   
   Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/3awrz/).
 
-- **[Police legitimacy and the norm to cooperate: using a mixed effects location scale model to estimate the strength of social norms at a small spatial scale](https://osf.io/preprints/socarxiv/jb74u/)**
-
-  Authors: Jon Jackson, Ian Bruton-Smith, Ben Bradford, **Thiago R. Oliveira**, Krisztián Pósch, & Patrick Sturgis.
-
-  Revise-and-resubmit at the <i>Journal of Quantitative Criminology</i>.
-  
-  <details>
-  <summary><i>See abstract</i></summary>
-
-  <b>Abstract</b>.<br>
-  <i>Objectives</i>: Test whether cooperation with the police is a social norm that varies in strength from neighborhood to neighborhood. Test whether police legitimacy plays no role with willingness to cooperate in neighborhoods where the norm is strong but is a positive predictor of cooperation in neighborhoods where the norm is weak.<br>
-  <i>Methods</i>: A survey of 1,057 individuals in 98 neighborhoods, defined at small spatial scale, measures (a) willingness to cooperate using a hypothetical vignette and (b) legitimacy using normative alignment indicators. A mixed-effects location-scale model estimates the cluster-level mean and variance of cooperation as a latent variable. A cross-level interaction tests whether legitimacy predicts cooperation only in neighborhoods where the norm to cooperate is weak.<br>
-  <i>Results</i>: Willingness to cooperate with the police clusters strongly by neighborhood and there are neighborhoods with (i) high mean and low variance, (ii) high mean and high variance, (iii) (relatively) low mean and low variance, and (iv) (relatively) low mean and high variance. Legitimacy is only a positive predictor of cooperation in neighborhoods that have a low mean and high variance. In neighborhoods where the norm to cooperate is strong, most people are willing to engage so there is little variance left over to explain.<br>
-  <i>Conclusions</i>: Findings support a boundary condition of procedural justice theory: namely, cooperation with the police is a social norm that varies from neighborhood to neighborhood and that legitimacy only plays a role in neighborhoods where the social norm is weak. 
-
-  </details>
-
-  Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/jb74u/).
 
 - **Violência como fator socializador na construção da legitimidade da polícia: um estudo com adolescentes de São Paulo, Brasil**
 
@@ -83,7 +65,7 @@ author_profile: true
 
 ## Working papers
 
-- **Mind the gap between law and enforcement: cynicism toward legal institutions in São Paulo neighborhoods**
+- **Mind the gap between law and enforcement: overpolicing, underpolicing, and the consequences of legal cynicism**
 
   Author: **Thiago R. Oliveira**
   
