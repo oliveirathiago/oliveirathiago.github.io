@@ -8,10 +8,10 @@ main:
   
   - title: ":chart_with_upwards_trend: Research"
     sublinks:
+      - title: ":uk: Publications"
+        url: /publications_eng/
       - title: ":nut_and_bolt: Work in progress"
         url: /work-in-progress/
-      - title: ":uk: Publications in English"
-        url: /publications_eng/
       - title: ":brazil: Publications in Portuguese"
         url: /publications_pt/    
 
