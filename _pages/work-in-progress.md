@@ -65,7 +65,7 @@ author_profile: true
 
 ## Working papers
 
-- **Mind the gap between law and enforcement: overpolicing, underpolicing, and the consequences of legal cynicism**
+- **Dynamics and Consequences of the Overpolicing-Underpolicing Paradox in Sao Paulo Neighborhoods**
 
   Author: **Thiago R. Oliveira**
   
