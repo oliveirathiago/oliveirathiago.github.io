@@ -9,11 +9,34 @@ author_profile: true
 
 ## Forthcoming
 
-### [2. Police legitimacy and the norm to cooperate: using a mixed effects location scale model to estimate the strength of social norms at a small spatial scale](https://osf.io/preprints/socarxiv/jb74u/)
+### [3. Are trustworthiness and legitimacy 'hard to win, easy to lose'? A longitudinal test of the asymmetry thesis of police-citizen contact](https://osf.io/preprints/socarxiv/adhbm/)
+
+  Authors: **Thiago R. Oliveira**, Jon Jackson, Kristina Murphy, & Ben Bradford.
+  
+  Forthcoming in the <i>Journal of Quantitative Criminology</i>.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+  
+  <b>Objectives</b>: Test the asymmetry thesis of police-citizen contact that police trustworthiness and legitimacy are affected more by negative than by positive experiences of interactions with legal agents by analyzing changes in attitudes towards the police after an encounter with the police. Test whether prior attitudes moderate the impact of contact on changes in attitudes towards the police.<br>
+  
+  <b>Methods</b>: A two-wave panel survey of a nationally representative sample of Australian adults measured people’s beliefs about police trustworthiness (procedural fairness and effectiveness), their duty to obey the police, their contact with the police between the two waves, and their evaluation of those encounters in terms of process and outcome. Analysis is carried out using autoregressive structural equation modeling and latent moderated structural models.<br>
+  
+  <b>Results</b>: The association between both process and outcome evaluation of police-citizen encounters and changes in attitudes towards the police is asymmetrical for trust in police effectiveness, symmetrical for trust in procedural fairness, and asymmetrical (in the opposite direction expected) for duty to obey the police. Little evidence of heterogeneity in the association between encounters and trust in procedural fairness and duty to obey, but prior levels of perceived effectiveness moderate the association between outcome evaluation and changes in trust in police effectiveness.<br>
+  
+  <b>Conclusions</b>: The association between police-citizen encounters and attitudes towards the police may not be as asymmetrical as previously thought, particularly for changes in trust in procedural fairness and legitimacy. Policy implications include considering public-police interactions as ‘teachable moments’ and potential sources for enhancing police trustworthiness and legitimacy.
+
+  </details>
+  
+  Preprint available on [SocArXiv](https://osf.io/preprints/socarxiv/adhbm/).
+
+## 2020
+
+### [2. Police legitimacy and the norm to cooperate: using a mixed effects location scale model to estimate the strength of social norms at a small spatial scale](https://link.springer.com/article/10.1007%2Fs10940-020-09467-5)
 
   Authors: Jon Jackson, Ian Bruton-Smith, Ben Bradford, **Thiago R. Oliveira**, Krisztián Pósch, & Patrick Sturgis.
 
-  Forthcoming in the <i>Journal of Quantitative Criminology</i>.
+  Published in the <i>Journal of Quantitative Criminology</i>, 2020.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -29,7 +52,7 @@ author_profile: true
 
   </details>
 
-  Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/jb74u/).
+  Manuscript available on [here](https://link.springer.com/article/10.1007%2Fs10940-020-09467-5).
 
 ## 2019
 
