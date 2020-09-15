@@ -52,7 +52,7 @@ author_profile: true
 
   </details>
 
-  Manuscript available on [here](https://link.springer.com/article/10.1007%2Fs10940-020-09467-5).
+  Manuscript available [here](https://link.springer.com/article/10.1007%2Fs10940-020-09467-5).
 
 ## 2019
 
