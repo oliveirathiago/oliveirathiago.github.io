@@ -13,7 +13,7 @@ author_profile: true
 
   Authors: Jon Jackson, Krisztián Pósch, **Thiago R. Oliveira**, Ben Bradford, Silvia Camões, Ariadne Natal, & André Zanetic.
   
-  Under review at <i>Law & Society Review</i>.
+  Revise-and-resubmit at <i>Law & Society Review</i>.
   
   <details>
   <summary><i>See abstract</i></summary>
