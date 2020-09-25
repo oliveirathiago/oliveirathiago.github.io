@@ -15,6 +15,6 @@ redirect_from:
 
 <html lang="en" style="width:100%; height:50000%;">
   <body style="width:100%; height:50000%; margin:0;">
-    <iframe src="https://docs.google.com/gview?url=https://oliveirathiago.github.io/files/CV_Thiago_Oliveira_sep2020)new.pdf&embedded=true" style="width:100%; height:1000px;" frameborder="0"></iframe>
+    <iframe src="https://docs.google.com/gview?url=https://oliveirathiago.github.io/files/CV_Thiago_Oliveira_sep2020_new.pdf&embedded=true" style="width:100%; height:1000px;" frameborder="0"></iframe>
   </body>
 </html>
