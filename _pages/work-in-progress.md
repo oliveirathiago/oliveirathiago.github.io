@@ -49,9 +49,42 @@ author_profile: true
   <details>
   <summary><i>See abstract</i></summary>
 
-  <b>Abstract</b>: People judge the legitimacy of legal institutions in relation to their judgements about the legitimacy of the law. Cynicism toward legal institutions refers to the gap between the two, when people expect the law to be enforced but do not believe the police have the right to enforce it. In this study, I analyze this novel conception of cynicism toward legal institutions in the city of São Paulo, Brazil, a high-crime context where violent interactions with armed military police officers are common in some neighborhoods but nonexistent in others. Drawing on three waves of data from a representative survey of adult residents of eight neighborhoods, I study the correlates, a potential cause, and the consequences of having cynic views about the police. Mixed-effects models assess the association with common correlates of legal attitudes such as neighborhood structural conditions and police trustworthiness, traditional and weighted two-way fixed effects models assess the impact of being stopped by the police at gun point, and a cross-lagged panel model assesses the reciprocal relationship between cynicism and attitudes towards the acceptability of use of violence. Results indicate that common correlates of legal attitudes are also associated with cynicism, that overpolicing feeds cynicism toward legal institutions, and that when the gap between views on the content and the agents of the law widens, conditions are created for the public to turn to alternative strategies of law enforcement. This study provides further evidence on the costs of aggressive policing, with implications to people's recognition of the ruling power of the law and the legal institutions.
+  <b>Abstract</b>: Residents of over-policed neighborhoods often report feeling under-policed, a phenomenon the literature has named the ‘overpolicing-underpolicing’ paradox -- feelings of constant police intrusion and yet lack of police protection. This study provides a quantitative assessment of the long-term dynamics of perceived overpolicing and underpolicing over time, and it does so in the context of Sao Paulo, Brazil, with a focus on the impact of overpolicing and underpolicing on police legitimacy and attitudes towards personal use of violence. Sao Paulo is an extremely unequal city, where police brutality events are common in some neighborhoods but non-existent in others. Drawing on three waves of data from a representative survey of adult residents of eight neighborhoods, this study has three parts. First, results of a cross-lagged panel model demonstrate that perceptions of police intrusion and cynicism about police protection (a) are produced by neighborhood structural conditions and experiences of aggressive police stops, and (b) mutually reproduce each other. Second, results of hierarchical linear models show that perceptions of overpolicing and underpolicing undermine legitimacy judgements. Third, random-intercepts negative binomial models show that legitimacy judgements contribute to attitudes towards the acceptability of the use of violence, and a panel model demonstrates that legitimacy judgements longitudinally mediate the effect of perceived overpolicing and underpolicing on use of violence. This study provides further evidence on the costs of aggressive policing and the consequences of the overpolicing-underpolicing paradox, with implications to people’s recognition of the ruling power of the law and the legal institutions.
   
     </details>
+    
+- **Psychologically binding? Police contact and the development of legal legitimacy among adolescents in Sao Paulo**
+  
+  Authors: **Thiago R. Oliveira**, Jon Jackson, Rick Trinkner, Debora Piccirillo, & Renan Theodoro.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+ 
+  <b>Abstract</b>:
+ 
+  </details>
+
+- **Economic inequality and the spatial distribution of stops and searches: evidence from London**
+  
+  Authors: Joel Suss & **Thiago R. Oliveira**.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+  
+  <b>Abstract</b>: We study the spatial distribution of stops and searches in London in 2019, and assess the extent to which salient, spatially-granular economic inequality is associated with a higher concentration of searches net of previous crime rates and spatial effects. We interpret stop and search as a tool of social control and demonstrate the degree to which economic inequality contributes to filter out locations where members of the public might stopped and searched by police officers. We use data at the level of Lower Super Output Areas (LSOAs) and draw on a novel measure of local inequality based on real and estimated housing values. Our analytic strategy involves estimating Spatial Durbin Models to account for spatial dependency and negative binomial regression models to estimate the number of stops and searches by LSOA. Results suggest that local economic inequality is strongly associated with the number of stops and searches, even taking into account spatial effects and previous crime rates. We also find that the effect of inequality depends on the level of affluence: the better off a location is, the stronger the effect of inequality on police stops and searches. We conclude by extending the cultural meaning of stop and search as a tool of social control. Police decisions regarding where to stop and search members of the public could be an additional mechanism that contributes to high levels of ethnic and social disproportionality in stop and search. 
+  
+  </details>
+  
+- **Police contact and legal attitudes: what can we learn from panel data?**
+
+  - Author: **Thiago R. Oliveira**.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+ 
+  <b>Abstract</b>:
+ 
+  </details>
 
 - **Self-legitimacy and commitment to democratic policing in Brazil: assessing the support for police militarization among São Paulo military police officers**
 
@@ -62,17 +95,6 @@ author_profile: true
 
   <b>Abstract</b>: To what extent do police officers who are confident of their own authority support (or oppose) police militarization? Previous work has established possible links between police officers’ self-legitimacy and their commitment to democratic policing, which is based on principles of citizen participation, equity and responsiveness. Understood as the process through which policing activities take more and more characteristics of the military culture and behavior, police militarization premises on the idea that police officers should be trained as if they were going to war. Based on this nearly diametrical distinction and given the positive association found between self-legitimacy and commitment to democratic policing, we ask whether self-legitimacy is negatively associated with support for police militarization. Using data from a survey of officers from the São Paulo Military Police in 2016, we assess the extent to which measures of self-legitimacy are correlated with such support controlling for agents’ identification with military values – we also assess the extent to which self-legitimacy mediates the effects or other variables on support for police militarization, such as perceived public support and perceived distributive justice within the organization. Results of structural equation models indicate that while identification with military values mediate some statistical effects of perception of work environment on support for police militarization, self-belief in authority vested in them does not.
 
-  </details>
-  
-- **Salient inequality and the spatial distribution of stop and searches: evidence from London**
-  
-  Authors: Joel Suss & **Thiago R. Oliveira**
-  
-  <details>
-  <summary><i>See abstract</i></summary>
-  
-  <b>Abstract</b>: We study the relationship between salient, spatially-granular economic inequality and police stop and search behaviour in London. Our measure of local inequality is novel, based on real and estimated housing values. Combining this measure with granular stop and search data, we find LSOA-level inequality is strongly associated with the number of police stops, controlling for neighbourhood crime deprivation and other important contextual variables. We argue that, since police stops are discretionary, the effect of inequality is likely operating through a heightened sense of potential threat that is bred by the salience of inequality itself. Moreover, we find the interaction between local average wealth and inequality to be significant, suggesting that the effect of inequality on police stops depends on the level of average wealth: the wealthier an area is, the stronger the effect of inequality on police stops and searches. We perform a number of robustness checks, including in other metropolitan areas (Birmingham, Manchester and Liverpool), and find the results to hold. 
-  
   </details>
   
 - **Pastas e prontuários do “Complexo do Tatuapé” (São Paulo/SP – 1990-2006): alterações nos padrões da justiça juvenil após o ECA**
