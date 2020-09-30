@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-## Forthcoming
+## 2020
 
 ### [3. Are trustworthiness and legitimacy 'hard to win, easy to lose'? A longitudinal test of the asymmetry thesis of police-citizen contact](https://link.springer.com/article/10.1007/s10940-020-09478-2?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst)
 
@@ -28,11 +28,12 @@ author_profile: true
 
   </details>
   
+  Recommended citation: **Oliveira, Thiago R.**; Jackson, Jonathan; Murphy, Kristina; Bradford, Ben. (2020). Are trustworthiness and legitimacy 'hard to win, easy to lose'? A longitudinal test of the asymmetry thesis of police-citizen contact. *Journal of Quantitative Criminology*. [https://doi.org/10.1007/s10940-020-09478-2](https://doi.org/10.1007/s10940-020-09478-2).
+  
   [Find paper here](https://link.springer.com/article/10.1007/s10940-020-09478-2?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst).
   
   [Replication materials here](https://github.com/oliveirathiago/HardToWinEasyToLose_JQC2020).
-
-## 2020
+  
 
 ### [2. Police legitimacy and the norm to cooperate: using a mixed effects location scale model to estimate the strength of social norms at a small spatial scale](https://link.springer.com/article/10.1007%2Fs10940-020-09467-5)
 
@@ -44,15 +45,17 @@ author_profile: true
   <summary><i>See abstract</i></summary>
 
   <b>Abstract</b>.<br>
-  <i>Objectives</i>: Test whethercooperation with the police can be modelledas aplace-based norm that varies in strength from one neighborhoodto the next. Estimatewhetherperceived police legitimacy predictsan  individual’s willingness  to  cooperate in weak-norm neighborhoods,but not in  strong-norm neighborhoodswhere most  people  are either willing or  unwilling to  cooperate, irrespective of  their perceptions of police legitimacy.<br>
+  <b>Objectives</b>: Test whethercooperation with the police can be modelledas aplace-based norm that varies in strength from one neighborhoodto the next. Estimatewhetherperceived police legitimacy predictsan  individual’s willingness  to  cooperate in weak-norm neighborhoods,but not in  strong-norm neighborhoodswhere most  people  are either willing or  unwilling to  cooperate, irrespective of  their perceptions of police legitimacy.<br>
   
-  <i>Methods</i>: A survey of 1,057individuals in 98 relatively high-crime English neighborhoodsdefined at a small spatial scalemeasured(a) willingness to cooperate using a hypothetical crime vignetteand (b) legitimacy using indicators of normative alignmentbetween police and citizen values. A mixed-effects,location-scale  model  estimatedthe  cluster-level  mean  and cluster-level variance  of willingness  to cooperateas a neighborhood-level latent variable. A cross-level interaction testedwhether legitimacy predicts individual-level willingness to cooperateonly in neighborhoods where the norm is weak.<br>
+  <b>Methods</b>: A survey of 1,057individuals in 98 relatively high-crime English neighborhoodsdefined at a small spatial scalemeasured(a) willingness to cooperate using a hypothetical crime vignetteand (b) legitimacy using indicators of normative alignmentbetween police and citizen values. A mixed-effects,location-scale  model  estimatedthe  cluster-level  mean  and cluster-level variance  of willingness  to cooperateas a neighborhood-level latent variable. A cross-level interaction testedwhether legitimacy predicts individual-level willingness to cooperateonly in neighborhoods where the norm is weak.<br>
   
-  <i>Results</i>:Willingness to cooperate clusteredstrongly by neighborhood. Therewere neighborhoods with (i) high meanand low variance, (ii) high meanand high variance, (iii) (relatively) low meanand low variance, and (iv) (relatively) low meanand high variance. Legitimacy was only a positive predictor of cooperation  in neighborhoods  that had a (relatively) low  mean  and  high  variance.  There  was little variance left to explain in neighborhoods where the norm was strong.<br>
+  <b>Results</b>:Willingness to cooperate clusteredstrongly by neighborhood. Therewere neighborhoods with (i) high meanand low variance, (ii) high meanand high variance, (iii) (relatively) low meanand low variance, and (iv) (relatively) low meanand high variance. Legitimacy was only a positive predictor of cooperation  in neighborhoods  that had a (relatively) low  mean  and  high  variance.  There  was little variance left to explain in neighborhoods where the norm was strong.<br>
   
-  <i>Conclusions</i>: Findingssupporta  boundary  condition  of  procedural  justice  theory:  namely, that cooperationcan  be  modelled  asa place-based norm  that  variesin  strengthfrom neighborhoodto neighborhoodand that legitimacy only predicts an  individual’s willingness  to  cooperate in neighborhoods wherethe norm is relatively weak. 
+  <b>Conclusions</b>: Findingssupporta  boundary  condition  of  procedural  justice  theory:  namely, that cooperationcan  be  modelled  asa place-based norm  that  variesin  strengthfrom neighborhoodto neighborhoodand that legitimacy only predicts an  individual’s willingness  to  cooperate in neighborhoods wherethe norm is relatively weak. 
 
   </details>
+  
+  Recommended citation: Jackson, Jonathan; Brunton-Smith, Ian; Bradford, Ben; **Oliveira, Thiago R.**; Posch, Krisztian; Sturgis, Patrick. (2020). Police legitimacy and the norm to cooperate: using a mixed effects location scale model to estimate the strength of social norms at a small spatial scale. *Journal of Quantitative Criminology*. [https://doi.org/10.1007/s10940-020-09467-5](https://doi.org/10.1007/s10940-020-09467-5).
 
   [Find paper here](https://link.springer.com/article/10.1007%2Fs10940-020-09467-5).
 
@@ -69,7 +72,7 @@ Published in *Brazilian Political Science Review*, 2019
 
 </details>
 
-Recommended citation: **Oliveira, Thiago R.** (2019). "Juvenile sentencing: a mixed-methods approach." *Brazilian Political Science Review*. 13(1). [doi.org/10.1590/1981-3821201900010006](http://dx.doi.org/10.1590/1981-3821201900010006).
+Recommended citation: **Oliveira, Thiago R.** (2019). Juvenile sentencing: a mixed-methods approach. *Brazilian Political Science Review*. 13(1). [doi.org/10.1590/1981-3821201900010006](http://dx.doi.org/10.1590/1981-3821201900010006).
 
 [Download paper here](http://oliveirathiago.github.io/files/paper_2019bpsr.pdf).
 
