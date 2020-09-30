@@ -9,11 +9,11 @@ author_profile: true
 
 ## Forthcoming
 
-### [3. Are trustworthiness and legitimacy 'hard to win, easy to lose'? A longitudinal test of the asymmetry thesis of police-citizen contact](https://osf.io/preprints/socarxiv/adhbm/)
+### [3. Are trustworthiness and legitimacy 'hard to win, easy to lose'? A longitudinal test of the asymmetry thesis of police-citizen contact](https://link.springer.com/article/10.1007/s10940-020-09478-2?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst)
 
   Authors: **Thiago R. Oliveira**, Jon Jackson, Kristina Murphy, & Ben Bradford.
   
-  Forthcoming in the <i>Journal of Quantitative Criminology</i>.
+  Published in the <i>Journal of Quantitative Criminology</i>, 2020.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -28,7 +28,9 @@ author_profile: true
 
   </details>
   
-  Preprint available on [SocArXiv](https://osf.io/preprints/socarxiv/adhbm/).
+  [Find paper here](https://link.springer.com/article/10.1007/s10940-020-09478-2?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst).
+  
+  [Replication materials here](https://github.com/oliveirathiago/HardToWinEasyToLose_JQC2020).
 
 ## 2020
 
@@ -52,7 +54,7 @@ author_profile: true
 
   </details>
 
-  Manuscript available [here](https://link.springer.com/article/10.1007%2Fs10940-020-09467-5).
+  [Find paper here](https://link.springer.com/article/10.1007%2Fs10940-020-09467-5).
 
 ## 2019
 
