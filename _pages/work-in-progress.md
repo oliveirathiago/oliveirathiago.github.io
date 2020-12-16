@@ -42,7 +42,7 @@ author_profile: true
 
 ## Working papers
 
-- **Dynamics and Consequences of the Overpolicing-Underpolicing Paradox in Sao Paulo Neighborhoods**
+- **Violence and coercive policing in Brazil's largest city: Dynamics and consequences of the overpolicing-underpolicing paradox**
 
   Author: **Thiago R. Oliveira**
   
@@ -53,9 +53,9 @@ author_profile: true
   
     </details>
     
-- **Psychologically binding? Police contact and the development of legal legitimacy among adolescents in Sao Paulo**
+- **Socialization through violence in the Global South: Exposure to citizen and police violence and the development of legal legitimacy among early adolescents**
   
-  Authors: **Thiago R. Oliveira**, Jon Jackson, Rick Trinkner, Debora Piccirillo, & Renan Theodoro.
+  Authors: **Thiago R. Oliveira**, Jon Jackson, Debora Piccirillo, Renan Theodoro, & Rick Trinkner.
   
   <details>
   <summary><i>See abstract</i></summary>
