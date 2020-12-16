@@ -15,6 +15,16 @@ ______________
 
 ### 2019 / 2020
 
-- [Introduction to Quantitative Research Methods](https://uclspp.github.io/PUBL0055/seminar3.html)<br>
+- [Data Analysis (QStep)](https://www.ucl.ac.uk/module-catalogue/modules/data-analysis/POLS0010)<br>
+  Teaching Fellow (Class Teacher)<br>
+  Undergraduate (year 2)
+
+- [Introduction to Quantitative Research Methods](https://uclspp.github.io/PUBL0055.html)<br>
+  Teaching Fellow (Class Teacher)<br>
+  MSc level
+
+### 2019 / 2020
+
+- [Introduction to Quantitative Research Methods](https://uclspp.github.io/PUBL0055.html)<br>
   Teaching Fellow (Class Teacher)<br>
   MSc level
