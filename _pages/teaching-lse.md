@@ -13,6 +13,12 @@ ______________
 
 ## [London School of Economics and Political Science (LSE)](http://www.lse.ac.uk/Methodology)
 
+### 2020 / 2021
+
+- [Introduction to Quantitative Methods for Media and Communication](https://www.lse.ac.uk/resources/calendar2018-2019/courseGuides/MY/2018_MY464.htm)<br>
+  Class teacher<br>
+  MSc level
+
 ### 2019 / 2020
 
 - [Introduction to R programming (MY591 Workshop)](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2019_MY591.htm)<br>
