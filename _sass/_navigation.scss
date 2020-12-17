@@ -249,14 +249,14 @@
   
      .dropdown {
       float: left;
-      width: 100%;
+      width: auto;
     }
 
     .dropdown-content {
       display: none;
       position: absolute;
       background-color: darken($background-color, 3%);
-      min-width: 200px;
+      min-width: 250px;
       box-shadow: $box-shadow;
       z-index: 1;
     }
