@@ -16,7 +16,7 @@ ______________
 ### 2020 / 2021
 
 - [Introduction to Quantitative Methods for Media and Communication](https://www.lse.ac.uk/resources/calendar2018-2019/courseGuides/MY/2018_MY464.htm)<br>
-  Class teacher<br>
+  Co-Instructor<br>
   MSc level
 
 ### 2019 / 2020
