@@ -249,7 +249,7 @@
   
      .dropdown {
        float: left;
-       width: 1%;
+       width: auto;
        display: inline-block;
     }
 
@@ -276,7 +276,7 @@
    }
 
   .hidden-links {
-    position: relative;
+    position: absolute;
     top: 100%;
     right: 0;
     margin-top: 15px;
