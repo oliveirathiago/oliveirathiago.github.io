@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Thiago R. Olivira"
+title: "Thiago R. Oliveira"
 excerpt: "Home"
 author_profile: true
 redirect_from: 
