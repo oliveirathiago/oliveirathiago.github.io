@@ -21,6 +21,8 @@ main:
         url: /teaching-ucl/
       - title: "LSE"
         url: /teaching-lse/
+      - title: "Short courses"
+        url: /teaching_short_courses/
       - title: "USP"
         url: /teaching-usp/
        
