@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: ":information_source: About me"
-    url: /
+    url: /aboutme/
 
   - title: ":mortar_board: CV"
     url: /cv/
