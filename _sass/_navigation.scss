@@ -248,8 +248,10 @@
     }
   
      .dropdown {
-      position: relative;
-      display: inline-block;
+       float: left;
+       width: auto;
+       position: relative;
+       display: inline-block;
     }
 
     .dropdown-content {
