@@ -9,11 +9,24 @@ author_profile: true
 
 ## Submitted manuscripts 
  
+- **[Violence and coercive policing: Dynamics and consequences of the overpolicing-underpolicing paradox in Brazil's largest city](https://osf.io/preprints/socarxiv/89jkv)**
+
+  Author: **Thiago R. Oliveira**
+  
+  Under first review.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+
+  <b>Abstract</b>: Policing approaches that rely on repeated intrusion in the lives of citizens can be accompanied by public cynicism about the ability of legal institutions to ensure public safety. This study provides a quantitative assessment of the dynamics of phenomenon of overpolicing and underpolicing over time. It does so in the context of one of the largest cities in the Global South, with a focus on shifts in support for personal use of violence via diminished perceptions of legitimacy. Drawing upon a three-wave longitudinal survey representative of eight neighborhoods in São Paulo, Brazil, I demonstrate that perceptions of overpolicing and underpolicing (a) mutually reproduce each other over time, (b) vary significantly by neighborhood, (c) increase after aggressive police stops, (d) undermine police legitimacy, and (e) contribute to more favorable attitudes towards the acceptability of violence. This study provides further evidence on the costs of coercive policing, with significant implications for people’s recognition of the ruling power of legal authority.
+  
+    </details>
+
 - **[Fear and legitimacy in São Paulo, Brazil: police-citizen relations in a high violence, high fear city](https://osf.io/preprints/socarxiv/3awrz/)**
 
   Authors: Jon Jackson, Krisztián Pósch, **Thiago R. Oliveira**, Ben Bradford, Silvia Camões, Ariadne Natal, & André Zanetic.
   
-  Revise-and-resubmit at <i>Law & Society Review</i>.
+  Revise-and-resubmit.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -31,7 +44,7 @@ author_profile: true
 
   Authors: Renan Theodoro, Debora Piccirillo, Aline Gomes, & **Thiago R. Oliveira**.
  
-  Under review at <i>Análise Social</i>.
+  Under first review.
 
   <details>
   <summary><i>See abstract</i></summary>
@@ -41,21 +54,10 @@ author_profile: true
   </details>
 
 ## Working papers
-
-- **Violence and coercive policing in Brazil's largest city: Dynamics and consequences of the overpolicing-underpolicing paradox**
-
-  Author: **Thiago R. Oliveira**
-  
-  <details>
-  <summary><i>See abstract</i></summary>
-
-  <b>Abstract</b>: Residents of over-policed neighborhoods often report feeling under-policed, a phenomenon the literature has named the ‘overpolicing-underpolicing’ paradox -- feelings of constant police intrusion and yet lack of police protection. This study provides a quantitative assessment of the long-term dynamics of perceived overpolicing and underpolicing over time, and it does so in the context of Sao Paulo, Brazil, with a focus on the impact of overpolicing and underpolicing on police legitimacy and attitudes towards personal use of violence. Sao Paulo is an extremely unequal city, where police brutality events are common in some neighborhoods but non-existent in others. Drawing on three waves of data from a representative survey of adult residents of eight neighborhoods, this study has three parts. First, results of a cross-lagged panel model demonstrate that perceptions of police intrusion and cynicism about police protection (a) are produced by neighborhood structural conditions and experiences of aggressive police stops, and (b) mutually reproduce each other. Second, results of hierarchical linear models show that perceptions of overpolicing and underpolicing undermine legitimacy judgements. Third, random-intercepts negative binomial models show that legitimacy judgements contribute to attitudes towards the acceptability of the use of violence, and a panel model demonstrates that legitimacy judgements longitudinally mediate the effect of perceived overpolicing and underpolicing on use of violence. This study provides further evidence on the costs of aggressive policing and the consequences of the overpolicing-underpolicing paradox, with implications to people’s recognition of the ruling power of the law and the legal institutions.
-  
-    </details>
     
-- **Socialization through violence in the Global South: Exposure to citizen and police violence and the development of legal legitimacy among early adolescents**
+- **Socialization through violence: Exposure to neighborhood and police violence and the development of legal legitimacy among adolescents in São Paulo**
   
-  Authors: **Thiago R. Oliveira**, Jon Jackson, Debora Piccirillo, Renan Theodoro, & Rick Trinkner.
+  Authors: **Thiago R. Oliveira**, Jon Jackson, Rick Trinkner, Debora Piccirillo, & Renan Theodoro.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -75,7 +77,7 @@ author_profile: true
   
   </details>
   
-- **Police contact and legal attitudes: what can we learn from panel data?**
+- **Assessing the impact police contact on legal attitudes: can we infer a causal relationship using panel data?**
 
   - Author: **Thiago R. Oliveira**.
   
