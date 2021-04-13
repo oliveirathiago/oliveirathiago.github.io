@@ -57,6 +57,17 @@ author_profile: true
 
 ## Working papers
     
+- **Assessing the impact of aggressive police stops on trust in legal authority using panel data**
+
+  - Author: **Thiago R. Oliveira**.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+ 
+  <b>Abstract</b>: Does the experience of being stopped by the police at gun point impact trust in legal authority? Previous research suggests a link between police stops and public attitudes towards legal institutions, but there is little evidence of a causal relationship. I draw on a three-wave survey of adults who reside in São Paulo, Brazil, and explore different methods for causal inference with panel data in the context of two treatment (police stops and police stops at gun point) and three outcome variables (perceptions of police fairness, overpolicing, and cynicism about police protection). I review the assumptions, present results, and discuss the plausibility of four average treatment effect estimators, including two-way fixed effects linear regression, matching for time-series cross-sectional data, a recently developed staggered difference-in-differences design, and front-door difference-in-differences. Results indicate that while it seems unlikely that police stops affect trust in legal authority, aggressive police stops seem to have an impact. It is possible that the experience of being stopped by the police at gun point has a short-term effect on perceived police fairness and a long-term effect on perceived overpolicing.
+ 
+  </details>
+
 - **Socialization through violence: Exposure to neighborhood and police violence and the development of legal legitimacy among adolescents in São Paulo**
   
   Authors: **Thiago R. Oliveira**, Jon Jackson, Rick Trinkner, Debora Piccirillo, & Renan Theodoro.
@@ -79,17 +90,6 @@ author_profile: true
   
   </details>
   
-- **Assessing the impact police contact on legal attitudes: can we infer a causal relationship using panel data?**
-
-  - Author: **Thiago R. Oliveira**.
-  
-  <details>
-  <summary><i>See abstract</i></summary>
- 
-  <b>Abstract</b>:
- 
-  </details>
-
 - **Self-legitimacy and commitment to democratic policing in Brazil: assessing the support for police militarization among São Paulo military police officers**
 
   Authors: Viviane Cubas, Frederico Castelo Branco, **Thiago R. Oliveira**, & Justice Tankebe.
