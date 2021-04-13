@@ -59,7 +59,7 @@ author_profile: true
     
 - **Assessing the impact of aggressive police stops on trust in legal authority using panel data**
 
-  - Author: **Thiago R. Oliveira**.
+  Author: **Thiago R. Oliveira**.
   
   <details>
   <summary><i>See abstract</i></summary>
