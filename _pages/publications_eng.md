@@ -7,6 +7,23 @@ author_profile: true
 
 {% include base_path %}
 
+## *Forthcoming*
+
+### [4. Fear and legitimacy in São Paulo, Brazil: police-citizen relations in a high violence, high fear city](https://osf.io/preprints/socarxiv/3awrz/)**
+
+  Authors: Jon Jackson, Krisztián Pósch, **Thiago R. Oliveira**, Ben Bradford, Silvia Camões, Ariadne Natal, & André Zanetic.
+  
+  Conditionally accepted at <i>Law & Society Review</i>.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+
+  <b>Abstract</b>: We examine consensual and coercive police-citizen relations in São Paulo, Brazil. According to procedural justice theory, legitimacy operates as part of a virtuous circle, whereby normatively appropriate police behavior encourages people to self-regulate, which then reduces the need for coercive forms of social control. But can consensual and coercive police-citizen policiesbe so easily disentangled in a city in which many people fear crime, where some people fear policebut tolerate extreme police violence, and where the image of the police as “just another (violent) gang ”has significant cultural currency? Legitimacy has two components — the right to power and the authority to govern — and consistent with prior work from the US, UK and Australia, we find that procedural justice is the stronger predictor of the perceived right to power. Yet, the empirical link between legitimacy and legal compliance is complicated by fear of police and different motives to obey and disobey the police. Our modelling of the predictors of self-reported legal compliance finds that criminal behavior is highest among people who fear police, believe that officers act in inappropriate ways, and feel either no obligation to obey their commands or an instrumental obligation to obey the police. Implications of these findings are discussed.
+
+  </details>
+  
+  Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/3awrz/).
+
 ## 2020
 
 ### [3. Are trustworthiness and legitimacy 'hard to win, easy to lose'? A longitudinal test of the asymmetry thesis of police-citizen contact](https://link.springer.com/article/10.1007/s10940-020-09478-2?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst)
