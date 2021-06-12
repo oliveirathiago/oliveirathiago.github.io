@@ -9,7 +9,7 @@ author_profile: true
 
 ## Working papers
  
-- **[Violence and coercive policing: Dynamics and consequences of the overpolicing-underpolicing paradox in Brazil's largest city](https://osf.io/preprints/socarxiv/89jkv)**
+- **[Violence and coercive policing: dynamics and consequences of the overpolicing-underpolicing paradox in Brazil's largest city](https://osf.io/preprints/socarxiv/89jkv)**
 
   Author: **Thiago R. Oliveira**
   
@@ -42,7 +42,7 @@ author_profile: true
 
 ## Manuscripts in preparation
     
-- **The upshots of aggressive policing: assessing the impact of aggressive police stops on (distrust in legal authority**
+- **The upshots of aggressive policing: assessing the impact of aggressive police stops on (dis)trust in legal authority**
 
   Author: **Thiago R. Oliveira**.
   
