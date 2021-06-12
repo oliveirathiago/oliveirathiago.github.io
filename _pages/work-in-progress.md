@@ -7,13 +7,13 @@ author_profile: true
 
 {% include base_path %}
 
-## Submitted manuscripts 
+## Working papers
  
 - **[Violence and coercive policing: Dynamics and consequences of the overpolicing-underpolicing paradox in Brazil's largest city](https://osf.io/preprints/socarxiv/89jkv)**
 
   Author: **Thiago R. Oliveira**
   
-  Under first review.
+  Under first review at the <i>American Journal of Sociology</i>.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -24,21 +24,6 @@ author_profile: true
     
     Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/89jkv).
 
-- **[Fear and legitimacy in São Paulo, Brazil: police-citizen relations in a high violence, high fear city](https://osf.io/preprints/socarxiv/3awrz/)**
-
-  Authors: Jon Jackson, Krisztián Pósch, **Thiago R. Oliveira**, Ben Bradford, Silvia Camões, Ariadne Natal, & André Zanetic.
-  
-  Revise-and-resubmit.
-  
-  <details>
-  <summary><i>See abstract</i></summary>
-
-  <b>Abstract</b>: We examine consensual and coercive police-citizen relations in São Paulo, Brazil. According to procedural justice theory, legitimacy operates as part of a virtuous circle, whereby normatively appropriate police behavior encourages people to self-regulate, which then reduces the need for coercive forms of social control. But can consensual and coercive police-citizen policiesbe so easily disentangled in a city in which many people fear crime, where some people fear policebut tolerate extreme police violence, and where the image of the police as “just another (violent) gang ”has significant cultural currency? Legitimacy has two components — the right to power and the authority to govern — and consistent with prior work from the US, UK and Australia, we find that procedural justice is the stronger predictor of the perceived right to power. Yet, the empirical link between legitimacy and legal compliance is complicated by fear of police and different motives to obey and disobey the police. Our modelling of the predictors of self-reported legal compliance finds that criminal behavior is highest among people who fear police, believe that officers act in inappropriate ways, and feel either no obligation to obey their commands or an instrumental obligation to obey the police. Implications of these findings are discussed.
-
-  </details>
-  
-  Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/3awrz/).
-
 
 - **Violência como fator socializador na construção da legitimidade da polícia: um estudo com adolescentes de São Paulo, Brasil**
 
@@ -46,7 +31,7 @@ author_profile: true
 
   Authors: Renan Theodoro, Debora Piccirillo, Aline Gomes, & **Thiago R. Oliveira**.
  
-  Under first review.
+  Under first review at <i>Análise Social</i>.
 
   <details>
   <summary><i>See abstract</i></summary>
@@ -55,27 +40,27 @@ author_profile: true
 
   </details>
 
-## Working papers
+## Manuscripts in preparation
     
-- **Assessing the impact of aggressive police stops on trust in legal authority using panel data**
+- **The upshots of aggressive policing: assessing the impact of aggressive police stops on (distrust in legal authority**
 
   Author: **Thiago R. Oliveira**.
   
   <details>
   <summary><i>See abstract</i></summary>
  
-  <b>Abstract</b>: Does the experience of being stopped by the police at gun point impact trust in legal authority? Previous research suggests a link between police stops and public attitudes towards legal institutions, but there is little evidence of a causal relationship. I draw on a three-wave survey of adults who reside in São Paulo, Brazil, and explore different methods for causal inference with panel data in the context of two treatment (police stops and police stops at gun point) and three outcome variables (perceptions of police fairness, overpolicing, and cynicism about police protection). I review the assumptions, present results, and discuss the plausibility of four average treatment effect estimators, including two-way fixed effects linear regression, matching for time-series cross-sectional data, a recently developed staggered difference-in-differences design, and front-door difference-in-differences. Results indicate that while it seems unlikely that police stops affect trust in legal authority, aggressive police stops seem to have an impact. It is possible that the experience of being stopped by the police at gun point has a short-term effect on perceived police fairness and a long-term effect on perceived overpolicing.
+  <b>Abstract</b>: Does the experience of being stopped by the police (including being stopped by the police at gunpoint) have a negative effect on trust in legal authority over time? Previous research suggests a link between negatively-experienced police stops and distrust of legal institutions. Yet, we lack clear evidence on the existence and dynamics of any putative causal effect. To address this gap, I draw on a three-wave survey of adults who reside in São Paulo, Brazil, and explore different methods for causal inference with panel data using a multi-period difference-in-differences design in the context of two treatment (police stops and police stops at gunpoint) and three outcome variables (attitudinal change in perceptions of police fairness, perceptions of overpolicing, and cynicism about police protection). I review the identification assumptions, present the results, and discuss the plausibility of two recently developed estimators which improve upon the more commonly adopted two-way fixed effects linear regression: a matching framework for panel data that assumes dynamic treatment assignments; and a group-time average treatment effect estimator that assumes a staggered treatment adoption. I conclude, overall, that it seems unlikely that general police stops damage trust in legal authority in São Paulo over time. However, a recent aggressive police stop with officers pointing a gun at the citizen does seem to have a negative short-term effect on perceived police fairness, while the first experience of a police stop at gunpoint among people with no previous contact seems to have a positive long-term effect on perceived overpolicing. This study contributes to a growing international literature that describes the social costs of aggressive policing strategies.
  
   </details>
 
-- **Socialization through violence: Exposure to neighborhood and police violence and the development of legal legitimacy among adolescents in São Paulo**
+- **Socialization through violence: exposure to neighborhood and police violence and the development of legal legitimacy among adolescents in São Paulo**
   
-  Authors: **Thiago R. Oliveira**, Jon Jackson, Rick Trinkner, Debora Piccirillo, & Renan Theodoro.
+  Authors: **Thiago R. Oliveira**, Jon Jackson, Renan Theodoro, Debora Piccirillo, & Rick Trinkner.
   
   <details>
   <summary><i>See abstract</i></summary>
  
-  <b>Abstract</b>:
+  <b>Abstract</b>: We assess the influence of exposure to neighborhood and police violence on the development of judgements about the legitimacy of the law among adolescents aged 11 to 14 years living in the city of São Paulo, Brazil. Exposure to violence has various social costs, but its consequences on the legal socialization of adolescence is little known. There is also little evidence about the development of legal attitudes during adolescence in cities in the Global South. Drawing on data from the São Paulo Legal Socialization Study, a cohort-based, four-wave longitudinal survey of 2005-born adolescents from São Paulo, we adopt a life-course approach and use growth curve models to estimate developmental trajectories of legitimacy beliefs. Results indicate that exposure to neighborhood and police violence can damage the legal socialization process. Adolescents who study at schools where most other students are repeatedly exposed to community violence and who report witnessing a police officer assaulting someone at different time points have an undermined development of judgements about the legitimacy of the law.
  
   </details>
 
