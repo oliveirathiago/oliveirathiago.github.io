@@ -24,6 +24,16 @@ author_profile: true
     
     Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/89jkv).
 
+- **[It's a matter of time: assessing the impact of aggressive police stops on (dis)trust in legal authority](https://osf.io/preprints/socarxiv/v58je/)**
+
+  Author: **Thiago R. Oliveira**.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+ 
+  <b>Abstract</b>: Does the experience of being stopped by the police (including being stopped by the police at gunpoint) have a negative effect on trust in legal authority over time? Previous research suggests a link between negatively-experienced police stops and distrust of legal institutions. Yet, we lack clear evidence on the existence and dynamics of any putative causal effect. To address this gap, I draw on a three-wave longitudinal survey of adults who reside in São Paulo, Brazil, and examine the impact of police stops and police stops at gunpoint on three aspects of trust in legal authority (attitudinal change in perceptions of police fairness, perceptions of overpolicing, and cynicism about police protection). In the context of a multi-period difference-in-differences design, I rely on (i) a matching framework for panel data that assumes a dynamic treatment adoption to estimate short-term effects of a recent police stop, and (ii) a doubly robust estimator that assumes a staggered treatment adoption to assess the long-term effects of a first experience of being stopped by the police (at gunpoint). I conclude, overall, that it seems unlikely that general police stops damage trust in legal authority in São Paulo over time. However, a recent aggressive police stop with officers pointing a gun at the citizen does seem to have a negative short-term effect on perceived police fairness, while the first experience of a police stop at gunpoint among people with no previous contact seems to have a positive long-term effect on perceived overpolicing. This study contributes to a growing international literature that describes the social costs of aggressive policing strategies.
+ 
+  </details>
 
 - **Violência como fator socializador na construção da legitimidade da polícia: um estudo com adolescentes de São Paulo, Brasil**
 
@@ -42,17 +52,6 @@ author_profile: true
 
 ## Manuscripts in preparation
     
-- **It's a matter of time: assessing the impact of aggressive police stops on (dis)trust in legal authority**
-
-  Author: **Thiago R. Oliveira**.
-  
-  <details>
-  <summary><i>See abstract</i></summary>
- 
-  <b>Abstract</b>: Does the experience of being stopped by the police (including being stopped by the police at gunpoint) have a negative effect on trust in legal authority over time? Previous research suggests a link between negatively-experienced police stops and distrust of legal institutions. Yet, we lack clear evidence on the existence and dynamics of any putative causal effect. To address this gap, I draw on a three-wave longitudinal survey of adults who reside in São Paulo, Brazil, and examine the impact of police stops and police stops at gunpoint on three aspects of trust in legal authority (attitudinal change in perceptions of police fairness, perceptions of overpolicing, and cynicism about police protection). In the context of a multi-period difference-in-differences design, I rely on (i) a matching framework for panel data that assumes a dynamic treatment adoption to estimate short-term effects of a recent police stop, and (ii) a doubly robust estimator that assumes a staggered treatment adoption to assess the long-term effects of a first experience of being stopped by the police (at gunpoint). I conclude, overall, that it seems unlikely that general police stops damage trust in legal authority in São Paulo over time. However, a recent aggressive police stop with officers pointing a gun at the citizen does seem to have a negative short-term effect on perceived police fairness, while the first experience of a police stop at gunpoint among people with no previous contact seems to have a positive long-term effect on perceived overpolicing. This study contributes to a growing international literature that describes the social costs of aggressive policing strategies.
- 
-  </details>
-
 - **Socialization through violence: exposure to neighborhood and police violence and the development of legal legitimacy among adolescents in São Paulo**
   
   Authors: **Thiago R. Oliveira**, Jon Jackson, Renan Theodoro, Debora Piccirillo, & Rick Trinkner.
