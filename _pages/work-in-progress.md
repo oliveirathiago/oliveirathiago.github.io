@@ -13,7 +13,7 @@ author_profile: true
 
   Author: **Thiago R. Oliveira**
   
-  Under first review at the <i>American Journal of Sociology</i>.
+  Asked to revise and resubmit, <i>American Journal of Sociology</i>.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -42,14 +42,14 @@ author_profile: true
 
 ## Manuscripts in preparation
     
-- **The upshots of aggressive policing: assessing the impact of aggressive police stops on (dis)trust in legal authority**
+- **It's a matter of time: assessing the impact of aggressive police stops on (dis)trust in legal authority**
 
   Author: **Thiago R. Oliveira**.
   
   <details>
   <summary><i>See abstract</i></summary>
  
-  <b>Abstract</b>: Does the experience of being stopped by the police (including being stopped by the police at gunpoint) have a negative effect on trust in legal authority over time? Previous research suggests a link between negatively-experienced police stops and distrust of legal institutions. Yet, we lack clear evidence on the existence and dynamics of any putative causal effect. To address this gap, I draw on a three-wave survey of adults who reside in São Paulo, Brazil, and explore different methods for causal inference with panel data using a multi-period difference-in-differences design in the context of two treatment (police stops and police stops at gunpoint) and three outcome variables (attitudinal change in perceptions of police fairness, perceptions of overpolicing, and cynicism about police protection). I review the identification assumptions, present the results, and discuss the plausibility of two recently developed estimators which improve upon the more commonly adopted two-way fixed effects linear regression: a matching framework for panel data that assumes dynamic treatment assignments; and a group-time average treatment effect estimator that assumes a staggered treatment adoption. I conclude, overall, that it seems unlikely that general police stops damage trust in legal authority in São Paulo over time. However, a recent aggressive police stop with officers pointing a gun at the citizen does seem to have a negative short-term effect on perceived police fairness, while the first experience of a police stop at gunpoint among people with no previous contact seems to have a positive long-term effect on perceived overpolicing. This study contributes to a growing international literature that describes the social costs of aggressive policing strategies.
+  <b>Abstract</b>: Does the experience of being stopped by the police (including being stopped by the police at gunpoint) have a negative effect on trust in legal authority over time? Previous research suggests a link between negatively-experienced police stops and distrust of legal institutions. Yet, we lack clear evidence on the existence and dynamics of any putative causal effect. To address this gap, I draw on a three-wave longitudinal survey of adults who reside in São Paulo, Brazil, and examine the impact of police stops and police stops at gunpoint on three aspects of trust in legal authority (attitudinal change in perceptions of police fairness, perceptions of overpolicing, and cynicism about police protection). In the context of a multi-period difference-in-differences design, I rely on (i) a matching framework for panel data that assumes a dynamic treatment adoption to estimate short-term effects of a recent police stop, and (ii) a doubly robust estimator that assumes a staggered treatment adoption to assess the long-term effects of a first experience of being stopped by the police (at gunpoint). I conclude, overall, that it seems unlikely that general police stops damage trust in legal authority in São Paulo over time. However, a recent aggressive police stop with officers pointing a gun at the citizen does seem to have a negative short-term effect on perceived police fairness, while the first experience of a police stop at gunpoint among people with no previous contact seems to have a positive long-term effect on perceived overpolicing. This study contributes to a growing international literature that describes the social costs of aggressive policing strategies.
  
   </details>
 
@@ -60,7 +60,7 @@ author_profile: true
   <details>
   <summary><i>See abstract</i></summary>
  
-  <b>Abstract</b>: We assess the influence of exposure to neighborhood and police violence on the development of judgements about the legitimacy of the law among adolescents aged 11 to 14 years living in the city of São Paulo, Brazil. Exposure to violence has various social costs, but its consequences on the legal socialization of adolescence is little known. There is also little evidence about the development of legal attitudes during adolescence in cities in the Global South. Drawing on data from the São Paulo Legal Socialization Study, a cohort-based, four-wave longitudinal survey of 2005-born adolescents from São Paulo, we adopt a life-course approach and use growth curve models to estimate developmental trajectories of legitimacy beliefs. Results indicate that exposure to neighborhood and police violence can damage the legal socialization process. Adolescents who study at schools where most other students are repeatedly exposed to community violence and who report witnessing a police officer assaulting someone at different time points have an undermined development of judgements about the legitimacy of the law.
+  <b>Abstract</b>: We examine the influence of exposure to neighbourhood and police violence on the legal socialisation of adolescents aged 11 to 14 years living in the city of São Paulo, Brazil. In a unique context of idiosyncratic and violence policing where the state's ability to control crime is low, we discuss the extent to which being frequently exposed to neighbourhood crime and violence (e.g., listening to gunshots, witnessing or hearing about citizens carrying guns, being robbed, or selling drugs), relatively forcible police behaviour (e.g., police stops or arrests), or aggressive and improper forcible police behaviour (e.g., officers assaulting a member of the public) undermine the development of judgements about the legitimacy of the law. Drawing on data from a cohort-based, four-wave longitudinal survey of 2005-born adolescents living in São Paulo from 2016 to 2019, we use growth curve models to estimate developmental trajectories of legitimacy beliefs. Results indicate that exposure to police brutality can damage the process of legal socialisation, and that adolescents who study at schools where most other students are frequently exposed to neighbourhood violence tend to develop more antagonist views about the authority of the law.
  
   </details>
 
