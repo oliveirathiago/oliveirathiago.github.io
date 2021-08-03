@@ -30,6 +30,8 @@ author_profile: true
 
   Author: **Thiago R. Oliveira**.
   
+  Under first review at <i>Criminology</i>.
+  
   <details>
   <summary><i>See abstract</i></summary>
  
