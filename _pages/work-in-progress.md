@@ -9,7 +9,7 @@ author_profile: true
 
 ## Working papers
  
-- **[Violence and coercive policing: dynamics and consequences of the overpolicing-underpolicing paradox in Brazil's largest city](https://osf.io/preprints/socarxiv/89jkv)**
+- **[Violence and coercive policing: Dynamics and consequences of the overpolicing-underpolicing paradox in Brazil's largest city](https://osf.io/preprints/socarxiv/89jkv)**
 
   Author: **Thiago R. Oliveira**
   
@@ -26,16 +26,20 @@ author_profile: true
     
     [Replication materials here](https://github.com/oliveirathiago/overpolicing-underpolicing).
 
-- **[It's a matter of time: assessing the impact of aggressive police stops on (dis)trust in legal authority](https://osf.io/preprints/socarxiv/v58je/)**
+- **[The upshots of aggressive policing: Assessing the impact of police stops at gunpoint on police trustworthiness](https://osf.io/preprints/socarxiv/v58je/)**
 
   Author: **Thiago R. Oliveira**.
   
-  Under first review at <i>Criminology</i>.
+  Under first review, <i>Journal of Quantitative Criminology</i>.
   
   <details>
   <summary><i>See abstract</i></summary>
  
-  <b>Abstract</b>: Does the experience of being stopped by the police (including being stopped by the police at gunpoint) have a negative effect on trust in legal authority over time? Previous research suggests a link between negatively-experienced police stops and distrust of legal institutions. Yet, we lack clear evidence on the existence and dynamics of any putative causal effect. To address this gap, I draw on a three-wave longitudinal survey of adults who reside in São Paulo, Brazil, and examine the impact of police stops and police stops at gunpoint on three aspects of trust in legal authority (attitudinal change in perceptions of police fairness, perceptions of overpolicing, and cynicism about police protection). In the context of a multi-period difference-in-differences design, I rely on (i) a matching framework for panel data that assumes a dynamic treatment adoption to estimate short-term effects of a recent police stop, and (ii) a doubly robust estimator that assumes a staggered treatment adoption to assess the long-term effects of a first experience of being stopped by the police (at gunpoint). I conclude, overall, that it seems unlikely that general police stops damage trust in legal authority in São Paulo over time. However, a recent aggressive police stop with officers pointing a gun at the citizen does seem to have a negative short-term effect on perceived police fairness, while the first experience of a police stop at gunpoint among people with no previous contact seems to have a positive long-term effect on perceived overpolicing. This study contributes to a growing international literature that describes the social costs of aggressive policing strategies.
+  <b>Objectives</b>: Test the effects of being stopped by the police and being stopped by the police at gunpoint on three aspects of police trustworthiness (e.g., attitudinal change in perceptions of police fairness, overpolicing, and underpolicing). Disentangle between short-term effects of a recent stop and long-term effects of a first experience of being stopped by the police in several years.<br>
+  <b>Methods</b>: A three-wave longitudinal survey of residents of São Paulo, Brazil (2015-2019), measured people’s perceptions that officers tend to act with procedural fairness, repeatedly intrude upon the lives of community residents (overpolicing), and fail to ensure public safety (underpolicing), whether they were recently stopped by the police, and whether officers had pointed a gun at them during that stop. Analysis is carried out using a multi-period difference-in-differences design. Two-way fixed effects linear regression, matching for panel data, and doubly robust estimators were used to estimate slightly different causal estimands.<br>
+  <b>Results</b>: It seems unlikely that police stops damage police trustworthiness over time among São Paulo residents. A recent police stop at gunpoint seems to have a negative short-term effect on perceived police fairness. The first experience of a police stop at gunpoint in several years seems to have a positive long-term effect on perceived overpolicing.<br>
+  <b>Conclusions</b>: While police stops do not necessarily affect police trustworthiness, aggressive stops at gunpoint seem to affect perceptions of fairness and overpolicing. This study provides causal evidence on the relationship between police contact and attitudinal change and contributes to a growing international literature describing the social costs of aggressive policing strategies.
+
  
   </details>
   
@@ -43,13 +47,13 @@ author_profile: true
     
   [Replication materials here](https://github.com/oliveirathiago/CausalPoliceStops).
 
-- **Violência como fator socializador na construção da legitimidade da polícia: um estudo com adolescentes de São Paulo, Brasil**
+- **Violência como fator socializador na construção da legitimidade da polícia: Um estudo com adolescentes de São Paulo, Brasil**
 
   (*Violence as a socialising factor shaping police legitimacy: a study with adolescents in São Paulo, Brazil*)
 
   Authors: Renan Theodoro, Debora Piccirillo, Aline Gomes, & **Thiago R. Oliveira**.
  
-  Under first review at <i>Análise Social</i>.
+  Asked to revise and resubmit, <i>Análise Social</i>.
 
   <details>
   <summary><i>See abstract</i></summary>
@@ -60,7 +64,7 @@ author_profile: true
 
 ## Manuscripts in preparation
     
-- **Socialization through violence: exposure to neighborhood and police violence and the development of legal legitimacy among adolescents in São Paulo**
+- **Socialization through violence: Exposure to neighborhood and police violence and the development of legal legitimacy among adolescents in São Paulo**
   
   Authors: **Thiago R. Oliveira**, Jon Jackson, Renan Theodoro, Debora Piccirillo, & Rick Trinkner.
   
@@ -72,6 +76,15 @@ author_profile: true
   </details>
   
   [Replication materials here](https://github.com/oliveirathiago/violent-socialisation).
+  
+- **Legitimacy, trust and legal cynicism: A review of concepts**
+
+  Authors: **Thiago R. Oliveira** & Jon Jackson.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+  
+  </details>
 
 - **Economic inequality and the spatial distribution of stops and searches: evidence from London**
   
