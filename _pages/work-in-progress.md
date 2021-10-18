@@ -47,6 +47,21 @@ author_profile: true
     
   [Replication materials here](https://github.com/oliveirathiago/CausalPoliceStops).
 
+- **[Legitimacy, trust and legal cynicism: A review of concepts](https://osf.io/preprints/socarxiv/7k8ma)**
+
+  Authors: **Thiago R. Oliveira** & Jon Jackson.
+  
+  Under first review, <i>Tempo Social</i>.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+  
+  <b>Abstract</b>. We review the concepts of legitimacy, trust, and legal cynicism in the context the debate about police legitimacy, discuss the extent to which these concepts relate to each other, and offer some early, speculative thoughts on how a relational model of legitimacy can extend beyond procedural justiceconcerns.  Relying  upon  procedural  justice  theory,  we  emphasise  the  distinction  between  police legitimacy and legitimation: popular legitimacy is defined as public beliefs that legal authority has the right to rule (people acknowledge the moral appropriateness of legal authority) and the authority to govern (people recognise legal authority as the rightful authority), whereas legitimation is related to the criteria people use to judge the normative appropriateness of legal agents’ exercise of power (e.g., the extent to  which  police  officers  are  trustworthy  to  behave  in  accordance  with  people’s  normative expectations). Building on studies on legal cynicism and legal socialisation, we consider how other aspects of police conduct can send negative relational messages about people’s value within society and undermine  their  judgements  about  the  legitimacy  of  legal  authority –messages  of oppression, marginalisation,and neglectover the life course. We conclude suggesting avenues for future research on public-police relations.
+  
+   </details>
+   
+   Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/7k8ma).
+
 - **Violência como fator socializador na construção da legitimidade da polícia: Um estudo com adolescentes de São Paulo, Brasil**
 
   (*Violence as a socialising factor shaping police legitimacy: a study with adolescents in São Paulo, Brazil*)
@@ -77,14 +92,6 @@ author_profile: true
   
   [Replication materials here](https://github.com/oliveirathiago/violent-socialisation).
   
-- **Legitimacy, trust and legal cynicism: A review of concepts**
-
-  Authors: **Thiago R. Oliveira** & Jon Jackson.
-  
-  <details>
-  <summary><i>See abstract</i></summary>
-  
-  </details>
 
 - **Economic inequality and the spatial distribution of stops and searches: evidence from London**
   
