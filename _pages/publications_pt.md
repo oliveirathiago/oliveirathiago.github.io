@@ -7,6 +7,23 @@ author_profile: true
 
 {% include base_path %}
 
+## <i>Forthcoming</i>
+
+### 6. Violência como fator socializador na construção da legitimidade da polícia: Um estudo com adolescentes de São Paulo, Brasil
+
+(*Violence as a socialising factor shaping police legitimacy: a study with adolescents in São Paulo, Brazil*)
+
+Authors: Renan Theodoro, Debora Piccirillo, Aline Gomes, & **Thiago R. Oliveira**.
+ 
+Forthcoming in <i>Análise Social</i>.
+
+<details>
+<summary><i>See abstract</i></summary>
+
+<b>Abstract</b>. This paper investigates how adolescents are socialised to accept or reject police violence and abuse of power, and how these dispositions influence police legitimacy. Data came from a survey with 724 participants born in 2005, residents of the city of São Paulo, Brazil. Direct and indirect effects of experiences of violence and police contact over adolescents evaluations of police were estimated using structural equation modelling. Results indicate that aggressive and illegal policing, as well as exposure to violence in the neighborhood erode confidence in policing.
+
+</details>
+
 
 ## 2020
 
