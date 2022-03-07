@@ -13,33 +13,33 @@ author_profile: true
 
   Author: **Thiago R. Oliveira**
   
-  Asked to revise and resubmit, <i>American Journal of Sociology</i>.
+  Asked to revise and resubmit, <i>American Journal of Sociology</i>. Revision submitted.
   
   <details>
   <summary><i>See abstract</i></summary>
 
-  <b>Abstract</b>: Policing approaches that rely on repeated intrusion in the lives of citizens can be accompanied by public cynicism about the ability of legal institutions to ensure public safety. This study provides a quantitative assessment of the dynamics of phenomenon of overpolicing and underpolicing over time. It does so in the context of one of the largest cities in the Global South, with a focus on shifts in support for personal use of violence via diminished perceptions of legitimacy. Drawing upon a three-wave longitudinal survey representative of eight neighborhoods in São Paulo, Brazil, I demonstrate that perceptions of overpolicing and underpolicing (a) mutually reproduce each other over time, (b) vary significantly by neighborhood, (c) increase after aggressive police stops, (d) undermine police legitimacy, and (e) contribute to more favorable attitudes towards the acceptability of violence. This study provides further evidence on the costs of coercive policing, with significant implications for people’s recognition of the ruling power of legal authority.
+  <b>Abstract</b>: Residents of some neighborhoods often experience an overwhelming police presence that intrudes upon their lives, and yet feel unprotected by law enforcement agents who neglect safety provision, in a process named by the literature the overpolicing-underpolicing paradox. In the context of one of the largest cities in the Global South, this study provides a quantitative assessment of the dynamics and consequences of public expectations of overpolicing and underpolicing. Drawing upon a three-wave longitudinal survey representative of eight neighborhoods in São Paulo, Brazil, I demonstrate that perceptions of overpolicing and underpolicing (a) mutually reproduce each other over time, (b) share similar correlates, most notably related to exposure to structural disadvantage and aggressive police stops, (c) harm legitimacy judgements by sending negative relational messages of marginalization and neglect, and (d) contribute to increased levels of tolerance of violence via undermined legitimacy beliefs. This study provides further evidence that the demand for public safety in disadvantaged communities does not seem to be solved by policing strategies centered around the increase of coercive police presence, and highlights the relevance of investigating public-authority relations in understudied Global South settings.
+ 
+  <b>Keywords</b>: overpolicing-underpolicing paradox, legal cynicism, legitimacy, violence, Brazil
   
-    </details>
+  </details>
     
-    Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/89jkv).
+  Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/89jkv).
     
-    [Replication materials here](https://github.com/oliveirathiago/overpolicing-underpolicing).
+  [Replication materials here](https://github.com/oliveirathiago/overpolicing-underpolicing).
 
-- **[The upshots of aggressive policing: Assessing the impact of police stops at gunpoint on police trustworthiness](https://osf.io/preprints/socarxiv/v58je/)**
+- **[Aggressive policing and undermined legitimacy: Assessing the impact of police stops at gunpoint on perceptions of police in São Paulo, Brazil](https://osf.io/preprints/socarxiv/v58je/)**
 
   Author: **Thiago R. Oliveira**.
   
-  Under first review, <i>Journal of Quantitative Criminology</i>.
+  Under review, <i>Sociological Science</i>.
   
   <details>
   <summary><i>See abstract</i></summary>
  
-  <b>Objectives</b>: Test the effects of being stopped by the police and being stopped by the police at gunpoint on three aspects of police trustworthiness (e.g., attitudinal change in perceptions of police fairness, overpolicing, and underpolicing). Disentangle between short-term effects of a recent stop and long-term effects of a first experience of being stopped by the police in several years.<br>
-  <b>Methods</b>: A three-wave longitudinal survey of residents of São Paulo, Brazil (2015-2019), measured people’s perceptions that officers tend to act with procedural fairness, repeatedly intrude upon the lives of community residents (overpolicing), and fail to ensure public safety (underpolicing), whether they were recently stopped by the police, and whether officers had pointed a gun at them during that stop. Analysis is carried out using a multi-period difference-in-differences design. Two-way fixed effects linear regression, matching for panel data, and doubly robust estimators were used to estimate slightly different causal estimands.<br>
-  <b>Results</b>: It seems unlikely that police stops damage police trustworthiness over time among São Paulo residents. A recent police stop at gunpoint seems to have a negative short-term effect on perceived police fairness. The first experience of a police stop at gunpoint in several years seems to have a positive long-term effect on perceived overpolicing.<br>
-  <b>Conclusions</b>: While police stops do not necessarily affect police trustworthiness, aggressive stops at gunpoint seem to affect perceptions of fairness and overpolicing. This study provides causal evidence on the relationship between police contact and attitudinal change and contributes to a growing international literature describing the social costs of aggressive policing strategies.
-
+  <b>Abstract</b>: Confrontational policing tactics such as the widespread use of stop-and-frisk powers promise social benefits through crime reduction, but often at important social costs. In the context of a Global South city where policing methods rely heavily on aggressive practices, including the threat to use guns during routine police stops, this study provides evidence on another set of unintended consequences of aggressive policing: undermined legitimacy beliefs. Drawing on a three-wave longitudinal survey of adults residing in São Paulo, Brazil (2015-2018), I rely on recently developed methods for causal inference with panel data and estimate the impact of a recent police stop and a recent police stop at gunpoint on perceptions of police fairness, police effectiveness, overpolicing, and police legitimacy. Effects of a recent change in treatment status are estimated by matching methods for panel data combined with difference-in-differences. While estimates are too imprecise to suggest an effect of a recent police stop on attitudinal change, police stops at gunpoint decrease expectations of police fairness, increase expectations of overpolicing, and harm beliefs of police legitimacy. Under a credible conditional parallel trends assumption, this study provides causal evidence on the relationship between aggressive policing practices and legal attitudes, with important implications to public recognition of legal authority.
+ 
+  <b>Keywords</b>: Aggressive policing, Brazil, causal inference with panel data, police legitimacy, perceptions of police
  
   </details>
   
@@ -47,83 +47,51 @@ author_profile: true
     
   [Replication materials here](https://github.com/oliveirathiago/CausalPoliceStops).
 
-- **[Legitimacy, trust and legal cynicism: A review of concepts](https://osf.io/preprints/socarxiv/7k8ma)**
-
-  Authors: **Thiago R. Oliveira** & Jon Jackson.
-  
-  Under first review, <i>Tempo Social</i>.
-  
-  <details>
-  <summary><i>See abstract</i></summary>
-  
-  <b>Abstract</b>. We review the concepts of legitimacy, trust, and legal cynicism in the context the debate about police legitimacy, discuss the extent to which these concepts relate to each other, and offer some early, speculative thoughts on how a relational model of legitimacy can extend beyond procedural justiceconcerns.  Relying  upon  procedural  justice  theory,  we  emphasise  the  distinction  between  police legitimacy and legitimation: popular legitimacy is defined as public beliefs that legal authority has the right to rule (people acknowledge the moral appropriateness of legal authority) and the authority to govern (people recognise legal authority as the rightful authority), whereas legitimation is related to the criteria people use to judge the normative appropriateness of legal agents’ exercise of power (e.g., the extent to  which  police  officers  are  trustworthy  to  behave  in  accordance  with  people’s  normative expectations). Building on studies on legal cynicism and legal socialisation, we consider how other aspects of police conduct can send negative relational messages about people’s value within society and undermine  their  judgements  about  the  legitimacy  of  legal  authority –messages  of oppression, marginalisation,and neglectover the life course. We conclude suggesting avenues for future research on public-police relations.
-  
-   </details>
-   
-   Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/7k8ma).
-
-- **Violência como fator socializador na construção da legitimidade da polícia: Um estudo com adolescentes de São Paulo, Brasil**
-
-  (*Violence as a socialising factor shaping police legitimacy: a study with adolescents in São Paulo, Brazil*)
-
-  Authors: Renan Theodoro, Debora Piccirillo, Aline Gomes, & **Thiago R. Oliveira**.
- 
-  Asked to revise and resubmit, <i>Análise Social</i>.
-
-  <details>
-  <summary><i>See abstract</i></summary>
-
-  <b>Abstract</b>. This paper investigates how adolescents are socialised to accept or reject police violence and abuse of power, and how these dispositions influence police legitimacy. Data came from a survey with 724 participants born in 2005, residents of the city of São Paulo, Brazil. Direct and indirect effects of experiences of violence and police contact over adolescents evaluations of police were estimated using structural equation modelling. Results indicate that aggressive and illegal policing, as well as exposure to violence in the neighborhood erode confidence in policing.
-
-  </details>
-
-## Manuscripts in preparation
-    
-- **Socialization through violence: Exposure to neighborhood and police violence and the development of legal legitimacy among adolescents in São Paulo**
+- **[Socialization through violence: Exposure to neighborhood and police violence and the developmental trajectories of legal legitimacy beliefs among adolescents in São Paulo](https://osf.io/preprints/socarxiv/v3h97/)**
   
   Authors: **Thiago R. Oliveira**, Jon Jackson, Renan Theodoro, Debora Piccirillo, & Rick Trinkner.
   
+  Under review, <i>Criminology</i>.
+  
   <details>
   <summary><i>See abstract</i></summary>
  
-  <b>Abstract</b>: We examine the influence of exposure to neighbourhood and police violence on the legal socialisation of adolescents aged 11 to 14 years living in the city of São Paulo, Brazil. In a unique context of idiosyncratic and violence policing where the state's ability to control crime is low, we discuss the extent to which being frequently exposed to neighbourhood crime and violence (e.g., listening to gunshots, witnessing or hearing about citizens carrying guns, being robbed, or selling drugs), relatively forcible police behaviour (e.g., police stops or arrests), or aggressive and improper forcible police behaviour (e.g., officers assaulting a member of the public) undermine the development of judgements about the legitimacy of the law. Drawing on data from a cohort-based, four-wave longitudinal survey of 2005-born adolescents living in São Paulo from 2016 to 2019, we use growth curve models to estimate developmental trajectories of legitimacy beliefs. Results indicate that exposure to police brutality can damage the process of legal socialisation, and that adolescents who study at schools where most other students are frequently exposed to neighbourhood violence tend to develop more antagonist views about the authority of the law.
+  <b>Abstract</b>: We examine the role that exposure to neighborhood and police violence plays in the legal socialization of adolescents aged 11 to 14 years living in the city of São Paulo, Brazil. In a context of idiosyncratic and violent policing, where the state's ability to control crime is low, we assess the extent to which being exposed to neighborhood crime and violence (e.g., listening to gunshots and witnessing or hearing about citizens carrying guns, being robbed, or selling drugs), aggressive police behavior with violent undertones (e.g., certain forcible types of police stops and arrests), and/or outright violent police behavior (officers assaulting a member of the public) is associated with the development of adolescents’ judgements about the legitimacy of the law. Analyzing data from a cohort-based, four-wave longitudinal survey of 2005-born young people living in São Paulo from 2016 to 2019, we use growth curve models to estimate developmental trajectories of legitimacy beliefs. Results suggest that individual exposure to police violence is associated with the process of legal socialization and that, above and beyond this individual effect, adolescents attending schools where other students are exposed to neighborhood violence tend to develop more negative views about the legitimacy of legal authority over time.
+ 
+  <b>Keywords</b>: legal socialization, violence exposure, legitimacy of the law, police violence, Brazil
  
   </details>
   
-  [Replication materials here](https://github.com/oliveirathiago/violent-socialisation).
+  Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/v3h97/).
   
+  [Replication materials here](https://github.com/oliveirathiago/violent-socialisation).
 
-- **Economic inequality and the spatial distribution of stops and searches: evidence from London**
+- **Economic inequality and the spatial distribution of stop and search: evidence from London**
   
   Authors: Joel Suss & **Thiago R. Oliveira**.
   
+  Under review, <i>British Journal of Criminology</i>.
+  
   <details>
   <summary><i>See abstract</i></summary>
   
-  <b>Abstract</b>: We study the spatial distribution of stops and searches in London in 2019, and assess the extent to which salient, spatially-granular economic inequality is associated with a higher concentration of searches net of previous crime rates and spatial effects. We interpret stop and search as a tool of social control and demonstrate the degree to which economic inequality contributes to filter out locations where members of the public might stopped and searched by police officers. We use data at the level of Lower Super Output Areas (LSOAs) and draw on a novel measure of local inequality based on real and estimated housing values. Our analytic strategy involves estimating Spatial Durbin Models to account for spatial dependency and negative binomial regression models to estimate the number of stops and searches by LSOA. Results suggest that local economic inequality is strongly associated with the number of stops and searches, even taking into account spatial effects and previous crime rates. We also find that the effect of inequality depends on the level of affluence: the better off a location is, the stronger the effect of inequality on police stops and searches. We conclude by extending the cultural meaning of stop and search as a tool of social control. Police decisions regarding where to stop and search members of the public could be an additional mechanism that contributes to high levels of ethnic and social disproportionality in stop and search. 
+  <b>Abstract</b>: Expanding previous work that focused on <i>who</i> tends to be stopped and searched by police officers, in this study we focus on <i>where</i> police searches concentrate. Using data from London in 2019, we investigate whether stop and search (S&S) practices are spatially concentrated in more economically unequal locations. We use a novel measure of salient, spatially-granular economic inequality at the Lower Super Output Area level and demonstrate a substantive positive association with the concentration of S&S practices, even after taking into account spatial effects, lagged crime rates, and ethnic diversity. Police officers seem to stop and search members of the public in places where the well-off and the economically precarious co-exist. Implications for the understanding of S&S as a tool of social control are discussed.
+ 
+  <b>Keywords</b>: policing, stop and search, economic inequality, police effectiveness, social control
   
   </details>
   
-- **Self-legitimacy and commitment to democratic policing in Brazil: assessing the support for police militarization among São Paulo military police officers**
-
-  Authors: Viviane Cubas, Frederico Castelo Branco, **Thiago R. Oliveira**, & Justice Tankebe.
+- **From an offender-based to an offense-based justice: Changes in sentencing patterns in the Brazilian juvenile justice system from 1990 to 2006**
   
-  <details>
-  <summary><i>See abstract</i></summary>
-
-  <b>Abstract</b>: To what extent do police officers who are confident of their own authority support (or oppose) police militarization? Previous work has established possible links between police officers’ self-legitimacy and their commitment to democratic policing, which is based on principles of citizen participation, equity and responsiveness. Understood as the process through which policing activities take more and more characteristics of the military culture and behavior, police militarization premises on the idea that police officers should be trained as if they were going to war. Based on this nearly diametrical distinction and given the positive association found between self-legitimacy and commitment to democratic policing, we ask whether self-legitimacy is negatively associated with support for police militarization. Using data from a survey of officers from the São Paulo Military Police in 2016, we assess the extent to which measures of self-legitimacy are correlated with such support controlling for agents’ identification with military values – we also assess the extent to which self-legitimacy mediates the effects or other variables on support for police militarization, such as perceived public support and perceived distributive justice within the organization. Results of structural equation models indicate that while identification with military values mediate some statistical effects of perception of work environment on support for police militarization, self-belief in authority vested in them does not.
-
-  </details>
+  Authors: **Thiago R. Oliveira**, Marcos César Alvarez, & Bruna Gisi
   
-- **Pastas e prontuários do “Complexo do Tatuapé” (São Paulo/SP – 1990-2006): alterações nos padrões da justiça juvenil após o ECA**
-
-  (*Records from the Tatuapé Complex (São Paulo/SP - 1990-2006): juvenile justice's changing patterns after ECA*)
-  
-  Authors: **Thiago R. Oliveira**, Bruna Gisi, & Marcos César Alvarez
+  Under review, <i>Crime, Law and Social Change</i>.
   
   <details>
   <summary><i>See abstract</i></summary>
   
-  <b>Abstract</b>:
+  <b>Abstract</b>: Juvenile justice systems around the globe are increasingly more similar to criminal justice systems. In Brazil, previous legislations focused on the individuals themselves and did not distinguish between young offenders and children in precarious conditions, but a new legislation in 1990 marked a rupture and introduced elements of criminal law. We leverage a unique data set representative of every adolescent who has been through the juvenile justice system in the state of São Paulo between 1990 and 2006 and provide a quantitative assessment of the changes in sentencing patterns in the period. Results suggest that judges increasingly prioritise violent and drug-related offenses when convicting adolescent defendants, indicating that the Brazilian juvenile justice system progressively resembles the criminal justice rationale by emphasising the ideal of proportionality between crime and punishment. We conclude with a discussion on pendular justice, suggesting that juvenile justice in Brazil is moving from a positivist-inspired to a classic-inspire justice system.
+ 
+  <b>Keywords</b>: juvenile justice, sentencing, young offenders, criminological thought, Brazil
   
   </details>
