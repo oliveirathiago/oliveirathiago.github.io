@@ -7,22 +7,39 @@ author_profile: true
 
 {% include base_path %}
 
-## *Forthcoming*
+## 2022
 
-### [4. Fear and legitimacy in São Paulo, Brazil: police-citizen relations in a high violence, high fear city](https://osf.io/preprints/socarxiv/3awrz/)
+### [5. Fear and legitimacy in São Paulo, Brazil: police-citizen relations in a high violence, high fear city](https://onlinelibrary.wiley.com/doi/abs/10.1111/lasr.12589)
 
   Authors: Jon Jackson, Krisztián Pósch, **Thiago R. Oliveira**, Ben Bradford, Silvia Camões, Ariadne Natal, & André Zanetic.
   
-  Conditionally accepted at <i>Law & Society Review</i>.
+  Published in <i>Law & Society Review</i>, 2022.
   
   <details>
   <summary><i>See abstract</i></summary>
 
-  <b>Abstract</b>: We examine consensual and coercive police-citizen relations in São Paulo, Brazil. According to procedural justice theory, legitimacy operates as part of a virtuous circle, whereby normatively appropriate police behavior encourages people to self-regulate, which then reduces the need for coercive forms of social control. But can consensual and coercive police-citizen policiesbe so easily disentangled in a city in which many people fear crime, where some people fear policebut tolerate extreme police violence, and where the image of the police as “just another (violent) gang ”has significant cultural currency? Legitimacy has two components — the right to power and the authority to govern — and consistent with prior work from the US, UK and Australia, we find that procedural justice is the stronger predictor of the perceived right to power. Yet, the empirical link between legitimacy and legal compliance is complicated by fear of police and different motives to obey and disobey the police. Our modelling of the predictors of self-reported legal compliance finds that criminal behavior is highest among people who fear police, believe that officers act in inappropriate ways, and feel either no obligation to obey their commands or an instrumental obligation to obey the police. Implications of these findings are discussed.
+  <b>Abstract</b>: We examine consensual and coercive police–citizen relations in São Paulo, Brazil. According to procedural justice theory, popular legitimacy operates as part of a virtuous circle, whereby normatively appropriate police behavior encourages people to self-regulate, which then reduces the need for coercive forms of social control. But can consensual and coercive police–citizen relations be so easily disentangled in a city in which many people fear crime, where the ability to use force can often be palpable in even mundane police–citizen interactions, where some people fear police but also tolerate extreme police violence, and where the image of the military police as “just another (violent) gang” has significant cultural currency? Legitimacy has two components—assent (ascribed right to power) and consent (conferred right to govern)—and consistent with prior work from the US, UK, and Australia, we find that procedural justice is key to the legitimation of the police. Yet, the empirical link between legitimacy and legal compliance is complicated by ambivalent authority relations, rooted in part in heightened cultural expectations about police use of force to exercise power. We finish the paper with a discussion of the theoretical and policy implications of these findings.
 
   </details>
   
-  Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/3awrz/).
+  [Find paper here](https://onlinelibrary.wiley.com/doi/abs/10.1111/lasr.12589).
+
+## 2021
+
+### [4. Legitimacy, trust and legal cynicism: A review of concepts](https://osf.io/preprints/socarxiv/7k8ma)
+
+  Authors: **Thiago R. Oliveira** & Jon Jackson.
+  
+  Published in <i>Tempo Social</i>, 2021.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+  
+  <b>Abstract</b>. We review the concepts of legitimacy, trust, and legal cynicism in the context the debate about police legitimacy, discuss the extent to which these concepts relate to each other, and offer some early, speculative thoughts on how a relational model of legitimacy can extend beyond procedural justiceconcerns.  Relying  upon  procedural  justice  theory,  we  emphasise  the  distinction  between  police legitimacy and legitimation: popular legitimacy is defined as public beliefs that legal authority has the right to rule (people acknowledge the moral appropriateness of legal authority) and the authority to govern (people recognise legal authority as the rightful authority), whereas legitimation is related to the criteria people use to judge the normative appropriateness of legal agents’ exercise of power (e.g., the extent to  which  police  officers  are  trustworthy  to  behave  in  accordance  with  people’s  normative expectations). Building on studies on legal cynicism and legal socialisation, we consider how other aspects of police conduct can send negative relational messages about people’s value within society and undermine  their  judgements  about  the  legitimacy  of  legal  authority –messages  of oppression, marginalisation,and neglectover the life course. We conclude suggesting avenues for future research on public-police relations.
+  
+   </details>
+   
+  [Find paper here](https://www.scielo.br/j/ts/a/bFsqvFF3DmrTzJKx3VFkgKN/).
 
 ## 2020
 
@@ -45,8 +62,6 @@ author_profile: true
 
   </details>
   
-  Recommended citation: **Oliveira, Thiago R.**; Jackson, Jonathan; Murphy, Kristina; Bradford, Ben. (2020). Are trustworthiness and legitimacy 'hard to win, easy to lose'? A longitudinal test of the asymmetry thesis of police-citizen contact. *Journal of Quantitative Criminology*. [https://doi.org/10.1007/s10940-020-09478-2](https://doi.org/10.1007/s10940-020-09478-2).
-  
   [Find paper here](https://link.springer.com/article/10.1007/s10940-020-09478-2?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst).
   
   [Replication materials here](https://github.com/oliveirathiago/HardToWinEasyToLose_JQC2020).
@@ -62,17 +77,15 @@ author_profile: true
   <summary><i>See abstract</i></summary>
 
   <b>Abstract</b>.<br>
-  <b>Objectives</b>: Test whethercooperation with the police can be modelledas aplace-based norm that varies in strength from one neighborhoodto the next. Estimatewhetherperceived police legitimacy predictsan  individual’s willingness  to  cooperate in weak-norm neighborhoods,but not in  strong-norm neighborhoodswhere most  people  are either willing or  unwilling to  cooperate, irrespective of  their perceptions of police legitimacy.<br>
+  <b>Objectives</b>: Test whether cooperation with the police can be modelled as a place-based norm that varies in strength from one neighborhoodto the next. Estimate whether perceived police legitimacy predicts an  individual’s willingness  to  cooperate in weak-norm neighborhoods,but not in  strong-norm neighborhoods where most  people  are either willing or  unwilling to  cooperate, irrespective of  their perceptions of police legitimacy.<br>
   
-  <b>Methods</b>: A survey of 1,057individuals in 98 relatively high-crime English neighborhoodsdefined at a small spatial scalemeasured(a) willingness to cooperate using a hypothetical crime vignetteand (b) legitimacy using indicators of normative alignmentbetween police and citizen values. A mixed-effects,location-scale  model  estimatedthe  cluster-level  mean  and cluster-level variance  of willingness  to cooperateas a neighborhood-level latent variable. A cross-level interaction testedwhether legitimacy predicts individual-level willingness to cooperateonly in neighborhoods where the norm is weak.<br>
+  <b>Methods</b>: A survey of 1,057individuals in 98 relatively high-crime English neighborhoodsdefined at a small spatial scale measured (a) willingness to cooperate using a hypothetical crime vignette and (b) legitimacy using indicators of normative alignment between police and citizen values. A mixed-effects,location-scale  model  estimated the  cluster-level  mean  and cluster-level variance  of willingness  to cooperateas a neighborhood-level latent variable. A cross-level interaction tested whether legitimacy predicts individual-level willingness to cooperate only in neighborhoods where the norm is weak.<br>
   
-  <b>Results</b>:Willingness to cooperate clusteredstrongly by neighborhood. Therewere neighborhoods with (i) high meanand low variance, (ii) high meanand high variance, (iii) (relatively) low meanand low variance, and (iv) (relatively) low meanand high variance. Legitimacy was only a positive predictor of cooperation  in neighborhoods  that had a (relatively) low  mean  and  high  variance.  There  was little variance left to explain in neighborhoods where the norm was strong.<br>
+  <b>Results</b>: Willingness to cooperate clustered strongly by neighborhood. Therewere neighborhoods with (i) high meanand low variance, (ii) high meanand high variance, (iii) (relatively) low meanand low variance, and (iv) (relatively) low meanand high variance. Legitimacy was only a positive predictor of cooperation  in neighborhoods  that had a (relatively) low  mean  and  high  variance.  There  was little variance left to explain in neighborhoods where the norm was strong.<br>
   
-  <b>Conclusions</b>: Findingssupporta  boundary  condition  of  procedural  justice  theory:  namely, that cooperationcan  be  modelled  asa place-based norm  that  variesin  strengthfrom neighborhoodto neighborhoodand that legitimacy only predicts an  individual’s willingness  to  cooperate in neighborhoods wherethe norm is relatively weak. 
+  <b>Conclusions</b>: Findings support a boundary condition of procedural  justice  theory:  namely, that cooperationcan  be  modelled  asa place-based norm  that  variesin  strengthfrom neighborhood to neighborhoodand that legitimacy only predicts an  individual’s willingness  to  cooperate in neighborhoods where the norm is relatively weak. 
 
   </details>
-  
-  Recommended citation: Jackson, Jonathan; Brunton-Smith, Ian; Bradford, Ben; **Oliveira, Thiago R.**; Posch, Krisztian; Sturgis, Patrick. (2020). Police legitimacy and the norm to cooperate: using a mixed effects location scale model to estimate the strength of social norms at a small spatial scale. *Journal of Quantitative Criminology*. [https://doi.org/10.1007/s10940-020-09467-5](https://doi.org/10.1007/s10940-020-09467-5).
 
   [Find paper here](https://link.springer.com/article/10.1007%2Fs10940-020-09467-5).
 
@@ -88,8 +101,6 @@ Published in *Brazilian Political Science Review*, 2019
 <b>Abstract</b>: How do socially relevant attributes influence juvenile criminal sentencing? While judicial decisions should, in principle, be fully based on legally relevant factors such as the seriousness of the offense and the defendant’s criminal record, I ask whether and how extralegal characteristics related to the adolescent’s position in structural relations affect the decision-making process. I propose a mixed-methods design to study mechanisms of criminal sentencing. Using data from a representative sample of the São Paulo juvenile justice system records, I estimate mixed-effects logistic models to assess the probability of being sentenced to confinement given certain extralegal attributes, while controlling for legally relevant variables. Interaction effects show that adolescents registered as full-time students and classified as drug users are more likely to be sentenced to confinement than their counterparts, even when the arraignment is the same. The second step involved weekly visits to the juvenile courthouse in São Paulo over four months to observe judicial hearings. Prosecutors are central to the decision-making process. The standard decision-making mechanism is based on police documents and legally relevant information. When there is a rupture in the definition of the situation (usually when non-minority defendants enter the courtroom), a new mechanism emerges and more lenient decisions are made.
 
 </details>
-
-Recommended citation: **Oliveira, Thiago R.** (2019). Juvenile sentencing: a mixed-methods approach. *Brazilian Political Science Review*. 13(1). [doi.org/10.1590/1981-3821201900010006](http://dx.doi.org/10.1590/1981-3821201900010006).
 
 [Download paper here](http://oliveirathiago.github.io/files/paper_2019bpsr.pdf).
 
