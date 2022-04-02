@@ -27,12 +27,27 @@ author_profile: true
   Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/89jkv).
     
   [Replication materials here](https://github.com/oliveirathiago/overpolicing-underpolicing).
+  
+- **Economic inequality and the spatial distribution of stop and search: evidence from London**
+  
+  Authors: Joel Suss & **Thiago R. Oliveira**.
+  
+  Asked to revise and resubmit, <i>British Journal of Criminology</i>.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+  
+  <b>Abstract</b>: Expanding previous work that focused on <i>who</i> tends to be stopped and searched by police officers, in this study we focus on <i>where</i> police searches concentrate. Using data from London in 2019, we investigate whether stop and search (S&S) practices are spatially concentrated in more economically unequal locations. We use a novel measure of salient, spatially-granular economic inequality at the Lower Super Output Area level and demonstrate a substantive positive association with the concentration of S&S practices, even after taking into account spatial effects, lagged crime rates, and ethnic diversity. Police officers seem to stop and search members of the public in places where the well-off and the economically precarious co-exist. Implications for the understanding of S&S as a tool of social control are discussed.
+ 
+  <b>Keywords</b>: policing, stop and search, economic inequality, police effectiveness, social control
+  
+  </details>
 
 - **[Aggressive policing and undermined legitimacy: Assessing the impact of police stops at gunpoint on perceptions of police in São Paulo, Brazil](https://osf.io/preprints/socarxiv/v58je/)**
 
   Author: **Thiago R. Oliveira**.
   
-  Under review, <i>Sociological Science</i>.
+  Under review, <i>Journal of Experimental Criminology</i>.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -65,21 +80,6 @@ author_profile: true
   Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/v3h97/).
   
   [Replication materials here](https://github.com/oliveirathiago/violent-socialisation).
-
-- **Economic inequality and the spatial distribution of stop and search: evidence from London**
-  
-  Authors: Joel Suss & **Thiago R. Oliveira**.
-  
-  Under review, <i>British Journal of Criminology</i>.
-  
-  <details>
-  <summary><i>See abstract</i></summary>
-  
-  <b>Abstract</b>: Expanding previous work that focused on <i>who</i> tends to be stopped and searched by police officers, in this study we focus on <i>where</i> police searches concentrate. Using data from London in 2019, we investigate whether stop and search (S&S) practices are spatially concentrated in more economically unequal locations. We use a novel measure of salient, spatially-granular economic inequality at the Lower Super Output Area level and demonstrate a substantive positive association with the concentration of S&S practices, even after taking into account spatial effects, lagged crime rates, and ethnic diversity. Police officers seem to stop and search members of the public in places where the well-off and the economically precarious co-exist. Implications for the understanding of S&S as a tool of social control are discussed.
- 
-  <b>Keywords</b>: policing, stop and search, economic inequality, police effectiveness, social control
-  
-  </details>
   
 - **From an offender-based to an offense-based justice: Changes in sentencing patterns in the Brazilian juvenile justice system from 1990 to 2006**
   
