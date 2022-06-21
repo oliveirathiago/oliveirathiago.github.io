@@ -9,6 +9,25 @@ author_profile: true
 
 ## Working papers
   
+- **[Aggressive policing and undermined legitimacy: Assessing the impact of police stops at gunpoint on perceptions of police in São Paulo, Brazil](https://osf.io/preprints/socarxiv/v58je/)**
+
+  Author: **Thiago R. Oliveira**.
+  
+  Conditionally accepted, <i>Journal of Experimental Criminology</i>.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+ 
+  <b>Abstract</b>: Confrontational policing tactics such as the widespread use of stop-and-frisk powers promise social benefits through crime reduction, but often at important social costs. In the context of a Global South city where policing methods rely heavily on aggressive practices, including the threat to use guns during routine police stops, this study provides evidence on another set of unintended consequences of aggressive policing: undermined legitimacy beliefs. Drawing on a three-wave longitudinal survey of adults residing in São Paulo, Brazil (2015-2018), I rely on recently developed methods for causal inference with panel data and estimate the impact of a recent police stop and a recent police stop at gunpoint on perceptions of police fairness, police effectiveness, overpolicing, and police legitimacy. Effects of a recent change in treatment status are estimated by matching methods for panel data combined with difference-in-differences. While estimates are too imprecise to suggest an effect of a recent police stop on attitudinal change, police stops at gunpoint decrease expectations of police fairness, increase expectations of overpolicing, and harm beliefs of police legitimacy. Under a credible conditional parallel trends assumption, this study provides causal evidence on the relationship between aggressive policing practices and legal attitudes, with important implications to public recognition of legal authority.
+ 
+  <b>Keywords</b>: Aggressive policing, Brazil, causal inference with panel data, police legitimacy, perceptions of police
+ 
+  </details>
+  
+  Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/v58je/).
+    
+  [Replication materials here](https://github.com/oliveirathiago/CausalPoliceStops).
+  
 - **Economic inequality and the spatial distribution of stop and search: evidence from London**
   
   Authors: Joel Suss & **Thiago R. Oliveira**.
@@ -57,25 +76,6 @@ author_profile: true
   Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/89jkv).
     
   [Replication materials here](https://github.com/oliveirathiago/overpolicing-underpolicing).
-
-- **[Aggressive policing and undermined legitimacy: Assessing the impact of police stops at gunpoint on perceptions of police in São Paulo, Brazil](https://osf.io/preprints/socarxiv/v58je/)**
-
-  Author: **Thiago R. Oliveira**.
-  
-  Under review, <i>Journal of Experimental Criminology</i>.
-  
-  <details>
-  <summary><i>See abstract</i></summary>
- 
-  <b>Abstract</b>: Confrontational policing tactics such as the widespread use of stop-and-frisk powers promise social benefits through crime reduction, but often at important social costs. In the context of a Global South city where policing methods rely heavily on aggressive practices, including the threat to use guns during routine police stops, this study provides evidence on another set of unintended consequences of aggressive policing: undermined legitimacy beliefs. Drawing on a three-wave longitudinal survey of adults residing in São Paulo, Brazil (2015-2018), I rely on recently developed methods for causal inference with panel data and estimate the impact of a recent police stop and a recent police stop at gunpoint on perceptions of police fairness, police effectiveness, overpolicing, and police legitimacy. Effects of a recent change in treatment status are estimated by matching methods for panel data combined with difference-in-differences. While estimates are too imprecise to suggest an effect of a recent police stop on attitudinal change, police stops at gunpoint decrease expectations of police fairness, increase expectations of overpolicing, and harm beliefs of police legitimacy. Under a credible conditional parallel trends assumption, this study provides causal evidence on the relationship between aggressive policing practices and legal attitudes, with important implications to public recognition of legal authority.
- 
-  <b>Keywords</b>: Aggressive policing, Brazil, causal inference with panel data, police legitimacy, perceptions of police
- 
-  </details>
-  
-  Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/v58je/).
-    
-  [Replication materials here](https://github.com/oliveirathiago/CausalPoliceStops).
 
 - **[Socialization through violence: Exposure to neighborhood and police violence and the developmental trajectories of legal legitimacy beliefs among adolescents in São Paulo](https://osf.io/preprints/socarxiv/v3h97/)**
   
