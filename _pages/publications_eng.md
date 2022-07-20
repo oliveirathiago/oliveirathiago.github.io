@@ -18,15 +18,16 @@ author_profile: true
   <details>
   <summary><i>See abstract</i></summary>
  
-  <b>Abstract</b>:
+  <b>Abstract</b>:<br>
   
-  **Objectives:** Test the effects of a recent police stop and a recent police stop at gunpoint on changes in attitudes towards the police among residents of Brazil’s biggest city.
+  <b>Objectives:</b> Test the effects of a recent police stop and a recent police stop at gunpoint on changes in attitudes towards the police among residents of Brazil’s biggest city.<br>
   
-  **Methods:** A three-wave longitudinal survey of São Paulo residents (2015-2019) measured people’s beliefs about police legitimacy, expectations of police fairness, effectiveness, and overpolicing, whether they were recently stopped by the police, and whether officers had pointed a gun at them during that stop. Analysis is carried out using matching methods for panel data.
+  <b>Methods:</b> A three-wave longitudinal survey of São Paulo residents (2015-2019) measured people’s beliefs about police legitimacy, expectations of police fairness, effectiveness, and overpolicing, whether they were recently stopped by the police, and whether officers had pointed a gun at them during that stop. Analysis is carried out using matching methods for panel data.<br>
   
-  **Results:** While estimates are too imprecise to suggest an effect of a recent police stop on attitudinal change, recent police stops at gunpoint decrease public expectations of police fairness, increase expectations of over- policing, and harm public beliefs of police legitimacy.
+  <b>Results:</b> While estimates are too imprecise to suggest an effect of a recent police stop on attitudinal change, recent police stops at gunpoint decrease public expectations of police fairness, increase expectations of over- policing, and harm public beliefs of police legitimacy.<br>
   
-  **Conclusions:** Under a credible conditional parallel trends assumption, this study provides causal evidence on the relationship between aggressive policing practices and legal attitudes, with implications to public recognition of legal authority in a major Global South city.
+  <b>Conclusions:</b> Under a credible conditional parallel trends assumption, this study provides causal evidence on the relationship between aggressive policing practices and legal attitudes, with implications to public recognition of legal authority in a major Global South city.<br>
+  
   <b>Keywords</b>: Aggressive policing, Brazil, causal inference with panel data, perceptions of police, police legitimacy, police stops, procedural justice
  
   </details>
@@ -44,7 +45,7 @@ author_profile: true
   <details>
   <summary><i>See abstract</i></summary>
   
-  <b>Abstract</b>: We analyse the spatial concentration of stop and search (S&S) practices. Previous work argues that the persistent reliance on S&S, despite weak to null deterrent effects on crime, results from a social order maintenance motivation on the part of the police. Expanding previous studies that focused on *who* tends to be stopped and searched by police officers, we focus on *where* S&S concentrates and investigate the role of economic inequality. We use data from London in 2019 and demonstrate that a novel measure of salient, spatially-granular economic inequality is positively associated with S&S incidence at a small spatial scale, even when controlling for crime rates and other important variables. Police officers more frequently stop and search members of the public in places where the well-off and the economically precarious co-exist. Implications for understanding S&S as a tool which distinguishes between citizens, between those to protect and potential criminals, are discussed.
+  <b>Abstract</b>: We analyse the spatial concentration of stop and search (S&S) practices. Previous work argues that the persistent reliance on S&S, despite weak to null deterrent effects on crime, results from a social order maintenance motivation on the part of the police. Expanding previous studies that focused on *who* tends to be stopped and searched by police officers, we focus on *where* S&S concentrates and investigate the role of economic inequality. We use data from London in 2019 and demonstrate that a novel measure of salient, spatially-granular economic inequality is positively associated with S&S incidence at a small spatial scale, even when controlling for crime rates and other important variables. Police officers more frequently stop and search members of the public in places where the well-off and the economically precarious co-exist. Implications for understanding S&S as a tool which distinguishes between citizens, between those to protect and potential criminals, are discussed.<br>
  
   <b>Keywords</b>: policing, stop and search, economic inequality, police effectiveness, social control
   
