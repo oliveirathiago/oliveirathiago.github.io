@@ -9,13 +9,13 @@ author_profile: true
 
 ## <i>Forthcoming</i>
 
-### 6. Violência como fator socializador na construção da legitimidade da polícia: Um estudo com adolescentes de São Paulo, Brasil
+### [6. Violência como fator socializador na construção da legitimidade da polícia: Um estudo com adolescentes de São Paulo, Brasil](https://doi.org/10.31447/AS00032573.2022243.01)
 
 (*Violence as a socialising factor shaping police legitimacy: a study with adolescents in São Paulo, Brazil*)
 
 Authors: Renan Theodoro, Debora Piccirillo, Aline Gomes, & **Thiago R. Oliveira**.
  
-Forthcoming in <i>Análise Social</i>.
+Published in <i>Análise Social</i>, 2022
 
 <details>
 <summary><i>See abstract</i></summary>
@@ -23,6 +23,10 @@ Forthcoming in <i>Análise Social</i>.
 <b>Abstract</b>. This paper investigates how adolescents are socialised to accept or reject police violence and abuse of power, and how these dispositions influence police legitimacy. Data came from a survey with 724 participants born in 2005, residents of the city of São Paulo, Brazil. Direct and indirect effects of experiences of violence and police contact over adolescents evaluations of police were estimated using structural equation modelling. Results indicate that aggressive and illegal policing, as well as exposure to violence in the neighborhood erode confidence in policing.
 
 </details>
+
+Recommended citation: Theodoro, Renan, Debora Piccirillo, Aline Morais Mizutani Gomes, & **Thiago R. Oliveira**. (2022). "Violência como fator socializador na construção da legitimidade da polícia: um estudo com adolescentes de São Paulo, Brasil" *Análise Social*. Vol. LVII(2). [doi.org/10.31447/AS00032573.2022243.01](https://doi.org/10.31447/AS00032573.2022243.01)
+
+[Download paper here](http://analisesocial.ics.ul.pt/documentos/n243_a01.pdf).
 
 
 ## 2020

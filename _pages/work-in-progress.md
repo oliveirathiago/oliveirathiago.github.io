@@ -8,55 +8,6 @@ author_profile: true
 {% include base_path %}
 
 ## Working papers
-  
-- **[Aggressive policing and undermined legitimacy: Assessing the impact of police stops at gunpoint on perceptions of police in São Paulo, Brazil](https://osf.io/preprints/socarxiv/v58je/)**
-
-  Author: **Thiago R. Oliveira**.
-  
-  Conditionally accepted, <i>Journal of Experimental Criminology</i>.
-  
-  <details>
-  <summary><i>See abstract</i></summary>
- 
-  <b>Abstract</b>: Confrontational policing tactics such as the widespread use of stop-and-frisk powers promise social benefits through crime reduction, but often at important social costs. In the context of a Global South city where policing methods rely heavily on aggressive practices, including the threat to use guns during routine police stops, this study provides evidence on another set of unintended consequences of aggressive policing: undermined legitimacy beliefs. Drawing on a three-wave longitudinal survey of adults residing in São Paulo, Brazil (2015-2018), I rely on recently developed methods for causal inference with panel data and estimate the impact of a recent police stop and a recent police stop at gunpoint on perceptions of police fairness, police effectiveness, overpolicing, and police legitimacy. Effects of a recent change in treatment status are estimated by matching methods for panel data combined with difference-in-differences. While estimates are too imprecise to suggest an effect of a recent police stop on attitudinal change, police stops at gunpoint decrease expectations of police fairness, increase expectations of overpolicing, and harm beliefs of police legitimacy. Under a credible conditional parallel trends assumption, this study provides causal evidence on the relationship between aggressive policing practices and legal attitudes, with important implications to public recognition of legal authority.
- 
-  <b>Keywords</b>: Aggressive policing, Brazil, causal inference with panel data, police legitimacy, perceptions of police
- 
-  </details>
-  
-  Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/v58je/).
-    
-  [Replication materials here](https://github.com/oliveirathiago/CausalPoliceStops).
-  
-- **Economic inequality and the spatial distribution of stop and search: evidence from London**
-  
-  Authors: Joel Suss & **Thiago R. Oliveira**.
-  
-  Asked to revise and resubmit, <i>British Journal of Criminology</i>.
-  
-  <details>
-  <summary><i>See abstract</i></summary>
-  
-  <b>Abstract</b>: Expanding previous work that focused on <i>who</i> tends to be stopped and searched by police officers, in this study we focus on <i>where</i> police searches concentrate. Using data from London in 2019, we investigate whether stop and search (S&S) practices are spatially concentrated in more economically unequal locations. We use a novel measure of salient, spatially-granular economic inequality at the Lower Super Output Area level and demonstrate a substantive positive association with the concentration of S&S practices, even after taking into account spatial effects, lagged crime rates, and ethnic diversity. Police officers seem to stop and search members of the public in places where the well-off and the economically precarious co-exist. Implications for the understanding of S&S as a tool of social control are discussed.
- 
-  <b>Keywords</b>: policing, stop and search, economic inequality, police effectiveness, social control
-  
-  </details>
-
-- **From an offender-based to an offense-based justice: Changes in sentencing patterns in the Brazilian juvenile justice system from 1990 to 2006**
-  
-  Authors: **Thiago R. Oliveira**, Marcos César Alvarez, & Bruna Gisi
-  
-  Asked to revise and resubmit, <i>Crime, Law and Social Change</i>.
-  
-  <details>
-  <summary><i>See abstract</i></summary>
-  
-  <b>Abstract</b>: Juvenile justice systems around the globe are increasingly more similar to criminal justice systems. In Brazil, previous legislations focused on the individuals themselves and did not distinguish between young offenders and children in precarious conditions, but a new legislation in 1990 marked a rupture and introduced elements of criminal law. We leverage a unique data set representative of every adolescent who has been through the juvenile justice system in the state of São Paulo between 1990 and 2006 and provide a quantitative assessment of the changes in sentencing patterns in the period. Results suggest that judges increasingly prioritise violent and drug-related offenses when convicting adolescent defendants, indicating that the Brazilian juvenile justice system progressively resembles the criminal justice rationale by emphasising the ideal of proportionality between crime and punishment. We conclude with a discussion on pendular justice, suggesting that juvenile justice in Brazil is moving from a positivist-inspired to a classic-inspire justice system.
- 
-  <b>Keywords</b>: juvenile justice, sentencing, young offenders, criminological thought, Brazil
-  
-  </details>
 
 - **[Violence and coercive policing: Dynamics and consequences of the overpolicing-underpolicing paradox in Brazil's largest city](https://osf.io/preprints/socarxiv/89jkv)**
 
@@ -93,3 +44,32 @@ author_profile: true
   Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/v3h97/).
   
   [Replication materials here](https://github.com/oliveirathiago/violent-socialisation).
+  
+
+- **Does police use-of-force deter, or does it actually foster violent violent crime? Police misconduct and the cultural reproduction of legal cynicism in Chicago neighborhoods**
+  
+  Authors: **Thiago R. Oliveira** & David S. Kirk.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+ 
+  <b>Abstract</b>: This study explores the ecology of police use-of-force and its consequences in terms of the reproduction of legal cynicism and criminal activity. Leveraging data from the Invisible Institute’s Citizens Police Data Project, the Project on Human Development in Chicago Neighborhoods community survey, the Chicago Police Department, and the US Census, we examine the spatial and temporal associations between the number of complaints against police officers and the incidence of violent crime in Chicago neighborhoods between 1995 and 2015. We explore the mediating role of legal cynicism, a cultural frame produced by repeated exposure to abusive policing that can potentially foster criminal behavior. The empirical study has two parts. First, we use dynamic panel models with fixed effects and show that neighborhoods with more complaints about police use-of-force tend to have higher incidences of both violent and non-violent crime. Second, we conduct an ecological analysis and demonstrate that legal cynicism mediates this relationship, as police use-of-force produces legal cynicism, which in turn contributes to increase crime counts. We also estimate a mixed-effects location-scale model and show that the association between cynicism of the law and crime is moderated by the degree to which residents' views about the police are consensual or dissensual, with larger effect sizes in culturally heterogeneous neighborhoods. We conclude with some reflection about neighborhood processes and the consequences of police misconduct for people's relationship with the law and the legal institutions.
+ 
+  <b>Keywords</b>: police misconduct, legal cynicism, police use-of-force, neighborhood processes, violence
+ 
+  </details>
+  
+- **From an offender-based to an offense-based justice: Changes in sentencing patterns in the Brazilian juvenile justice system from 1990 to 2006**
+  
+  Authors: **Thiago R. Oliveira**, Marcos César Alvarez, & Bruna Gisi
+  
+  Asked to revise and resubmit, <i>Crime, Law and Social Change</i>.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+  
+  <b>Abstract</b>: Juvenile justice systems around the globe are increasingly more similar to criminal justice systems. In Brazil, previous legislations focused on the individuals themselves and did not distinguish between young offenders and children in precarious conditions, but a new legislation in 1990 marked a rupture and introduced elements of criminal law. We leverage a unique data set representative of every adolescent who has been through the juvenile justice system in the state of São Paulo between 1990 and 2006 and provide a quantitative assessment of the changes in sentencing patterns in the period. Results suggest that judges increasingly prioritise violent and drug-related offenses when convicting adolescent defendants, indicating that the Brazilian juvenile justice system progressively resembles the criminal justice rationale by emphasising the ideal of proportionality between crime and punishment. We conclude with a discussion on pendular justice, suggesting that juvenile justice in Brazil is moving from a positivist-inspired to a classic-inspire justice system.
+ 
+  <b>Keywords</b>: juvenile justice, sentencing, young offenders, criminological thought, Brazil
+  
+  </details>
