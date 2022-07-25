@@ -13,7 +13,7 @@ author_profile: true
 
   Author: **Thiago R. Oliveira**.
   
-  Conditionally accepted, <i>Journal of Experimental Criminology</i>.
+  Accepted for publication, <i>Journal of Experimental Criminology</i>.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -40,7 +40,7 @@ author_profile: true
   
   Authors: Joel Suss & **Thiago R. Oliveira**.
   
-  Forthcoming in the <i>British Journal of Criminology</i>.
+  Accepted for publication, <i>British Journal of Criminology</i>.
   
   <details>
   <summary><i>See abstract</i></summary>

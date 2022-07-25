@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-## <i>Forthcoming</i>
+## 2022
 
 ### [6. Violência como fator socializador na construção da legitimidade da polícia: Um estudo com adolescentes de São Paulo, Brasil](https://doi.org/10.31447/AS00032573.2022243.01)
 
