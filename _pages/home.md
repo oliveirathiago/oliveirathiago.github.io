@@ -22,7 +22,7 @@ My chief research interests are primarily organised around the following topics:
 
     I'm interested in theoretical developments of **procedural justice theory**, as well as its close connections to the legal cynicism and legal socialisation perspectives. I'm particularly keen to investigate what other aspects of police conduct beyond fair process could also consist of **legitimating norms** that contribute to enhance or harm public beliefs about the legitimacy of legal authority, especially in understudied societies in the Global South. For instance, my ongoing investigation in the city of São Paulo, Brazil, demonstrates that **perceptions of overpolicing** (e.g., the degree to which people perceive police officers to be repeatedly intruding upon their lives) and **underpolicing** (e.g., how sceptical people are about police officers' interest and ability to ensure public safety) also contribute to undermine legitimacy beliefs.
   
-  - *Confrontational proactive policing tactics
+  - *Confrontational proactive policing tactics*
   
     I'm very keen to conduct criminal justice **policy evaluations**. I'm eager to assess the extent to which certain aggressive policing tactics such as **stop and search** actually work to deter crime, but also if they work as a tool of social order maintenance and even whther they end up promoting legal cynicism and offending behaviour. For instance, in previous research I showed that police stops at gunpoint undermine legitimacy beliefs and that stop and search practices in London tend to concentrate in economically unequal locations. In general, I'm mostly keen to investigate policing policy in Latin America, especially **Brazil**.
     
