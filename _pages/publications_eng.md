@@ -7,13 +7,11 @@ author_profile: true
 
 {% include base_path %}
 
-## Forthcoming
+## 2022
 
-### [7. Aggressive policing and undermined legitimacy: Assessing the impact of police stops at gunpoint on perceptions of police in São Paulo, Brazil](https://osf.io/preprints/socarxiv/v58je/)
+### [7. Aggressive policing and undermined legitimacy: Assessing the impact of police stops at gunpoint on perceptions of police in São Paulo, Brazil](https://thiagoroliveira.com/files/paper_2022_JOEX.pdf)
 
-  Author: **Thiago R. Oliveira**.
-  
-  Accepted for publication, <i>Journal of Experimental Criminology</i>.
+  **Thiago R. Oliveira**. <i>Journal of Experimental Criminology</i>.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -32,15 +30,11 @@ author_profile: true
  
   </details>
   
-  Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/v58je/).
-  
-  [Replication materials here](https://github.com/oliveirathiago/CausalPoliceStops).
+  Find paper [here](https://link.springer.com/article/10.1007/s11292-022-09527-9). Replication materials [here](https://github.com/oliveirathiago/CausalPoliceStops).
 
-### 6. Economic inequality and the spatial distribution of stop and search: evidence from London
+### [6. Economic inequality and the spatial distribution of stop and search: evidence from London](https://thiagoroliveira.com/files/paper_2022_BJC.pdf)
   
-  Authors: Joel Suss & **Thiago R. Oliveira**.
-  
-  Accepted for publication, <i>British Journal of Criminology</i>.
+  Joel Suss & **Thiago R. Oliveira**. <i> The British Journal of Criminology</i>.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -51,15 +45,11 @@ author_profile: true
   
   </details>
   
-  [Replication materials here](http://github.com/jhsuss/stop-search).
-  
-## 2022
+  Find paper [here](https://academic.oup.com/bjc/advance-article/doi/10.1093/bjc/azac069/6674351?login=false). Replication materials [here](http://github.com/jhsuss/stop-search).
 
-### [5. Fear and legitimacy in São Paulo, Brazil: police-citizen relations in a high violence, high fear city](https://onlinelibrary.wiley.com/doi/abs/10.1111/lasr.12589)
+### [5. Fear and legitimacy in São Paulo, Brazil: police-citizen relations in a high violence, high fear city](https://thiagoroliveira.com/files/paper_2021_LSR.pdf)
 
-  Authors: Jon Jackson, Krisztián Pósch, **Thiago R. Oliveira**, Ben Bradford, Silvia Camões, Ariadne Natal, & André Zanetic.
-  
-  Published in <i>Law & Society Review</i>, 2022.
+  Jon Jackson, Krisztián Pósch, **Thiago R. Oliveira**, Ben Bradford, Silvia Camões, Ariadne Natal, & André Zanetic. <i>Law & Society Review</i>.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -68,15 +58,13 @@ author_profile: true
 
   </details>
   
-  [Find paper here](https://onlinelibrary.wiley.com/doi/abs/10.1111/lasr.12589).
+  Find paper [here](https://onlinelibrary.wiley.com/doi/abs/10.1111/lasr.12589).
 
 ## 2021
 
-### [4. Legitimacy, trust and legal cynicism: A review of concepts](https://osf.io/preprints/socarxiv/7k8ma)
+### [4. Legitimacy, trust and legal cynicism: A review of concepts](https://thiagoroliveira.com/files/paper_2021_TS.pdf)
 
-  Authors: **Thiago R. Oliveira** & Jon Jackson.
-  
-  Published in <i>Tempo Social</i>, 2021.
+  **Thiago R. Oliveira** & Jon Jackson. <i>Tempo Social</i>.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -85,15 +73,13 @@ author_profile: true
   
    </details>
    
-  [Find paper here](https://www.scielo.br/j/ts/a/bFsqvFF3DmrTzJKx3VFkgKN/).
+  Find paper [here](https://www.scielo.br/j/ts/a/bFsqvFF3DmrTzJKx3VFkgKN/).
 
 ## 2020
 
-### [3. Are trustworthiness and legitimacy 'hard to win, easy to lose'? A longitudinal test of the asymmetry thesis of police-citizen contact](https://link.springer.com/article/10.1007/s10940-020-09478-2?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst)
+### [3. Are trustworthiness and legitimacy 'hard to win, easy to lose'? A longitudinal test of the asymmetry thesis of police-citizen contact](https://thiagoroliveira.com/files/paper_2021_JQC.pdf)
 
-  Authors: **Thiago R. Oliveira**, Jon Jackson, Kristina Murphy, & Ben Bradford.
-  
-  Published in the <i>Journal of Quantitative Criminology</i>, 2020.
+  **Thiago R. Oliveira**, Jon Jackson, Kristina Murphy, & Ben Bradford. <i>Journal of Quantitative Criminology</i>.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -108,16 +94,12 @@ author_profile: true
 
   </details>
   
-  [Find paper here](https://link.springer.com/article/10.1007/s10940-020-09478-2?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst).
-  
-  [Replication materials here](https://github.com/oliveirathiago/HardToWinEasyToLose_JQC2020).
+  Find paper [here](https://link.springer.com/article/10.1007/s10940-020-09478-2?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst).  Replication materials [here](https://github.com/oliveirathiago/HardToWinEasyToLose_JQC2020).
   
 
-### [2. Police legitimacy and the norm to cooperate: using a mixed effects location scale model to estimate the strength of social norms at a small spatial scale](https://link.springer.com/article/10.1007%2Fs10940-020-09467-5)
+### [2. Police legitimacy and the norm to cooperate: using a mixed effects location scale model to estimate the strength of social norms at a small spatial scale](https://thiagoroliveira.com/files/paper_2020_JQC.pdf)
 
-  Authors: Jon Jackson, Ian Bruton-Smith, Ben Bradford, **Thiago R. Oliveira**, Krisztián Pósch, & Patrick Sturgis.
-
-  Published in the <i>Journal of Quantitative Criminology</i>, 2020.
+  Jon Jackson, Ian Bruton-Smith, Ben Bradford, **Thiago R. Oliveira**, Krisztián Pósch, & Patrick Sturgis. <i>Journal of Quantitative Criminology</i>.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -133,23 +115,21 @@ author_profile: true
 
   </details>
 
-  [Find paper here](https://link.springer.com/article/10.1007%2Fs10940-020-09467-5).
+  Find paper [here](https://link.springer.com/article/10.1007%2Fs10940-020-09467-5).
 
 ## 2019
 
 ### [1. Juvenile Sentencing: A Mixed-Methods Approach](http://oliveirathiago.github.io/files/paper_2019bpsr.pdf)
 
-Published in *Brazilian Political Science Review*, 2019
-
-<details>
-<summary><i>See abstract</i></summary>
-
-<b>Abstract</b>: How do socially relevant attributes influence juvenile criminal sentencing? While judicial decisions should, in principle, be fully based on legally relevant factors such as the seriousness of the offense and the defendant’s criminal record, I ask whether and how extralegal characteristics related to the adolescent’s position in structural relations affect the decision-making process. I propose a mixed-methods design to study mechanisms of criminal sentencing. Using data from a representative sample of the São Paulo juvenile justice system records, I estimate mixed-effects logistic models to assess the probability of being sentenced to confinement given certain extralegal attributes, while controlling for legally relevant variables. Interaction effects show that adolescents registered as full-time students and classified as drug users are more likely to be sentenced to confinement than their counterparts, even when the arraignment is the same. The second step involved weekly visits to the juvenile courthouse in São Paulo over four months to observe judicial hearings. Prosecutors are central to the decision-making process. The standard decision-making mechanism is based on police documents and legally relevant information. When there is a rupture in the definition of the situation (usually when non-minority defendants enter the courtroom), a new mechanism emerges and more lenient decisions are made.
-
-</details>
-
-[Download paper here](http://oliveirathiago.github.io/files/paper_2019bpsr.pdf).
-
-[Replication materials here](https://doi.org/10.7910/DVN/QLKRGD).
+  **Thiago R. Oliveira**. <i>Brazilian Political Science Review</i>.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+  
+  <b>Abstract</b>: How do socially relevant attributes influence juvenile criminal sentencing? While judicial decisions should, in principle, be fully based on legally relevant factors such as the seriousness of the offense and the defendant’s criminal record, I ask whether and how extralegal characteristics related to the adolescent’s position in structural relations affect the decision-making process. I propose a mixed-methods design to study mechanisms of criminal sentencing. Using data from a representative sample of the São Paulo juvenile justice system records, I estimate mixed-effects logistic models to assess the probability of being sentenced to confinement given certain extralegal attributes, while controlling for legally relevant variables. Interaction effects show that adolescents registered as full-time students and classified as drug users are more likely to be sentenced to confinement than their counterparts, even when the arraignment is the same. The second step involved weekly visits to the juvenile courthouse in São Paulo over four months to observe judicial hearings. Prosecutors are central to the decision-making process. The standard decision-making mechanism is based on police documents and legally relevant information. When there is a rupture in the definition of the situation (usually when non-minority defendants enter the courtroom), a new mechanism emerges and more lenient decisions are made.
+  
+  </details>
+  
+  Find paper [here](https://brazilianpoliticalsciencereview.org/article/juvenile-sentencing-a-mixed-methods-approach/). Replication materials [here](https://doi.org/10.7910/DVN/QLKRGD).
 
 

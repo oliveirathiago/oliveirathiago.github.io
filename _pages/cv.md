@@ -11,10 +11,10 @@ redirect_from:
 
 :brazil: Veja meu Currículo Lattes [aqui](http://lattes.cnpq.br/3901837886824021).
 
-:uk: You can find the most recent version of my CV below. A pdf version can be downloaded [here](https://oliveirathiago.github.io/files/CV_ThiagoROliveira_Aug2022.pdf).
+:uk: You can find the most recent version of my CV below. A pdf version can be downloaded [here](https://oliveirathiago.github.io/files/CV_ThiagoROliveira_Sep22.pdf).
 
 <html lang="en" style="width:100%; height:50000%;">
   <body style="width:100%; height:50000%; margin:0;">
-    <iframe src="https://docs.google.com/gview?url=https://oliveirathiago.github.io/files/CV_ThiagoROliveira_Aug2022.pdf&embedded=true" style="width:100%; height:1000px;" frameborder="0"></iframe>
+    <iframe src="https://docs.google.com/gview?url=https://oliveirathiago.github.io/files/CV_ThiagoROliveira_Sep22.pdf&embedded=true" style="width:100%; height:1000px;" frameborder="0"></iframe>
   </body>
 </html>
