@@ -9,7 +9,7 @@ author_profile: true
 
 ## 2022
 
-### [7. Aggressive policing and undermined legitimacy: Assessing the impact of police stops at gunpoint on perceptions of police in São Paulo, Brazil](https://thiagoroliveira.com/files/paper_2022_JOEX.pdf)
+### [8. Aggressive policing and undermined legitimacy: Assessing the impact of police stops at gunpoint on perceptions of police in São Paulo, Brazil](https://thiagoroliveira.com/files/paper_2022_JOEX.pdf)
 
   **Thiago R. Oliveira**. <i>Journal of Experimental Criminology</i>.
   
@@ -32,7 +32,7 @@ author_profile: true
   
   Find paper [here](https://link.springer.com/article/10.1007/s11292-022-09527-9). Replication materials [here](https://github.com/oliveirathiago/CausalPoliceStops).
 
-### [6. Economic inequality and the spatial distribution of stop and search: evidence from London](https://thiagoroliveira.com/files/paper_2022_BJC.pdf)
+### [7. Economic inequality and the spatial distribution of stop and search: evidence from London](https://thiagoroliveira.com/files/paper_2022_BJC.pdf)
   
   Joel Suss & **Thiago R. Oliveira**. <i> The British Journal of Criminology</i>.
   
@@ -47,7 +47,7 @@ author_profile: true
   
   Find paper [here](https://academic.oup.com/bjc/advance-article/doi/10.1093/bjc/azac069/6674351?login=false). Replication materials [here](http://github.com/jhsuss/stop-search).
 
-### [5. Fear and legitimacy in São Paulo, Brazil: police-citizen relations in a high violence, high fear city](https://thiagoroliveira.com/files/paper_2021_LSR.pdf)
+### [6. Fear and legitimacy in São Paulo, Brazil: police-citizen relations in a high violence, high fear city](https://thiagoroliveira.com/files/paper_2021_LSR.pdf)
 
   Jon Jackson, Krisztián Pósch, **Thiago R. Oliveira**, Ben Bradford, Silvia Camões, Ariadne Natal, & André Zanetic. <i>Law & Society Review</i>.
   
@@ -59,6 +59,20 @@ author_profile: true
   </details>
   
   Find paper [here](https://onlinelibrary.wiley.com/doi/abs/10.1111/lasr.12589).
+  
+### [5. From an offender-based to an offense-based justice: Changes in sentencing patterns in the Brazilian juvenile justice system from 1990 to 2006](https://link.springer.com/article/10.1007/s10611-022-10065-8)
+
+  **Thiago R. Oliveira**, Marcos Cesar Alvarez, & Bruna Gisi . <i>Crime, Law, and Social Change</i>.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+
+  <b>Abstract</b>: Juvenile justice systems around the globe are becoming increasingly more similar to criminal justice systems. In Brazil, previous legislations focused on the individuals themselves and did not distinguish between young offenders and children in precarious conditions, but a new legislation in 1990 marked a rupture and introduced elements of criminal law. We leverage a unique data set representative of every adolescent who has been through the juvenile justice system in the state of São Paulo between 1990 and 2006 and provide a quantitative assessment of the changes in sentencing patterns in the period. Results suggest that judges increasingly prioritise violent and drug-related offenses when convicting adolescent defendants, indicating that the Brazilian juvenile justice system progressively resembles the criminal justice rationale by emphasising the ideal of proportionality between crime and punishment. We conclude with a discussion on pendular justice, suggesting that juvenile justice in Brazil is moving from a positivist-inspired to a classic-inspire justice system.
+
+  </details>
+  
+  Find paper [here](https://link.springer.com/article/10.1007/s10611-022-10065-8). Replication materials [here](https://github.com/oliveirathiago/pendular_justice).
+
 
 ## 2021
 
