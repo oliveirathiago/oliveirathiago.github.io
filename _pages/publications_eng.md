@@ -7,7 +7,30 @@ author_profile: true
 
 {% include base_path %}
 
-## 2022
+## 2024
+
+### [9. Did the Murder of George Floyd Damage Public Perceptions of Police and Law in the United States?]((https://thiagoroliveira.com/files/Floyd_JRCD.pdf))
+
+  Adam Fine, **Thiago R. Oliveira**, Jon Jackson, Ben Bradford, Rick Trinkner, Krisztian Posch. <i>Journal of Research in Crime and Delinquency</i>.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+ 
+  <b>Abstract</b>:<br>
+  
+  <b>Objectives:</b> The police killing of George Floyd energized the Black Lives Matter (BLM) social movement across the United States in the summer of 2020. We test the impact on public perceptions of the fairness and legitimacy of the police and law.<br>
+  
+  <b>Methods:</b> A four-state, three-wave, short-term longitudinal study (N = 1048; Arizona, Michigan, New York, and Texas) used a novel design focused on differences in change over time to test whether public perceptions changed after the killing of Floyd.<br>
+  
+  <b>Results:</b> Fielding multiple outcome markers, as well as multiple pseudo-placebo comparison variables, we found that perceptions of police procedural justice, distributive justice, and bounded authority, as well as perceptions of the legitimacy of the police and law, declined following Floyd's murder. Levels of trust in science, identification with healthcare workers, and collective efficacy perceptions did not change. As discussed in the paper, the effects varied by participants’ political views.<br>
+  
+  <b>Conclusions:</b> The police killing of George Floyd and subsequent protests seemed to have damaged attitudes towards police and the law.<br>
+  
+  <b>Keywords</b>: procedural justice, police perceptions, police legitimacy, police brutality.
+ 
+  </details>
+  
+  Find paper [here](https://journals.sagepub.com/doi/10.1177/00224278241263527). Replication materials [here](https://github.com/oliveirathiago/JRCD_Floyd).
 
 ### [8. Aggressive policing and undermined legitimacy: Assessing the impact of police stops at gunpoint on perceptions of police in São Paulo, Brazil](https://thiagoroliveira.com/files/paper_2022_JOEX.pdf)
 
@@ -31,6 +54,8 @@ author_profile: true
   </details>
   
   Find paper [here](https://link.springer.com/article/10.1007/s11292-022-09527-9). Replication materials [here](https://github.com/oliveirathiago/CausalPoliceStops).
+  
+## 2023
 
 ### [7. Economic inequality and the spatial distribution of stop and search: evidence from London](https://thiagoroliveira.com/files/paper_2022_BJC.pdf)
   
@@ -46,21 +71,8 @@ author_profile: true
   </details>
   
   Find paper [here](https://academic.oup.com/bjc/advance-article/doi/10.1093/bjc/azac069/6674351?login=false). Replication materials [here](http://github.com/jhsuss/stop-search).
-
-### [6. Fear and legitimacy in São Paulo, Brazil: police-citizen relations in a high violence, high fear city](https://thiagoroliveira.com/files/paper_2021_LSR.pdf)
-
-  Jon Jackson, Krisztián Pósch, **Thiago R. Oliveira**, Ben Bradford, Silvia Camões, Ariadne Natal, & André Zanetic. <i>Law & Society Review</i>.
   
-  <details>
-  <summary><i>See abstract</i></summary>
-
-  <b>Abstract</b>: We examine consensual and coercive police–citizen relations in São Paulo, Brazil. According to procedural justice theory, popular legitimacy operates as part of a virtuous circle, whereby normatively appropriate police behavior encourages people to self-regulate, which then reduces the need for coercive forms of social control. But can consensual and coercive police–citizen relations be so easily disentangled in a city in which many people fear crime, where the ability to use force can often be palpable in even mundane police–citizen interactions, where some people fear police but also tolerate extreme police violence, and where the image of the military police as “just another (violent) gang” has significant cultural currency? Legitimacy has two components—assent (ascribed right to power) and consent (conferred right to govern)—and consistent with prior work from the US, UK, and Australia, we find that procedural justice is key to the legitimation of the police. Yet, the empirical link between legitimacy and legal compliance is complicated by ambivalent authority relations, rooted in part in heightened cultural expectations about police use of force to exercise power. We finish the paper with a discussion of the theoretical and policy implications of these findings.
-
-  </details>
-  
-  Find paper [here](https://onlinelibrary.wiley.com/doi/abs/10.1111/lasr.12589).
-  
-### [5. From an offender-based to an offense-based justice: Changes in sentencing patterns in the Brazilian juvenile justice system from 1990 to 2006](https://link.springer.com/article/10.1007/s10611-022-10065-8)
+### [6. From an offender-based to an offense-based justice: Changes in sentencing patterns in the Brazilian juvenile justice system from 1990 to 2006](https://link.springer.com/article/10.1007/s10611-022-10065-8)
 
   **Thiago R. Oliveira**, Marcos Cesar Alvarez, & Bruna Gisi . <i>Crime, Law, and Social Change</i>.
   
@@ -72,6 +84,21 @@ author_profile: true
   </details>
   
   Find paper [here](https://link.springer.com/article/10.1007/s10611-022-10065-8). Replication materials [here](https://github.com/oliveirathiago/pendular_justice).
+  
+## 2022
+
+### [5. Fear and legitimacy in São Paulo, Brazil: police-citizen relations in a high violence, high fear city](https://thiagoroliveira.com/files/paper_2021_LSR.pdf)
+
+  Jon Jackson, Krisztián Pósch, **Thiago R. Oliveira**, Ben Bradford, Silvia Camões, Ariadne Natal, & André Zanetic. <i>Law & Society Review</i>.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+
+  <b>Abstract</b>: We examine consensual and coercive police–citizen relations in São Paulo, Brazil. According to procedural justice theory, popular legitimacy operates as part of a virtuous circle, whereby normatively appropriate police behavior encourages people to self-regulate, which then reduces the need for coercive forms of social control. But can consensual and coercive police–citizen relations be so easily disentangled in a city in which many people fear crime, where the ability to use force can often be palpable in even mundane police–citizen interactions, where some people fear police but also tolerate extreme police violence, and where the image of the military police as “just another (violent) gang” has significant cultural currency? Legitimacy has two components—assent (ascribed right to power) and consent (conferred right to govern)—and consistent with prior work from the US, UK, and Australia, we find that procedural justice is key to the legitimation of the police. Yet, the empirical link between legitimacy and legal compliance is complicated by ambivalent authority relations, rooted in part in heightened cultural expectations about police use of force to exercise power. We finish the paper with a discussion of the theoretical and policy implications of these findings.
+
+  </details>
+  
+  Find paper [here](https://onlinelibrary.wiley.com/doi/abs/10.1111/lasr.12589).
 
 
 ## 2021
@@ -88,8 +115,6 @@ author_profile: true
    </details>
    
   Find paper [here](https://www.scielo.br/j/ts/a/bFsqvFF3DmrTzJKx3VFkgKN/).
-
-## 2020
 
 ### [3. Are trustworthiness and legitimacy 'hard to win, easy to lose'? A longitudinal test of the asymmetry thesis of police-citizen contact](https://thiagoroliveira.com/files/paper_2021_JQC.pdf)
 
