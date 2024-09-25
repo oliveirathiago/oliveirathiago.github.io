@@ -32,19 +32,16 @@ author_profile: true
 
   Authors: **Thiago R. Oliveira** & Jon Jackson
   
-  Under review at the *Journal of Quantitative Criminology*
+  Under review at *Justice Quarterly*
   
   <details>
   <summary><i>See abstract</i></summary>
 
   <b>Abstract</b>: 
-  <b>Objectives</b>: Test whether exposure to police violence undermines the legal socialization of adolescents and contributes to increase criminal offending by examining the extent to which witnessing different policing practices, including an officer assaulting a member of the public, is associated with changes in beliefs about the legitimacy of the law and self-reported offending behavior among adolescents aged 11 to 14 years in São Paulo, Brazil.<br>
-  <b>Methods</b>: A cohort-based, four-wave longitudinal survey of 800 2005-born adolescents living in São Paulo was fielded annually between 2016 and 2019. Measures include recent exposure to officers stopping, arresting, and assaulting a suspect, legal legitimacy judgements, and recent self-reported offending behavior. We use a recently developed approach to analyze panel data that augments matching methods with the difference-in-differences estimator to model changes in legitimacy beliefs and a hybrid, longitudinal adaption to a multinomial Rasch model to model self-reported criminal offending.<br>
-  <b>Results</b>: We find a robust association between witnessing police officers assaulting a suspect and (a) decreased perceptions of legal legitimacy and (b) increased offending behavior over time, as well as a negative association between legitimacy judgements and criminal offending. Results also suggest that undermined beliefs about the legitimacy of the law might mediate the effects of exposure to police violence onto self-reported offending behavior.<br>
-  <b>Conclusions</b>: Adolescents in São Paulo are socialized through exposure to police violence. Witnessing police officers assaulting a member of the public undermines the development of beliefs about the legitimacy of the law and increases the risk of criminal offending.
+  Does exposure to police violence undermine the legal socialization of adolescents and increase their propensity to criminal offending? In this article, we examine the extent to which exposure to several policing practices, including police officers assaulting a member of the public, is associated with changes in beliefs about the legitimacy of the law and self-reported offending behavior among adolescents aged 11 to 14 years. Drawing on data from the São Paulo Legal Socialization Study, a four-wave longitudinal survey of 800 adolescents living in São Paulo, Brazil, and using state-of-the-art methods to analyze panel data, results suggest that witnessing officers assaulting a suspect is associated with decreased legitimacy beliefs and increased propensity to engage in criminal conduct over time—with undermined legitimacy perceptions partly mediating this relationship. We conclude that secondary exposure to police violence can undermine the legal socialization of adolescents and increase the risk of criminal offending.
   <br>
  
-  <b>Keywords</b>: legal socialization, police violence, legitimacy of the law, offending behavior, Brazil.
+  <b>Keywords</b>: legal socialization, police violence, legitimacy of the law, offending behavior.
   
   </details>
 
