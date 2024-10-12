@@ -9,30 +9,11 @@ author_profile: true
 
 ## Working papers
 
-- **[Legal cynicism, intrusive policing, and the dynamics of police legitimacy in Brazil's largest city](https://osf.io/preprints/socarxiv/89jkv)**
-
-  Author: **Thiago R. Oliveira**
-  
-  Asked to Revise & Resubmit, now under second review at *Law and Society Review*
-  
-  <details>
-  <summary><i>See abstract</i></summary>
-
-  <b>Abstract</b>: Public experiences with the law in some neighborhoods are marked by an overwhelming police presence alongside  deep-seated  beliefs  that  legal  agents  are  disinterested  in  ensuring  public  safety.  This  mutual experience of intrusive policing and legal cynicism has important implications for people’s recognition of the legitimacy of legal authority. In the context of a global city in the Global South, this study provides a quantitative assessment of the dynamics of perceived police intrusion and cynicism about police protection and the implications of those experiences for beliefs about the legitimacy of legal institutions. Drawing on a three-wave longitudinal survey representative of adult residents of eight neighborhoods in São Paulo, Brazil (N = 1,200), I demonstrate that perceived police intrusion and cynicism about police protection (a) are two sides of the same coin, being produced by similar social forces and dynamically reproducing each other and (b) operate to undermine police legitimacy. Integrating the legal cynicism and procedural justice theoretical  frameworks,  this  study  shows  that  intrusive  as  well  as  unheeding  and  neglectful  policing practices  can  contribute  to  delegitimizing  legal  authority.  I  conclude  with  a  discussion  about  the distribution of repression and protection and highlight the urgency of exploring public-authority relations in the Global South.<br>
- 
-  <b>Keywords</b>: legal cynicism, intrusive policing, police legitimacy, procedural justice theory, Brazil.
-  
-  </details>
-    
-  Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/89jkv).
-    
-  [Replication materials here](https://github.com/oliveirathiago/overpolicing-underpolicing).
-
 - **Police violence, criminal offending, and the legal socialization of adolescents**
 
   Authors: **Thiago R. Oliveira** & Jon Jackson
   
-  Under review at the *Journal of Quantitative Criminology*
+  Under review at the *Justice Quarterly*
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -58,3 +39,19 @@ author_profile: true
   </details>
   
   Pregistration availble at OSF Registries [https://osf.io/xgeyn](https://osf.io/xgeyn).
+  
+
+- **Unintended Consequences of Early Exposure to Policing: Assessing Long-term Effects of Police Stops During Adolescence in England and Wales**
+  
+  Authors: Arabella Kyprianides, Amal Ali, Pele Petnga-Wallace, Paul Quinton, and **Thiago R. Oliveira**.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+  
+  This study enhances the current body of research by investigating the impact of early police encounters on subsequent adolescent behaviour and mental health in England and Wales. Utilising data from the two most recent sweeps of the UK Millennium Cohort Study (N = 9,159), we explore the predictors of early police contact, and the relationships between early police contact and later life outcomes, including offending behaviour, academic achievement, and mental health, over a period of up to three years. We find that violent offending, as well as knife carrying, and non-violent behaviours, as well as gang membership and alcohol and cannabis use, increase the likelihood of police contact at age 14, with little significant racial differences, though non-violent offending and gang membership are associated with police stops for White teenagers but not for those from minority ethnic backgrounds, suggesting differential patterns of police targeting. Our findings regarding the outcomes of police contact paint a concerning picture: early police stops are associated with an increased likelihood of engaging in violent offending behaviour, a reduced probability of pursuing higher education, and a rise in conduct issues and attentional difficulties. These outcomes persist regardless of prior offending behaviour, substance use, gang affiliation, and other dynamic factors. Our results align with labelling, life course, and general strain theories, as well as the conceptualisation of police encounters as stressors within the ‘stress process paradigm’. In contrast to existing research that shows racial variation in the impact of policing, our study does not find evidence of racial disparities in these outcomes. It is however important to emphasise that our discussion focuses on the absence of ethnic disparities in the UK, which could vary significantly from racial disparities observed in the US. While Home Office statistics reveal that racial and ethnic minorities are more commonly stopped by the police, our study suggests that the unintended consequences of early police encounters affect all racial and ethnic groups similarly.
+  
+  <b>Keywords</b>: policing, police stops, youth.
+ 
+  </details>
+  
+  

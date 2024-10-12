@@ -7,6 +7,25 @@ author_profile: true
 
 {% include base_path %}
 
+## *Forthcoming* in 2025
+
+### [10. Legal cynicism, intrusive policing, and the dynamics of police legitimacy: Evidence from Brazil's largest city](https://osf.io/preprints/socarxiv/89jkv)
+
+  **Thiago R. Oliveira**. <i>Law and Society Review</i>.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+
+  <b>Abstract</b>: Public experiences with the law in some neighborhoods are marked by an overwhelming police presence alongside  deep-seated  beliefs  that  legal  agents  are  disinterested  in  ensuring  public  safety.  This  mutual experience of intrusive policing and legal cynicism has important implications for people’s recognition of the legitimacy of legal authority. In the context of a global city in the Global South, this study provides a quantitative assessment of the dynamics of perceived police intrusion and cynicism about police protection and the implications of those experiences for beliefs about the legitimacy of legal institutions. Drawing on a three-wave longitudinal survey representative of adult residents of eight neighborhoods in São Paulo, Brazil (N = 1,200), I demonstrate that perceived police intrusion and cynicism about police protection (a) are two sides of the same coin, being produced by similar social forces and dynamically reproducing each other and (b) operate to undermine police legitimacy. Integrating the legal cynicism and procedural justice theoretical  frameworks,  this  study  shows  that  intrusive  as  well  as  unheeding  and  neglectful  policing practices  can  contribute  to  delegitimizing  legal  authority.  I  conclude  with  a  discussion  about  the distribution of repression and protection and highlight the urgency of exploring public-authority relations in the Global South.<br>
+ 
+  <b>Keywords</b>: legal cynicism, intrusive policing, police legitimacy, procedural justice theory, Brazil.
+  
+  </details>
+    
+  Preprint available on [SocArXiv](https://osf.io/preprints/socarxiv/89jkv).
+    
+  [Replication materials here](https://github.com/oliveirathiago/overpolicing-underpolicing).
+
 ## 2024
 
 ### [9. Did the Murder of George Floyd Damage Public Perceptions of Police and Law in the United States?]((https://thiagoroliveira.com/files/Floyd_JRCD.pdf))
