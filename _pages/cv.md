@@ -18,3 +18,6 @@ redirect_from:
     <iframe src="https://docs.google.com/gview?url=https://oliveirathiago.github.io/files/CV_ThiagoROliveira_Apr25.pdf&embedded=true" style="width:100%; height:1000px;" frameborder="0"></iframe>
   </body>
 </html>
+
+
+
