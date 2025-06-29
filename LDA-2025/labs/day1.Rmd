@@ -1,0 +1,316 @@
+---
+title: "Longitudinal Data Analysis"
+subtitle: "Day 1: Introducton to R and longitudinal data"
+author: "Thiago R Oliveira"
+date: ""
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+***
+
+Throughout this course we will be using the statistical package `R`, and the friendly interface of *Rstudio*, to conduct data analysis. The first part of today's seminar is about getting familiar with this piece of software. If you have never used `R` before, worry not! No prior knowledge is assumed, and we will walk you through all the necessary steps to conduct analysis on the topics discussed in the lectures. Of course, learning a new statistical software is not simple, and we don't aim to fully introduce you to the world of `R` -- a wide and dynamic world that goes way beyond what we are covering here. This is just a gentle introduction to some specific R coding that corresponds to some methods often used to infer causality from observational data (our main focus here). Our suggestion is that you build on this and keep practicing. Coding is like learning a foreign language: if you don't use you lose it.
+
+The first part of this assignment is a general introduction to R, starting from scratch. If you already have some experience with this software, you are welcome to join the second part of the assignment, where we analyse some longitudinal data.
+
+#### *Why R?*
+
+`R` is a statistical software that allows us to manipulate data and estimate a wide variety of statistical models. It is one of the fastest growing statistical software, one of the most popular data science software, and, perhaps most importantly, it is open source (free!). Crucially, most of the cutting edge causal inference packages are implemented in R so, should you want to keep up with the latest developments, the basic knowledge you get here can help you with that. We will be using the *RStudio* user-interface, which makes operating `R` somewhat easier.
+
+
+#### *Installing R and Rstudio*
+
+You should install *both* `R` and *Rstudio* onto your personal computers. You can download them from the following sources:
+
+  - `R`: [The Comprehensive R Archive Network (CRAN)](https://cran.r-project.org)
+  - *Rstudio*: [RStudio.com](https://www.rstudio.com/products/rstudio/download/#download)
+
+You can watch [this video](https://vimeo.com/415501284) to see how you can install R and Rstudio.
+
+
+# 1st part: Introduction to R
+
+Let's see what we have here. After installing `R` and *Rstudio*, we start Rstudio and see three panels. A screen-long panel on the left-hand side called the *console*, a smaller panel on the top right-hand side called the *environment*, and a last one on the bottom right-hand side called *Plots & Help*. The console is the simplest way to interact with R: you can type in some code (after the arrow $>$) and press *Enter*, and `R` will run it and provide an output. It is easy to visualize this if we simply use R as a calculator: when we type in mathematical operations in the console, R immediately returns the outcomes. Let's see:
+
+```{r, echo = T, eval = F}
+7 + 7
+12 - 4
+3 * 9
+610 / 377
+5^2
+(0.31415 + 1.61803) / 3^3
+```
+
+<details>
+<summary>*See results!*</summary>
+```{r, echo = F, eval = T}
+7 + 7
+12 - 4
+3 * 9
+610 / 377
+5^2
+(0.31415 + 1.61803) / 3^3
+```
+</details>
+
+<br>
+
+Directly typing code into the console is certainly easy, but often not the most efficient strategy. A better approach is to have a document where we can save all our code -- that's what *scripts* are for. R scripts are just plain text files that contain some R code, which we can edit the same way we would in Word or any other text file. These are similar to what you might have encountered using SPSS (syntax), STATA (do), or other statistical software. We can open R scripts within Rstudio: just go to *File --> New File --> R Script* (or just press *Cmd/Ctrl + shift + N* for a shortcut). 
+
+We can now see a new panel popping up taking up the space in the top left-hand side of Rstudio, just above the console. You can now type all your code into the script, save it, and open it again whenever you want. If you want to run a piece of code from the script, you can always copy and paste it on the console, though this is of course very inefficient. Instead, you can ask R to run any piece of code from the script directly. There are a few different ways to do it.
+
+  - To run an entire line, place the cursor on the line you want to run and use the *Run* button (on the top right-hand side of the script), or just press *Ctrl/Cmd + Enter*
+  - To run multiple lines (or even just part of a single line), highlight the text you want to run and use the *Run* button, or press *Ctrl/Cmd + Enter*
+  - To run the entire script, use the *Source* button, or press *Ctrl/Cmd + Shift + S*
+
+**You should *always* work from an R script!** Our suggestion is that you create a different script for each seminar, and save them using reasonable names such as "seminar1.R", "seminar2.R", and so on.
+
+#### *Objects, vectors, functions*
+
+When working with R, we store information by creating "objects". We create objects all the time; it is a simple way of labelling some piece of information so that we can use it in subsequent tasks. Say we want to know the outcome of $3 * 5$, and then we want to divide that outcome by $2$. We could, of course, simply ask R do the calculations directly:
+
+```{r, echo = T, eval = F}
+(3 * 5) / 2
+```
+
+But we could also first, create an object that stores the result of $3*5$, and then divide said object by $2$. We can give objects any name we like.^[Well, they need to start with a letter. But otherwise they may contain numbers, upper and lower case letters (R distinguishes between them), and punctuation such as dots ( . ) and underscores ( _ )] To create objects, we need to use the assignment operator `<-`. If we want to name the outcome of $3*5$ *outcome*, then we simply need to use the assignment operator:
+
+```{r, echo = T, eval = T}
+outcome <- 3 * 5
+```
+
+Notice that R does not provide any output after we create an object. That is because we are not asking for any output, we are simply creating an object. Note, however, that the environment panel lists all the objects we create in the current session. In case we want to confirm what piece of information is stored under a given label, apart from checking the environment panel, we can also just run the name of the object and see R's output. For instance, when we run `outcome` in the console, R returns the number `r 3*5`, which is the outcome of $3*5$.
+
+```{r}
+outcome
+```
+
+This is useful because, once we have created objects, we can use to perform subsequent calculations. For instance:
+
+```{r}
+outcome / 2
+```
+
+And we can even use previously created objects to create a new object:
+
+```{r}
+my_new_object <- outcome ^ 2
+my_new_object
+```
+
+Both objects that we have just created (`outcome` and `my_new_object`) contain just a single number. But we can create objects that contain more information as well. Often times, we want to create a long list of numbers in one specific order. Think of a regular spreadsheet, where we can enter numbers in a single column which are separated (and ordered) according to their rows. In the R language, those single columns are equivalent to **vectors**. A vector is simply a set of information contained together in a specific order. In order to create a vector in R, we use the `c()` function: instead of including new information at every row (as we would, were we using a regular spreadsheet), we separate new information by commas inside the parentheses. For instance, we could create a new vector by concatenating the following numbers:
+
+```{r}
+new_vector <- c(0, 3, 1, 4, 1, 5, 9, 2)
+new_vector
+```
+
+Recall that vectors store information (in this case, numbers) in a specific order. This is important. We can use this order to access individuals elements of a vector. We do this by *subsetting* a vector: we just need to use square brackets [ ] and include the number corresponding to the position we want to access. For instance, if we want to access the second element in our vector `new_vector`, we simply do the following:
+
+```{r}
+new_vector[2]
+```
+
+We can see that by using `new_vector[2]`, R returns the second element of the vector `new_vector`, which is the number `r new_vector[2]`. If we want to access the seventh element of the vector `new_vector`, we just use `new_vector[7]` which returns the number `r new_vector[7]`, and so on. 
+
+Now that we have our first vector, we can see how **functions** work. Functions are a set of instructions: you provide an input and R generates some output -- the backbone of R programming. A function is a command followed by round brackets `( )`. Inputs are arguments that go inside the brackets; if a function requires more than one argument, these are separated by commas. For instance, we can add all elements of the vector `new_vector` together by using the function `sum()`. Here the input is the name of the vector:
+
+```{r}
+sum(new_vector)
+```
+
+And `r sum(new_vector)` is the output. As always, we can save the result of the output as an object using assignment operator `<-`.
+
+```{r}
+sum_of_our_vector <- sum(new_vector)
+```
+
+Here, `sum_of_our_vector` is also an object! So we have performed a calculation (`sum()`) on some data (`new_vector`), and stored the result (`sum_of_our_vector`). Let's try some new functions such as `mean()`, `median()`, and `summary()`. What are they calculating?
+
+<details>
+<summary>*See results!*</summary>
+```{r, echo = T, eval = T}
+mean(new_vector)
+median(new_vector)
+summary(new_vector)
+```
+
+`mean()` returns the average value of a vector, `median()` returns the median, and `summary()` returns a set of useful statistics, such as the minimum and the maximum values of the vector, the interquartile range, the median, and the mean.
+</details>
+
+<br>
+
+You could create your own functions using the `function()` function -- e.g. you could come up with a new function to calculate the mean of a vector. Say you create a set of new functions. They must be useful if you spent the time and effort to develop them, so you would like to let anyone in the world use them as well by making them publicly available. This is the basic idea of *R packages*. People create new functions and make them publicly available. We will be using various packages throughout the course. These will help us conduct data analysis. An example of a useful package is `pysch`, which contains the `describe()` function: like the `summary()` function, it describes the content of a variable or data set, but it provides more details. Let's see how it works
+
+```{r, error = T}
+describe(new_vector)
+```
+
+We got an Error message! Why? Well, that is because the `describe()` function does not exist in *base R*. We first need to install and then load the `psych` package, only then this command with its new functions will be available to us. This is a two-step process. First step involves installing the relevant package in your computer using the `install.packages()` function; you only need to this once. The second step involves loading the relevant package using the `library()` function; you need to do this every time you start a new session (i.e. open Rstudio). If you are not sure which packages are installed in your computer, you can simply run `installed.packages()`; if you are not sure which packages are loaded in the current R session, you can simply run `(.packages())`.
+
+```{r, eval = F}
+install.packages("psych")  # you only need to use this once in your computer
+```
+```{r, warning = FALSE}
+library(psych)             # making the package available in the current session
+
+describe(new_vector)       # look, now we can use the describe() function 
+```
+
+The `describe()` function is useful because it provides us with a wider set of useful statistics than the `summary()` function, such as the number of observations, standard deviation, range, skew and kurtosis. Note that R ignores everything that comes after the `#`. This is extremely useful to make comments throughout our script. We would like to encourage you to take notes throughout the seminar as you might forget what each of the commands stand for.
+
+#### *data.frames*
+
+Data frames are the workhorse when conducting data analysis with R. A `data.frame` object is the R equivalent to a spreadsheet: each row represents a unit, each column represents a variable. Nearly every time we conduct data analysis with R, we will be working with `data.frames`. In most cases (including the second part of this seminar), we will load a data set from a spreadsheet-based external file (.csv, .xls, .dta, .sav, among others) onto R; for now however, we will use a dataset that comes pre-installed with R just to see how it works. Let's use the `data()` function to load the `USArrests` data set, which contains statistics in arrests per 100,000 residents for assault, murder, and rape in each of the 50 US states in 1973. (Sorry for the grim example!)
+
+```{r}
+data("USArrests")
+```
+
+We can use the `help()` function to read more about this data set, which contains 50 observations (i.e., rows) on 4 variables (i.e., columns).
+
+```{r}
+help(USArrests)
+```
+
+The `data.frame` is listed as a new object in the environment panel. We can click on it to see it as a spreadsheet; we can also type in the name of the data set to see what it looks like. Because data sets are often very long, instead of seeing all of it we can opt to look at just the first few rows using the `head()` function:
+
+```{r}
+head(USArrests, 10) # the second argument specifies the number of rows we want to see
+```
+
+#### *Subsetting with `$` and `[,]`*
+
+The easiest way to access a single variable (i.e., a column) of a `data.frame` is using the dollar sign `$`. For instance, to access the murder rate in US states in 1973:
+
+```{r}
+USArrests$Murder
+```
+
+R returns all the observations for the column `Murder`. What is this? It is a vector! A list of information (here, numbers) in one specific order. We can therefore apply everything we learned about vectors here. For example, we can access the third element of this vector:
+
+```{r}
+USArrests$Murder[3]
+```
+
+Which corresponds to the murder rate in Arizona. Let's practice using the dollar sign to access the Assault variable. What are the first, tenth, and fifteenth elements?
+
+<details>
+<summary>*See results!*</summary>
+```{r, echo = T, eval = T}
+USArrests$Assault[1]
+USArrests$Assault[10]
+USArrests$Assault[15]
+```
+</details>
+
+<br>
+
+We saw earlier that we can subset a vector by using square brackets: `[ ]`. When dealing with data.frames, we often want to access certain observations (rows) or certain columns (variables) or a combination of the two without looking at the entire data set all at once. We can also use square brackets (`[,]`) to subset data.frames.
+
+In square brackets we put a row and a column coordinates separated by a comma. The row coordinate goes first and the column coordinate second. So `USArrests[23, 3]` returns the 23rd row and third column of the data frame. If we leave the column coordinate empty this means we would like all columns. So, `USArrests[10,]` returns the 10th row of the data set. If we leave the row coordinate empty, R returns the entire column. So, `USArrests[,4]` returns the fourth column of the data set.
+
+```{r}
+USArrests[23, 3]  # element in 23rd row, 3rd column
+USArrests[10,]    # entire 10th row
+USArrests[,4]     # entire fourth column
+```
+
+We can look at a selected number of rows of a dataset with the colon in brackets: `USArrests[1:7,]` returns the first seven rows and all columns of the data.frame `USArrests`. We could display the second and fourth columns of the dataset by using the `c()` function in brackets like so: `USArrests[, c(2,4)]`.
+
+Display all columns of the `USArrests` dataset and show rows 10 to 15. Next display all columns of the dataset but only for rows 10 and 15.
+
+<details>
+<summary>*See results!*</summary>
+```{r, echo = T, eval = T}
+USArrests[10:15,]
+USArrests[c(10, 15),]
+```
+</details>
+
+<br>
+
+
+#### *Logical operators*
+
+We can also subset by using logical values and logical operators. R has two special representations for logical values: `TRUE` and `FALSE`. R also has many logical operators, such as greater than (`>`), less than (`<`), or equal to (`==`).
+
+When we apply a logical operator to an object, the value returned should be a logical value (i.e. `T` or `F`). For instance:
+
+```{r}
+5 > 3
+7 < 4
+2 == 1
+```
+
+Here, when we ask R whether 5 is greater than 3, R returns the logical value `TRUE`. When we ask if 7 is less than 4, R returns the logical value `FALSE`. When we ask R whether 2 is equal to 1, R returns the logical value `FALSE`.
+
+For the purposes of subsetting, logical operations are useful because they can be used to specify which elements of a vector or data.frame we would like returned. For instance, let's subset the `USArrests` and keep only states with a murder rate less than 5 per 100,000:
+
+```{r}
+USArrests[USArrests$Murder < 5, ]
+```
+
+Let's go through this code slowly to see what is going on here. First, we are asking R to display the `USArrests` data.frame. But not all of it: we are using square brackets `[ ]`, so only a subset of the dataset is displayed. There is some information before but nothing after the comma inside the square brackets, which means that only a fraction of rows but all columns should be displayed. Which rows? Let's take a closer look at the code before the comma inside the square brackets. R should only display the rows for which the expression `USArrests$Murder < 5` is `TRUE`, i.e. states with a murder rate less than 5 (per 100,000).
+
+
+#### *A few questions about data analysis with R*
+
+1. Calculate the mean and median of each of the variables included in the data set. Assign each of the results of these calculations to objects (choose sensible names!).
+
+<details>
+<summary>*See results!*</summary>
+```{r, echo = T, eval = T}
+mean_murder <- mean(USArrests$Murder)
+median_murder <- median(USArrests$Murder)
+
+mean_assault <- mean(USArrests$Assault)
+median_assault <- median(USArrests$Assault)
+
+mean_urban <- mean(USArrests$UrbanPop)
+median_urban <- median(USArrests$UrbanPop)
+
+mean_rape <- mean(USArrests$Rape)
+median_rape <- median(USArrests$Rape)
+```
+</details>
+
+<br>
+
+
+2. Is there a difference in the assault rate for urban and rural states? Define an urban state as one for which the urban population is greater than or equal to the median across all states. Define a rural state as one for which the urban population is less than the median.
+
+<details>
+<summary>*See results!*</summary>
+```{r, echo = T, eval = T}
+urban_states <- USArrests[USArrests$UrbanPop >= median_urban, ]
+rural_states <- USArrests[USArrests$UrbanPop < median_urban, ]
+
+mean_assault_urban <- mean(urban_states$Assault)
+mean_assault_rural <- mean(rural_states$Assault)
+
+mean_assault_urban
+mean_assault_rural
+```
+
+The average assault rate in urban states is `r round(mean_assault_urban, 2)` (per 100,000), considerably larger than the average assault rate in rural states of `r round(mean_assault_rural, 2)`.
+
+</details>
+
+<br>
+
+# 2nd part: Analysing longitudinal data
+
+Can transphobia re reduced through in-person conversations and perspective-taking exercises? To address this question, two researchers conducted a field experiment on door-to-door canvassing in South Florida. Targeting antitransgender prejudice, the intervention involved canvassers holding single, approximately 10-minute conversations that encouraged actively taking the perspective of others with voters to see if these conversations could affect prejudicial attitudes towards transgender people.
+
+  - Broockman, David and Joshua Kalla. 2016. “[Durably reducing transphobia: a field experiment on door-to-door canvassing](https://science.sciencemag.org/content/352/6282/220).” *Science* 352 (6282): 220-224.
+
+In the experiment, the authors recruited first registered voters via mail for an online baseline survey. They then randomly assigned respondents of this baseline survey ($n=1825$) to either a treatment group targeted with the intervention ($n=913$) or a placebo group targeted with a conversation about recycling ($n=912$). For the intervention, 56 canvassers first knocked on voters’ doors unannounced. Then, canvassers asked to speak with the subject on their list and confirmed the person’s identity if the person came to the door. A total of several hundred individuals ($n=501$) came to their doors in the two conditions. For logistical reasons unrelated to the original study, we further reduce this dataset to ($n=488$) which is the full sample that appears in the `transphobia.csv` data (available at [ThiagoROliveira.com/LDA-2025](https://thiagoroliveira.com/LDA-2025)). You can import the dataset using the following function:
+
+
