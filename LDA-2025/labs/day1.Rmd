@@ -307,10 +307,120 @@ The average assault rate in urban states is `r round(mean_assault_urban, 2)` (pe
 
 # 2nd part: Analysing longitudinal data
 
-Can transphobia re reduced through in-person conversations and perspective-taking exercises? To address this question, two researchers conducted a field experiment on door-to-door canvassing in South Florida. Targeting antitransgender prejudice, the intervention involved canvassers holding single, approximately 10-minute conversations that encouraged actively taking the perspective of others with voters to see if these conversations could affect prejudicial attitudes towards transgender people.
+In this section, we will explore what longitudinal data looks like and how to manipulate it using `tidyverse` tools.
 
-  - Broockman, David and Joshua Kalla. 2016. “[Durably reducing transphobia: a field experiment on door-to-door canvassing](https://science.sciencemag.org/content/352/6282/220).” *Science* 352 (6282): 220-224.
+We will use the `sleepstudy` dataset from the `lme4` package. This dataset contains repeated measures of reaction time for individuals over several days of sleep deprivation. Let's start by installing the `lme4` package, if you have never done so, and then loading the package.
 
-In the experiment, the authors recruited first registered voters via mail for an online baseline survey. They then randomly assigned respondents of this baseline survey ($n=1825$) to either a treatment group targeted with the intervention ($n=913$) or a placebo group targeted with a conversation about recycling ($n=912$). For the intervention, 56 canvassers first knocked on voters’ doors unannounced. Then, canvassers asked to speak with the subject on their list and confirmed the person’s identity if the person came to the door. A total of several hundred individuals ($n=501$) came to their doors in the two conditions. For logistical reasons unrelated to the original study, we further reduce this dataset to ($n=488$) which is the full sample that appears in the `transphobia.csv` data (available at [ThiagoROliveira.com/LDA-2025](https://thiagoroliveira.com/LDA-2025)). You can import the dataset using the following function:
+```{r, message = F, warning=F}
+# Install the lme4 package; you only need to do that once
+## install.packages("lme4") # (uncomment if you need to install)
+
+# Load the lme4 package
+library(lme4)
+
+## We are also going to use the tidyverse package, so let's load it now
+
+# Install the tidyverse package; you only need to do that once
+## install.packages("tidyverse") # (uncomment if you need to install)
+
+# Load the tidyverse package
+library(tidyverse)
+```
+
+Now, we can use the `data()` function to load the `sleepstudy` dataset. Usually, we will use external data sources and will import them into `R`. Today, let's use a longitudinal dataset already pre-loaded in `R`:
+
+```{r}
+# load the 'sleepstudy' dataset
+data("sleepstudy", package = "lme4")
+
+# If you want to read more about the dataset:
+help("sleepstudy")
+```
+
+The variables available in the `sleepstudy` dataset are the following:
+
+-------------------------------------------------------------------------------------------
+ Name                             Description
+-------------------------------- ----------------------------------------------------------
+ `Reaction`                       Reaction time in milliseconds
+ 
+`Days`                            Number of days of sleep deprivation (0 to 9)
+  
+ `Subject`                        Identifier for each person
+-------------------------------------------------------------------------------------------
+
+Is this a longitudinal dataset? Let's investigate the number of observations and and the number of unique individuals observed in the dataset.
+
+```{r}
+# we can use the nrow() function to check the number of observations
+nrow(sleepstudy)
+```
+
+Now, if the dataset contains $n=$ `r nrow(sleepstudy)` observations (i.e., rows), how many unique individuals were part of the study?
+
+```{r}
+# checking how many individuals were part of the study
+length(unique(sleepstudy$Subject))
+```
+
+Only `r length(unique(sleepstudy$Subject))` individuals. Indeed, each person was observed on 10 different days. We can double check that using the `count()` function
+
+
+```{r}
+# we can use the count() function
+count(sleepstudy, Subject)
+```
+
+This dataset is therefore in the *long* format. Although we have only `r length(unique(sleepstudy$Subject))` individuals, the dataset contains `r nrow(sleepstudy)` observations. In the other words, the unit of analysis of this dataset is the person-day observation.
+
+## Pivoting: from long to wide format
+
+Some analytic strategies require data to be in the wide format. When we want to pivot long datasets to wide format, we can use the `pivot_wider()` function, from `tidyverse`. If we do that, each subject should have only one row, with days appearing as separate columns.
+
+```{r}
+# pivot: from long to wide format
+sleep_wide <- 
+  sleepstudy %>% 
+  pivot_wider(names_from = Days, 
+              values_from = Reaction)
+
+# checking that pivoting wider worked
+head(sleep_wide)
+
+```
+
+## Pivoting: from wide to long format
+
+Suppose we now want to go back to long format for modeling. Here’s how we can do that.
+
+```{r}
+# pivot: from wide to long
+sleep_long <- 
+  sleep_wide %>%
+  pivot_longer(
+    cols = c('0', '1', '2', '3', '4', '5', '6', '7', '8', '9'),
+    names_to = "Days",
+    values_to = "Reaction"
+  )
+
+# check that pivoting longer worked
+head(sleep_long)
+
+```
+
+## Visualising longitudinal data
+
+One benefit of long format is ease of plotting with `ggplot2`.
+
+```{r}
+# plotting trajectories
+ggplot(sleepstudy, aes(x = Days, y = Reaction, group = Subject, color = Subject)) +
+  geom_line(show.legend = FALSE) +
+  labs(title = "Reaction Time by Day of Sleep Deprivation",
+       x = "Days",
+       y = "Reaction Time (ms)") +
+  theme_minimal()
+
+```
 
 

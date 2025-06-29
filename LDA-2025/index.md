@@ -1,10 +1,10 @@
 ---
-  layout: default
+layout: default
 title: LDA 2025 – Longitudinal Data Analysis
 permalink: /LDA-2025/
-  ---
+---
   
-  # Longitudinal Data Analysis – Summer 2025
+# Longitudinal Data Analysis – Summer 2025
   
   Welcome to the course page for the methods@manchester **Longitudinal Data Analysis 2025** course. All materials will be posted here.
 
