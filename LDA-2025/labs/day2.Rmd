@@ -1,0 +1,250 @@
+---
+title: "Longitudinal Data Analysis"
+subtitle: "Day 2: Growth Curve Models---a multilevel approach"
+author: "Thiago R Oliveira"
+date: ""
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Today, we will explore data from children of female respondents to the US National Longitudinal Survey of Youth. The data are a subsample from the National Longitudinal Survey of Youth (NLSY) of Labor Market Experience in Youth. Starting in 1986, children of the female respondents of the original NLSY Youth sample were assessed in 1986, and again in 1988, 1990 and 1992. For inclusion in the subsample considered here, children had to be between 6 and 8 years old at the first measurement. We also restrict the analysis to 221 children who were assessed at all four occasions.
+
+As usual, let's start by installing and/or loading the packages we will need for the session. In this session, we will use three packages: `haven`, `tidyverse`, and `lme4`.
+
+```{r, message = F, warning=F}
+# Install the lme4 package; you only need to do that once
+## install.packages("lme4") # (uncomment if you need to install)
+
+# Load the lme4 package
+library(lme4)
+
+## We are also going to use the tidyverse package, so let's load it now
+
+# Install the tidyverse package; you only need to do that once
+## install.packages("tidyverse") # (uncomment if you need to install)
+
+# Load the tidyverse package
+library(tidyverse)
+
+## Finally, we also need the haven package to import datasets into R
+## install.packages("haven") # (uncomment if you need to install)
+library(haven)
+```
+
+Now, let's download the `read_long.dta` data file from the [website](https://thiagoroliveira.com/LDA-2025). Download the file and store it in a sensible folder in your computer (preferably the folder of your R Project). Then, we can use the `read_stata()` function to import the dataset into `R`.
+
+Because the data is available online, we can also use the following function to import data into `R`, which is more efficient. (Though do note that most datasets are not readily available online).
+
+```{r}
+# import data into R
+reading <- read_stata("https://thiagoroliveira.com/LDA-2025/data/read_long.dta")
+```
+
+The variables available in the `reading` dataset are the following:
+
+-------------------------------------------------------------------------------------------
+ Name                             Description
+-------------------------------- ----------------------------------------------------------
+`childid`                         Identifier for each respondent
+ 
+`t`                               Occasion (0 = 1986, 1 = 1988, 2 = 1990, 3 = 1992)
+  
+`male`                            Gender (1 = male)
+
+`homecog`                         Amount of cognitive support at home
+
+`read`                            Reading scores
+
+`year`                            Year 
+-------------------------------------------------------------------------------------------
+
+## First part
+
+Let's reproduce some of the analyses shown in the lecture slides. Considering `read` as your main dependent variable:
+
+* Obtain summary statistics for each time point
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r}
+# We can use the group_by() and summarise() functions
+reading %>%
+  group_by(year) %>%
+  summarise(average_read = mean(read))
+
+# We can also plot the overall trajectory
+ggplot(data = reading %>% group_by(year) %>% summarise(average_read = mean(read)),
+       aes(x = year, y = average_read)) +
+  geom_line() + ylim(0,10) +
+  theme_minimal()
+```
+</details>
+
+<br>
+
+* Plot trajectories for a subsample of children
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r}
+# We can use the filter() function and then ggplot()
+ggplot(data = reading %>% filter(childid %in% c(1:10)) %>% mutate(childid = factor(childid)),
+       aes(x = year, y = read, group = childid, colour = childid)) +
+  geom_line() + ylim(0,10) +
+  theme_minimal()
+```
+</details>
+
+<br>
+
+* Fit a linear random intercept growth model
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r}
+# We can use the lmer() function
+random_intercepts <- lmer(read ~ t + (1 | childid), data = reading)
+
+# see results
+summary(random_intercepts)
+```
+</details>
+
+<br>
+
+* Fit a linear random slope growth model
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r}
+# We can use the lmer() function
+random_slope <- lmer(read ~ t + (t | childid), data = reading)
+
+# see results
+summary(random_slope)
+```
+</details>
+
+<br>
+
+* Fit a quadratic growth model
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r}
+# We can use the lmer() function
+quadratic_simple <- lmer(read ~ t + t_squared + (t | childid), data = reading %>% mutate(t_squared = t^2))
+
+# see results
+summary(quadratic_simple)
+
+# We can also include the quadratic term as a growth parameter
+quadratic_growth <- lmer(read ~ t + t_squared + (t + t_squared | childid), data = reading %>% mutate(t_squared = t^2))
+
+# see results
+summary(quadratic_growth)
+```
+</details>
+
+<br>
+
+* Let's compare all four models. We can conduct a series of likelihood ratio tests, or we can simply compare the BIC of all models. Which model specification is the preferred solution?
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r, message = F, warning=F}
+# We can use the texreg package for such comparisons
+
+# Install the texreg package; you only need to do that once
+## install.packages("texreg") # (uncomment if you need to install)
+
+# Load the texreg package
+library(texreg)
+
+# We can then use the screenreg() function to make direct comparisons between models
+list(random_intercepts, random_slope, quadratic_simple, quadratic_growth) %>% screenreg()
+```
+
+The quadratic growth model with a fixed coefficient for age squared is the preferred solution.
+</details>
+
+<br>
+
+* Finally, using the model specification with the preferred solution, fit a growth curve model adjusting for gender and amount of cognitive support at home. How can we interpret this growth curve model with covariates?
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r}
+# fit growth curve model with covariates
+quadratic_simple_covs <- lmer(read ~ t + t_squared + male + homecog + (t | childid), data = reading %>% mutate(t_squared = t^2))
+
+# see results
+summary(quadratic_simple_covs)
+```
+</details>
+
+<br>
+
+## Second part
+
+Download the `read_long.dta` data file from the [website](https://thiagoroliveira.com/LDA-2025). Download the file and store it in a sensible folder in your computer (preferably the folder of your R Project). Then, we can use the `read_stata()` function to import the dataset into `R`.
+
+Again, because the data is available online, we can also use the following function to import data into `R`, which is more efficient.
+
+```{r}
+# import data into R
+physfunc <- read_stata("https://thiagoroliveira.com/LDA-2025/data/physfunc.dta")
+```
+
+The data file `physfunc.dta` contains repeated measurements (for up to six occasions) on health functioning from a study of British civil servants, the Whitehall II study. Health functioning was assessed by the SF-36, a 36 item instrument that comprises eight subscales covering physical, psychological and social functioning. These eight scales can be summarised into physical and mental health components. These are scaled using general US population norms to have mean values of 50 and low scores imply poor functioning. We will analyse physical health functioning (`phf`).
+
+The variables available in the `physfunc` dataset are the following:
+
+-------------------------------------------------------------------------------------------
+ Name                             Description
+-------------------------------- ----------------------------------------------------------
+`id`                              Identifier for each respondent
+ 
+`occ`                             Occasion (1, 2, 3, 4, 5, 6)
+  
+`female`                          Gender (1 = female)
+
+`grade`                           Employment grade at baseline (1 = high grade, 2 = intermediate grade, 3 = low grade)
+
+`age50`                           Mean age at baseline
+
+`phf`                             Physical health functioning 
+-------------------------------------------------------------------------------------------
+
+The aim of this exercise is to investigate the following questions:
+
+* How does women’s physical functioning change as they get older?
+* To what extent does this vary between women?
+
+Considering the **subset of female respondents only**, carry out the following analysis and interpret the results:
+
+- Obtain summary statistics for `phf` and `age50` at each occasion
+
+- Plot physical health functioning trajectories by age for any five individuals in the dataset.
+
+- Fit a simple random intercept growth model for `phf` with no explanatory variables.
+
+- Fit a random slope growth model for `phf` which allows the rate of change in physical health functioning to vary among individuals.
+
+- Fit a quadratic growth model for `phf` which allows for non-linear trajectories.
+
+- Which model is preferred?
+
