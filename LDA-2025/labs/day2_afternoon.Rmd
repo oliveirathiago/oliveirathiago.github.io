@@ -1,0 +1,341 @@
+---
+title: "Longitudinal Data Analysis"
+subtitle: "Day 2: Latent Growth Curve Models---an SEM approach"
+author: "Thiago R Oliveira"
+date: ""
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+In this section, we will analyse the same data as we did this morning: children of female respondents to the US National Longitudinal Survey of Youth (a subsample from the National Longitudinal Survey of Youth). Starting in 1986, children of the female respondents of the original NLSY Youth sample were assessed in 1986, and again in 1988, 1990 and 1992. For inclusion in the subsample considered here, children had to be between 6 and 8 years old at the first measurement. We also restrict the analysis to 221 children who were assessed at all four occasions.
+
+The difference is that we will now fit latent growth curve models under an SEM approach. As usual, let's start by installing and/or loading the packages we will need for the session. In this session, we will use three packages: `haven`, `tidyverse`, and `lavaan`.
+
+```{r, message = F, warning=F}
+## We are also going to use the tidyverse package, so let's load it now
+
+# Install the tidyverse package; you only need to do that once
+## install.packages("tidyverse") # (uncomment if you need to install)
+
+# Load the tidyverse package
+library(tidyverse)
+
+## We also need the haven package to import datasets into R
+## install.packages("haven") # (uncomment if you need to install)
+library(haven)
+
+# Finally, we also need the lavaan package---the SEM package for R
+## install.packages("lavaan") # (uncomment if you need to install)
+
+# Load the lavaan package
+library(lavaan)
+```
+
+You should already have downloaded the `read_long.dta` data file from the [website](https://thiagoroliveira.com/LDA-2025) and stored it in your computer. Now, use the `read_stata()` function to import the dataset into `R`.
+
+Because the data is available online, we can also use the following function to import data into `R`, which is more efficient. (Though do note that most datasets are not readily available online).
+
+```{r}
+# import data into R
+reading <- read_stata("https://thiagoroliveira.com/LDA-2025/data/read_long.dta")
+```
+
+The variables available in the `reading` dataset are the following:
+
+-------------------------------------------------------------------------------------------
+ Name                             Description
+-------------------------------- ----------------------------------------------------------
+`childid`                         Identifier for each respondent
+ 
+`t`                               Occasion (0 = 1986, 1 = 1988, 2 = 1990, 3 = 1992)
+  
+`male`                            Gender (1 = male)
+
+`homecog`                         Amount of cognitive support at home
+
+`read`                            Reading scores
+
+`year`                            Year 
+-------------------------------------------------------------------------------------------
+
+## First part
+
+This morning, we produced some analyses fitting growth curve models under a multilevel approach. Now, let's do the same under an SEM approach.
+
+Under an SEM framework, longitudinal datasets need to be set as wide. Therefore, let's start reshaping our dataset into a wide format.
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r}
+# reshaping the dataset into a wider format
+reading_wide <- 
+  reading %>%
+  pivot_wider(
+    id_cols = c(childid, male, homecog),             # variables that do NOT vary with time
+    names_from = t,                         # time variable
+    values_from = c(read, year),   # time-varying variables
+    names_sep = "_t"                        # e.g., read_t0, read_t1, etc.
+  )
+
+# double check it worked
+head(reading_wide)
+```
+
+</details>
+
+<br>
+
+To perform any analysis under the SEM framework using `lavaan`, we can use the `sem()` function. We essentially need to type out all possible relationships theorised by our structural model. For example:
+
+```{r, eval = F}
+# example of how to use lavaan
+my_model <- "latent_variable_1 =~ x1 + x2 + x3 + x4          # specify freely estimated measurement model
+             latent_variable_2 =~ 1*y1 + 1*y2 + 1*y3 + 1*y4  # specify measurement model with loadings constrained to 1
+             latent_variable_3 =~ 0*z1 + 1*z2 + 2*z3 + 3*z4  # specify measurement model with loadings constrained to 0, 1, 2, 3
+             
+             latent_variable_1 ~~ latent_variable_2          # variables are allowed to correlate
+             latent_variable_3 ~ a1 + b1 + c1                # specify a regression model
+            "
+```
+
+The `=~` specification implies "is defined by" and is used to specify measurement models. The `~~` specification implies "is allowed to correlate with" and is used to specify covariances. The `~` specification implies "is regressed by" and is used to specify regression models. Finally, we use the `*` to constrain paramaters to certain values.
+
+Now, use the `sem` function to estimate four models:
+
+* Fit a linear random intercept latent growth model
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r}
+# specify the LGCM
+lgcm_ri <- '
+  # Latent intercept factor
+  intercept =~ 1*read_t0 + 1*read_t1 + 1*read_t2 + 1*read_t3
+'
+
+# estimate the LGCM
+fit_lgcm_ri <- sem(lgcm_ri, data = reading_wide, missing = "fiml")
+
+# check results
+summary(fit_lgcm_ri, fit.measures = TRUE, standardized = TRUE)
+```
+</details>
+
+<br>
+
+* Fit a linear random slope latent growth model
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r}
+# specify the LGCM
+lgcm_slope <- '
+  # Latent intercept factor
+  intercept =~ 1*read_t0 + 1*read_t1 + 1*read_t2 + 1*read_t3
+  
+  # Latent slope factor
+  slope =~ 0*read_t0 + 1*read_t1 + 2*read_t2 + 3*read_t3
+  
+  # Latent variables allowed to covary
+  intercept ~~ slope
+'
+
+# estimate the LGCM
+fit_lgcm_slope <- sem(lgcm_slope, data = reading_wide, missing = "fiml")
+
+# check results
+summary(fit_lgcm_slope, fit.measures = TRUE, standardized = TRUE)
+```
+</details>
+
+<br>
+
+* Fit a quadratic latent growth model with a fixed quadratic term
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r}
+# specify the LGCM
+lgcm_quadratic <- '
+  # Latent intercept factor
+  intercept =~ 1*read_t0 + 1*read_t1 + 1*read_t2 + 1*read_t3
+  
+  # Latent slope factor
+  slope =~ 0*read_t0 + 1*read_t1 + 2*read_t2 + 3*read_t3
+  
+  # Latent quadratic factor
+  quadratic =~ 0*read_t0 + 1*read_t1 + 4*read_t2 + 9*read_t3
+  
+  # Fix variance of quad to zero (fixed effect only)
+  quadratic ~~ 0*quadratic
+  
+  # Latent variables allowed to covary
+  intercept ~~ slope
+'
+
+# estimate the LGCM
+fit_lgcm_quadratic <- sem(lgcm_quadratic, data = reading_wide, missing = "fiml")
+
+# check results
+summary(fit_lgcm_quadratic, fit.measures = TRUE, standardized = TRUE)
+```
+</details>
+
+<br>
+
+* Fit a quadratic latent growth model with a latent quadratic term
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r}
+# specify the LGCM
+lgcm_quadratic_latent <- '
+  # Latent intercept factor
+  intercept =~ 1*read_t0 + 1*read_t1 + 1*read_t2 + 1*read_t3
+  
+  # Latent slope factor
+  slope =~ 0*read_t0 + 1*read_t1 + 2*read_t2 + 3*read_t3
+  
+  # Latent quadratic factor
+  quadratic =~ 0*read_t0 + 1*read_t1 + 4*read_t2 + 9*read_t3
+  
+  # Latent variables allowed to covary
+  intercept ~~ slope
+  intercept ~~ quadratic
+  slope ~~ quadratic
+'
+
+# estimate the LGCM
+fit_lgcm_quadratic_latent <- sem(lgcm_quadratic_latent, data = reading_wide, missing = "fiml")
+
+# check results
+summary(fit_lgcm_quadratic_latent, fit.measures = TRUE, standardized = TRUE)
+```
+</details>
+
+<br>
+
+* Let's compare all four models. Which model specification is the preferred solution?
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r, message = F, warning=F}
+# check fit measures of each of the four models
+fitMeasures(fit_lgcm_ri, c("aic", "bic", "rmsea", "cfi", "tli"))
+fitMeasures(fit_lgcm_slope, c("aic", "bic", "rmsea", "cfi", "tli"))
+fitMeasures(fit_lgcm_quadratic, c("aic", "bic", "rmsea", "cfi", "tli"))
+fitMeasures(fit_lgcm_quadratic_latent, c("aic", "bic", "rmsea", "cfi", "tli"))
+
+```
+
+The quadratic latent growth model with a fixed coefficient for age squared is the preferred solution.
+</details>
+
+<br>
+
+* Finally, using the model specification with the preferred solution, fit a latent growth curve model adjusting for gender and amount of cognitive support at home. How can we interpret this growth curve model with covariates?
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r}
+# specify the LGCM
+lgcm_quadratic_covariates <- '
+  # Latent intercept factor
+  intercept =~ 1*read_t0 + 1*read_t1 + 1*read_t2 + 1*read_t3
+  
+  # Latent slope factor
+  slope =~ 0*read_t0 + 1*read_t1 + 2*read_t2 + 3*read_t3
+  
+  # Latent quadratic factor
+  quadratic =~ 0*read_t0 + 1*read_t1 + 4*read_t2 + 9*read_t3
+  
+  # Fix variance of quad to zero (fixed effect only)
+  quadratic ~~ 0*quadratic
+  
+  # Latent variables allowed to covary
+  intercept ~~ slope
+  
+  # Regress growth factors on time-invariant covariates
+  intercept ~ male + homecog
+  slope     ~ male + homecog
+  
+  # If we had, this is how we would regress observed outcomes on time-varying covariates
+  # read_t0 ~ x_t0
+  # read_t1 ~ x_t1
+  # read_t2 ~ x_t2
+  # read_t3 ~ x_t3
+'
+
+# estimate the LGCM
+fit_lgcm_quadratic_covariates <- sem(lgcm_quadratic_covariates, data = reading_wide, missing = "fiml")
+
+# check results
+summary(fit_lgcm_quadratic_covariates, fit.measures = TRUE, standardized = TRUE)
+```
+</details>
+
+<br>
+
+## Second part
+
+Download the `read_long.dta` data file from the [website](https://thiagoroliveira.com/LDA-2025). Download the file and store it in a sensible folder in your computer (preferably the folder of your R Project). Then, we can use the `read_stata()` function to import the dataset into `R`.
+
+Again, because the data is available online, we can also use the following function to import data into `R`, which is more efficient.
+
+```{r}
+# import data into R
+physfunc <- read_stata("https://thiagoroliveira.com/LDA-2025/data/physfunc.dta")
+```
+
+The data file `physfunc.dta` contains repeated measurements (for up to six occasions) on health functioning from a study of British civil servants, the Whitehall II study. Health functioning was assessed by the SF-36, a 36 item instrument that comprises eight subscales covering physical, psychological and social functioning. These eight scales can be summarised into physical and mental health components. These are scaled using general US population norms to have mean values of 50 and low scores imply poor functioning. We will analyse physical health functioning (`phf`).
+
+The variables available in the `physfunc` dataset are the following:
+
+-------------------------------------------------------------------------------------------
+ Name                             Description
+-------------------------------- ----------------------------------------------------------
+`id`                              Identifier for each respondent
+ 
+`occ`                             Occasion (1, 2, 3, 4, 5, 6)
+  
+`female`                          Gender (1 = female)
+
+`grade`                           Employment grade at baseline (1 = high grade, 2 = intermediate grade, 3 = low grade)
+
+`age50`                           Mean age at baseline
+
+`phf`                             Physical health functioning 
+-------------------------------------------------------------------------------------------
+
+The aim of this exercise is to investigate the following questions:
+
+* How does women’s physical functioning change as they get older?
+* To what extent does this vary between women?
+
+Considering the **subset of female respondents only**, carry out the following analysis and interpret the results:
+
+- Obtain summary statistics for `phf` and `age50` at each occasion
+
+- Plot physical health functioning trajectories by age for any five individuals in the dataset.
+
+- Fit a simple random intercept growth model for `phf` with no explanatory variables.
+
+- Fit a random slope growth model for `phf` which allows the rate of change in physical health functioning to vary among individuals.
+
+- Fit a quadratic growth model for `phf` which allows for non-linear trajectories.
+
+- Which model is preferred?
+
