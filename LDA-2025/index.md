@@ -25,6 +25,13 @@ Welcome to the course page for the methods@manchester **Longitudinal Data Analys
 - [Day 2 slides --- afternoon](slides/day2_afternoon.pdf)
 - [Day 2 lab notes --- afternoon](labs/day2_afternoon.html)
 
+### Day 3
+
+- [Day 3 slides --- morning](slides/day3_morning.pdf)
+- [Day 3 lab notes --- morning](labs/day3_morning.html)
+
+- [Day 3 slides --- afternoon](slides/day3_afternoon.pdf)
+
 
 ## Anonymous questions
 
