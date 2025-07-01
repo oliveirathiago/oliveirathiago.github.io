@@ -22,6 +22,8 @@ Welcome to the course page for the methods@manchester **Longitudinal Data Analys
 - [Day 2 dataset --- morning --- first part](data/read_long.dta)
 - [Day 2 dataset --- morning --- second part](data/physfunc.dta)
 
+- [Day 2 slides --- afternoon](slides/day2_afternoon.pdf)
+
 
 ## Anonymous questions
 
