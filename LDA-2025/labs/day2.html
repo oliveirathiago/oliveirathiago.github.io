@@ -1552,7 +1552,7 @@ following:</p>
 </tr>
 <tr class="odd">
 <td align="center"><code>male</code></td>
-<td align="center">Gender</td>
+<td align="center">Gender (1 = male)</td>
 </tr>
 <tr class="even">
 <td align="center"><code>homecog</code></td>
@@ -1568,6 +1568,8 @@ following:</p>
 </tr>
 </tbody>
 </table>
+<div id="first-part" class="section level2">
+<h2>First part</h2>
 <p>Let’s reproduce some of the analyses shown in the lecture slides.
 Considering <code>read</code> as your main dependent variable:</p>
 <ul>
@@ -1612,10 +1614,341 @@ ggplot(data = reading %&gt;% filter(childid %in% c(1:10)) %&gt;% mutate(childid 
 </details>
 <p><br></p>
 <ul>
-<li><p>Fit a linear random intercept growth model</p></li>
-<li><p>Fit a linear random slope growth model</p></li>
-<li><p>Fit a quadratic growth model</p></li>
+<li>Fit a linear random intercept growth model</li>
 </ul>
+<details>
+<summary>
+<em>Show me how</em>
+</summary>
+<pre class="r"><code># We can use the lmer() function
+random_intercepts &lt;- lmer(read ~ t + (1 | childid), data = reading)
+
+# see results
+summary(random_intercepts)</code></pre>
+<pre><code>## Linear mixed model fit by REML [&#39;lmerMod&#39;]
+## Formula: read ~ t + (1 | childid)
+##    Data: reading
+## 
+## REML criterion at convergence: 2212.5
+## 
+## Scaled residuals: 
+##     Min      1Q  Median      3Q     Max 
+## -2.5054 -0.5301  0.0371  0.5530  3.8621 
+## 
+## Random effects:
+##  Groups   Name        Variance Std.Dev.
+##  childid  (Intercept) 0.7323   0.8557  
+##  Residual             0.4225   0.6500  
+## Number of obs: 884, groups:  childid, 221
+## 
+## Fixed effects:
+##             Estimate Std. Error t value
+## (Intercept)  2.71932    0.06820   39.87
+## t            1.08403    0.01955   55.44
+## 
+## Correlation of Fixed Effects:
+##   (Intr)
+## t -0.430</code></pre>
+</details>
+<p><br></p>
+<ul>
+<li>Fit a linear random slope growth model</li>
+</ul>
+<details>
+<summary>
+<em>Show me how</em>
+</summary>
+<pre class="r"><code># We can use the lmer() function
+random_slope &lt;- lmer(read ~ t + (t | childid), data = reading)
+
+# see results
+summary(random_slope)</code></pre>
+<pre><code>## Linear mixed model fit by REML [&#39;lmerMod&#39;]
+## Formula: read ~ t + (t | childid)
+##    Data: reading
+## 
+## REML criterion at convergence: 2128.6
+## 
+## Scaled residuals: 
+##     Min      1Q  Median      3Q     Max 
+## -2.3579 -0.5406 -0.0376  0.4967  4.1818 
+## 
+## Random effects:
+##  Groups   Name        Variance Std.Dev. Corr
+##  childid  (Intercept) 0.51927  0.7206       
+##           t           0.06981  0.2642   0.15
+##  Residual             0.30645  0.5536       
+## Number of obs: 884, groups:  childid, 221
+## 
+## Fixed effects:
+##             Estimate Std. Error t value
+## (Intercept)  2.71932    0.05762   47.19
+## t            1.08403    0.02436   44.51
+## 
+## Correlation of Fixed Effects:
+##   (Intr)
+## t -0.205</code></pre>
+</details>
+<p><br></p>
+<ul>
+<li>Fit a quadratic growth model</li>
+</ul>
+<details>
+<summary>
+<em>Show me how</em>
+</summary>
+<pre class="r"><code># We can use the lmer() function
+quadratic_simple &lt;- lmer(read ~ t + t_squared + (t | childid), data = reading %&gt;% mutate(t_squared = t^2))
+
+# see results
+summary(quadratic_simple)</code></pre>
+<pre><code>## Linear mixed model fit by REML [&#39;lmerMod&#39;]
+## Formula: read ~ t + t_squared + (t | childid)
+##    Data: reading %&gt;% mutate(t_squared = t^2)
+## 
+## REML criterion at convergence: 2022.3
+## 
+## Scaled residuals: 
+##     Min      1Q  Median      3Q     Max 
+## -2.9572 -0.4935 -0.0371  0.4502  4.5190 
+## 
+## Random effects:
+##  Groups   Name        Variance Std.Dev. Corr
+##  childid  (Intercept) 0.56713  0.7531       
+##           t           0.08349  0.2889   0.04
+##  Residual             0.23807  0.4879       
+## Number of obs: 884, groups:  childid, 221
+## 
+## Fixed effects:
+##             Estimate Std. Error t value
+## (Intercept)  2.53369    0.05991   42.29
+## t            1.64093    0.05493   29.88
+## t_squared   -0.18563    0.01641  -11.31
+## 
+## Correlation of Fixed Effects:
+##           (Intr) t     
+## t         -0.333       
+## t_squared  0.274 -0.896</code></pre>
+<pre class="r"><code># We can also include the quadratic term as a growth parameter
+quadratic_growth &lt;- lmer(read ~ t + t_squared + (t + t_squared | childid), data = reading %&gt;% mutate(t_squared = t^2))</code></pre>
+<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl = control$checkConv, :
+## Model failed to converge with max|grad| = 0.00866492 (tol = 0.002, component 1)</code></pre>
+<pre class="r"><code># see results
+summary(quadratic_growth)</code></pre>
+<pre><code>## Linear mixed model fit by REML [&#39;lmerMod&#39;]
+## Formula: read ~ t + t_squared + (t + t_squared | childid)
+##    Data: reading %&gt;% mutate(t_squared = t^2)
+## 
+## REML criterion at convergence: 2003.9
+## 
+## Scaled residuals: 
+##     Min      1Q  Median      3Q     Max 
+## -3.2667 -0.4781 -0.0332  0.4251  3.9510 
+## 
+## Random effects:
+##  Groups   Name        Variance Std.Dev. Corr       
+##  childid  (Intercept) 0.57085  0.7555              
+##           t           0.36464  0.6039   -0.04      
+##           t_squared   0.01733  0.1316   -0.02 -0.90
+##  Residual             0.20349  0.4511              
+## Number of obs: 884, groups:  childid, 221
+## 
+## Fixed effects:
+##             Estimate Std. Error t value
+## (Intercept)  2.53369    0.05880   43.09
+## t            1.64093    0.06250   26.26
+## t_squared   -0.18563    0.01757  -10.57
+## 
+## Correlation of Fixed Effects:
+##           (Intr) t     
+## t         -0.285       
+## t_squared  0.216 -0.925
+## optimizer (nloptwrap) convergence code: 0 (OK)
+## Model failed to converge with max|grad| = 0.00866492 (tol = 0.002, component 1)</code></pre>
+</details>
+<p><br></p>
+<ul>
+<li>Let’s compare all four models. We can conduct a series of likelihood
+ratio tests, or we can simply compare the BIC of all models. Which model
+specification is the preferred solution?</li>
+</ul>
+<details>
+<summary>
+<em>Show me how</em>
+</summary>
+<pre class="r"><code># We can use the texreg package for such comparisons
+
+# Install the texreg package; you only need to do that once
+## install.packages(&quot;texreg&quot;) # (uncomment if you need to install)
+
+# Load the texreg package
+library(texreg)
+
+# We can then use the screenreg() function to make direct comparisons between models
+list(random_intercepts, random_slope, quadratic_simple, quadratic_growth) %&gt;% screenreg()</code></pre>
+<pre><code>## 
+## ==========================================================================================
+##                                     Model 1       Model 2       Model 3       Model 4     
+## ------------------------------------------------------------------------------------------
+## (Intercept)                             2.72 ***      2.72 ***      2.53 ***      2.53 ***
+##                                        (0.07)        (0.06)        (0.06)        (0.06)   
+## t                                       1.08 ***      1.08 ***      1.64 ***      1.64 ***
+##                                        (0.02)        (0.02)        (0.05)        (0.06)   
+## t_squared                                                          -0.19 ***     -0.19 ***
+##                                                                    (0.02)        (0.02)   
+## ------------------------------------------------------------------------------------------
+## AIC                                  2220.45       2140.56       2036.34       2023.92    
+## BIC                                  2239.59       2169.27       2069.83       2071.76    
+## Log Likelihood                      -1106.23      -1064.28      -1011.17      -1001.96    
+## Num. obs.                             884           884           884           884       
+## Num. groups: childid                  221           221           221           221       
+## Var: childid (Intercept)                0.73          0.52          0.57          0.57    
+## Var: Residual                           0.42          0.31          0.24          0.20    
+## Var: childid t                                        0.07          0.08          0.36    
+## Cov: childid (Intercept) t                            0.03          0.01         -0.02    
+## Var: childid t_squared                                                            0.02    
+## Cov: childid (Intercept) t_squared                                               -0.00    
+## Cov: childid t t_squared                                                         -0.07    
+## ==========================================================================================
+## *** p &lt; 0.001; ** p &lt; 0.01; * p &lt; 0.05</code></pre>
+The quadratic growth model with a fixed coefficient for age squared is
+the preferred solution.
+</details>
+<p><br></p>
+<ul>
+<li>Finally, using the model specification with the preferred solution,
+fit a growth curve model adjusting for gender and amount of cognitive
+support at home. How can we interpret this growth curve model with
+covariates?</li>
+</ul>
+<details>
+<summary>
+<em>Show me how</em>
+</summary>
+<pre class="r"><code># fit growth curve model with covariates
+quadratic_simple_covs &lt;- lmer(read ~ t + t_squared + male + homecog + (t | childid), data = reading %&gt;% mutate(t_squared = t^2))
+
+# see results
+summary(quadratic_simple_covs)</code></pre>
+<pre><code>## Linear mixed model fit by REML [&#39;lmerMod&#39;]
+## Formula: read ~ t + t_squared + male + homecog + (t | childid)
+##    Data: reading %&gt;% mutate(t_squared = t^2)
+## 
+## REML criterion at convergence: 2024.2
+## 
+## Scaled residuals: 
+##     Min      1Q  Median      3Q     Max 
+## -2.9753 -0.5063 -0.0452  0.4480  4.5622 
+## 
+## Random effects:
+##  Groups   Name        Variance Std.Dev. Corr
+##  childid  (Intercept) 0.55944  0.7480       
+##           t           0.08349  0.2889   0.01
+##  Residual             0.23807  0.4879       
+## Number of obs: 884, groups:  childid, 221
+## 
+## Fixed effects:
+##             Estimate Std. Error t value
+## (Intercept)  2.12315    0.22398   9.479
+## t            1.64093    0.05493  29.875
+## t_squared   -0.18563    0.01641 -11.312
+## male        -0.12537    0.11181  -1.121
+## homecog      0.05235    0.02280   2.296
+## 
+## Correlation of Fixed Effects:
+##           (Intr) t      t_sqrd male  
+## t         -0.091                     
+## t_squared  0.073 -0.896              
+## male      -0.267  0.000  0.000       
+## homecog   -0.928  0.000  0.000  0.006</code></pre>
+</details>
+<p><br></p>
+</div>
+<div id="second-part" class="section level2">
+<h2>Second part</h2>
+<p>Download the <code>read_long.dta</code> data file from the <a href="https://thiagoroliveira.com/LDA-2025">website</a>. Download the
+file and store it in a sensible folder in your computer (preferably the
+folder of your R Project). Then, we can use the
+<code>read_stata()</code> function to import the dataset into
+<code>R</code>.</p>
+<p>Again, because the data is available online, we can also use the
+following function to import data into <code>R</code>, which is more
+efficient.</p>
+<pre class="r"><code># import data into R
+physfunc &lt;- read_stata(&quot;https://thiagoroliveira.com/LDA-2025/data/physfunc.dta&quot;)</code></pre>
+<p>The data file <code>physfunc.dta</code> contains repeated
+measurements (for up to six occasions) on health functioning from a
+study of British civil servants, the Whitehall II study. Health
+functioning was assessed by the SF-36, a 36 item instrument that
+comprises eight subscales covering physical, psychological and social
+functioning. These eight scales can be summarised into physical and
+mental health components. These are scaled using general US population
+norms to have mean values of 50 and low scores imply poor functioning.
+We will analyse physical health functioning (<code>phf</code>).</p>
+<p>The variables available in the <code>physfunc</code> dataset are the
+following:</p>
+<table>
+<colgroup>
+<col width="35%" />
+<col width="64%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Name</th>
+<th align="center">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><code>id</code></td>
+<td align="center">Identifier for each respondent</td>
+</tr>
+<tr class="even">
+<td align="center"><code>occ</code></td>
+<td align="center">Occasion (1, 2, 3, 4, 5, 6)</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>female</code></td>
+<td align="center">Gender (1 = female)</td>
+</tr>
+<tr class="even">
+<td align="center"><code>grade</code></td>
+<td align="center">Employment grade at baseline (1 = high grade, 2 =
+intermediate grade, 3 = low grade)</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>age50</code></td>
+<td align="center">Mean age at baseline</td>
+</tr>
+<tr class="even">
+<td align="center"><code>phf</code></td>
+<td align="center">Physical health functioning</td>
+</tr>
+</tbody>
+</table>
+<p>The aim of this exercise is to investigate the following
+questions:</p>
+<ul>
+<li>How does women’s physical functioning change as they get older?</li>
+<li>To what extent does this vary between women?</li>
+</ul>
+<p>Considering the <strong>subset of female respondents only</strong>,
+carry out the following analysis and interpret the results:</p>
+<ul>
+<li><p>Obtain summary statistics for <code>phf</code> and
+<code>age50</code> at each occasion</p></li>
+<li><p>Plot physical health functioning trajectories by age for any five
+individuals in the dataset.</p></li>
+<li><p>Fit a simple random intercept growth model for <code>phf</code>
+with no explanatory variables.</p></li>
+<li><p>Fit a random slope growth model for <code>phf</code> which allows
+the rate of change in physical health functioning to vary among
+individuals.</p></li>
+<li><p>Fit a quadratic growth model for <code>phf</code> which allows
+for non-linear trajectories.</p></li>
+<li><p>Which model is preferred?</p></li>
+</ul>
+</div>
 
 
 
