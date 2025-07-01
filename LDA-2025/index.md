@@ -23,6 +23,7 @@ Welcome to the course page for the methods@manchester **Longitudinal Data Analys
 - [Day 2 dataset --- morning --- second part](data/physfunc.dta)
 
 - [Day 2 slides --- afternoon](slides/day2_afternoon.pdf)
+- [Day 2 lab notes --- afternoon](labs/day2_afternoon.html)
 
 
 ## Anonymous questions
