@@ -1,0 +1,297 @@
+---
+title: "Longitudinal Data Analysis"
+subtitle: "Day 4: Difference-in-differences"
+author: "Thiago R Oliveira"
+date: ""
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+***
+
+Today we are learning how to use panel data to make causal claims, implementing a variety of difference-in-difference estimators. We will (i) 'manually' calculate the difference-in-differences and the difference in changes, (ii) use linear regression to estimate the DiD (using interactions and first differences), and (iii) use two-way fixed-effect regression models. Today will also be a good opportunity to see some of `R`'s plotting functions, as visually inspecting the data is one of the best ways of assessing the plausibility of the parallel trends assumption. Finally, we will see how we can reshape the dataset from a long format to a wide format. 
+
+**Refugees and support for the far right**
+
+The recent refugee crisis in Europe has coincided with a period of electoral politics in which right-wing extremist parties have performed well in many European countries. However, despite this aggregate level correlation, we have surprisingly little causal evidence on the link between influxes of refugees, and the attitudes and behaviour of native populations. What is the causal relationship between refugee crises and support for far-right political parties? [Dinas et. al. (2018)](https://www.cambridge.org/core/journals/political-analysis/article/waking-up-the-golden-dawn-does-exposure-to-the-refugee-crisis-increase-support-for-extremeright-parties/C50A127CC517968F2D0FA42A2A23FF85) examine evidence from the Greek case. Making use of the fact that some Greek islands (those close to the Turkish border) witnessed sudden and unexpected increases in the number of refugees during the summer of 2015, while other nearby Greek islands saw much more moderate inflows of refugees, the authors use a difference-in-differences analysis to assess whether treated municipalities were more supportive of the far-right Golden Dawn party in the September 2015 general election. We will examine the data from this paper, replicating the main parts of their difference-in-differences analysis.
+
+The `dinas_golden_dawn.Rdata` file contains data on 96 Greek municipalities, and 4 elections (2012, 2013, 2015, and the treatment year 2016). The `muni` data.frame contained within that file includes the following variables:
+
+-------------------------------------------------------------------------------------------
+ Name                             Description
+ -------------------------------- ----------------------------------------------------------
+  `treatment`                         This is a binary variable which measures 1 if the observation is in the treatment group (a municipality that received many refugees) **and** the observation is in the post-treatment period (i.e. in 2016). Untreated units, and treatment units in the pre-treatment periods are coded as zero.
+ 
+ `ever_treated`                       This is a binary variable equal to `TRUE` in all periods for all treated municipalities, and equal to `FALSE` in all periods for all control municipalities.
+ 
+ `trarrprop`                          continuous (per capita number of refugees arriving in each municipality)
+ 
+ `gdvote`                             the outcome of interest. The Golden Dawn’s share of the vote. (Continuous)
+ 
+ `year`                               the year of the election. (Can take 4 values: 2012, 2013, 2015, and 2016)
+ 
+-------------------------------------------------------------------------------------------
+
+Please download the `dinas_golden_dawn.Rdata` data file from the [website](https://thiagoroliveira.com/LDA-2025). Download the file and store it in a sensible folder in your computer (preferably the folder of your R Project). Then, we can use the `load()` function to import the dataset into `R`.
+
+```{r}
+load("data/dinas_golden_dawn.Rdata")
+```
+
+## MORNING SESSION: Basic setup of the two-period difference-in-differences
+
+**Question 1**
+
+Using only the observations from the post-treatment period (i.e. 2016), implement a regression which compares the Golden Dawn share of the vote for the treated and untreated municipalities. Does the coefficient on this regression represent the average treatment effect on the treated? If so, why? If not, why not?
+
+<details>
+<summary>*Show me how*</summary>
+```{r, warning = F, message = F}
+# load de dplyr package
+library(dplyr)
+
+# using only observations from the post-treatment period:
+post_treatment_data <- filter(muni, year == 2016)
+
+## comparing GD votes for treated and non-treated units
+
+# fit a cross-sectional regression model
+post_treatment_period_regression <- lm(gdvote ~ treatment, data = post_treatment_data)
+
+# print results
+summary(post_treatment_period_regression)
+```
+
+The `treatment` variable is a dummy measuring 1 for treated observations in the post-treatment period, and zero otherwise. This means that the regression estimated above is simply the difference in means (for support for the Golden Dawn) between the treatment group (municipalities that witnessed large inflows of refugees) and the control group (municipalities that did not receive large numbers of refugees). The difference in means is positive, and significant: treated municipalities on average were 2-3 percentage points more supportive of the Golden Dawn than non-treated municipalities in the post-treatment period.
+
+However, because the treatment was not assigned at random, we have little reason to believe that this difference in means would identify the causal effect of interest. The treated and control municipalities might very well have different potential outcomes, and so selection bias is---as always---a concern.
+
+</details>
+<br>
+
+
+**Question 2**
+
+Calculate the sample difference-in-differences between 2015 and 2016. For this question, you should calculate the relevant differences “manually”, in that you should use the mean function to construct the appropriate comparisons. Calculate both the 'difference in changes' and the 'difference in differences'. What does this calculation imply about the average treatment effect on the treated?
+
+<details>
+<summary>*Show me how*</summary>
+```{r}
+# GD share of votes in non-treated municipalities before the treatment:
+mean_control_before <- mean(muni$gdvote[muni$ever_treated == 0 & muni$year == 2015])
+mean_control_before
+
+# GD share of votes in non-treated municipalities after the treatment:
+mean_control_after <- mean(muni$gdvote[muni$ever_treated == 0 & muni$year == 2016])
+mean_control_after
+
+# GD share of votes in treated municipalities before the treatment:
+mean_treat_before <- mean(muni$gdvote[muni$ever_treated == 1 & muni$year == 2015])
+mean_treat_before
+
+# GD share of votes in treated municipalities after the treatment:
+mean_treat_after <- mean(muni$gdvote[muni$ever_treated == 1 & muni$year == 2016])
+mean_treat_after
+
+# Changes in treatment group:
+changes_treatment <- mean_treat_after - mean_treat_before
+changes_treatment
+
+# Changes in control group:
+changes_control <- mean_control_after - mean_control_before
+changes_control
+
+# Difference between units pre-treatment:
+diff_before <- mean_treat_before - mean_control_before
+diff_before
+
+# Difference between units post-treatment:
+diff_after <- mean_treat_after - mean_control_after
+diff_after
+
+# Difference in changes
+changes_treatment - changes_control
+
+# Difference in differences
+diff_after - diff_before
+```
+
+Changes in the treated municipalities (`r round(changes_treatment, 2)`) are larger than changes in non-treated municipalities (`r round(changes_control, 2)`). Equivalently, the difference between municipalities in the post-treatment period (`r round(diff_after, 2)`) is larger than the difference in the pre-treatment period (`r round(diff_before, 2)`), implying that the average treatment effect on the treatment municipalities is positive. In simple terms, the DiD implies that the refugee crisis increased support for the Golden Dawn amongst treated municipalities by roughly 2 percentage points, on average.
+
+</details>
+<br>
+
+## AFTERNOON SESSION: Regression estimators
+
+**Question 3**
+
+Use a linear regression with an appropriate interaction term to estimate the difference-in-differences. For this question, you should again focus only on the years 2015 and 2016.
+
+**Code hint**: Create a new dummy variable named `period`, where observations in the post-treatment period (i.e., 2016) are coded as 1 and observations in the pre-treatment (i.e., 2015) are coded as 0. You use the `ifelse()` function: `ifelse(test, yes, no)`, where `test` is a logical statement, `yes` is the value for `TRUE`, and `no` is the value for `FALSE`.
+
+<details>
+<summary>*Show me how*</summary>
+```{r}
+## Subset the data to observations in either 2015 or 2016
+muni_simple <- muni %>% filter(year >= 2015)
+
+## Construct a dummy variable for the post-treatment period.
+muni_simple <- mutate(muni_simple, period = case_when(year == 2016 ~ 1,
+                                                      TRUE ~ 0))
+
+# Calculate the difference-in-differences
+interaction_model <- lm(gdvote ~ ever_treated * period, data = muni_simple)
+summary(interaction_model)
+```
+
+The regression analysis gives us, of course, the same answer as the difference in means that we calculated above. The coefficient on the interaction term between `ever_treated` and `period` is 2.12. Fortunately, regression also provides us with standard errors, and we can see that the interaction term is statistically significant.
+
+</details>
+<br>
+
+**Question 4**
+
+Let's convert the dataset from a "long" format to a "wide" format. That is, let each row represent one unit (i.e., a municipality), and variables measured at different time period appear as new columns. We can use the `pivot_wider()` function from the `tidyr` package and specify the data that we want to reshape, the variable that represents the time period, the variable that represents the units, the direction (i.e., from long to wide or from wide to long), and a character distinguishing variables at different periods:
+
+```{r}
+# load the tidyr package
+library(tidyr)
+
+# use the pivot_wider function to reshape the dataset
+muni_simple_wide <- muni_simple %>%
+  pivot_wider(
+    names_from = year,
+    values_from = -c(municipality, year)
+  )
+
+# check columns of the wide dataset
+names(muni_simple_wide)
+```
+
+The `muni_simple_wide` dataset has 96 rows (rather than 192) and 13 columns (rather than 7). Note that the name of the variables now indicate whether they were measured in 2015 or 2015.
+
+Using the wide dataset, use the first differences estimator to find the difference-in-differences.
+
+**Code hint**: You first need to create a new variable indicating the change in `gdvote` between 2015 and 2016.
+
+<details>
+<summary>*Show me how*</summary>
+```{r}
+# Create variable representing change in gdvote
+muni_simple_wide <- mutate(muni_simple_wide, gdvote_change = gdvote_2016 - gdvote_2015)
+
+# Use the first difference estimator to find the DiD:
+first_diff <- lm(gdvote_change ~ ever_treated_2016, muni_simple_wide)
+
+# print results
+summary(first_diff)
+```
+
+The first differences estimator gives us, of course, exactly the same difference-in-differences that we calculated previously.
+</details>
+<br>
+
+**Question 5**
+
+All difference-in-difference analyses rely on the “parallel trends” assumption. What does this assumption mean? What does it imply in this particular analysis?
+
+<details>
+<summary>*Tell me more*</summary>
+The parallel trends assumption requires us to believe that, in the absence of treatment, the treated and untreated units would have followed similar changes in the dependent variable. Another way of stating the assumption is that selection bias between treatment and control units must be stable over time (i.e., there can be no time varying confounders).
+
+In this particular example, this assumption suggests that, in the absence of the refugee crisis, treated and control municipalities would have experienced similar changes in the level of support for the Golden Dawn in the 2016 election.
+</details>
+<br>
+
+**Question 6**
+
+Let's assess the parallel trends assumption by plotting the evolution of Golden Dawn’s vote shares from 2012 to 2016 for both the treated and non-treated municipalities. We can start using the `group_by()` function to group average GD vote share for each treatment group and each period.
+
+```{r}
+# calculate grouped averages
+group_period_averages <- muni %>%
+  group_by(year, ever_treated) %>%
+  summarise(gdvote = mean(gdvote, na.rm = TRUE), .groups = "drop")
+
+group_period_averages
+```
+
+We can now use the group period averages to plot the values we have estimated. There are various strategies to do this. One of the most common ways is using the `ggplot2` package. The logic here is to use the `ggplot()` function to 'set the scene' and then add more information to the plot step by step.
+
+<details>
+<summary>*See plot*</summary>
+```{r, message = F}
+# load the ggplot2 package
+library(ggplot2)
+
+trends <- ggplot(group_period_averages, aes(x = year, y = gdvote, color = ever_treated)) + 
+  geom_point() + geom_line(aes(group = ever_treated))
+trends
+```
+
+We can save the plot using the `pdf()` function. Essentially, instead of plotting in the Plot panel, R plots in a pdf file that you are creating. Assuming you have a folder named `plots` in your working directory, we can use the follosing code:
+```{r, eval = F}
+pdf('plots/parallel_trends.pdf')
+trends
+dev.off()  # don't forget to use tell R stop plotting in the pdf file!
+```
+
+Go check the pdf file in your folder.
+</details>
+<br>
+
+*Are you convinced that the parallel trends assumption is reasonable in this application?*
+
+<details>
+<summary>*Tell me more*</summary>
+The plot reveals that the parallel trends assumption seems very reasonable in this application. The vote share for the Golden Dawn evolves in parallel for both the treated and untreated municipalities throughout the three pre-treatment elections, and then diverges noticeably in the post-treatment period. This is encouraging, as it lends significant support to the crucial identifying assumption in the analysis.
+</details>
+<br>
+
+**Question 7**
+
+Use a fixed-effects regression to estimate the difference-in-differences. Remember that the fixed-effect estimator for the diff-in-diff model requires “two-way” fixed-effects, i.e. sets of dummy variables for a) units and b) time periods. In `R`, you do not need to construct such dummy variables manually. It is sufficient to use the `as.factor()` function within the `lm()` function to tell R to treat a certain variable as a set of dummies.
+
+<details>
+<summary>*See results!*</summary>
+```{r, warning = F, message = F}
+twfe_model <- lm(gdvote ~ as.factor(municipality) + as.factor(year) + treatment,
+                       data  = muni)
+
+# If you don't want a regression output with coefficients for 191 dummies and three years,
+# you can use the screenreg() function from the texreg package, with the omit.coef option
+# to omit coefficients
+library(texreg)
+screenreg(twfe_model, omit.coef = 'municipality|year')
+```
+
+The key coefficient in this output is the one associated with the `treatment` indicator. Given the fixed-effects, this coefficient represents the difference-in-differences that is our focus. This model indicates an ATT of 2.087, which is very close to our estimates from the questions above (the small differences can be accounted for by the fact that we are now using all the pre-treatment periods, rather than just 2015).
+
+</details>
+<br>
+
+**Question 8**
+
+Using the same model that you implemented in question 6, swap the `treatment` variable for the `trarrprop` variable, which is a continuous treatment variable measuring the number of refugee arrivals per capita. What is the estimated average treatment effect on the treated using this variable?
+
+<details>
+<summary>*Show me how*</summary>
+```{r}
+twfe_model_2 <- lm(gdvote ~ as.factor(municipality) + as.factor(year) + trarrprop,
+                       data  = muni)
+
+screenreg(list(twfe_model, twfe_model_2), omit.coef = "municipality|year")
+```
+
+Note that there is no difficulty in incorporating a continuous treatment variable into this analysis. The parallel trends assumption remains the same – that treated and control groups would have followed the same dynamics in the absense of the treatment, but here we can just interpret the treatment has having different *intensities* for difference units.
+
+The coefficient on the `trarrprop` variable implies that the arrival of each additional refugee per capita increases the Golden Dawn’s vote share 0.6 percentage points on average.
+
+</details>
+<br>
