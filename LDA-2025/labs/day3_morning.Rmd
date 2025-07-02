@@ -1,0 +1,364 @@
+---
+title: "Longitudinal Data Analysis"
+subtitle: "Day 2: The traditional cross-lagged panel models"
+author: "Thiago R Oliveira"
+date: ""
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+***
+
+Today we are learning how to use panel data to assess reverse causality, temporal ordering, and reciprocal relationships, implementing some cross-lagged panel models. We will again reshape data between wide and long formats, fit the traditional cross-lagged panel model, and try different model specifications.
+
+# Police misconduct and violent crime in Chicago
+
+The relationship between policing and crime is a tricky one. Some researchers argue that heavy-handed policing can contribute to increase crime via legal cynicism and strain. However, more police resources---including use of force---are often deployed in high-crime areas. Here, we examine evidence from Chicago. We use publicly available data on violent crimes (i.e., homicides and robberies) and complaints about police misuse of force across all 343 Chicago neighbourhoods between 1991 and 2016. We will use cross-lagged panel models to examine this relationship.
+
+The `chicago.Rdata` file contains data on 343 Chicago neighbourhood clusters, and 25 years (1991 through 2016). The `data.frame` includes the following variables:
+
+-------------------------------------------------------------------------------------------
+ Name                             Description
+ -------------------------------- ----------------------------------------------------------
+  `NC_NUM`                        an ID variable indicating Chicago neighbourhood clusters
+ 
+ `year`                           the year, ranging from 1991 to 2016
+ 
+ `complaints`                     (logged) number of complaints about police misuse of force in Chicago
+ 
+ `violent`                        (logged) number of violent crimes reported
+ 
+ `population_density`             (logged) population density (measured in 1990)
+ 
+ `FAC_disadv`                     factor scores indicating concentrated disadvantage (measured in 1990)
+ 
+-------------------------------------------------------------------------------------------
+
+Please download the `chicago.RData` data file from the [website](https://thiagoroliveira.com/LDA-2025). Download the file and store it in a sensible folder in your computer (preferably the folder of your R Project). Then, we can use the `load()` function to import the dataset into `R`.
+
+```{r}
+load("data/chicago.RData") # adjust accordingly
+```
+
+**Question 1**
+
+Is the dataset set up in a wide format or in a long format?
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r}
+# check the first rows of the dataset
+head(chicago)
+```
+</details>
+
+<br>
+
+**Question 2**
+
+To fit a cross-lagged panel model, we need to have a wide dataset. Let's use the `pivot_wider()` function again to reshape it wide. To avoid tedious coding in the next question, let's filter the dataset so that it includes data from 2011 to 2014 only.
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r, message = F, warning = F}
+# load tidyverse
+library(tidyverse)
+
+# filter and reshape the dataset
+chicago_wide <- chicago %>%
+  filter(year > 2010 & year < 2015) %>%
+  pivot_wider(names_from = year,
+              values_from = -c(NC_NUM, year, FAC_disadv, population_density))
+
+# check columns of the wide dataset
+names(chicago_wide)
+```
+
+</details>
+
+<br>
+
+**Question 3**
+Using the `sem()` function from the `lavaan()` package, let's fit our first cross-lagged panel model assessing the reciprocal relationship between complaints and violent crime. Let's start with autoregressive and cross-lagged parameters constrained to equality. What is the average cross-lagged effect of crime on police use-of-force? And what is the average cross-lagged effect of police use-of-force on crime?
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r, message = F, warning = F}
+# load the lavaan package
+library(lavaan)
+
+# specify the model
+clpm_model <- '
+  violent_2014 ~ a * violent_2013 + b * complaints_2013
+  violent_2013 ~ a * violent_2012 + b * complaints_2012
+  violent_2012 ~ a * violent_2011 + b * complaints_2011
+  
+  complaints_2014 ~ c * complaints_2013 + d * violent_2013
+  complaints_2013 ~ c * complaints_2012 + d * violent_2012
+  complaints_2012 ~ c * complaints_2011 + d * violent_2011
+  
+  violent_2011 ~~ complaints_2011
+  violent_2012 ~~ complaints_2012
+  violent_2013 ~~ complaints_2013
+  violent_2014 ~~ complaints_2014
+'
+
+# fit the CLPM
+clpm_fit <- sem(clpm_model, estimator = "ML", data = chicago_wide)
+
+# summary results
+summary(clpm_fit, fit.measures = TRUE, standardized = TRUE)
+```
+
+</details>
+
+<br>
+
+**Question 3**
+Let's fit the same model, but now not constraining autoregressive and cross-lagged parameters to equality. What happens with the model?
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r}
+# load the lavaan package
+library(lavaan)
+
+# specify the model
+clpm_model_unconstrained <- '
+  violent_2014 ~ violent_2013 + complaints_2013
+  violent_2013 ~ violent_2012 + complaints_2012
+  violent_2012 ~ violent_2011 + complaints_2011
+  
+  complaints_2014 ~ complaints_2013 + violent_2013
+  complaints_2013 ~ complaints_2012 + violent_2012
+  complaints_2012 ~ complaints_2011 + violent_2011
+  
+  violent_2011 ~~ complaints_2011
+  violent_2012 ~~ complaints_2012
+  violent_2013 ~~ complaints_2013
+  violent_2014 ~~ complaints_2014
+'
+
+# fit the CLPM
+clpm_unconstrained.fit <- sem(clpm_model_unconstrained, estimator = "ML", data = chicago_wide)
+
+# summary results
+summary(clpm_unconstrained.fit, fit.measures = TRUE, standardized = TRUE)
+```
+
+</details>
+
+<br>
+
+**Question 4**
+Pick your preferred model (i.e., constraining autoregressive and cross-lagged paramters to equality or not). Now, let's add two time-constant control variables to the cross-lagged panel model: `population_density` and `FAC_disadv`. Interpret the estimated coefficients.
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r}
+# specify the model
+clpm_model_covariates <- '
+  violent_2014 ~ a * violent_2013 + b * complaints_2013
+  violent_2013 ~ a * violent_2012 + b * complaints_2012
+  violent_2012 ~ a * violent_2011 + b * complaints_2011
+  
+  complaints_2014 ~ c * complaints_2013 + d * violent_2013
+  complaints_2013 ~ c * complaints_2012 + d * violent_2012
+  complaints_2012 ~ c * complaints_2011 + d * violent_2011
+  
+  violent_2011 ~~ complaints_2011
+  violent_2012 ~~ complaints_2012
+  violent_2013 ~~ complaints_2013
+  violent_2014 ~~ complaints_2014
+  
+  complaints_2011 ~ population_density + FAC_disadv
+  violent_2011 ~ population_density + FAC_disadv
+'
+
+# fit the CLPM
+clpm_fit_cov <- sem(clpm_model_covariates, estimator = "ML", data = chicago_wide)
+
+# summary results
+summary(clpm_fit_cov, fit.measures = TRUE, standardized = TRUE)
+```
+
+</details>
+
+<br>
+
+**Question 5**
+Now, let's add contemporaneous as paths as well as cross-lags.
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r, message = F, warning=F}
+# specify the model
+clpm_model_covariates_contemporaneous <- '
+  violent_2014 ~ a * violent_2013 + b * complaints_2013 + e*complaints_2014
+  violent_2013 ~ a * violent_2012 + b * complaints_2012 + e*complaints_2013
+  violent_2012 ~ a * violent_2011 + b * complaints_2011 + e*complaints_2012
+  
+  complaints_2014 ~ c * complaints_2013 + d * violent_2013 + f*violent_2014
+  complaints_2013 ~ c * complaints_2012 + d * violent_2012 + f*violent_2013
+  complaints_2012 ~ c * complaints_2011 + d * violent_2011 + f*violent_2012
+  
+  violent_2011 ~~ complaints_2011
+  violent_2012 ~~ complaints_2012
+  violent_2013 ~~ complaints_2013
+  violent_2014 ~~ complaints_2014
+  
+  complaints_2011 ~ population_density + FAC_disadv
+  violent_2011 ~ population_density + FAC_disadv
+'
+
+# fit the CLPM
+clpm_fit_cov_cont <- sem(clpm_model_covariates_contemporaneous, estimator = "ML", data = chicago_wide)
+
+# summary results
+summary(clpm_fit_cov_cont, fit.measures = TRUE, standardized = TRUE)
+```
+
+</details>
+
+<br>
+
+**Question 6**
+As we discussed, the traditional cross-lagged panel model does not properly handle unobserved heterogeneity. Let's fit Allison et al.'s dynamic panel model with fixed effects. We can use the `dpm()` function from the `dpm` package.
+
+This function requires the dataset to be in a long format. Coding is simple, so we can use all 25 years of data! We just need to tell `R` that this is a panel dataset using the `panel_data()` function.
+
+```{r}
+# load the dpm package
+library(dpm)
+
+# treat the dataset as a panel dataset
+chicago.panel <- chicago %>%
+  mutate(wave = year - 1990) %>%
+  panel_data(id = NC_NUM,
+             wave = wave)
+```
+
+The `dpm()` function is very simple. With a long dataset defined by a `panel_data()` function, we can simply:
+
+```{r, eval = F}
+# template to fit a dpm() model
+my_dpm <- dpm(dependent_variable ~ pre(lag(independent_variable)) + z | w + v,         # time-varying covariate z | time-constant covariates w and v
+              data = my_data, error.inv = T, information = "observed", missing = "ML",
+              y.free = F, x.free = F  # constraining autoregressive and cross-lagged panel models to equality
+              )
+```
+
+The DPM approach does not permit modelling reciprocal relationships. So, let's start modelling the effects of complaints about police misuse of force on violent crime while accounting for reverse causality.
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r}
+# fit a DPM with FEs
+dpm_violent <- dpm(violent ~ pre(lag(complaints)),
+                data = chicago.panel, error.inv = T, information = "observed", missing = "ML")
+
+# print results
+summary(dpm_violent)
+```
+</details>
+
+<br>
+
+**Question 7**
+Now, let's add two time-constant control variables to the cross-lagged panel model: `population_density` and `FAC_disadv`.
+
+<details>
+<summary>*Show me how*</summary>
+
+```{r}
+# fit a DPM with FEs
+dpm_violent_cov <- dpm(violent ~ pre(lag(complaints)) | FAC_disadv + population_density,
+                data = chicago.panel, error.inv = T, information = "observed", missing = "ML")
+
+# print results
+summary(dpm_violent_cov)
+```
+</details>
+
+<br>
+
+**Question 8**
+Let's now fit Hamaker et al.'s Random Intercepts Cross-Lagged Panel Model. Unfortunately, the RI-CLPM is not fully implemented in any packages---so we need to rely on `lavaan` and manually code the model.
+
+<details>
+<summary>*Show me how*</summary>
+```{r}
+RICLPM <- '
+  # Create between components (random intercepts)
+  RI_complaints =~ 1*complaints_2011 + 1*complaints_2012 + 1*complaints_2013 + 1*complaints_2014
+  RI_violent =~ 1*violent_2011 + 1*violent_2012 + 1*violent_2013 + 1*violent_2014
+  
+  # Create within-person centered variables
+  wcomplaints_2011 =~ 1*complaints_2011
+  wcomplaints_2012 =~ 1*complaints_2012
+  wcomplaints_2013 =~ 1*complaints_2013 
+  wcomplaints_2014 =~ 1*complaints_2014
+  wviolent_2011 =~ 1*violent_2011
+  wviolent_2012 =~ 1*violent_2012
+  wviolent_2013 =~ 1*violent_2013
+  wviolent_2014 =~ 1*violent_2014
+
+  # Estimate lagged effects between within-person centered variables
+  wcomplaints_2012 ~ wcomplaints_2011 + wviolent_2011
+  wviolent_2012 ~ wcomplaints_2011 + wviolent_2011
+  wcomplaints_2013 ~ wcomplaints_2012 + wviolent_2012
+  wviolent_2013 ~ wcomplaints_2012 + wviolent_2012
+  wcomplaints_2014 ~ wcomplaints_2013 + wviolent_2013
+  wviolent_2014 ~ wcomplaints_2013 + wviolent_2013
+
+  # Estimate covariance between within-person centered variables at first wave
+  wcomplaints_2011 ~~ wviolent_2011 # Covariance
+  
+  # Estimate covariances between residuals of within-person centered variables 
+  wcomplaints_2012 ~~ wviolent_2012
+  wcomplaints_2013 ~~ wviolent_2013
+  wcomplaints_2014 ~~ wviolent_2014
+  
+  # Estimate variance and covariance of random intercepts
+  RI_complaints ~~ RI_complaints
+  RI_violent ~~ RI_violent
+  RI_complaints ~~ RI_violent
+
+  # Estimate (residual) variance of within-person centered variables
+  wcomplaints_2011 ~~ wcomplaints_2011 # Variances
+  wviolent_2011 ~~ wviolent_2011 
+  wcomplaints_2012 ~~ wcomplaints_2012 # Residual variances
+  wviolent_2012 ~~ wviolent_2012 
+  wcomplaints_2013 ~~ wcomplaints_2013 
+  wviolent_2013 ~~ wviolent_2013 
+  wcomplaints_2014 ~~ wcomplaints_2014 
+  wviolent_2014 ~~ wviolent_2014 
+'
+
+RICLPM_nocovs <- lavaan(RICLPM, 
+  data = chicago_wide, 
+  missing = 'ML', 
+  meanstructure = T, 
+  int.ov.free = T)
+
+summary(RICLPM_nocovs, standardized = T)
+```
+
+</details>
+
+<br>
+
+
+**Question 7**
+Repeat the procedures above to model the effects of violent crime on complaints about police misuse of force accounting for reverse causality.
+

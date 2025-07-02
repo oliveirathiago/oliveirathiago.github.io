@@ -28,8 +28,8 @@ Welcome to the course page for the methods@manchester **Longitudinal Data Analys
 ### Day 3
 
 - [Day 3 slides --- morning](slides/day3_morning.pdf)
-- [Day 3 lab notes --- morning](labs/day3_morning.html)
-- [Day 3 dataset --- morning](data/chicago.RData)
+- [Day 3 lab notes](labs/day3_morning.html)
+- [Day 3 dataset](data/chicago.RData)
 
 - [Day 3 slides --- afternoon](slides/day3_afternoon.pdf)
 
