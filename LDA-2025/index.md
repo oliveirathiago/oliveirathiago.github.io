@@ -40,7 +40,9 @@ Welcome to the course page for the methods@manchester **Longitudinal Data Analys
 - [Day 4 lab notes](labs/day4.html)
 - [Day 4 dataset](data/dinas_golden_dawn.Rdata)
 
+### Day 5
 
+- [Day 1 slides](slides/day1.pdf)
 
 ## Anonymous questions
 
