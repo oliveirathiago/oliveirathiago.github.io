@@ -9,48 +9,26 @@ author_profile: true
 
 ## Working papers
 
-- **[Legal cynicism, intrusive policing, and the dynamics of police legitimacy in Brazil's largest city](https://osf.io/preprints/socarxiv/89jkv)**
-
-  Author: **Thiago R. Oliveira**
-  
-  Asked to Revise & Resubmit, now under second review at *Law and Society Review*
-  
-  <details>
-  <summary><i>See abstract</i></summary>
-
-  <b>Abstract</b>: Public experiences with the law in some neighborhoods are marked by an overwhelming police presence alongside  deep-seated  beliefs  that  legal  agents  are  disinterested  in  ensuring  public  safety.  This  mutual experience of intrusive policing and legal cynicism has important implications for people’s recognition of the legitimacy of legal authority. In the context of a global city in the Global South, this study provides a quantitative assessment of the dynamics of perceived police intrusion and cynicism about police protection and the implications of those experiences for beliefs about the legitimacy of legal institutions. Drawing on a three-wave longitudinal survey representative of adult residents of eight neighborhoods in São Paulo, Brazil (N = 1,200), I demonstrate that perceived police intrusion and cynicism about police protection (a) are two sides of the same coin, being produced by similar social forces and dynamically reproducing each other and (b) operate to undermine police legitimacy. Integrating the legal cynicism and procedural justice theoretical  frameworks,  this  study  shows  that  intrusive  as  well  as  unheeding  and  neglectful  policing practices  can  contribute  to  delegitimizing  legal  authority.  I  conclude  with  a  discussion  about  the distribution of repression and protection and highlight the urgency of exploring public-authority relations in the Global South.<br>
- 
-  <b>Keywords</b>: legal cynicism, intrusive policing, police legitimacy, procedural justice theory, Brazil.
-  
-  </details>
-    
-  Manuscript available on [SocArXiv](https://osf.io/preprints/socarxiv/89jkv).
-    
-  [Replication materials here](https://github.com/oliveirathiago/overpolicing-underpolicing).
-
-- **Police violence, criminal offending, and the legal socialization of adolescents**
+- [**Learning the binding nature of the law: Police violence, criminal offending, and the legal socialization of adolescents**](https://www.crimrxiv.com/pub/nw7lvvaj/release/1)
 
   Authors: **Thiago R. Oliveira** & Jon Jackson
   
-  Under review at the *Journal of Quantitative Criminology*
+  Asked to Revise and Resubmit, revised manuscript resubmitted. *Journal of Developmental and Life-course Criminology*.
   
   <details>
   <summary><i>See abstract</i></summary>
 
-  <b>Abstract</b>: 
-  <b>Objectives</b>: Test whether exposure to police violence undermines the legal socialization of adolescents and contributes to increase criminal offending by examining the extent to which witnessing different policing practices, including an officer assaulting a member of the public, is associated with changes in beliefs about the legitimacy of the law and self-reported offending behavior among adolescents aged 11 to 14 years in São Paulo, Brazil.<br>
-  <b>Methods</b>: A cohort-based, four-wave longitudinal survey of 800 2005-born adolescents living in São Paulo was fielded annually between 2016 and 2019. Measures include recent exposure to officers stopping, arresting, and assaulting a suspect, legal legitimacy judgements, and recent self-reported offending behavior. We use a recently developed approach to analyze panel data that augments matching methods with the difference-in-differences estimator to model changes in legitimacy beliefs and a hybrid, longitudinal adaption to a multinomial Rasch model to model self-reported criminal offending.<br>
-  <b>Results</b>: We find a robust association between witnessing police officers assaulting a suspect and (a) decreased perceptions of legal legitimacy and (b) increased offending behavior over time, as well as a negative association between legitimacy judgements and criminal offending. Results also suggest that undermined beliefs about the legitimacy of the law might mediate the effects of exposure to police violence onto self-reported offending behavior.<br>
-  <b>Conclusions</b>: Adolescents in São Paulo are socialized through exposure to police violence. Witnessing police officers assaulting a member of the public undermines the development of beliefs about the legitimacy of the law and increases the risk of criminal offending.
-  <br>
+  <b>Abstract</b>: Legal socialization—the process through which individuals develop an understanding of the law and its purpose—unfolds throughout the life course, but childhood and adolescence are particularly formative periods for shaping legal attitudes. This study examines adolescent legal socialization and assesses the extent to which exposure to different policing practices, including police officers assaulting members of the public, is associated with changes in beliefs about the legitimacy of the law and an increased propensity to criminally offend. We focus on adolescents aged 11 to 14 in São Paulo, Brazil, a city where authoritarian policing is well-documented. Drawing on data from the São Paulo Legal Socialization Study—a cohort-based, four-wave longitudinal survey of 800 adolescents fielded between 2016 and 2019—we estimate contemporaneous and cumulative effects of exposure to different policing practices on legal legitimacy beliefs and crime involvement during adolescence. We find a robust association between exposure to police violence and (a) weakened beliefs about the legitimacy of the law and (b) an increased propensity to engage in offending behavior over time. Results also suggest that decreased perceptions of legal legitimacy may mediate the effects of exposure to police violence on self-reported offending behavior. We conclude that secondary exposure to police brutality can undermine the development of legitimacy beliefs among adolescents undergoing legal socialization in a city where violent and aggressive policing strategies are common. As legitimacy beliefs erode, internal constraints against rule-breaking may loosen, increasing adolescents’ propensity to engage in criminal behavior.</br>
  
-  <b>Keywords</b>: legal socialization, police violence, legitimacy of the law, offending behavior, Brazil.
+  <b>Keywords</b>: legal socialization, police violence, legitimacy of the law, offending behavior, adolescents.
   
   </details>
+  
+  Preprint available at [CrimRxiv](https://www.crimrxiv.com/pub/nw7lvvaj/release/1).
 
 - **Legal cynicism and the enduring legacy of cumulative exposures to police misconduct**
   
-  Authors: **Thiago R. Oliveira**, David S. Kirk, Charles C. Lanfear, & Robert J. Sampson.
+  **Thiago R. Oliveira**, David S. Kirk, Charles C. Lanfear, & Robert J. Sampson
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -58,3 +36,15 @@ author_profile: true
   </details>
   
   Pregistration availble at OSF Registries [https://osf.io/xgeyn](https://osf.io/xgeyn).
+  
+- **Reciprocal relationships, reverse causality, and temporal ordering: Testing theories with cross-lagged panel models**
+  
+  Charles C. Lanfear & **Thiago R. Oliveira**
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+ 
+  </details>
+  
+  Pregistration availble at OSF Registries [https://osf.io/xgeyn](https://osf.io/xgeyn).
+  

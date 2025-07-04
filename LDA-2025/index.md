@@ -42,7 +42,7 @@ Welcome to the course page for the methods@manchester **Longitudinal Data Analys
 
 ### Day 5
 
-- [Day 1 slides](slides/day5.pdf)
+- [Day 5 slides](slides/day5.pdf)
 
 ## Anonymous questions
 

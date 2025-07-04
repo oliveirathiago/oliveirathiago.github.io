@@ -7,7 +7,39 @@ author_profile: true
 
 {% include base_path %}
 
-## 2024
+## 2025
+
+### 11. Unintended consequences of early exposure to policing: Assessing long-term effects of police stops during adolescence in England and Wales
+  
+  Arabella Kyprianides, Amal Ali, Pele Petnga-Wallace, Paul Quinton, & **Thiago R. Oliveira**. 
+  
+  Forthcoming in *The British Journal of Criminology*.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+
+  <b>Abstract</b>: This study examines the unintended life-course consequences of being stopped by the police in England and Wales before age 14 using data from the UK Millennium Cohort Study (N = 9,159). We investigate the predictors of early police contact and its associations with outcomes such as self-reported offending behaviour, academic achievement, and mental health over three years. Violent offending, knife carrying, non-violent offending, gang membership, alcohol use, and cannabis use are linked to higher likelihoods of police contact by age 14. Police stops at this age are associated with increased violent offending, reduced educational aspirations, greater conduct problems and attentional difficulties by age 17, and these associations persist after accounting for important variables such as ethnicity. These findings align with labelling, cumulative disadvantage, and general strain theories, and the stress process paradigm.
+ 
+  <b>Keywords</b>: Policing; adolescents; offending; education; mental health
+  
+  </details>
+  
+  Replication materials [here](https://github.com/oliveirathiago/CoP_MCS).
+
+### [10. Legal cynicism, intrusive policing, and the dynamics of police legitimacy in Brazil's largest city](https://doi.org/10.1017/lsr.2025.10)
+
+  **Thiago R. Oliveira**. *Law & Society Review*.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+
+  <b>Abstract</b>: Public experiences with the law in some neighborhoods are marked by an overwhelming police presence alongside deep-seated beliefs that legal agents are disinterested in ensuring public safety. This mutual experience of intrusive policing and legal cynicism has important implications for people’s recognition of the legitimacy of legal authority. In the context of a global city in the Global South, this study provides a quantitative assessment of the dynamics of perceived police intrusion and cynicism about police protection and the implications of those experiences for beliefs about the legitimacy of legal institutions. Drawing on a three-wave longitudinal survey representative of adult residents of eight neighborhoods in São Paulo, Brazil (N = 1,200), I demonstrate that perceived police intrusion and cynicism about police protection (a) are two sides of the same coin, being produced by similar social forces and dynamically reproducing each other and (b) operate to undermine police legitimacy. Integrating the legal cynicism and procedural justice theoretical frameworks, this study shows that intrusive as well as unheeding and neglectful policing practices can contribute to delegitimizing legal authority. I conclude with a discussion about the distribution of repression and protection and highlight the urgency of exploring public–authority relations in the Global South.<br>
+ 
+  <b>Keywords</b>: legal cynicism, intrusive policing, police legitimacy, procedural justice theory, Brazil.
+  
+  </details>
+    
+  Find paper [here](https://doi.org/10.1017/lsr.2025.10). Replication materials [here](https://github.com/oliveirathiago/LSR_Intrusive_Policing).
 
 ### [9. Did the Murder of George Floyd Damage Public Perceptions of Police and Law in the United States?]((https://thiagoroliveira.com/files/Floyd_JRCD.pdf))
 
@@ -31,6 +63,8 @@ author_profile: true
   </details>
   
   Find paper [here](https://journals.sagepub.com/doi/10.1177/00224278241263527). Replication materials [here](https://github.com/oliveirathiago/JRCD_Floyd).
+  
+## 2024
 
 ### [8. Aggressive policing and undermined legitimacy: Assessing the impact of police stops at gunpoint on perceptions of police in São Paulo, Brazil](https://thiagoroliveira.com/files/paper_2022_JOEX.pdf)
 
