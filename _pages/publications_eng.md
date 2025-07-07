@@ -9,7 +9,7 @@ author_profile: true
 
 ## 2025
 
-### [12. Learning the binding nature of the law: Police violence, criminal offending, and the legal socialization of adolescents](https://www.crimrxiv.com/pub/nw7lvvaj/release/1)
+### [12. Learning the binding nature of the law: Police violence, criminal offending, and adolescent legal socialization](https://www.crimrxiv.com/pub/nw7lvvaj/release/1)
 
   Authors: **Thiago R. Oliveira** & Jon Jackson
   
@@ -18,7 +18,7 @@ author_profile: true
   <details>
   <summary><i>See abstract</i></summary>
 
-  <b>Abstract</b>: Legal socialization—the process through which individuals develop an understanding of the law and its purpose—unfolds throughout the life course, but childhood and adolescence are particularly formative periods for shaping legal attitudes. This study examines adolescent legal socialization and assesses the extent to which exposure to different policing practices, including police officers assaulting members of the public, is associated with changes in beliefs about the legitimacy of the law and an increased propensity to criminally offend. We focus on adolescents aged 11 to 14 in São Paulo, Brazil, a city where authoritarian policing is well-documented. Drawing on data from the São Paulo Legal Socialization Study—a cohort-based, four-wave longitudinal survey of 800 adolescents fielded between 2016 and 2019—we estimate contemporaneous and cumulative effects of exposure to different policing practices on legal legitimacy beliefs and crime involvement during adolescence. We find a robust association between exposure to police violence and (a) weakened beliefs about the legitimacy of the law and (b) an increased propensity to engage in offending behavior over time. Results also suggest that decreased perceptions of legal legitimacy may mediate the effects of exposure to police violence on self-reported offending behavior. We conclude that secondary exposure to police brutality can undermine the development of legitimacy beliefs among adolescents undergoing legal socialization in a city where violent and aggressive policing strategies are common. As legitimacy beliefs erode, internal constraints against rule-breaking may loosen, increasing adolescents’ propensity to engage in criminal behavior.</br>
+  <b>Abstract</b>: Legal socialization—the process through which individuals develop an understanding of the law and its purpose—unfolds throughout the life course, but childhood and adolescence are particularly formative periods for shaping legal attitudes. This study examines adolescent legal socialization and assesses the extent to which exposure to different policing practices, including police officers assaulting members of the public, is associated with changes in beliefs about the legitimacy of the law and an increased propensity to criminally offend. We focus on adolescents aged 11 to 14 in São Paulo, Brazil, a city where authoritarian policing is well-documented. Drawing on data from the São Paulo Legal Socialization Study—a cohort-based, four-wave longitudinal survey of 800 adolescents fielded between 2016 and 2019—we estimate contemporaneous and cumulative effects of exposure to different policing practices on legal legitimacy beliefs and crime involvement during adolescence. We find a robust association between exposure to police violence and (a) weakened beliefs about the legitimacy of the law and (b) an increased propensity to engage in offending behavior over time. Results also suggest that decreased perceptions of legal legitimacy may mediate the effects of exposure to police violence on self-reported offending behavior. We conclude that secondary exposure to police brutality can undermine the development of legitimacy beliefs among adolescents undergoing legal socialization in a city where violent and aggressive policing strategies are common. As legitimacy beliefs erode, internal constraints against rule-breaking may loosen, increasing adolescents’ propensity to engage in criminal behavior.<br>
  
   <b>Keywords</b>: legal socialization, police violence, legitimacy of the law, offending behavior, adolescents.
   
@@ -35,7 +35,7 @@ author_profile: true
   <details>
   <summary><i>See abstract</i></summary>
 
-  <b>Abstract</b>: This study examines the unintended life-course consequences of being stopped by the police in England and Wales before age 14 using data from the UK Millennium Cohort Study (N = 9,159). We investigate the predictors of early police contact and its associations with outcomes such as self-reported offending behaviour, academic achievement, and mental health over three years. Violent offending, knife carrying, non-violent offending, gang membership, alcohol use, and cannabis use are linked to higher likelihoods of police contact by age 14. Police stops at this age are associated with increased violent offending, reduced educational aspirations, greater conduct problems and attentional difficulties by age 17, and these associations persist after accounting for important variables such as ethnicity. These findings align with labelling, cumulative disadvantage, and general strain theories, and the stress process paradigm.
+  <b>Abstract</b>: This study examines the unintended life-course consequences of being stopped by the police in England and Wales before age 14 using data from the UK Millennium Cohort Study (N = 9,159). We investigate the predictors of early police contact and its associations with outcomes such as self-reported offending behaviour, academic achievement, and mental health over three years. Violent offending, knife carrying, non-violent offending, gang membership, alcohol use, and cannabis use are linked to higher likelihoods of police contact by age 14. Police stops at this age are associated with increased violent offending, reduced educational aspirations, greater conduct problems and attentional difficulties by age 17, and these associations persist after accounting for important variables such as ethnicity. These findings align with labelling, cumulative disadvantage, and general strain theories, and the stress process paradigm.<br>
  
   <b>Keywords</b>: Policing; adolescents; offending; education; mental health
   
@@ -43,7 +43,7 @@ author_profile: true
   
   Replication materials [here](https://github.com/oliveirathiago/CoP_MCS).
 
-### [10. Legal cynicism, intrusive policing, and the dynamics of police legitimacy in Brazil's largest city](https://doi.org/10.1017/lsr.2025.10)
+### [10. Legal cynicism, intrusive policing, and the dynamics of police legitimacy: Evidence from Brazil's largest city](https://doi.org/10.1017/lsr.2025.10)
 
   **Thiago R. Oliveira**. *Law & Society Review*.
   

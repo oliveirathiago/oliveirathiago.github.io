@@ -16,7 +16,7 @@ author_profile: true
     * Co-investigators: Arabella Kyprianides (UCL) and Ben Bradford (UCL)
     * Advisor: Paul Quinton (College of Policing)
     
-  * Funder: [https://youthendowmentfund.org.uk](Youth Endowment Fund)
+  * Funder: [Youth Endownment Fund](https://youthendowmentfund.org.uk)
     * £196,503.35
     * September 2025 --- March 2027
     
@@ -26,7 +26,7 @@ author_profile: true
     * Principal Investigator: Thiago R. Oliveira
     * External Partner: Paul Quinton (College of Policing)
     
-  * Funder: [https://vulnerabilitypolicing.org.uk/early-career-researcher-development-fund/](ESRC Vulnerability & Policing Futures Research Centre)
+  * Funder: [ESRC Vulnerability & Policing Futures Research Centre](https://vulnerabilitypolicing.org.uk/early-career-researcher-development-fund/)
     * £23,226.24
     * May 2025 --- April 2026
     
@@ -36,7 +36,7 @@ author_profile: true
     * Principal Investigator: Thiago R. Oliveira
     * External Partner: Paul Quinton (College of Policing)
     
-  * Funder: [https://www.ucl.ac.uk/jill-dando-institute/cgcp-small-grants-scheme-2024](UCL Centre for Global City Policing)
+  * Funder: [UCL Centre for Global City Policing](https://www.ucl.ac.uk/jill-dando-institute/cgcp-small-grants-scheme-2024])
     * £9,957.75
     * May 2025 --- December 2027
 
