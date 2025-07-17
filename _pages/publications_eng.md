@@ -26,11 +26,11 @@ author_profile: true
   
   Preprint available at [CrimRxiv](https://www.crimrxiv.com/pub/nw7lvvaj/release/1). Replication materials [here](https://github.com/oliveirathiago/PoliceViolence_LegalSocialisation).
 
-### 11. Unintended consequences of early exposure to policing: Assessing long-term effects of police stops during adolescence in England and Wales
+### [11. Unintended consequences of early exposure to policing: Assessing long-term effects of police stops during adolescence in England and Wales](https://doi.org/10.1093/bjc/azaf068)
   
   Arabella Kyprianides, Amal Ali, Pele Petnga-Wallace, Paul Quinton, & **Thiago R. Oliveira**. 
   
-  Forthcoming in *The British Journal of Criminology*.
+  *The British Journal of Criminology*.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -41,7 +41,7 @@ author_profile: true
   
   </details>
   
-  Replication materials [here](https://github.com/oliveirathiago/CoP_MCS).
+  Find paper [here](https://doi.org/10.1093/bjc/azaf068). Replication materials [here](https://github.com/oliveirathiago/CoP_MCS).
 
 ### [10. Legal cynicism, intrusive policing, and the dynamics of police legitimacy: Evidence from Brazil's largest city](https://doi.org/10.1017/lsr.2025.10)
 
