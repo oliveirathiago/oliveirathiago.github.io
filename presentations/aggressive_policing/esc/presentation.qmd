@@ -1,0 +1,316 @@
+---
+title: "Police victimization, racial inequality, and the neighborhood context of aggressive policing"
+author:
+  - name: Thiago R. Oliveira
+    affiliation: University of Manchester
+  - name: David S. Kirk
+    affiliation: University of Pennsylvania
+format:
+  revealjs: 
+    theme: serif
+    footer: |
+      <div class="footer-logos">
+      <img src="presentation_files/images/TAB_black.png" alt="UoM">
+      <img src="presentation_files/images/phdcn_logo.svg" alt="PHDCN">
+      </div>
+    css: presentation_files/styles.css
+    incremental: false
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    width: 1200
+    height: 800
+execute:
+  fig-format: svg 
+bibliography: presentation_files/bib.bib
+mouse-wheel: true
+history: false
+---
+
+
+
+```{r, echo = F}
+library(tidyverse)
+library(sf)
+library(showtext)
+library(systemfonts)
+options(scipen=999)
+options(knitr.kable.NA = '')
+font_add_google("EB Garamond", "ebgaramond")
+showtext_auto()
+
+# Set default ggplot theme
+theme_set(
+  theme_void(base_size = 14) +
+    theme(
+      plot.background  = element_rect(fill = NA, colour = NA),
+      panel.background = element_rect(fill = NA, colour = NA)
+    )
+)
+
+# Load your data
+load("../data/export/chicago.geo.RData")
+load("../data/export/dataplot_spatial.RData")
+```
+
+
+## Deep history of policing in Chicago
+
+&nbsp;
+
+> "*In Chicago, the belief that the police hate Black people and mistreat them, brutalize them, torture the and kill them is so commonplace as to be banal*" [@ralph2020torture, p. 186]
+
+&nbsp;
+
+> "*(...) Chicago's South Side neighborhoods were under siege. The police broke down doors, pointed guns at parents and children, and assaulted suspects*" [@hagan2022chicago, p. 11]
+
+
+## The era of stop & frisk in Chicago
+
+<div style="text-align: right; font-size: 0.7em;">
+![Figure 1 in @hausman2023illusory](presentation_files/images/sqf_era.jpg){width=800px height=auto}
+</div>
+
+<div style="margin-top:-40px; font-size: 0.9em;">
+> "*In 2014, Chicago police stopped, questioned, and often frisked more than 718,000 people. That was a big number for a city of 2.7 million. It was more than three times the stop* rate *in the place best known for its aggressive stop & frisk policy, New York City*" [@skogan2022stop, p. 1]
+</div>
+
+
+## The neighborhood context of the stop & frisk era in Chicago
+
+<div style="display: flex; gap: 20px;">
+
+<div style="flex: 1;">
+Stop & Frisk 2012--2015
+<div style="background: none;">
+  <object type="image/svg+xml" data="presentation_files/sqf_map.svg" width="500" height="550"></object>
+</div>
+</div>
+
+<div style="flex: 1; font-size: 0.85em">
+
+&nbsp;
+
+> "*(...) during its peak year of 2014, 90 percent of those stopped were African Americans and Hispanics. From 2013 to 2015 more police enforcement actions were taken in Chicago's predominately African American neighborhoods than there were people living there, every year*" [@skogan2022stop, p. 2]
+</div>
+  
+</div>
+
+## What are the implications of such aggressive policing tactics...
+
+&nbsp;
+
+&nbsp;
+
+$\leadsto$ ...for the neighborhood concentration of police use-of-force?
+
+&nbsp;
+
+&nbsp;
+
+$\leadsto$ ...for people living in such over-policed neighborhoods?
+
+
+# Part 1 -- Neighborhood-level analysis
+
+## Data and measures
+
+*Neighborhood-level data* ($N=865$ census tracts)
+
+&nbsp;
+
+$\leadsto$ Police-related variables
+
+<div style="font-size: 0.85em">
+* Count of contact card records (stop & frisk) 2012--2015 
+* Count of tactical report records (use of force) 2012--2015
+* Police-recorded violent crimes 2007--2010
+</div>
+
+$\leadsto$ Social disorganization antecedents (US Census 2010)
+
+<div style="font-size: 0.85em">
+* Concentrated disadvantage
+* Residential stability 
+* Immigrant concentration
+* Population density
+</div>
+
+## Estimation strategy
+
+&nbsp;
+
+* Does stop & frisk concentrate where crime and social disorganization antecedents concentrate?
+
+* Does police use-of-force concentrate where stop & frisk concentrates?
+
+&nbsp;
+
+$\leadsto$ Spatial regression models (SLX) with logged outcomes^[Poisson and negative binomial models with spatial lags yield unaltered results but with poorer model fit and collinearity issues]
+
+
+## Spatial concentration of stop & frisk
+
+<div style="background: none; margin-top:-500px; margin-left:100px">
+  <object type="image/svg+xml" data="presentation_files/plot_sqf.svg" width="1200" height=auto></object>
+</div>
+
+<div style="font-size: 0.65em; margin-top:-500px">
+> Spatial regression models (SLX) controlling for residential stability, immigrant concentration, population density, and spatial dependence. $N=865$.
+
+</div>
+
+## Spatial concentration of police use-of-force
+
+<div style="background: none; margin-top:-450px; margin-left:-100px">
+  <object type="image/svg+xml" data="presentation_files/plot_trr.svg" width="1500" height="1500"></object>
+</div>
+
+<div style="font-size: 0.65em; margin-top:-600px">
+> Spatial regression models (SLX) controlling for concentrated disadvantage, residential stability, immigrant concentration, population density, and spatial dependence. $N=865$.
+
+</div>
+
+
+# Part 2 -- Individual-level analysis
+
+##  Data and measures
+
+**Project on Human Development in Chicago Neighborhoods (PHDCN)**
+
+-   6200 children from 7 age cohorts, born 1978 to 1996
+-   3 interviews from 1995--2003
+-   Representative of Chicago and its neighborhoods
+
+### ![](presentation_files/images/phdcn_logo.svg){width=200px height=150px}
+
+<div style="margin-top:-100px">
+-   60% subsample of 4 cohorts
+-   1057 interviewed in 2012
+-   682 followed-up in 2021
+-   Followed throughout the US
+</div>
+
+
+## Analytic strategy
+
+287 out of those 682 PHDCN+ respondents were living in Chicago from 2012 to 2015, the *era of stop & frisk* [@skogan2022stop]
+
+* Cohort born in 1995 | age 17--20 in 2012--15 | age 26 in 2021
+* Cohort born in 1986 | age 26--29 in 2012--15 | age 35 in 2021
+* Cohort born in 1983 | age 29--32 in 2012--15 | age 38 in 2021
+* Cohort born in 1980 | age 32--35 in 2012--15 | age 41 in 2021
+
+**Independent variable**: Cumulative neighborhood exposure to police use-of-force (2012--2015)
+
+<div style="font-size: 0.65em">
+
+> We define $D_{ijt}$ where $T \in \{1, 2, 3, 4\}$ as the number of tactical response reports in neighborhood $j$ where respondent $i$ was residing during period $t$. Periods here refer to years 2012 ($t=1$) through 2015 ($t=5$). We then define cumulative neighborhood exposure to police use-of-force as $cum(D_{i})= \sum_{t=1}^{4}d_{ijt}$, i.e., the sum of all TRRs per individual across this four-year period
+
+</div>
+
+
+## Analytic strategy
+
+**Dependent variables**: Police victimization (measured in 2021)
+
+* Police use-of-force
+
+<div style="font-size: 0.65em; margin-top:-50px">
+> In your whole life, has a police officer ever used a weapon against you, such as a gun, Taser, stun
+gun, baton, nightstick, or pepper spray?
+</div>
+
+* Police abuse: 
+
+<div style="font-size: 0.65em; margin-top:-50px">
+> In your whole life, have you ever been searched, verbally abused, or physically threatened by a
+police officer?
+</div>
+
+* Police killing (vicarious):
+
+<div style="font-size: 0.65em; margin-top:-50px">
+> Did you know anyone who was killed by a police officer?
+</div>
+
+
+## Estimation strategy
+
+Marginal structural models with residual balancing <div style="font-size: 0.75em">[@zhou2020residual]</div>
+
+<div style="font-size: 0.65em; margin-top:-10px">
+> Neighborhood exposure to violent crime is a time-varying confounder, as police use-of-force and violent crime are dynamically related. Weights created using residual balancing permits appropriatelly controlling for time-varying confounders without introducing over-control bias.
+</div>
+
+Other (pre-exposure) controls:
+
+* Gender | Cohort fixed effects
+* Immigration status | Primary caregiver's education
+* CBCL internalizing scores | CBCL externalizing scores
+
+<div style="font-size: 0.65em; margin-top:-30px">
+> The Child Behavior Checklist (CBCL) survey instrument was a parent-report questionnaire on which the child was rated on various behavioral and emotional problems.
+</div>
+
+$\leadsto$ Effects disaggregated by ethnicity: White, Black, Latino
+
+
+## Implications of aggressive policing for residents of over-policed neighborhoods
+
+&nbsp;
+
+Probability of police victimization
+
+<div style="background:none; margin-top:-150px; text-align:center;">
+  <object type="image/svg+xml" 
+          data="presentation_files/plot_vict.svg"
+          style="width:90%; height:auto;"></object>
+</div>
+
+<div style="font-size: 0.65em; margin-top:-200px">
+> Marginal structural models estimated as Firth’s penalized linear probability models with weights created using residual balancing to control for dynamic exposure to neighborhood violence and robust Huber-White standard errors. $N=257$.
+
+</div>
+
+
+## Some concluding thoughts
+
+In Chicago, aggressive policing tactics were widely used between 2012 and 2015 -- the *stop & frisk era* [@skogan2022stop]
+
+<div style="font-size: 0.75em">
+> "Confrontational proactive policing methods may have social benefits in crime reduction but costs inintrusion on the rights and privacy of innocent persons" [@manski2017assessing, p. 9308]
+</div>
+
+<div style="font-size: 0.85em; margin-top: -10px">
+* Over-policed neighborhoods are more likely to have more incidents of police use-of-force
+
+* Black and Latino individuals residing in neighborhoods where police use-of-force concentrates are more likely to experience police victimization
+</div>
+
+<div style="font-size: 0.85em; margin-left:100px; margin-top: -30px">
+$\leadsto$ White residents are not
+</div>
+
+<div style="font-size: 0.75em; margin-top:-10px">
+> "(...) there are thee Chicagos, not one. The city's large White, African American, and Hispanic neighborhoods differ dramatically in character, including their distinctive crime problems and their relationship with the police. In important ways residents live in different worlds" [@skogan2022stop, p. 18]
+</div>
+
+
+
+# Thank you!
+
+<br><br>
+
+<div style="text-align:left; margin-left:200px; font-size:1.2em; line-height:2;">
+  <i class="fa fa-envelope"></i> 
+  <a href="mailto:thiago.oliveira@manchester.ac.uk">thiago.oliveira@manchester.ac.uk</a> <br>
+
+  <i class="fa fa-home"></i> 
+  <a href="https://www.thiagoroliveira.com">ThiagoROliveira.com</a> <br>
+
+  <i class="fa fa-link"></i> 
+  <a href="https://bsky.app/profile/oliveiratr.bsky.social">\@oliveiratr.bsky.social</a>
+</div>
+
+## References
