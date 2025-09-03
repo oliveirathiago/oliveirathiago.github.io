@@ -247,6 +247,20 @@ $\leadsto$ Spatial regression models (SLX) with logged/SQRT outcomes^[Poisson an
 
 </div>
 
+## The three Chicagos
+
+&nbsp;
+
+Average cumulative neighborhood exposure to policing practices by racial groups
+
+&nbsp;
+
+<div style="background:none; margin-top:-150px; text-align:center;">
+  <object type="image/svg+xml" 
+          data="presentation_files/exp_ethnicity.svg"
+          style="width:90%; height:auto;"></object>
+</div>
+
 
 ## Analytic strategy
 
@@ -291,7 +305,7 @@ Other (pre-exposure) controls:
 > The Child Behavior Checklist (CBCL) survey instrument was a parent-report questionnaire on which the child was rated on various behavioral and emotional problems.
 </div>
 
-$\leadsto$ Effects disaggregated by ethnicity: White, Black, Latino
+$\leadsto$ Effects disaggregated by race: White, Black, Hispanic
 
 
 ## Implications of aggressive policing for residents of over-policed neighborhoods
