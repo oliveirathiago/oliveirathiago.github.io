@@ -36,8 +36,8 @@ library(showtext)
 library(systemfonts)
 options(scipen=999)
 options(knitr.kable.NA = '')
-font_add_google("EB Garamond", "ebgaramond")
-showtext_auto()
+#font_add_google("EB Garamond", "ebgaramond")
+#showtext_auto()
 
 # Set default ggplot theme
 theme_set(
@@ -100,9 +100,9 @@ Stop & Frisk 2012--2015
 
 &nbsp;
 
-&nbsp;
-
 $\leadsto$ ...for the neighborhood concentration of police use-of-force?
+
+$\leadsto$ ...for the neighborhood concentration of civilian complaints about under-policing?
 
 &nbsp;
 
@@ -119,13 +119,38 @@ $\leadsto$ ...for people living in such over-policed neighborhoods?
 
 &nbsp;
 
+
+* Stop & Frisk records (2012--2015)
+
+<div style="font-size: 0.85em; margin-top: -50px">
+> Counts of contact cards recorded by the CPD
+</div>
+
+* Use-of-force records (2012--2015)
+
+<div style="font-size: 0.85em; margin-top: -50px">
+> Counts of Tactical Respose Records (TRR) recorded by the CPD
+</div>
+
+* Complaints about under-policing (2012--2015)
+
+<div style="font-size: 0.85em; margin-top: -50px">
+> Counts of civilian complaints filed against CPD in which the allegations were: "*neglect of duty*", "*inadequate / failure to provide service*", or "*slow / no response*"
+</div>
+
+
+## Data and measures
+
 $\leadsto$ Police-related variables
 
 <div style="font-size: 0.85em">
-* Count of contact card records (stop & frisk) 2012--2015 
-* Count of tactical report records (use of force) 2012--2015
-* Police-recorded violent crimes 2007--2010
+* Police-recorded violent crimes (2007--2010)
 </div>
+<div style="font-size: 0.85em; margin-top: -50px">
+> Includes records of homicides, robberies, and aggravated assault recorded by the CPD
+</div>
+
+&nbsp;
 
 $\leadsto$ Social disorganization antecedents (US Census 2010)
 
@@ -142,11 +167,13 @@ $\leadsto$ Social disorganization antecedents (US Census 2010)
 
 * Does stop & frisk concentrate where crime and social disorganization antecedents concentrate?
 
-* Does police use-of-force concentrate where stop & frisk concentrates?
+* Is the concentration of stop & frisk practices associated with more police use-of-force records?
+
+* Is the concentration of stop & frisk practices associated with more complaints about under-policing?
 
 &nbsp;
 
-$\leadsto$ Spatial regression models (SLX) with logged outcomes^[Poisson and negative binomial models with spatial lags yield unaltered results but with poorer model fit and collinearity issues]
+$\leadsto$ Spatial regression models (SLX) with logged/SQRT outcomes^[Poisson and negative binomial models with spatial lags yield unaltered results but with poorer model fit and collinearity issues]
 
 
 ## Spatial concentration of stop & frisk
@@ -164,6 +191,17 @@ $\leadsto$ Spatial regression models (SLX) with logged outcomes^[Poisson and neg
 
 <div style="background: none; margin-top:-450px; margin-left:-100px">
   <object type="image/svg+xml" data="presentation_files/plot_trr.svg" width="1500" height="1500"></object>
+</div>
+
+<div style="font-size: 0.65em; margin-top:-600px">
+> Spatial regression models (SLX) controlling for concentrated disadvantage, residential stability, immigrant concentration, population density, and spatial dependence. $N=865$.
+
+</div>
+
+## Spatial concentration of complaints about under-policing
+
+<div style="background: none; margin-top:-450px; margin-left:-100px">
+  <object type="image/svg+xml" data="presentation_files/plot_undpol.svg" width="1500" height="1500"></object>
 </div>
 
 <div style="font-size: 0.65em; margin-top:-600px">
@@ -280,21 +318,40 @@ In Chicago, aggressive policing tactics were widely used between 2012 and 2015 -
 
 <div style="font-size: 0.75em">
 > "Confrontational proactive policing methods may have social benefits in crime reduction but costs inintrusion on the rights and privacy of innocent persons" [@manski2017assessing, p. 9308]
+
 </div>
 
 <div style="font-size: 0.85em; margin-top: -10px">
 * Over-policed neighborhoods are more likely to have more incidents of police use-of-force
 
-* Black and Latino individuals residing in neighborhoods where police use-of-force concentrates are more likely to experience police victimization
+* Yet, over-policed neighborhoods are more likely to have more complaints of neglect and unresponsiveness
 </div>
 
-<div style="font-size: 0.85em; margin-left:100px; margin-top: -30px">
-$\leadsto$ White residents are not
+<div style="font-size: 0.75em">
+> "I see cops so often in my neighborhood, but when I see something bad going on, I look around and say ‘where are the cops?" [18-year-old girl from Phildelphia interviewed by @carr2007we, pp. 458-459]
+
 </div>
+
+
+## Some concluding thoughts
+
+&nbsp;
 
 <div style="font-size: 0.75em; margin-top:-10px">
 > "(...) there are thee Chicagos, not one. The city's large White, African American, and Hispanic neighborhoods differ dramatically in character, including their distinctive crime problems and their relationship with the police. In important ways residents live in different worlds" [@skogan2022stop, p. 18]
+
 </div>
+
+&nbsp;
+
+
+* Black and Latino individuals residing in neighborhoods where police use-of-force concentrates are more likely to experience police victimization
+
+<div style="margin-left:100px">
+$\leadsto$ White residents are not
+</div>
+
+
 
 
 
