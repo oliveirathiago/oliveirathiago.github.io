@@ -1,0 +1,234 @@
+---
+title: "CUMULATIVE INJUSTICE: <br> Exposure to unjust policing across the life course"
+author:
+  - name: Thiago R. Oliveira
+    affiliation: University of Manchester
+  - name: Jonathan Jackson
+    affiliation: London School of Economics
+  - name: David S. Kirk
+    affiliation: University of Pennsylvania
+format:
+  revealjs: 
+    theme: serif
+    footer: |
+      <div class="footer-logos">
+      <img src="presentation_cumulativeinjustice_files/images/TAB_black.png" alt="UoM">
+      </div>
+    css: presentation_cumulativeinjustice_files/styles.css
+    incremental: false
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    width: 1200
+    height: 800
+execute:
+  fig-format: svg 
+bibliography: presentation_cumulativeinjustice_files/bib.bib
+mouse-wheel: true
+history: false
+---
+
+
+
+```{r, echo = F}
+library(tidyverse)
+library(sf)
+library(showtext)
+library(systemfonts)
+options(scipen=999)
+options(knitr.kable.NA = '')
+#font_add_google("EB Garamond", "ebgaramond")
+#showtext_auto()
+
+theme_set(
+  theme_void(base_size = 14) +
+    theme(
+      plot.background  = element_rect(fill = NA, colour = NA),
+      panel.background = element_rect(fill = NA, colour = NA)
+    )
+)
+```
+
+## An issue with the literature
+
+Most research on the effects of exposures to policing:
+
+* Treats encounters as isolated moments
+  * Police-citizen encounters
+  * Police stops
+  * Highly publicized incidents
+  
+* Misses how experiences with law enforcement accumulate over time [@oliveira2021trustworthiness; @oliveira2024aggressive; @oliveira2025legal; @fine2025did]
+
+&nbsp;
+
+$\leadsto$ Yet, encounters are embedded within broader trajectories of repeated experiences and neighbourhood socialisation
+
+## Our goals
+
+<div style="font-size: 0.75em">
+> Develop a **developmental model of cumulative injustice**, reframing experiences with policing from isolated encounters to trajectories of exposure across the life course
+
+> Review evidence that *repeated* direct, network, and neighborhood exposures to unfair policing catalyze stigmatized identities and weakened social bonds with the state
+
+> Synthesize **procedural justice** and **legal cynicism** literatures to theorize how exclusionary messages from policing become embedded in identities, communities, and intergenerational narratives
+
+> Specify a research agenda for causal, *longitudinal study of cumulative injustice*, distinguishing exposure timing, dose, and trajectory, and testing identity-based mechanisms of estrangement
+</div>
+
+
+# Theoretical foundations
+
+## Procedural justice theory
+
+> "Each of these police-citizen contacts is potentially a "teachable moment" about policing for both citizens and police" [@tyler2014street, p. 752]
+
+* Every encounter in which an officer exercises authority is a **teachable moment** in which individuals update their expectations about how they will be treated in the future
+
+&nbsp;
+  
+* *Group engagement model*: fair treatment communicates that individuals are **valued members of the wider group** that legal authority represents [@tyler2003group]
+
+
+## Legal cynicism theory
+
+> "Legal cynicism refers to a cultural orientation in which the law and the agents of its enforcement, such as the police and courts, are viewed as illegitimate, unresponsive, and ill equipped to ensure public safety" [@kirk2011cultural, p. 1191]
+
+* A community-level attribute that constrains people's strategies of action
+
+* Builds on the life-course theory of cumulative disadvantage [@sampson1997life]
+
+* Neighborhood socialization: police officers are there to protect others against us
+
+
+## Some critical views of PJT
+
+&nbsp;
+
+Monica Bell's theory of legal estrangement [@bell2017police]
+
+* Procedural injustice
+* Vicarious marginalization
+* Structural exclusion
+
+&nbsp;
+
+$\leadsto$ PJT overlooks the broader structural and historical forces that shape how Black communities in the US interpret the law
+
+
+# Our proposal
+
+## A developmental model of repeated teachable moments
+
+> Reframe experiences with unjust policing as cumulative, developmental, and contextual
+
+&nbsp;
+
+<div style="margin-top: -10px">  
+Each individual event remains a teachable moment, but they are embedded within **trajectories of exposure across the life course**
+</div>
+<div style="font-size: 0.75em">  
+  * Direct exposures
+  * Network exposures
+  * Neighborhood exposures
+  * Intergenerational experiences
+</div>
+  
+
+## Cumulative injustice
+
+Encounters communicate **inclusion** or **exclusion** --- but we need to situate those signals within the temporal, cultural, and structural contexts in which they are lived
+
+&nbsp;
+
+> “I was eight when I first got stopped. (...) Thirteen, fourteen, that’s when I get stopped at least three times a week” [@haldipur2018no, p. 43]
+
+&nbsp;
+
+Accumulated experiences of unjust policing across the life course <br> $\Rightarrow$ socialization context of **cumulative injustice**
+
+
+## Cumulative injustice
+
+> "At both an interactional and structural level, current [policing] regimes can operate to effectively *banish whole communities* from the body politic. The legal estrangement perspective treats **social inclusion** as the ultimate end of law enforcement" [@bell2017police, p. 2067]
+
+&nbsp;
+
+Cumulative injustice send exclusionary signals
+
+<div style="font-size: 0.75em">  
+* The police are not there to protect *us*, the police are there to protect others *from us*
+</div>
+
+$\leadsto$ Individuals socialized in a context of cumulative injustice are **labelled as others** and **excluded from the body politic**
+
+
+## Life-course consequences of cumulative injustice
+
+$\Rightarrow$ **Feelings of non-belonging and social exclusion**
+
+
+* Erosion of legitimacy & rise of cynicism
+ 
+* Generalized mistrust
+<div style="font-size: 0.7em">  
+  * Lower civic engagement    
+  * Reduced voter turnout  
+  * Disengagement from institutions
+</div>
+
+* System avoidance
+
+* Crime involvement & resistance
+
+* Stress & intergenerational transmission
+
+## Toward a research program on cumulative injustice
+
+Focus on cumulative exposures to policing during the life course
+
+<div style="font-size: 0.85em">  
+* Dose–response
+* Timing
+* Trajectories
+</div>
+
+&nbsp;
+
+**Methodological innovation**
+
+<div style="font-size: 0.85em">  
+* **Longitudinal data** linking survey + administrative records  
+* **Causal inference**: marginal structural models, LTMLE  
+* **Triangulation**: surveys, admin data, ethnography  
+</div>
+
+---
+
+## Concluding remarks
+
+* From **isolated encounters** → to **cumulative trajectories**  
+* Cumulative injustice reshapes:  
+  - Identities  
+  - Legitimacy  
+  - Civic bonds  
+  - Intergenerational narratives  
+
+$\leadsto$ A **life-course science of cumulative injustice**  
+
+# Thank you!
+
+<br><br>
+
+<div style="text-align:left; margin-left:200px; font-size:1.2em; line-height:2;">
+  <i class="fa fa-envelope"></i> 
+  <a href="mailto:thiago.oliveira@manchester.ac.uk">thiago.oliveira@manchester.ac.uk</a> <br>
+
+  <i class="fa fa-home"></i> 
+  <a href="https://www.thiagoroliveira.com">ThiagoROliveira.com</a> <br>
+
+  <i class="fa fa-link"></i> 
+  <a href="https://bsky.app/profile/oliveiratr.bsky.social">\@oliveiratr.bsky.social</a>
+</div>
+
+## References
