@@ -11,9 +11,7 @@ author_profile: true
 
 ### [12. Learning the binding nature of the law: Police violence, criminal offending, and adolescent legal socialization](https://www.crimrxiv.com/pub/nw7lvvaj/release/1)
 
-  Authors: **Thiago R. Oliveira** & Jon Jackson
-  
-  Forthcoming in the *Journal of Developmental and Life-course Criminology*.
+  Authors: **Thiago R. Oliveira** & Jon Jackson. *Journal of Developmental and Life-course Criminology*.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -28,9 +26,7 @@ author_profile: true
 
 ### [11. Unintended consequences of early exposure to policing: Assessing long-term effects of police stops during adolescence in England and Wales](https://doi.org/10.1093/bjc/azaf068)
   
-  Arabella Kyprianides, Amal Ali, Pele Petnga-Wallace, Paul Quinton, & **Thiago R. Oliveira**. 
-  
-  *The British Journal of Criminology*.
+  Arabella Kyprianides, Amal Ali, Pele Petnga-Wallace, Paul Quinton, & **Thiago R. Oliveira**. *The British Journal of Criminology*.
   
   <details>
   <summary><i>See abstract</i></summary>
