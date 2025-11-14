@@ -1,0 +1,71 @@
+/* styles.css — paste or append this file referenced in your YAML */
+.reveal .quarto-subtitle,
+.quarto-title-block .quarto-subtitle,
+.reveal .slides section.title-slide .quarto-subtitle,
+#title-block .quarto-subtitle,
+.reveal .subtitle {
+  font-size: 40px !important;       /* change to desired size */
+  line-height: 2.05 !important;
+  color: #555 !important;           /* optional */
+  font-style: italic !important;    /* optional */
+}
+
+.custom-title-slide .authors {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.custom-title-slide .author {
+  text-align: center;
+}
+
+.custom-title-slide .author .name {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.custom-title-slide .author .affiliation {
+  font-size: 18px;
+  font-style: italic;
+  color: #666;
+}
+
+
+/* Style the built-in footer container */
+.reveal .footer {
+  padding: 0 1rem;
+  bottom: 10px;           
+  position: absolute;    
+  width: 100%;
+}
+
+/* Layout the two logos */
+.reveal .footer .footer-logos {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-right: 20px;
+}
+
+/* Tweak logo sizes */
+.reveal .footer .footer-logos img {
+  height: 45px;           /* adjust to taste */
+  vertical-align: middle;
+}
+
+/* General links (URLs, references, etc.) */
+.reveal a,
+.reveal a:visited {
+  color: #1a73e8;   /* Google blue — tweak as needed */
+  text-decoration: none;  /* optional: remove underline */
+  font-size: 0.75em; 
+}
+
+/* Hover effect for clarity */
+.reveal a:hover {
+  color: #0b52c0;
+  text-decoration: underline;
+}

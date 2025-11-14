@@ -1,0 +1,218 @@
+---
+title: "Cumulative injustice"
+subtitle: "Police stops and the development of legal cynicism in the life course"
+author:
+  - name: Thiago R. Oliveira
+    affiliation: University of Manchester
+format:
+  revealjs: 
+    theme: serif
+    footer: |
+      <div class="footer-logos">
+      <span style="margin-left:10px; font-size:0.85em; color:#555;">ASC 2025 | Nov 14 2025</span>
+      <img src="files/images/TAB_black.png" alt="UoM">
+      </div>
+    css: files/styles.css
+    incremental: false
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    width: 1200
+    height: 800
+execute:
+  fig-format: svg 
+bibliography: files/bib.bib
+mouse-wheel: true
+history: false
+---
+
+
+
+```{r, echo = F}
+library(tidyverse)
+library(sf)
+library(showtext)
+library(systemfonts)
+options(scipen=999)
+options(knitr.kable.NA = '')
+#font_add_google("EB Garamond", "ebgaramond")
+#showtext_auto()
+
+theme_set(
+  theme_void(base_size = 14) +
+    theme(
+      plot.background  = element_rect(fill = NA, colour = NA),
+      panel.background = element_rect(fill = NA, colour = NA)
+    )
+)
+
+# Load your data
+load("files/results.RData")
+```
+
+
+## My goal today
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+$\leadsto$ Do adolescents with cumulative experiences of police stops develop enduring legal cynicism that persists into adulthood?
+
+
+
+## An issue with the literature
+
+Most research on the effects of exposures to policing:
+
+* Treats encounters as isolated moments
+  * Police-citizen encounters
+  * Police stops
+  * Highly publicized incidents
+  
+* Misses how experiences with law enforcement accumulate over time [@oliveira2021trustworthiness; @oliveira2024aggressive; @oliveira2025legal; @fine2025did]
+
+&nbsp;
+
+$\leadsto$ Yet, encounters are embedded within broader trajectories of repeated experiences and neighbourhood socialisation <i class="fa fa-chart-line"></i> 
+
+
+# Theoretical foundations
+
+## Procedural justice theory
+
+> "Each of these police-citizen contacts is potentially a 'teachable moment' about policing for both citizens and police" [@tyler2014street, p. 752]
+
+* Every encounter in which an officer exercises authority is a **teachable moment** in which individuals update their expectations about how they will be treated in the future
+
+&nbsp;
+  
+* *Group engagement model*: fair treatment communicates that individuals are **valued members of the wider group** that legal authority represents <i class="fa fa-building-columns"></i> <i class="fa fa-people-group"></i> [@tyler2003group]
+
+
+## Legal cynicism theory
+
+> "Legal cynicism refers to a cultural orientation in which the law and the agents of its enforcement, such as the police and courts, are viewed as illegitimate, unresponsive, and ill equipped to ensure public safety" [@kirk2011cultural, p. 1191]
+
+&nbsp;
+
+* Builds on the life-course theory of cumulative disadvantage [@sampson1997life]
+
+* Neighborhood socialization: police officers are there to protect others against us <i class="fa fa-arrows-down-to-people"></i>
+
+
+# Our proposal
+
+## A developmental model of repeated teachable moments
+
+> <i class="fa fa-signal"></i> Reframe experiences with unjust policing as cumulative, developmental, and contextual
+
+&nbsp;
+
+<div style="margin-top: -10px">  
+Each individual event remains a teachable moment, but they are embedded within **trajectories of exposure across the life course**
+</div>
+<div style="font-size: 0.75em">  
+  * <i class="fa fa-car-on"></i> Direct exposures
+  * <i class="fa fa-network-wired"></i> Network exposures
+  * <i class="fa fa-people-roof"></i> Neighborhood exposures
+  * <i class="fa fa-house-chimney"></i> Intergenerational experiences
+</div>
+  
+
+## Cumulative injustice
+
+Encounters communicate **inclusion** or **exclusion** --- but we need to situate those signals within the temporal, cultural, and structural contexts in which they are lived
+
+&nbsp;
+
+> “I was eight when I first got stopped. (...) Thirteen, fourteen, that’s when I get stopped at least three times a week” [@haldipur2018no, p. 43]
+
+&nbsp;
+
+Accumulated experiences of unjust policing across the life course <br> $\Rightarrow$ socialization context of **cumulative injustice** <i class="fa fa-arrow-trend-up"></i>
+
+
+# Preliminary empirical evidence
+
+# Data
+
+> British Cohort Study
+
+* Following the lives of 17,000 people born in the UK in 1970
+* 12 sweeps of data collection, from infancy to age 46
+
+&nbsp;
+
+**Measures**
+
+* Any experiences of **police stops** between ages 10 and 16
+* *Number* of experiences of **police stops followed by a warning** between ages 10 and 16
+* **Legal cynicism** measured at ages 16, 26, 30, and 34
+
+## Analytic strategy
+
+> Growth curve model
+
+&nbsp;
+
+* Developmental trajectories of legal cynicism from age 16 through 34
+* Influence of the *number* of police stops followed by a warning between ages 10 and 16 on those developmental trajectories
+  * Effects on the initial state of the trajectories
+  * Effects on the shape of the trajectories
+
+## Analytic strategy
+
+* Binary outcome: Legal cynicism at ages 16, 26, 30, 34
+* Time specification: age and age squared (*quadratic growth curve*)
+* Main explanatory variable: number of police stops followed by a warning between ages 10 and 16 (square rooted)
+* Covariates:
+<div style="font-size: 0.75em;">
+  * demographics (sex, ethnicity, socioeconomic status)
+  * psycho-social confounders at age 10 (impulsivity, aggressiveness, learning scores)
+  * behavioural confounders at age 10 (bullying behaviour, violent behaviour)
+</div>
+
+$\leadsto$ Multilevel growth curve model specified with a logistic function link and interaction terms
+
+## Results
+
+> Average developmental trajectory of legal cynicism among all respondents^[$NT = 28,914; N=10,472; SD(Intercept)=1.526; SD(age)=0.023$]
+
+<div style="background:none; margin-top:-60px; text-align:center;">
+  <object type="image/svg+xml" 
+          data="files/plot_empty.svg"
+          style="width:75%; height:auto;"></object>
+</div>
+
+## Results
+
+> Effects of the number of police stops in adolescence on developmental trajectories of legal cynicism
+
+<div style="background:none; margin-top:-20px; text-align:center;">
+  <object type="image/svg+xml" 
+          data="files/plot_full.svg"
+          style="width:85%; height:auto;"></object>
+</div>
+
+
+# Thank you!
+
+<br><br>
+
+<div style="text-align:left; margin-left:200px; font-size:1.2em; line-height:2;">
+  <i class="fa fa-envelope"></i> 
+  <a href="mailto:thiago.oliveira@manchester.ac.uk">thiago.oliveira@manchester.ac.uk</a> <br>
+
+  <i class="fa fa-home"></i> 
+  <a href="https://www.thiagoroliveira.com">ThiagoROliveira.com</a> <br>
+
+  <i class="fa fa-link"></i> 
+  <a href="https://bsky.app/profile/oliveiratr.bsky.social">\@oliveiratr.bsky.social</a>
+</div>
+
+## References
