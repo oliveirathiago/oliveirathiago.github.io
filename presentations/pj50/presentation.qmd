@@ -1,0 +1,231 @@
+---
+title: "Cumulative injustice"
+subtitle: "Exposure to unjust policing across the life course"
+author:
+  - name: Thiago R. Oliveira
+    affiliation: University of Manchester
+  - name: Jonathan Jackson
+    affiliation: London School of Economics
+  - name: David S. Kirk
+    affiliation: University of Pennsylvania
+format:
+  revealjs: 
+    theme: serif
+    footer: |
+      <div class="footer-logos">
+      <img src="files/images/TAB_black.png" alt="UoM">
+      </div>
+    css: files/styles.css
+    incremental: false
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    width: 1200
+    height: 800
+execute:
+  fig-format: svg 
+bibliography: files/bib.bib
+mouse-wheel: true
+history: false
+---
+
+
+
+```{r, echo = F}
+library(tidyverse)
+library(sf)
+library(showtext)
+library(systemfonts)
+options(scipen=999)
+options(knitr.kable.NA = '')
+#font_add_google("EB Garamond", "ebgaramond")
+#showtext_auto()
+
+theme_set(
+  theme_void(base_size = 14) +
+    theme(
+      plot.background  = element_rect(fill = NA, colour = NA),
+      panel.background = element_rect(fill = NA, colour = NA)
+    )
+)
+
+# Load your data
+load("files/results.RData")
+```
+
+## Teachable moments as static encounters
+
+&nbsp;
+
+Most criminological research on procedural justice
+
+* Treats encounters as isolated moments 
+  * Police-citizen encounters <i class="fa fa-car-on"></i>
+  * Police stops <i class="fa fa-people-robbery"></i>
+  * Highly publicized incidents <i class="fa fa-video"></i>
+  
+> "Each of these police-citizen contacts is potentially a 'teachable moment' about policing for both citizens and police" [@tyler2014street, p. 752]
+
+
+## Teachable moments as dynamic exposures
+  
+&nbsp;
+
+> Encounters are not evaluated on a blank slate <i class="fa fa-file"></i>
+
+&nbsp;
+
+$\leadsto$ Experiences with law enforcement accumulate over time <i class="fa fa-signal"></i>
+
+$\leadsto$ Encounters are embedded within broader trajectories of repeated experiences and neighbourhood socialisation <i class="fa fa-chart-line"></i> 
+
+
+# Theoretical insights from criminological theory
+
+## Life-course theory of cumulative disadvantage
+
+> "The idea of cumulative disadvantage draws on a **dynamic** conceptualization of social control over the life course, integrated with the one theoretical perspective in criminology that is inherently developmental in nature---**labeling theory**" [@sampson1997life, pp. 1-3]
+
+* A developmental theory focused on dynamic processes <i class="fa fa-chart-line"></i>
+
+* Cumulative disadvantage mechanism <i class="fa fa-signal"></i>
+
+* Identity-based mechanisms, turning points, and redirected trajectories <i class="fa fa-arrow-right-arrow-left"></i>
+
+
+## Legal cynicism theory
+
+> "Legal cynicism refers to a cultural orientation in which the law and the agents of its enforcement, such as the police and courts, are viewed as illegitimate, unresponsive, and ill equipped to ensure public safety" [@kirk2011cultural, p. 1191]
+
+&nbsp;
+
+* Builds on the life-course theory of cumulative disadvantage <i class="fa fa-chart-line"></i> [@sampson1997life]
+
+* **Neighborhood socialization**: police officers are there to protect others against us <i class="fa fa-arrows-down-to-people"></i>
+
+* Labeling mechanism: individuals labeled as *others* and *excluded* from the body politic <i class="fa fa-ban"></i>
+
+
+# Our proposal
+
+## A developmental model of repeated teachable moments
+
+> <i class="fa fa-signal"></i> Reframe experiences with unjust policing as cumulative, developmental, and contextual
+
+&nbsp;
+
+<div style="margin-top: -10px">  
+Each individual event remains a teachable moment, but they are embedded within **trajectories of exposure across the life course**
+</div>
+<div style="font-size: 0.75em">  
+  * <i class="fa fa-car-on"></i> Direct exposures
+  * <i class="fa fa-network-wired"></i> Network exposures
+  * <i class="fa fa-people-roof"></i> Neighborhood exposures
+  * <i class="fa fa-house-chimney"></i> Intergenerational experiences
+</div>
+  
+
+## Cumulative injustice
+
+Encounters communicate **inclusion** or **exclusion** --- but we need to situate those signals within the temporal, cultural, and structural contexts in which they are lived
+
+&nbsp;
+
+> “I was eight when I first got stopped. (...) Thirteen, fourteen, that’s when I get stopped at least three times a week” [@haldipur2018no, p. 43]
+
+&nbsp;
+
+Accumulated experiences of unjust policing across the life course <br> $\Rightarrow$ socialization context of **cumulative injustice** <i class="fa fa-arrow-trend-up"></i>
+
+# Some empirical evidence
+
+## Some empirical evidence
+
+> Average developmental trajectory of legal cynicism in the UK^[$NT = 28,914; N=10,472; SD(Intercept)=1.526; SD(age)=0.023$]
+
+<div style="background:none; margin-top:-40px; text-align:center;">
+  <object type="image/svg+xml" 
+          data="files/plot_empty.svg"
+          style="width:75%; height:auto;"></object>
+</div>
+
+## Some empirical evidence
+
+> Effects of the number of police stops in adolescence on developmental trajectories of legal cynicism
+
+<div style="background:none; margin-top:-20px; text-align:center;">
+  <object type="image/svg+xml" 
+          data="files/plot_full.svg"
+          style="width:85%; height:auto;"></object>
+</div>
+
+## Concluding remarks
+
+&nbsp;
+
+* From **isolated encounters** to **cumulative trajectories**  
+
+* **Cumulative injustice**: A research agenda focused on cumulative exposures to unjust policing across the life course
+  * Dose–response
+  * Timing
+  * Trajectories
+
+$\leadsto$ A **life-course approach to procedural justice theory**
+
+
+# Thank you!
+
+<br><br>
+
+<div style="text-align:left; margin-left:200px; font-size:1.2em; line-height:2;">
+  <i class="fa fa-envelope"></i> 
+  <a href="mailto:thiago.oliveira@manchester.ac.uk">thiago.oliveira@manchester.ac.uk</a> <br>
+
+  <i class="fa fa-home"></i> 
+  <a href="https://www.thiagoroliveira.com">ThiagoROliveira.com</a> <br>
+
+  <i class="fa fa-link"></i> 
+  <a href="https://bsky.app/profile/oliveiratr.bsky.social">\@oliveiratr.bsky.social</a>
+</div>
+
+# Data
+
+> British Cohort Study
+
+* Following the lives of 17,000 people born in the UK in 1970
+* 12 sweeps of data collection, from infancy to age 46
+
+&nbsp;
+
+**Measures**
+
+* Any experiences of **police stops** between ages 10 and 16
+* *Number* of experiences of **police stops followed by a warning** between ages 10 and 16
+* **Legal cynicism** measured at ages 16, 26, 30, and 34
+
+## Analytic strategy
+
+> Growth curve model
+
+&nbsp;
+
+* Developmental trajectories of legal cynicism from age 16 through 34
+* Influence of the *number* of police stops followed by a warning between ages 10 and 16 on those developmental trajectories
+  * Effects on the initial state of the trajectories
+  * Effects on the shape of the trajectories
+
+## Analytic strategy
+
+* Binary outcome: Legal cynicism at ages 16, 26, 30, 34
+* Time specification: age and age squared (*quadratic growth curve*)
+* Main explanatory variable: number of police stops followed by a warning between ages 10 and 16 (square rooted)
+* Covariates:
+<div style="font-size: 0.75em;">
+  * demographics (sex, ethnicity, socioeconomic status)
+  * psycho-social confounders at age 10 (impulsivity, aggressiveness, learning scores)
+  * behavioural confounders at age 10 (bullying behaviour, violent behaviour)
+</div>
+
+$\leadsto$ Multilevel growth curve model specified with a logistic function link and interaction terms
+
+## References
