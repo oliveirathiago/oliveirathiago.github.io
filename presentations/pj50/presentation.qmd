@@ -159,6 +159,30 @@ Accumulated experiences of unjust policing across the life course <br> $\Rightar
           style="width:85%; height:auto;"></object>
 </div>
 
+## Some empirical evidence
+
+:::: {.columns}
+::: {.column width="60%"}
+![](files/lcpaper.png){width=100%}
+:::
+
+::: {.column width="40%"}
+<div style="background:none; margin-top:-20px; text-align:center;">
+  <object type="image/svg+xml" 
+          data="files/phdcn_logo.svg"
+          style="width:80%; height:auto;"></object>
+</div>
+
+&nbsp;
+
+$\leadsto$ Cumulative neighbourhood exposure to abusive policing during adolescence
+
+&nbsp;
+
+$\leadsto$ Persistent legal cynicism in adulthood
+:::
+::::
+
 ## Concluding remarks
 
 &nbsp;
