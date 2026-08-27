@@ -7,9 +7,25 @@ author_profile: true
 
 {% include base_path %}
 
+## 2026
+
+### [13. Reciprocal relationships, reverse causality, and temporal ordering: Testing theories with cross-lagged panel models](https://link.springer.com/article/10.1007/s40865-026-00314-y)
+
+  Authors: Charles C. Lanfear & **Thiago R. Oliveira**. *Journal of Developmental and Life-course Criminology*.
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+
+  <b>Abstract</b>: Reciprocal causal relationships are a common feature of criminological theories. For example, stable employment may reduce offending while offending may lead to unemployment, and perceived disorder may increase fear of crime while fear of crime may increase sensitivity to signs of disorder. When multiple observations over time are available, cross-lagged panel models are commonly used to estimate these reciprocal effects. Yet this is often done without careful attention to how they map on to the theoretical process they are meant to capture or whether key assumptions of the models are satisfied. This may result in estimates that are not substantively meaningful or are biased or even reversed in sign. Reciprocal relationships also pose challenges for causal assumptions based on graphical tools; theories that posit reciprocal causation often rely on underlying macro–micro mechanisms not explicitly represented in empirical models. We provide guidance on how to align theory, model specification, and choice of estimator, illustrated with two motivating examples: the relationship between employment and offending and the relationship between perceived disorder and fear of crime. We distinguish theoretical reciprocality—in which feedback processes are of substantive interest—from reverse causality—in which reciprocal processes are a nuisance threatening identification of an effect of interest—and discuss three common issues for cross-lagged panel models: unobserved time-stable heterogeneity, improperly specified temporal order, and insufficient variation over time. We conclude by reminding researchers of the importance of aligning methods with theory in longitudinal research.<br>
+  
+  </details>
+  
+  Find paper [here](https://link.springer.com/article/10.1007/s40865-026-00314-y).
+
+
 ## 2025
 
-### [12. Learning the binding nature of the law: Police violence, criminal offending, and adolescent legal socialization](https://www.crimrxiv.com/pub/nw7lvvaj/release/1)
+### [12. Learning the binding nature of the law: Police violence, criminal offending, and adolescent legal socialization](https://link.springer.com/article/10.1007/s40865-025-00271-y)
 
   Authors: **Thiago R. Oliveira** & Jon Jackson. *Journal of Developmental and Life-course Criminology*.
   
@@ -22,7 +38,7 @@ author_profile: true
   
   </details>
   
-  Preprint available at [CrimRxiv](https://www.crimrxiv.com/pub/nw7lvvaj/release/1). Replication materials [here](https://github.com/oliveirathiago/PoliceViolence_LegalSocialisation).
+  Preprint available at [CrimRxiv](https://link.springer.com/article/10.1007/s40865-025-00271-y). Replication materials [here](https://github.com/oliveirathiago/PoliceViolence_LegalSocialisation).
 
 ### [11. Unintended consequences of early exposure to policing: Assessing long-term effects of police stops during adolescence in England and Wales](https://doi.org/10.1093/bjc/azaf068)
   

@@ -38,13 +38,15 @@ author_profile: true
     
   * Funder: [UCL Centre for Global City Policing](https://www.ucl.ac.uk/jill-dando-institute/cgcp-small-grants-scheme-2024])
     * £9,957.75
-    * May 2025 --- December 2027
+    * May 2025 --- December 2026
 
 ## Working papers
 
 - **Legal cynicism and the enduring legacy of abusive policing**
   
   **Thiago R. Oliveira**, David S. Kirk, Charles C. Lanfear, & Robert J. Sampson
+  
+  Invited to Revise and Resubmit, *American Journal of Sociology*
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -55,15 +57,43 @@ author_profile: true
   
   Pregistration available at OSF Registries [https://osf.io/xgeyn](https://osf.io/xgeyn).
   
-- **Reciprocal relationships, reverse causality, and temporal ordering: Testing theories with cross-lagged panel models**
+
+- **Cumulative injustice: Exposure to unjust policing across the life course**
   
-  Charles C. Lanfear & **Thiago R. Oliveira**
+  **Thiago R. Oliveira**, Jonathan Jackson, & David S. Kirk
+  
+  Solicited article, *Annual Review of Criminology*
   
   <details>
   <summary><i>See abstract</i></summary>
  
   </details>
   
+
+- **Legal cynicism in the life course: Long-term implications of early experiences with policing**
+  
+  **Thiago R. Oliveira** & Nicola Fox
+  
+  Under review, *Journal of Research in Crime and Delinquency*
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+ 
+  </details>
+  
+  
+- **Escalatory encounters, racialized policing, and the neighborhood context of police use of force**
+  
+  Amal Ali & **Thiago R. Oliveira**
+  
+  Under review, *Criminology*
+  
+  <details>
+  <summary><i>See abstract</i></summary>
+ 
+  </details>
+  
+
 - **Cold calculations: How conflict characteristics shape external support in armed conflicts**
   
   Celine Giese & **Thiago R. Oliveira**
@@ -73,21 +103,16 @@ author_profile: true
  
   </details>
   
-- **Cumulative injustice: Exposure to unjust policing across the life course**
+
+- **Climate change and crime, Shifts in seasonal violence patters**
   
-  **Thiago R. Oliveira**, Jonathan Jackson, & David S. Kirk
+  David Buil-Gil, **Thiago R. Oliveira**, & Diego J. Maldonado-Guzmán
   
-  <details>
-  <summary><i>See abstract</i></summary>
- 
-  </details>
-  
-- **Racialized policing in England: Stop and search and the neighborhood context of police misconduct and use-of-force**
-  
-  Amal Ali & **Thiago R. Oliveira**
+  Under review, *PNAS Nexus*
   
   <details>
   <summary><i>See abstract</i></summary>
  
-  </details>
+  </details>  
+
   
