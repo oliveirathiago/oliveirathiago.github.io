@@ -15,14 +15,11 @@ main:
       - title: ":brazil: Publications in Portuguese"
         url: /publications_pt/    
 
+  - title: ":microphone: Presentations"
+    url: /presentations/
+  
   - title: ":books: Teaching"
-    sublinks:
-      - title: "UCL"
-        url: /teaching-ucl/
-      - title: "LSE"
-        url: /teaching-lse/
-      - title: "Short courses"
-        url: /teaching-shortcourses/
-      - title: "USP"
-        url: /teaching-usp/
+    url: /teaching/
+
+  
        

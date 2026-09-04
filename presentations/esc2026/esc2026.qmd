@@ -1,0 +1,479 @@
+---
+title: "Policing, legal estrangement, and the reproduction of social inequality"
+subtitle: "European Society of Criminology | September 2026"
+author:
+  - name: Thiago R. Oliveira
+    affiliation: University of Manchester
+format:
+  revealjs: 
+    theme: serif
+    self-contained: false
+    embed-resources: false
+    footer: |
+      <div class="footer-logos">
+      <img src="presentation_files/images/TAB_black.png" alt="UoM">
+      </div>
+    css: presentation_files/styles.css
+    incremental: false
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    width: 1200
+    height: 800
+execute:
+  fig-format: svg
+bibliography: presentation_files/bib.bib
+mouse-wheel: true
+history: false
+---
+
+
+
+```{r, echo = F}
+library(tidyverse)
+library(sf)
+library(showtext)
+library(systemfonts)
+options(scipen=999)
+options(knitr.kable.NA = '')
+font_add_google("EB Garamond", "ebgaramond")
+showtext_auto()
+
+knitr::opts_chunk$set(tikz.transparent = TRUE)
+
+# Set default ggplot theme
+theme_set(
+  theme_void(base_size = 14) +
+    theme(
+      #plot.background  = element_rect(fill = NA, colour = NA),
+      #panel.background = element_rect(fill = NA, colour = NA)
+      plot.background = element_blank(),
+      panel.background = element_blank()
+    )
+)
+
+# Load your data
+load("presentation_files/results.RData")
+```
+
+
+# Does stop and search contribute to the reproduction of social inequality?
+
+
+## Legal estrangement framework
+
+
+## Legal estrangement framework
+
+&nbsp;
+
+> "*Legal estrangement is a theory of detachment and eventual alienation from the law's enforcers, and it reflects the intuition among many people in poor communities of color that the law operates to exclude them from society*" [@bell2017police, p. 2054]
+
+&nbsp;
+
+> "*Structural aspects of policing (...) exclude whole groups of people from experiencing policing as a protective benefit and create a dividing line between the valued and the valueless*" [@bell2017police, p. 2149]
+
+
+## Legal estrangement framework
+
+```{=html}
+<div style="display: grid; grid-template-columns: 400px 400px 400px; gap: 150px; margin-left: -200px; align-items: start;">
+  <div style="text-align: center;">
+    <div style="border: none; padding: 10px; margin-bottom: 100px; font-size:35px; font-style: italic">Objective structural policing conditions</div>
+  </div>
+  
+  <div style="text-align: center;">
+    <div style="border: none; padding: 10px; margin-bottom: 270px; font-size:35px; font-style: italic">Subjective cultural orientations</div>
+  </div>
+  
+  <div style="text-align: center;">
+    <div style="border: none; padding: 10px; margin-bottom: 270px; font-size:35px; font-style: italic">Objective societal outcomes</div>
+  </div>
+    
+
+</div>
+```
+
+
+## Legal estrangement framework
+
+```{=html}
+<div style="display: grid; grid-template-columns: 400px 400px 400px; gap: 150px; margin-left: -200px; align-items: start;">
+  <div style="text-align: center;">
+    <div style="border: none; padding: 10px; margin-bottom: 100px; font-size:35px; font-style: italic">Objective structural policing conditions</div>
+    <div style="border: none; padding: 10px; margin-bottom: 80px; font-size:40px;">Procedural injustice</div>
+    <div style="border: none; padding: 10px; margin-bottom: 80px;">Vicarious marginalisation</div>
+    <div style="border: none; padding: 10px;">Structural exclusion</div>
+  </div>
+  
+  <div style="text-align: center;">
+    <div style="border: none; padding: 10px; margin-bottom: 270px; font-size:35px; font-style: italic">Subjective cultural orientations</div>
+  </div>
+  
+  <div style="text-align: center;">
+    <div style="border: none; padding: 10px; margin-bottom: 270px; font-size:35px; font-style: italic">Objective societal outcomes</div>
+  </div>
+  
+</div>
+```
+
+
+## Legal estrangement framework
+
+```{=html}
+<div style="display: grid; grid-template-columns: 400px 400px 400px; gap: 150px; margin-left: -200px; align-items: start;">
+  <div style="text-align: center;">
+    <div style="border: none; padding: 10px; margin-bottom: 100px; font-size:35px; font-style: italic">Objective structural policing conditions</div>
+    <div style="border: none; padding: 10px; margin-bottom: 80px; font-size:40px;">Procedural injustice</div>
+    <div style="border: none; padding: 10px; margin-bottom: 80px;">Vicarious marginalisation</div>
+    <div style="border: none; padding: 10px;">Structural exclusion</div>
+  </div>
+  
+  <div style="text-align: center;">
+    <div style="border: none; padding: 10px; margin-bottom: 270px; font-size:35px; font-style: italic">Subjective cultural orientations</div>
+    <div style="border: none; padding: 10px;">Legal cynicism and anomie about law</div>
+  </div>
+  
+  <div style="text-align: center;">
+    <div style="border: none; padding: 10px; margin-bottom: 270px; font-size:35px; font-style: italic">Objective societal outcomes</div>
+    <div style="border: none; padding: 10px;"><i>Social exclusion of groups from society</i></div>
+  </div>
+  
+  <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;">
+    <line x1="200" y1="375" x2="350" y2="525" stroke="black" stroke-width="2"/>
+    <line x1="150" y1="525" x2="350" y2="525" stroke="black" stroke-width="2"/>
+    <line x1="200" y1="675" x2="350" y2="525" stroke="black" stroke-width="2"/>
+    
+    <line x1="750" y1="525" x2="900" y2="525" stroke="black" stroke-width="2"/>
+  </svg>
+  
+</div>
+```
+
+
+## Stop and search in England and Wales
+
+<div style="background: none; margin-top:-10px; margin-left:-60px">
+  <object type="image/svg+xml" data="presentation_files/seaches.svg" width="1400" height="700"></object>
+</div>
+
+
+## Testable implications of legal estrangement theory
+
+&nbsp;
+
+
+<div style="font-size: 0.75em; margin-left:-150px; margin-right: 500px">
+  $\cdot$  Individuals more frequently stopped and searched by police officers, particularly during adolescence
+  
+  &nbsp;
+  
+  $\cdot$  Individuals vicariously exposed to stop and search practices, with friends, relatives, neighbours being consistently stopped and searched by police officers
+  
+  &nbsp;
+  
+  $\cdot$ Individuals growing up in neighbourhoods where stop and search concentrates
+</div>
+
+
+## Testable implications of legal estrangement theory
+
+&nbsp;
+
+
+<div style="font-size: 0.75em; margin-left:-150px; margin-right: 500px">
+  $\cdot$  Individuals more frequently stopped and searched by police officers, particularly during adolescence
+  
+  &nbsp;
+  
+  $\cdot$  Individuals vicariously exposed to stop and search practices, with friends, relatives, neighbours being consistently stopped and searched by police officers
+  
+  &nbsp;
+  
+  $\cdot$ Individuals growing up in neighbourhoods where stop and search concentrates
+</div>
+
+<div style="font-size: 0.75em; margin-left:800px; margin-top: -250px">
+  $\leadsto$ <b>Objective experiences of social exclusion across the life course</b>
+</div>
+
+
+## Testable implications of legal estrangement theory
+
+&nbsp;
+
+
+<div style="font-size: 0.75em; margin-left:-150px; margin-right: 500px">
+  $\cdot$  Individuals more frequently stopped and searched by police officers, particularly during adolescence
+  
+  &nbsp;
+  
+  $\cdot$  Individuals vicariously exposed to stop and search practices, with friends, relatives, neighbours being consistently stopped and searched by police officers
+  
+  &nbsp;
+  
+  $\cdot$ Individuals growing up in neighbourhoods where stop and search concentrates
+</div>
+
+<div style="font-size: 0.75em; margin-left:800px; margin-top: -250px">
+  $\leadsto$ <b>Objective experiences of social exclusion across the life course</b>
+</div>
+
+<div style="font-size: 0.6em; font-style: italic; margin-left:850px">
+  $-$ <i> Lower educational attainment</i> <br>
+  $-$ <i> Employment and financial instability</i> <br>
+  $-$ <i> Lower engagement with political and civic duties</i>
+</div>
+
+
+# Data and methods
+
+## Data
+
+&nbsp;
+
+Millennium Cohort Study (MCS)
+
+&nbsp;
+
+<div style="font-size: 0.8em; margin-left:50px">
+
+  - Longitudinal cohort study
+  - Around 19,000 children born in the UK in 2000
+  - Eight sweeps of data collection, from infancy to age 23
+  - Comprehensive data on social, economic, and health outcomes across the life course
+
+</div>
+
+&nbsp; 
+
+$\leadsto$ *Linkage of MCS respondents' residential history with stop and search records from England & Wales&*
+
+
+## Research questions
+
+&nbsp;
+
+<div style="margin-right:600px; margin-left:-100px">
+  Two exposure variables <br> (measured during adolescence):
+  
+  &nbsp;
+  
+  (1) Individual experiences with involuntary police stops
+  (2) *Cumulative neighbourhood exposure to stop and search*
+
+</div>
+
+<div style="margin-left:700px; margin-top:-450px">
+  Four outcome variables <br> (measured at age 23):
+  
+  &nbsp;
+  
+  (1) Educational performance
+  (2) Highest educational qualification
+  (3) Receiving government benefits
+  (4) Intention to vote in the next general election
+</div>
+
+
+## Measures
+
+&nbsp;
+
+
+* Police stop experiences during adolescence
+
+<div style="font-size: 0.85em; margin-top: -50px">
+> *Have you ever been stopped and questioned by the police?* (yes/no) <br>
+> - Measured at age 17 <br>
+> - Respondents who had previously, at age 14, reported being stopped and questioned by the police were excluded from the analysis
+</div>
+
+## Measures
+
+
+* Educational performance 
+
+<div style="font-size: 0.75em; margin-top: -50px">
+> MCS point score using interpolated scoring system ($0-120$) <br>
+> - Scale capturing total GCSE points 
+</div>
+
+* Educational attainment 
+
+<div style="font-size: 0.75em; margin-top: -50px">
+> Highest qualification degree obtained by age 23 <br>
+> - Levels 1 through 8
+</div>
+
+* Benefits
+
+<div style="font-size: 0.75em; margin-top: -50px">
+> Whether respondent receives any benefits at age 23 (yes/no)
+</div>
+
+* Intention to vote
+
+<div style="font-size: 0.75em; margin-top: -50px">
+> Likelihood to vote in the next general elections ($0-10$)
+</div>
+
+## Some descriptive insights
+
+<div style="background: none; margin-top:-10px; margin-left:-60px">
+  <object type="image/svg+xml" data="presentation_files/education_descriptive_plot.svg" width="1400" height="700"></object>
+</div>
+
+
+## Covariates included
+
+&nbsp;
+
+<div style="display: grid; grid-template-columns: 650px 750px; gap: 50px; align-items: start;margin-left:-50px">
+  
+<div style="text-align: center;font-size: 0.85em">
+  
+* Ethnicity <br>
+* Gender <br>
+* Parents' qualifications <br>
+* Self-reported perceptions of neighbourhood safety (age 14) <br>
+* Previous offending behaviour (age 14) <br>
+* Previous risk-taking behaviour (age 14) <br>
+* Previous victimisation (age 14) <br>
+    
+</div>
+  
+<div style="text-align: center;font-size: 0.85em">
+  
+* Self-reported educational motivation (age 14) <br>
+* Conduct problems (parent-reported, age 14) <br>
+* Emotional symptoms (parent-reported, age 14) <br>
+* Hyperactivity and inattention (parent-reported, age 14) <br>
+* Peer problems (parent-reported, age 14) <br>
+* Prosocial scores (parent-reported, age 14) <br>
+    
+</div>
+  
+</div>
+
+
+
+# Results
+
+## Results: Educational performance
+
+<div style="background: none; margin-top:-10px; margin-left:-150px">
+  <object type="image/svg+xml" data="presentation_files/plot.education_scores.svg" width="800" height="560"></object>
+</div>
+
+<div style="font-size: 0.65em; margin-top:-50px">
+> Survey-weighted linear regression controlling for parents' qualifications, self conception, area safety, previous offending, risk-taking behaviour, victimisation, conduct problems, emotional symptoms, hyperactivity and inattention, peer problems, prosocial scores, gender, and ethnicity. $N=5,931$.
+
+</div>
+
+<div style="font-size: 0.8em; margin-top:-600px; margin-left: 750px">
+> Exposed respondents report MCS point scores 4.37 points lower than non-exposed respondents
+
+</div>
+
+## Results: Educational attainment
+
+<div style="background: none; margin-top:-10px; margin-left:-150px">
+  <object type="image/svg+xml" data="presentation_files/education_plot.svg" width="800" height="560"></object>
+</div>
+
+<div style="font-size: 0.65em; margin-top:-50px">
+> Survey-weighted ordinal logistic regression controlling for parents' qualifications, self conception, area safety, previous offending, risk-taking behaviour, victimisation, conduct problems, emotional symptoms, hyperactivity and inattention, peer problems, prosocial scores, gender, and ethnicity. $N=3,687$.
+
+</div>
+
+<div style="font-size: 0.8em; margin-top:-600px; margin-left: 750px">
+> Odds of higher qualification among exposed respondents 38% lower than non-exposed respondents
+
+</div>
+
+
+## Results: Employment/financial stability
+
+<div style="background: none; margin-top:-10px; margin-left:-150px">
+  <object type="image/svg+xml" data="presentation_files/plot.benefits.svg" width="800" height="560"></object>
+</div>
+
+<div style="font-size: 0.65em; margin-top:-50px">
+> Survey-weighted binomial logistic regression controlling for parents' qualifications, self conception, area safety, previous offending, risk-taking behaviour, victimisation, conduct problems, emotional symptoms, hyperactivity and inattention, peer problems, prosocial scores, gender, and ethnicity. $N=5,931$.
+
+</div>
+
+<div style="font-size: 0.8em; margin-top:-600px; margin-left: 750px">
+> Odds of receiving benefits among exposed respondents 65% higher than non-exposed respondents
+
+</div>
+
+
+## Results: Political and civic engagement
+
+<div style="background: none; margin-top:-10px; margin-left:-150px">
+  <object type="image/svg+xml" data="presentation_files/plot.voting.svg" width="800" height="560"></object>
+</div>
+
+<div style="font-size: 0.65em; margin-top:-50px">
+> Survey-weighted linear regression controlling for parents' qualifications, self conception, area safety, previous offending, risk-taking behaviour, victimisation, conduct problems, emotional symptoms, hyperactivity and inattention, peer problems, prosocial scores, gender, and ethnicity. $N=5,931$.
+
+</div>
+
+<div style="font-size: 0.8em; margin-top:-600px; margin-left: 750px">
+> Exposed respondents report scores (likelihood to vote) 0.49 points lower than non-exposed respondents
+
+</div>
+
+
+# So what?
+
+
+## Next steps
+
+&nbsp;
+
+* Finish linking MCS residential history with stop and search records from
+
+> Create a measure of cumulative neighbourhood exposure to stop and search during adolescence
+
+> Marginal structural models with residual balancing to assess cumulative effects
+
+> Focus on the vicarious marginalisation and structural exclusion mechanisms highlighted by the legal estrangement framework
+
+
+## Final thoughts
+
+Does stop and search contribute to the reproduction of social inequality?
+
+* Not a theory-testing exercise
+
+> But results are consistent with empirical implications of the legal estrangement framework
+
+* Focus on objective experiences of social exclusion
+
+* People who have had police stop experiences during adolescence are more likely to have
+<div style="font-size: 0.75em">
+  * educational damage
+  * more employment and financial instability
+  * lower engagement with political and civic duties
+</div>
+
+
+# Thank you!
+
+<br><br>
+
+<div style="text-align:left; margin-left:200px; font-size:1.2em; line-height:2;">
+  <i class="fa fa-envelope"></i> 
+  <a href="mailto:thiago.oliveira@manchester.ac.uk">thiago.oliveira@manchester.ac.uk</a> <br>
+
+  <i class="fa fa-home"></i> 
+  <a href="https://www.thiagoroliveira.com">ThiagoROliveira.com</a> <br>
+
+  <i class="fa fa-link"></i> 
+  <a href="https://bsky.app/profile/oliveiratr.bsky.social">\@oliveiratr.bsky.social</a>
+</div>
+
+## References

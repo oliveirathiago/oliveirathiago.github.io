@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Thiago R. Oliveira"
   avatar           : "2021-10-Thiago+R+Oliveira-David+Fisher-01.jpg"
-  bio              : "Lecturer in Criminology, The University of Manchester"
+  bio              : "Senior Lecturer (Associate Professor), Department of Criminology, University of Manchester"
   location         : "Manchester, UK"
   employer         :
   pubmed           : 
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "ROliveiraT"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
