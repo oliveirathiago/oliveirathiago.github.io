@@ -16,7 +16,7 @@ You can find slides for some of my recent presentations below.
 
 ### Policing and life course workshop
 
-* [Policiing and the life course: Long-term implications of early experiences with policing](https://oliveirathiago.github.io/presentations/uom_march26/presentation.html). March 2026, University of Manchester, UK.
+* [Policing and the life course: Long-term implications of early experiences with policing](https://oliveirathiago.github.io/presentations/uom_march26/presentation.html). March 2026, University of Manchester, UK.
 
 
 ### Procedural Justice at 50

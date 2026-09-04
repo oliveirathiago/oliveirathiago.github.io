@@ -17,7 +17,7 @@ ______________
 
 You can find materials for some of my teaching below.
 
-### [Longitudinal Data Analysis](oliveirathiago.github.io/LDA-2025) (Methods@Manchester, University of Manchester)
+### [Longitudinal Data Analysis](https://oliveirathiago.github.io/LDA-2025) (Methods@Manchester, University of Manchester)
 
 ### Policing and the Police (University of Manchester)
 

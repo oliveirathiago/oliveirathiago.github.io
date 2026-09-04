@@ -70,7 +70,7 @@ author_profile: true
     
   Find paper [here](https://doi.org/10.1017/lsr.2025.10). Replication materials [here](https://github.com/oliveirathiago/LSR_Intrusive_Policing).
 
-### [9. Did the Murder of George Floyd Damage Public Perceptions of Police and Law in the United States?]((https://thiagoroliveira.com/files/Floyd_JRCD.pdf))
+### [9. Did the Murder of George Floyd Damage Public Perceptions of Police and Law in the United States?](https://thiagoroliveira.com/files/Floyd_JRCD.pdf)
 
   Adam Fine, **Thiago R. Oliveira**, Jon Jackson, Ben Bradford, Rick Trinkner, Krisztian Posch. <i>Journal of Research in Crime and Delinquency</i>.
   
