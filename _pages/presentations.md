@@ -29,7 +29,7 @@ You can find slides for some of my recent presentations below.
 * [Cumulative injustice: Police stops and the development of legal cynicism in the life course](https://oliveirathiago.github.io/presentations/pj50/presentation.html). November 2025, Washington DC, USA.
 
 
-### ESC 2025
+### ESC Annual Meeting 2025
 
 * [Police victimization, racial inequality, and the neighborhood context of aggressive policing](https://oliveirathiago.github.io/presentations/esc2025/presentation.html). September 2025, Athens, Greece.
 * [Cumulative injustice: Exposure to unjust policing across the life course](https://oliveirathiago.github.io/presentations/esc2025/presentation_cumulativeinjustice.html). September 2025, Athens, Greece.
