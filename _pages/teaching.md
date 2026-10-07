@@ -9,6 +9,7 @@ author_profile: true
 
 ### Awards
 
+* Highly Commended, Outstanding Undergraduate Supervisor Award. *Outstanding Staff Awards*, University of Manchester (2025/26).
 * Dean's Commendation, Dean of the Faculty of Humanities, University of Manchester (2025/26).
 * Highly Commended, Outstanding Undergraduate Supervisor Award. *Outstanding Staff Awards*, University of Manchester (2024/25).
 * LSE Class Teacher Award. LSE Department of Methodology (2018/19).

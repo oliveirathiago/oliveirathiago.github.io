@@ -53,7 +53,7 @@ author_profile: true
   
   **Thiago R. Oliveira** & Nicola Fox
   
-  Under review, *Journal of Research in Crime and Delinquency*
+  Invited to Revise and Resubmit, *Journal of Research in Crime and Delinquency*
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -73,7 +73,7 @@ author_profile: true
   
   Amal Ali & **Thiago R. Oliveira**
   
-  Under review, *Criminology*
+  Under review.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -87,7 +87,7 @@ author_profile: true
   
   Celine Giese & **Thiago R. Oliveira**
   
-  Under review, *The British Journal of Criminology*
+  Under review.
   
   <details>
   <summary><i>See abstract</i></summary>
@@ -104,7 +104,7 @@ author_profile: true
   
   David Buil-Gil, **Thiago R. Oliveira**, & Diego J. Maldonado-Guzmán
   
-  Under review, *Journal of Experimental Criminology*
+  Under review.
   
   <details>
   <summary><i>See abstract</i></summary>
