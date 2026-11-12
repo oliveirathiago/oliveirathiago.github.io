@@ -9,6 +9,10 @@ author_profile: true
 
 You can find slides for some of my recent presentations below.
 
+### Guest Speaker, Institute of Criminology, University of Cambridge 2026
+
+* [Legal cynicism and the enduring legacy of abusive policing](https://oliveirathiago.github.io/files/cambridge_talk.pdf)
+
 ### ESC Annual Meeting 2026
 
 * [Policing, legal estrangement, and the reproduction of social inequality](https://oliveirathiago.github.io/presentations/esc2026/esc2026.html). September 2026, Warsaw, Poland.
@@ -32,4 +36,5 @@ You can find slides for some of my recent presentations below.
 ### ESC Annual Meeting 2025
 
 * [Police victimization, racial inequality, and the neighborhood context of aggressive policing](https://oliveirathiago.github.io/presentations/esc2025/presentation.html). September 2025, Athens, Greece.
+
 * [Cumulative injustice: Exposure to unjust policing across the life course](https://oliveirathiago.github.io/presentations/esc2025/presentation_cumulativeinjustice.html). September 2025, Athens, Greece.
