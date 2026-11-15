@@ -9,9 +9,15 @@ author_profile: true
 
 You can find slides for some of my recent presentations below.
 
-### Guest Speaker, Institute of Criminology, University of Cambridge 2026
+### ASC Annual Meeting 2026
 
-* [Legal cynicism and the enduring legacy of abusive policing](https://oliveirathiago.github.io/files/cambridge_talk.pdf)
+* [Racial Inequality and the Neighborhood Context of the ‘Overpolicing-Underpolicing Paradox’](https://oliveirathiago.github.io/presentations/asc2026/presentation.html). November 2026, Chicago, Poland.
+
+
+### Guest Speaker, Institute of Criminology, University of Cambridge 2026.
+
+* [Legal cynicism and the enduring legacy of abusive policing](https://oliveirathiago.github.io/files/cambridge_talk.pdf) November 2026, Cambridge, UK.
+
 
 ### ESC Annual Meeting 2026
 
