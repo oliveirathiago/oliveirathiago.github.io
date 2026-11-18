@@ -173,17 +173,6 @@ David S. Kirk
 </div>
 
 </section>
-<section id="deep-history-of-policing-in-chicago" class="slide level2">
-<h2>Deep history of policing in Chicago</h2>
-<p>&nbsp;</p>
-<blockquote>
-<p>“<em>In Chicago, the belief that the police hate Black people and mistreat them, brutalize them, torture the and kill them is so commonplace as to be banal</em>” <span class="citation" data-cites="ralph2020torture">(<a href="#/references" role="doc-biblioref" onclick="">Ralph 2020, 186</a>)</span></p>
-</blockquote>
-<p>&nbsp;</p>
-<blockquote>
-<p>“<em>(…) Chicago’s South Side neighborhoods were under siege. The police broke down doors, pointed guns at parents and children, and assaulted suspects</em>” <span class="citation" data-cites="hagan2022chicago">(<a href="#/references" role="doc-biblioref" onclick="">Hagan, McCarthy, and Herda 2022, 11</a>)</span></p>
-</blockquote>
-</section>
 <section id="the-era-of-stop-frisk-in-chicago" class="slide level2">
 <h2>The era of stop &amp; frisk in Chicago</h2>
 
@@ -221,24 +210,23 @@ Stop &amp; Frisk 2012–2015
 <p>&nbsp;</p>
 <div style="font-size: 0.75em">
 <blockquote>
-<p>“I see cops so often in my neighborhood, but when I see something bad going on, I look around and say ’where are the cops?” <span class="citation" data-cites="carr2007we">(18-year-old girl from Phildelphia interviewed by <a href="#/references" role="doc-biblioref" onclick="">Carr, Napolitano, and Keating 2007, 458–59</a>)</span></p>
+<p>“One indicator that poor African Americans in particular have been <strong>excluded from police resources</strong> is that police repeatedly fail to respond, or to respond in a timely fashion, when they are called. (…). In response to <strong>police abandonment</strong>, marginalized people <strong>seeking protection</strong> or redress of grievances have generally turned to <strong>‘self-help.’</strong>” <span class="citation" data-cites="bell2017police">(<a href="#/references" role="doc-biblioref" onclick="">Bell 2017, 2116</a>)</span></p>
 </blockquote>
 </div>
-</section>
-<section id="what-are-the-implications-of-the-era-of-stop-and-frisk" class="slide level2">
-<h2>What are the implications of the era of stop and frisk…</h2>
-<p>&nbsp;</p>
-<p><span class="math inline">\(\leadsto\)</span> …for the neighborhood concentration of police use-of-force?</p>
-<p>&nbsp;</p>
-<p><span class="math inline">\(\leadsto\)</span> …for the <em>persistent</em> neighborhood concentration of civilian complaints about…</p>
-<div style="margin-left: 1.5em;">
-<ul>
-<li>…<em>Abusive</em> policing?</li>
-<li>…<em>Neglectful</em> policing?</li>
-</ul>
+<!--
+> "I see cops so often in my neighborhood, but when I see something bad going on, I look around and say ‘where are the cops?" [18-year-old girl from Phildelphia interviewed by @carr2007we, pp. 458-459]
+
 </div>
+-->
+</section>
+<section id="what-are-the-long-term-implications-of-the-stop-and-frisk-era" class="slide level2">
+<h2>What are the long-term implications of the stop and frisk era…</h2>
 <p>&nbsp;</p>
-<p><span class="math inline">\(\leadsto\)</span> …for people living in such over-policed neighborhoods?</p>
+<p>&nbsp;</p>
+<p><span class="math inline">\(\leadsto\)</span> …for the <em>persistent</em> neighborhood concentration of over- <em>and</em> <strong>under-policing</strong>?</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span class="math inline">\(\leadsto\)</span> …for <strong>self-help</strong> behavior among residents of those neighborhoods, several years later?</p>
 </section>
 <section>
 <section id="part-1-neighborhood-level-analysis" class="title-slide slide level1 center">
@@ -313,45 +301,50 @@ Stop &amp; Frisk 2012–2015
 <li>Population density</li>
 </ul>
 </div>
-</section>
-<section id="estimation-strategy" class="slide level2">
-<h2>Estimation strategy</h2>
-<p>Is the spatial concentration of stop &amp; frisk encounters in 2013–2015 associated with more…</p>
-<div style="display: flex; align-items: center; gap: 1em; margin: 0.5em 0;">
-<div style="flex: 0 0 65%;">
-<p><strong>1)</strong> …use-of-force records in 2013–2015?</p>
-</div>
-</div>
-<div style="display: flex; align-items: center; gap: 1em; margin: 0.5em 0;">
-<div class="fragment" data-fragment-index="2" style="flex: 0 0 65%;">
-<p><strong>2)</strong> …complaints about abusive policing…</p>
-</div>
-<div class="fragment" data-fragment-index="4" style="flex: 1;">
-<p><span style="display: inline-block; transform: rotate(-35deg);">→</span> …in 2013–2015?<br>
-<span style="display: inline-block; transform: rotate(35deg);">→</span> …in 2016–2018?</p>
-</div>
-</div>
-<div style="display: flex; align-items: center; gap: 1em; margin: 0.5em 0;">
-<div class="fragment" data-fragment-index="3" style="flex: 0 0 65%;">
-<p><strong>3)</strong> …complaints about neglectful policing…</p>
-</div>
-<div class="fragment" data-fragment-index="4" style="flex: 1;">
-<p><span style="display: inline-block; transform: rotate(-35deg);">→</span> …in 2013–2015?<br>
-<span style="display: inline-block; transform: rotate(35deg);">→</span> …in 2016–2018?</p>
-</div>
-</div>
-<div style="height: 0.35em;">
+<!--
+## Estimation strategy
 
-</div>
-<p><span class="math inline">\(\leadsto\)</span> Poisson SLX models: spatial lags of all covariates, Conley SEs<sup>1</sup></p>
-<aside><ol class="aside-footnotes"><li id="fn1"><p>Queen contiguity, row-standardised weights; Conley cutoff = 2 km. Linear SLX models with <code>log(y+1)</code> and <code>asinh(y)</code> outcomes yield substantively identical results.</p></li></ol></aside></section>
+Is the spatial concentration of stop & frisk encounters in 2013--2015 associated with more...
+
+:::: {style="display: flex; align-items: center; gap: 1em; margin: 0.5em 0;"}
+::: {style="flex: 0 0 65%;"}
+**1)** ...use-of-force records in 2013--2015?
+:::
+::::
+
+:::: {style="display: flex; align-items: center; gap: 1em; margin: 0.5em 0;"}
+::: {.fragment fragment-index=2 style="flex: 0 0 65%;"}
+**2)** ...complaints about abusive policing...
+:::
+::: {.fragment fragment-index=4 style="flex: 1;"}
+[→]{style="display: inline-block; transform: rotate(-35deg);"} ...in 2013--2015?\
+[→]{style="display: inline-block; transform: rotate(35deg);"} ...in 2016--2018?
+:::
+::::
+
+:::: {style="display: flex; align-items: center; gap: 1em; margin: 0.5em 0;"}
+::: {.fragment fragment-index=3 style="flex: 0 0 65%;"}
+**3)** ...complaints about neglectful policing...
+:::
+::: {.fragment fragment-index=4 style="flex: 1;"}
+[→]{style="display: inline-block; transform: rotate(-35deg);"} ...in 2013--2015?\
+[→]{style="display: inline-block; transform: rotate(35deg);"} ...in 2016--2018?
+:::
+::::
+
+::: {style="height: 0.35em;"}
+:::
+
+$\leadsto$ Poisson SLX models: spatial lags of all covariates, Conley SEs^[Queen contiguity, row-standardised weights; Conley cutoff = 2 km. Linear SLX models with `log(y+1)` and `asinh(y)` outcomes yield substantively identical results.]
+
+-->
+</section>
 <section id="the-persistent-neighborhood-concentration-of-over--and-under-policing" class="slide level2">
 <h2>The persistent neighborhood concentration of over- and under-policing</h2>
-<p>&nbsp;</p>
 <img data-src="presentation_files/plot_poisson.svg" class="r-stretch quarto-figure quarto-figure-center">
-<div style="font-size: 0.65em;">
+<div style="font-size: 0.5em;margin-top:-10px">
 <blockquote>
-<p>5x Poisson SLX models controlling for concentrated disadvantage, residential stability, immigrant concentration, population density, and spatial dependence. <span class="math inline">\(N=846\)</span>.</p>
+<p>5x Poisson SLX models (Conley SEs) controlling for concentrated disadvantage, residential stability, immigrant concentration, population density, and spatial lags. <span class="math inline">\(N=846\)</span>. (Linear SLX models with <code>log(y+1)</code> and <code>asinh(y)</code> outcomes yield substantively identical results).</p>
 </blockquote>
 </div>
 </section></section>
@@ -406,7 +399,7 @@ Stop &amp; Frisk 2012–2015
 </div>
 </div>
 </section>
-<section id="estimation-strategy-1" class="slide level2">
+<section id="estimation-strategy" class="slide level2">
 <h2>Estimation strategy</h2>
 Marginal structural models with residual balancing
 <div style="font-size: 0.75em">
@@ -464,7 +457,7 @@ Marginal structural models with residual balancing
 <ul>
 <li>…incidents of police use-of-force</li>
 <li>…complaints of abuse of police power</li>
-<li>…complaints of neglect and unresponsiveness</li>
+<li><strong>…complaints of neglect and unresponsiveness</strong></li>
 </ul></li>
 </ul>
 <p><span class="math inline">\(\leadsto\)</span> These associations persist even after the end of the <em>stop &amp; frisk era</em></p>
@@ -475,7 +468,7 @@ Marginal structural models with residual balancing
 <h2>Some concluding thoughts</h2>
 <p>&nbsp;</p>
 <blockquote>
-<p>“One indicator that poor African Americans in particular have been <strong>excluded from police resources</strong> is that police repeatedly fail to respond, or to respond in a timely fashion, when they are called. (…). In response to <strong>police abandonment</strong>, marginalized people <strong>seeking protection</strong> or redress of grievances have generally turned to <strong>‘self-help.’</strong>” <span class="citation" data-cites="bell2017police">(<a href="#/references" role="doc-biblioref" onclick="">Bell 2017, 2116</a>)</span></p>
+<p>“I see cops so often in my neighborhood, but when I see something bad going on, I look around and say ’where are the cops?” <span class="citation" data-cites="carr2007we">(18-year-old girl from Phildelphia interviewed by <a href="#/references" role="doc-biblioref" onclick="">Carr, Napolitano, and Keating 2007, 458–59</a>)</span></p>
 </blockquote>
 <p>&nbsp;</p>
 <p><span class="math inline">\(\leadsto\)</span> Implications of the “overpolicing-underpolicing paradox” for gun-carrying behavior, even years later</p>
@@ -516,14 +509,8 @@ Bell, Monica C. 2017. <span>“Police Reform and the Dismantling of Legal Estran
 <div id="ref-carr2007we" class="csl-entry" role="listitem">
 Carr, Patrick J, Laura Napolitano, and Jessica Keating. 2007. <span>“We Never Call the Cops and Here Is Why: A Qualitative Examination of Legal Cynicism in Three Philadelphia Neighborhoods.”</span> <em>Criminology</em> 45 (2): 445–80.
 </div>
-<div id="ref-hagan2022chicago" class="csl-entry" role="listitem">
-Hagan, John, Bill McCarthy, and Daniel Herda. 2022. <em>Chicago’s Reckoning: Racism, Politics, and the Deep History of Policing in an American City</em>. Oxford University Press.
-</div>
 <div id="ref-manski2017assessing" class="csl-entry" role="listitem">
 Manski, Charles F, and Daniel S Nagin. 2017. <span>“Assessing Benefits, Costs, and Disparate Racial Impacts of Confrontational Proactive Policing.”</span> <em>Proceedings of the National Academy of Sciences</em> 114 (35): 9308–13.
-</div>
-<div id="ref-ralph2020torture" class="csl-entry" role="listitem">
-Ralph, Laurence. 2020. <em>The Torture Letters: Reckoning with Police Violence</em>. University of Chicago Press.
 </div>
 <div id="ref-rios2011punished" class="csl-entry" role="listitem">
 Rios, Victor M. 2011. <em>Punished: Policing the Lives of Black and Latino Boys</em>. NYU Press.
@@ -536,7 +523,6 @@ Zhou, Xiang, and Geoffrey T Wodtke. 2020. <span>“Residual Balancing: A Method 
 </div>
 </div>
 </section></section>
-
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">

@@ -55,17 +55,6 @@ load("presentation_files/dataplot_spatial.RData")
 ```
 
 
-## Deep history of policing in Chicago
-
-&nbsp;
-
-> "*In Chicago, the belief that the police hate Black people and mistreat them, brutalize them, torture the and kill them is so commonplace as to be banal*" [@ralph2020torture, p. 186]
-
-&nbsp;
-
-> "*(...) Chicago's South Side neighborhoods were under siege. The police broke down doors, pointed guns at parents and children, and assaulted suspects*" [@hagan2022chicago, p. 11]
-
-
 ## The era of stop & frisk in Chicago
 
 ![](presentation_files/plot_time.series.svg){.r-stretch fig-align="center"}
@@ -107,28 +96,29 @@ Stop & Frisk 2012--2015
 &nbsp;
 
 <div style="font-size: 0.75em">
-> "I see cops so often in my neighborhood, but when I see something bad going on, I look around and say ‘where are the cops?" [18-year-old girl from Phildelphia interviewed by @carr2007we, pp. 458-459]
+> "One indicator that poor African Americans in particular have been **excluded from police resources** is that police repeatedly fail to respond, or to respond in a timely fashion, when they are called. (...). In response to **police abandonment**, marginalized people **seeking protection** or redress of grievances have generally turned to **'self-help.'**" [@bell2017police, p. 2116]
 
 </div>
 
-## What are the implications of the era of stop and frisk...
+<!--
+> "I see cops so often in my neighborhood, but when I see something bad going on, I look around and say ‘where are the cops?" [18-year-old girl from Phildelphia interviewed by @carr2007we, pp. 458-459]
+
+</div>
+-->
+
+## What are the long-term implications of the stop and frisk era...
 
 &nbsp;
 
-$\leadsto$ ...for the neighborhood concentration of police use-of-force?
+&nbsp;
+
+$\leadsto$ ...for the *persistent* neighborhood concentration of over- *and* **under-policing**?
 
 &nbsp;
 
-$\leadsto$ ...for the *persistent* neighborhood concentration of civilian complaints about...
-
-::: {style="margin-left: 1.5em;"}
-  - ...*Abusive* policing?
-  - ...*Neglectful* policing?
-:::
-
 &nbsp;
 
-$\leadsto$ ...for people living in such over-policed neighborhoods?
+$\leadsto$ ...for **self-help** behavior among residents of those neighborhoods, several years later?
 
 
 # Part 1 -- Neighborhood-level analysis
@@ -201,6 +191,7 @@ $\leadsto$ Structural antecedents (US Census 2010)
 * Population density
 </div>
 
+<!--
 ## Estimation strategy
 
 Is the spatial concentration of stop & frisk encounters in 2013--2015 associated with more...
@@ -236,13 +227,13 @@ Is the spatial concentration of stop & frisk encounters in 2013--2015 associated
 
 $\leadsto$ Poisson SLX models: spatial lags of all covariates, Conley SEs^[Queen contiguity, row-standardised weights; Conley cutoff = 2 km. Linear SLX models with `log(y+1)` and `asinh(y)` outcomes yield substantively identical results.]
 
+-->
+
 ## The persistent neighborhood concentration of over- and under-policing
 
-&nbsp;
-
 ![](presentation_files/plot_poisson.svg){.r-stretch fig-align="center"}
-<div style="font-size: 0.65em;">
-> 5x Poisson SLX models controlling for concentrated disadvantage, residential stability, immigrant concentration, population density, and spatial dependence. $N=846$.
+<div style="font-size: 0.5em;margin-top:-10px">
+> 5x Poisson SLX models (Conley SEs) controlling for concentrated disadvantage, residential stability, immigrant concentration, population density, and spatial lags. $N=846$. (Linear SLX models with `log(y+1)` and `asinh(y)` outcomes yield substantively identical results).
 
 </div>
 
@@ -351,7 +342,7 @@ In Chicago, aggressive policing tactics were widely used between 2012 and 2015 -
 * Neighborhoods with more SQFs are more likely to have more...
   * ...incidents of police use-of-force
   * ...complaints of abuse of police power
-  * ...complaints of neglect and unresponsiveness
+  * **...complaints of neglect and unresponsiveness**
 
 $\leadsto$ These associations persist even after the end of the *stop & frisk era*
 </div>
@@ -362,7 +353,7 @@ $\leadsto$ These associations persist even after the end of the *stop & frisk er
 
 &nbsp;
 
-> "One indicator that poor African Americans in particular have been **excluded from police resources** is that police repeatedly fail to respond, or to respond in a timely fashion, when they are called. (...). In response to **police abandonment**, marginalized people **seeking protection** or redress of grievances have generally turned to **'self-help.'**" [@bell2017police, p. 2116]
+> "I see cops so often in my neighborhood, but when I see something bad going on, I look around and say ‘where are the cops?" [18-year-old girl from Phildelphia interviewed by @carr2007we, pp. 458-459]
 
 &nbsp;
 
