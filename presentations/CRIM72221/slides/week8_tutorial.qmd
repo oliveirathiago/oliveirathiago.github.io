@@ -1,0 +1,129 @@
+---
+title: "Qualitative Research Design I: Observations & Ethics"
+subtitle: "CRIM72221: Criminological Research Methods | Week 8 Tutorial"
+author:
+  - name: Thiago R. Oliveira
+    affiliation: University of Manchester
+date: 2026-11-27
+date-format: "D MMMM YYYY"
+format:
+  revealjs:
+    theme: serif
+    footer: |
+      <div class="footer-logos">
+      <img src="data/TAB_black.png" alt="UoM">
+      </div>
+    css: data/styles.css
+    incremental: false
+    slide-number: true
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    width: 1200
+    height: 800
+execute:
+  fig-format: svg
+bibliography: data/week8_tut.bib
+mouse-wheel: true
+history: false
+---
+
+<!-- old slide 2 -->
+## Activity 1 {.center}
+
+&nbsp;
+
+::: {style="text-align: center; font-size: 1.1em;"}
+*Prison Ethnography as Lived Experience: Notes From the Diaries of a Beginner Let Loose in Oslo Prison* [@ugelvik2014prison]
+:::
+
+<!-- old slide 3 -->
+## Activity 1
+
+<div style="font-size: 0.8em">
+
+* **Immersion and identity**
+    * What does Ugelvik mean by "full use of your self" in prison ethnography?
+    * How does the researcher's identity (gender, background, perceived allegiances) influence the data collected?
+    
+::: {.fragment fragment-index=2;"}
+* **Ethical and practical challenges**
+    * What are the main difficulties Ugelvik faced when trying to remain neutral in a politicised environment?
+    * How should researchers balance closeness and distance when interacting with prisoners and officers?
+
+:::
+::: {.fragment fragment-index=3;"}
+* **Reflexivity and representation**
+    * Why does Ugelvik argue for including autoethnographic elements in prison research reports?
+    * Do you think making the researcher visible in the text improves or compromises objectivity?
+    
+:::
+
+</div>
+
+<!-- old slide 4 -->
+## Activity 1: Possible answers
+
+&nbsp;
+
+<div style="font-size: 0.65em">
+
+**1) Immersion and identity**
+
+* "Full use of your self" means the ethnographer must engage *intellectually*, *emotionally*, and *physically* in the prison environment. It's not just observation; it's active participation and presence
+* The researcher's identity (gender, academic background, perceived allegiances) shapes interactions and access. For example, Ugelvik's masculinity was tested, and his academic status made him seem "bookish," influencing trust-building
+
+</div>
+
+## Activity 1: Possible answers
+
+&nbsp;
+
+<div style="font-size: 0.65em">
+
+**2) Ethical and practical challenges**
+
+* Ugelvik faced difficulties maintaining neutrality because prisoners and officers tried to "recruit" him into their respective sides. He had to navigate a politicised environment without alienating either group
+* Balancing closeness and distance requires respecting cultural rules (e.g., not sharing information across the prisoner--officer divide) while still forming relationships to collect meaningful data
+
+</div>
+
+## Activity 1: Possible answers
+
+&nbsp;
+
+<div style="font-size: 0.65em">
+
+**3) Reflexivity and representation**
+
+* Ugelvik argues for including autoethnographic elements because they reveal how the researcher's position and emotions shape the research process. Removing these elements creates a misleadingly "tidy" account
+* Making the researcher visible improves transparency and helps readers interpret findings, though it challenges traditional notions of objectivity
+
+</div>
+
+<!-- old slide 5 -->
+## {.center}
+
+![](data/activity2_observation.jpg){.r-stretch fig-align="center"}
+
+<!-- old slide 6 -->
+## Activity 2
+
+&nbsp;
+
+&nbsp;
+
+* What did you observe?
+
+&nbsp;
+
+* What did you initially assume that may reflect bias?
+
+&nbsp;
+
+* How can observation be made more objective?
+
+## References
+
+::: {#refs style="font-size: 0.6em"}
+:::
