@@ -28,7 +28,6 @@ mouse-wheel: true
 history: false
 ---
 
-<!-- old slide 2 -->
 ## Today's session
 
 &nbsp;
@@ -58,6 +57,8 @@ If you were to study online hate groups or youth gangs, what would ethnography a
 
 
 # Ethnography
+
+# What is ethnography?
 
 <!-- old slide 21 -->
 ## What is ethnography?
@@ -92,6 +93,8 @@ $\leadsto$ **Aim**: to interpret *meaning*, not count *frequency*
 
 The researcher...
 
+&nbsp;
+
 * ...observes and/or interacts with a study's participants in their *real-life environment*
 * ...represents, graphically and in writing, the *culture* of a group
 * ...uses interviews, participant observation, and surveys
@@ -112,6 +115,23 @@ The researcher...
 * There is active **sharing of knowledge** between participants and researcher
 
 :::
+
+<!-- old slide 29 -->
+## Applications in criminology
+
+**Core applications**
+
+* Street gangs, drug markets, prisons, police cultures, online deviance
+* Accessing *hidden*, *stigmatised*, or *criminalised* groups
+
+**Examples**
+
+* @goffman2014run: researcher as "roommate" in Philadelphia
+* @pearson2009researcher: researcher as "hooligan" in England
+* @zaitch2002trafficking: researcher as "narco" in Colombia
+* @biondi2016sharing: researcher as "prison gang" in Brazil
+
+# Digital/virtual ethnography
 
 <!-- old slide 24 -->
 ## Digital/virtual ethnography
@@ -148,76 +168,41 @@ The researcher...
 &nbsp;
 
 * What made digital ethnography *easier* than offline ethnography?
+
+&nbsp;
+
 * What made it *harder*?
+
+&nbsp;
+
 * How did your own identity shape your choices?
 
 <!-- old slide 26 -->
 ## Online/digital ethnography
 
-**1) Digital fieldwork is not neutral**: identity, visibility, and platform rules shape...
-
-* ...what researchers can see
-* ...what participants perform
-* ...what interactions are possible
-
-::: {.fragment fragment-index=2;"}
-**2) Online spaces blur ethical boundaries**: issues include...
-
-* ...public vs. private content
-* ...consent in anonymous spaces
-* ...safety and doxxing risks
-* ...vulnerable populations
-
-:::
-
-<!-- old slide 27 -->
-## Online/digital ethnography
-
-**3) Data is unstable and contextual**
-
-* Posts disappear
-* Algorithms influence observations
-* Content may be performative, not literal
-
-::: {.fragment fragment-index=2;"}
-**4) Researcher wellbeing matters**: digital harms include...
-
-* ...exposure to violence
-* ...burnout
-* ...algorithmic contamination
-
-:::
-
-<!-- old slide 28 -->
-## Online/digital ethnography
+&nbsp;
 
 &nbsp;
 
-**5) Reflexivity is central**: always ask...
+* Digital fieldwork is not neutral
 
-* How is my identity shaping this data?
-* What risks exist for me and for participants?
-* What is my ethical justification for each decision?
+* Online spaces blur ethical boundaries
 
-<!-- old slide 29 -->
-## Applications in criminology
+* Data is unstable and contextual
 
-**Core applications**
+* Researcher wellbeing matters
 
-* Street gangs, drug markets, prisons, police cultures, online deviance
-* Accessing *hidden*, *stigmatised*, or *criminalised* groups
+* Reflexivity is central
 
-**Examples**
 
-* @goffman2014run: researcher as "roommate" in Philadelphia
-* @pearson2009researcher: researcher as "hooligan" in England
-* @zaitch2002trafficking: researcher as "narco" in Colombia
-* @biondi2016sharing: researcher as "prison gang" in Brazil
+# Types of observation
 
 <!-- old slide 30 -->
 ## Observation & ethnography
 
 **Observation** = systematic watching and recording of social behaviour
+
+&nbsp;
 
 * **Types**
     * Covert
@@ -258,180 +243,48 @@ The researcher...
 
 </div>
 
-<!-- old slide 32 -->
-## Ethnography: Steps
-
-&nbsp;
-
-<div style="font-size: 0.75em">
-
-::::: {style="display: flex; gap: 1.5em;"}
-:::: {style="flex: 1;"}
-::: {.fragment fragment-index=1;"}
-**1) Selection**
-
-The ethnographic method begins with the selection of a *culture*. The researcher selects the culture, community, or population according to their interest
-:::
-::::
-
-:::: {style="flex: 1;"}
-::: {.fragment fragment-index=2;"}
-**2) Review of literature**
-
-The researcher then reviews the literature pertaining to the culture to get a brief idea and historical sketch of the culture selected for study
-:::
-::::
-
-:::: {style="flex: 1;"}
-::: {.fragment fragment-index=3;"}
-**3) Identification of variables**
-
-The researcher then identifies variables that interest them, as well as the members of the culture, and need to be explored
-:::
-::::
-:::::
-
-</div>
-
-<!-- old slide 33 -->
-## Ethnography: Steps
-
-&nbsp;
-
-<div style="font-size: 0.75em">
-
-::::: {style="display: flex; gap: 1.5em;"}
-:::: {style="flex: 1;"}
-**4) Entry**
-
-* The ethnographer tries to enter the culture and gain the *acceptance* of its members (critical)
-* Background work before entering
-
-::::
-
-:::: {style="flex: 1;"}
-::: {.fragment fragment-index=2;"}
-**5) Cultural immersion**
-
-* Ethnographers live in the culture they have chosen to study for months, or even years. The middle stages involve gaining informants, and using them to gain yet more informants in a chaining process
-* Carefully manage relationships
-
-:::
-::::
-:::::
-
-</div>
-
-<!-- old slide 34 -->
-## Ethnography: Steps
-
-&nbsp;
-
-<div style="font-size: 0.7em">
-
-**6) Data collection**: after gaining the confidence of respondents, the researcher collects information in the form of observational transcripts and interview recordings
-
-* **Sampling people**: various subgroups are identified
-* **Taking notes**
-    * Brief notes (jottings) $\rightarrow$ comprehensive field notes within 24h
-    * As complete, detailed, and true as possible
-    * Distinguish quotes (indicate pauses, interruptions) from observations
-* Systematic observation using a checklist
-* Intensive interviews and focus groups (week 9)
-
-
-</div>
-
-<!-- old slide 35 -->
-## Ethnography: Steps
-
-<div style="font-size: 0.75em">
-
-::::: {style="display: flex; gap: 1.5em;"}
-:::: {style="flex: 1;"}
-**7) Analysis of data**
-
-* From the many sources collected, the ethnographer analyses the data for a *description* of the culture-sharing group, *themes* that emerge from the group, and an overall *interpretation*
-* The researcher compiles a detailed description of the culture-sharing group, focusing on a single event, on several activities, or on the group over a prolonged period of time
-
-::::
-
-:::: {style="flex: 1;"}
-::: {.fragment fragment-index=2;"}
-**8) Generalisations**
-
-* Forge a working set of rules or generalisations as to how the culture-sharing group works, as the final product of this analysis
-* The final product is a **holistic cultural portrait** of the group that incorporates the views of the participants (*emic*) as well as the views of the researcher (*etic*)
-
-:::
-::::
-:::::
-
-</div>
+# Skills required
 
 <!-- old slide 36 -->
 ## Skills required
 
 The researcher needs to...
 
+::: {.fragment fragment-index=2;"}
 * ...have a high degree of **interpretative agility** to understand the wide range of issues and facts involved in the study
 * ...be **unbiased** and **unprejudiced** to draw valid and reliable conclusions
 * ...be familiar with the **social settings**, with a high degree of intellectuality and diplomacy
+
+:::
+
+::: {.fragment fragment-index=3;"}
 * ...possess good **interactional** and **interpersonal** skills
 * ...be **sensitive** towards the culture, values, and norms of the social setting in which the study is conducted
 * ...be familiar with the tenets of **research ethics**
 
-<!-- old slide 37 -->
-## Fieldwork: Do's and don'ts
-
-<div style="font-size: 0.6em">
-
-:::: {.columns}
-::: {.column width="55%"}
-<i class="fa-solid fa-check"></i> **Do...**
-
-* Have an *open mind*, free of any kind of prejudice or bias
-* Keep a simple stature so that people feel comfortable and act naturally
-* Be *diplomatic* and *supportive* towards the views and opinions of the subjects
-* A *prior study* and understanding of the group and the environment is vital
-* A good understanding of *social science theory*, *research methods*, and *research design* is important
-* Think about what you are going to ask beforehand and get familiar with the questions
-* During an interview, put your respondents at ease and choose a setting where they will feel safe and comfortable
-* Conduct the study in a relaxed and stress-free mood
-* Always respect the ethics and norms of the group under study
 :::
 
-::: {.column width="45%"}
-<i class="fa-solid fa-xmark"></i> **Don't...**
 
-* Do not interrupt; simply observe
-* Never put pressure on the study subjects
-* Do not offend the culture, values, and norms of the group under study
-* Do not overdress; keep your actions limited
-* Never distort the facts to meet the research aim
-* Never go unprepared and without prior understanding of the group
-* Never cross ethical boundaries to conduct the research
-:::
-::::
-
-</div>
+# Strengths & weaknesses
 
 <!-- old slide 38 -->
-## Ethnography: Strengths & weaknesses
+## Strengths & weaknesses
 
 <div style="font-size: 0.55em">
 
-:::: {.columns}
-::: {.column width="50%"}
+::::: {.columns}
+:::: {.column width="50%"}
 **Strengths**
 
 * **First-hand insights**: as the researcher has interacted with, experienced as a participant, and observed the participants first-hand, they can be confident that the insights that surface are reliable
 * **Detailed data**: the length of time spent with participants, probing, and observation lead to rich and detailed data
 * **High reliability**: because the researcher is directly engaged with and immersed in the group, the data do not come from individuals outside the group under consideration
 * **Close interaction**: as a participant within the group, involved closely with other participants, the researcher can develop perceptions that give a peek into participants' lives and experiences within their culture, and a deep understanding of different perspectives
-:::
+::::
 
-::: {.column width="50%"}
+
+:::: {.column width="50%"}
+::: {.fragment fragment-index=2;"}
 **Weaknesses**
 
 * **Time-consuming**: requires a huge time commitment; for studies that go on for years, the researcher needs to stay part of the group for a long time
@@ -439,140 +292,158 @@ The researcher needs to...
 * **Reliability**: as the researcher is solely involved in the group, it is difficult to validate the reliability of the data collected and the insights generated
 * **Researcher bias**: as the researcher is engaged first-hand with the participants being studied, they are likely to introduce bias
 * **Participant reservations**: if the researcher's role is known to the group, participants may not always be open to sharing their perspectives
+
 :::
 ::::
+:::::
 
 </div>
+
+# Reflexivity and positionality
 
 <!-- old slide 39 -->
 ## Reflexivity and positionality
 
+&nbsp;
+
 The researcher is part of the field---*not neutral*
 
+&nbsp;
+
+::: {.fragment fragment-index=2;"}
+
 **Reflexivity** means...
+
+&nbsp;
 
 * ...awareness of one's own biases, identity, and influence
 * ...understanding how your presence shapes behaviour
 * ...reflecting on emotional and ethical challenges [@cowburn2017research]
+
+:::
 
 <!-- old slide 40 -->
 ## Reflexivity and positionality
 
 <div style="font-size: 0.75em">
 
+
+::: {.fragment fragment-index=1;"}
 **Gender**
 
 * A *male* researcher studying female sex workers might not gain the same level of trust or intimate insight as a *female* researcher, who may be perceived as safer or more relatable
 * Conversely, a *female* researcher observing male gang members might face safety issues or gendered power dynamics that limit openness
 
+:::
+::: {.fragment fragment-index=2;"}
 **Race and ethnicity**
 
 * A *white* researcher entering a racially minoritised community may be seen as an outsider or authority figure, influencing what participants are willing to share
 * A researcher from the *same ethnic background* may gain insider trust---but risks "going native" and losing analytic distance
 
+:::
+::: {.fragment fragment-index=3;"}
 **Class**
 
 * Researchers from *middle-class* backgrounds studying working-class or marginalised communities might misinterpret survival strategies as deviance due to differing cultural capital or assumptions
 
+:::
+
 </div>
-
-<!-- old slide 41 -->
-## Reflexivity and positionality: A criminology example
-
-**Participant observation** of football hooligan subcultures in the UK [@pearson2009researcher]. To gain access, he had to **blend in** = dressing, talking, and behaving like group members
-
-$\leadsto$ What this shows:
-
-* His *male identity* gave him access that would likely be closed to female researchers, since violence and masculinity were central to that culture
-* His *middle-class academic background* sometimes made him an outsider, shaping how group members perceived him
-* Pearson's self-awareness (*reflexivity*) was essential: he realised that his class and educational status made him both *observer* and *intruder*, influencing what people revealed
-
-<i class="fa-brands fa-youtube"></i> <https://www.youtube.com/watch?v=5M1y8KcSe68>
 
 <!-- old slide 42 -->
 ## Reflexivity and positionality
 
+::: {.fragment fragment-index=1;"}
 * **Positionality shapes epistemology**
     * *Who* we are affects *what* we can know and *how* we know it
+
+:::
+::: {.fragment fragment-index=2;"}
 * **Ethnography requires reflexivity**
     * Being aware of how your identity, privilege, and social position shape your field relationships and the knowledge you produce
+    
+:::
+::: {.fragment fragment-index=3;"}
 * **Reflexivity isn't just about honesty---it's a methodological necessity**
     * We can't remove ourselves from the field, but we can be transparent about how our identities shape what we see and what others choose to show us
+    
+:::
 
 <!-- old slide 43 (divider) -->
 # Research ethics
 
-<!-- old slide 44 -->
-## Research ethics in criminology
-
-* Main issue: focus on *crime*
-* *Offenders* and *victims*: both a legitimate focus of research
-* *Criminal justice personnel*: police, judges, court officials, prison officers
-
-$\leadsto$ Raise complex ethical considerations
-
 <!-- old slide 45 -->
 ## What are research ethics?
+
+&nbsp;
 
 * **Moral principles** that govern research and guide how we determine right and wrong
 * "Rules of fair play" in criminological research
 * Principles set out in **codes of practice** and **research statements** by organisations, e.g., funding bodies, professional associations, universities
-* Empirical research, i.e., experiments or observations to gather data from participants
 * Apply to **every stage** of the research process
 
-<!-- old slide 46 -->
-## AI ethics
-
-<div style="font-size: 0.75em">
-
-Companies, governments, associations, and communities have drafted codes of ethics for AI
-
-$\leadsto$ Five key principles:
-
-* **Beneficence**: AI should be developed and applied to *improve the well-being* of our planet and its people
-* **Nonmaleficence**: because AI could end human life as we know it, a *"do no harm"* principle is critical
-* **Autonomy**: our ability to act freely and independently must be preserved and promoted, while *the autonomy of machines must be restricted*
-* **Justice**: AI must be developed, designed, and deployed in ways that promote *justice, fairness, equity*, and related values
-* **Explicability**: to promote the other principles, we need to know the "how" and "why" of AI systems and products. *Accountability and intelligibility* are key: knowing the "how" and "why" allows us to hold the correct groups responsible for the beneficial and negative impacts of AI
-
-</div>
 
 <!-- old slide 47 -->
 ## Why are research ethics important?
 
-* <i class="fa-solid fa-check"></i> Ensures that research is carried out with *integrity* and that results have *validity*
-* <i class="fa-solid fa-check"></i> Collective values *minimise the risk* of variable standards arising from the application of individual approaches to ethical issues
-* <i class="fa-solid fa-check"></i> Provides *guidance* for researchers faced with new situations/moral dilemmas
+&nbsp;
+
+<i class="fa-solid fa-check"></i> Ensures that research is carried out with *integrity* and that results have *validity*
+
+&nbsp;
+
+<i class="fa-solid fa-check"></i> Collective values *minimise the risk* of variable standards arising from the application of individual approaches to ethical issues
+
+&nbsp;
+
+<i class="fa-solid fa-check"></i> Provides *guidance* for researchers faced with new situations/moral dilemmas
 
 <!-- old slide 48 -->
 ## Scenario: Moral/ethical dilemma
 
+&nbsp;
+
 A criminology researcher wants to study how **young people involved in street gangs use Instagram and TikTok** to express identity, status, and rivalry ("digital street culture")
 
-During observation, the researcher finds **videos showing individuals brandishing weapons and making threats**---potentially *evidence of criminal activity*
+&nbsp;
 
+::: {.fragment fragment-index=2;"}
+During observation, the researcher finds **videos showing individuals brandishing weapons and making threats**---potentially *evidence of criminal activity*
+:::
+
+&nbsp;
+
+::: {.fragment fragment-index=3;"}
 $\leadsto$ Should the researcher **report these posts to the police**, or **maintain confidentiality** as required by research ethics?
+:::
 
 <!-- old slide 49 -->
-## Ethical theories
+## Ethical theories (very superficially...)
 
 <div style="font-size: 0.65em">
 
+::: {.fragment fragment-index=1;"}
 **Deontology**: uses *rules* to distinguish right from wrong; people must follow the rules and do their duty
 
 * Focuses on duties and moral rules
 * e.g., Don't lie. Don't steal. Don't cheat.
 
+:::
+::: {.fragment fragment-index=2;"}
 **Consequentialism**: *consequences* are most important (an act with good consequences is morally right)
 
 * Focuses on outcomes: a cost--benefit balance $\leadsto$ which action produces the greatest overall good or least harm?
 * e.g., most people would agree that lying is wrong. But if telling a lie would help save a person's life, consequentialism says it's the right thing to do
 
+:::
+::: {.fragment fragment-index=3;"}
 **Virtue ethics**: based on the *virtuous person* (moral character) rather than the action. Live a life of moral character
 
 * Focuses on moral character and integrity
 * e.g., by practising being honest, brave, just, generous, and so on, a person develops an honourable and moral character
 
+:::
 </div>
 
 <!-- old slide 50 -->
@@ -598,22 +469,49 @@ $\leadsto$ Should the researcher **report these posts to the police**, or **main
 <!-- old slide 51 -->
 ## Key principles: Protection from harm
 
+&nbsp;
+
+:::: {style="display: flex; align-items: center; gap: 2em;"}
+::: {style="flex: 0 0 25%; text-align: center;"}
+<i class="fa-solid fa-user-shield" style="font-size: 3em;"></i>
+
+**Protection from harm**
+:::
+
+::: {style="flex: 1;"}
 * No exposure to unnecessary and atypical *physical* or *psychological* harm (e.g., stress, embarrassment...)
+
+&nbsp;
+
 * Extra care with *vulnerable populations* (e.g., victims, children, offenders)
+
+&nbsp;
+
 * Not just about "intent"
+
+:::
+::::
 
 <!-- old slide 52 -->
 ## Key principles: Protection from harm
 
+&nbsp;
+
+:::: {style="display: flex; align-items: center; gap: 2em;"}
+::: {style="flex: 0 0 25%; text-align: center;"}
+<i class="fa-solid fa-user-shield" style="font-size: 3em;"></i>
+
+**Protection from harm**
+:::
+
+::: {style="flex: 1;"}
 * Conduct a rigorous **risk assessment**
     * Identify the potential harms posed by the research
     * Categorise the *magnitude* of the potential harm into one of seven harm levels on a scale (see next slide)
     * Estimate the *likelihood* of each potential harm
-
-<!-- old slide 53 -->
-## Key principles: Protection from harm
-
-![](presentation_files/images/harm_scale.png){width="75%" fig-align="center"}
+    
+:::
+::::
 
 <!-- old slide 54 -->
 ## Key principles: Consent
@@ -639,6 +537,8 @@ Fundamental aspect of ethical research practice: consent obtained from participa
 <!-- old slide 55 -->
 ## Key principles: Anonymity & confidentiality
 
+&nbsp;
+
 :::: {.columns}
 ::: {.column width="50%"}
 **Anonymity**
@@ -656,7 +556,9 @@ Extent to which identifiable material is *shared with others* or *published*
 <!-- old slide 56 -->
 ## Participant information sheet
 
-* <i class="fa-solid fa-heading"></i> Title of research
+&nbsp;
+
+* <i class="fa-solid fa-book fa-fw"></i> Title of research
 * <i class="fa-solid fa-magnifying-glass"></i> About the research
 * <i class="fa-solid fa-user"></i> What would my involvement be?
 * <i class="fa-solid fa-lock"></i> Data protection and confidentiality
@@ -668,6 +570,8 @@ $\leadsto$ A template: <https://documents.manchester.ac.uk/DocuInfo.aspx?DocID=3
 <!-- old slide 57 -->
 ## Consent form
 
+&nbsp;
+
 **Statements**
 
 * Participant information sheet
@@ -677,68 +581,25 @@ $\leadsto$ A template: <https://documents.manchester.ac.uk/DocuInfo.aspx?DocID=3
 * Researchers obliged to break confidentiality
 * I agree to participate
 
-<!-- old slide 58 -->
-## Consent form... however
-
-<div style="font-size: 0.85em">
-
-* In many projects, obtaining a signed informed consent form could *jeopardise the integrity of the research* and *undermine the participant--researcher relationship*
-* Inappropriate if the participant...
-    * ...wants to keep their anonymity
-    * ...is illiterate
-    * ...is sceptical of legal documents
-    * ...is fearful of the future implications of their participation
-* Shapes the sample and results
-    * Researchers use deception to "catch" people in behaviours they would otherwise not admit to if they knew they were part of a research study (e.g., violence in prison)
-
-</div>
-
-<!-- old slide 59 -->
-## Golden rule
-
-* *Do unto others as you would have them do unto you*
-* Place yourself in the "shoes" of your participants
-    * How comfortable would *you* be with what you are asking of *them*?
-
 <!-- old slide 60 -->
 ## Ethics committee
 
+&nbsp;
+
 Responsible for...
 
+&nbsp;
+
 * ...reviewing research proposals
+
+&nbsp;
+
 * ...monitoring the implementation
+
+&nbsp;
+
 * ...following up on their results
 
-<!-- old slide 61 -->
-## Problems with ethics committees
-
-<div style="font-size: 0.75em">
-
-@sieber2013planning
-
-* @abbott2011systematic: first-ever systematic examination of how US review boards make decisions
-* Results
-    * Variation in multicentre review
-    * Inconsistent or ambiguous interpretation of the federal regulations
-    * Inefficiencies in review
-* Researchers' critiques
-    * Dysfunctional
-    * Inefficient
-    * Time-consuming (delay the research project $\rightarrow$ increase costs)
-    * Outdated
-    * Member training
-
-</div>
-
-<!-- old slide 62 -->
-## Still questionable research...
-
-Despite the standards and policies developed, contemporary biomedical and social researchers continue to generate controversies [@ritchie2020science]
-
-<!-- old slide 63 -->
-## More about ethics here...
-
-<i class="fa-solid fa-link"></i> <https://ethicsunwrapped.utexas.edu/ethics-defined>
 
 # Activity: Online/digital ethnography
 
@@ -754,15 +615,20 @@ You are a researcher studying youth violence and social media. You discover a pr
 
 . . .
 
-* Access requires an invite from a member
-* Some channels are public; others are locked
+$\cdot$ Access requires an invite from a member
+
+$\cdot$ Some channels are public; others are locked
 
 $\leadsto$ You want to understand how **status**, **conflict**, and **identity** are constructed online
 
 <!-- old slide 6 -->
 ## Activity: Online/digital ethnography
 
+&nbsp;
+
 How will you enter this online field? Choose **one**:
+
+&nbsp;
 
 * **Overt entry**: you message the group admins and declare your identity as a researcher
 * **Covert entry**: you create an anonymous profile and attempt to join without disclosing your identity
@@ -771,77 +637,49 @@ How will you enter this online field? Choose **one**:
 <!-- old slide 7 -->
 ## Challenge 1: The post
 
+&nbsp;
+
+&nbsp;
+
 A user uploads a photo of themselves with a knife and writes:
 
+&nbsp;
+
 > "If they come to my block tomorrow, it's over."
+
+&nbsp;
+
+&nbsp;
 
 $\leadsto$ What do you do?
 
 <!-- old slide 8 -->
 ## Challenge 1: The post
 
+&nbsp;
+
+**Answers**
+
+&nbsp;
+
 * Assess seriousness & imminence
 * Consult supervisor/ethics board if time allows
 * Avoid reporting unless immediate danger (*deontology*)
 * Evaluate harm/benefit (*consequentialism*)
 
-<!-- old slide 9 -->
-## Challenge 2: The researcher identity
-
-::: {style="text-align: center; font-weight: bold;"}
-Some users think you're a journalist.\
-Others think you're police.\
-A few keep asking for your Instagram.
-:::
-
-$\leadsto$ What do you do?
-
-<!-- old slide 10 -->
-## Challenge 2: The researcher identity
-
-* Clarify your researcher role without compromising safety
-* Explain your purpose transparently
-* Do not provide personal accounts
-
-<!-- old slide 11 -->
-## Challenge 3: Community expectations
-
-A member says:
-
-> "If you're studying us, then promote my music in your research."
-
-$\leadsto$ Do you engage? Decline? Compromise?
-
-<!-- old slide 12 -->
-## Challenge 3: Community expectations
-
-* Maintain boundaries
-* Decline to promote content; offer non-promissory alternatives (e.g., anonymised analysis)
-
-<!-- old slide 13 -->
-## Challenge 4: Data ownership
-
-A member messages you:
-
-> "Delete everything you saved from me. I don't consent anymore."
-
-But you already anonymised and stored screenshots months ago...
-
-$\leadsto$ Do you comply fully? Partially? Ignore the request because the data was public?
-
-<!-- old slide 14 -->
-## Challenge 4: Data ownership
-
-* If data is public, the *legal* right may remain...
-* ...*but* ethically, honour the participant's request when feasible
-* Remove identifiable data where possible
 
 <!-- old slide 15 -->
-## Challenge 5: The "lurker problem"
+## Challenge 2: The "lurker problem"
+
+&nbsp;
 
 After two weeks in the server, someone posts:
 
+&nbsp;
+
 > "We've got too many lurkers. If you don't post something by tonight, you're getting kicked."
+
+&nbsp;
 
 As a researcher observing without participating...
 
@@ -850,46 +688,19 @@ As a researcher observing without participating...
 * ...do you risk being removed?
 
 <!-- old slide 16 -->
-## Challenge 5: The "lurker problem"
+## Challenge 2: The "lurker problem"
+
+&nbsp;
+
+**Answers**
+
+&nbsp;
 
 * Withdraw from private channels
 * Observe public content only
 * Never fabricate content or deceive users
 
-<!-- old slide 17 -->
-## Challenge 6: The "fake criminal" problem
-
-::: {style="text-align: center; font-weight: bold;"}
-A user claims they "stabbed someone last summer."\
-Another user says they're lying.\
-A third laughs and says no one knows what's real online.
-:::
-
-$\leadsto$ How do you treat these claims?
-
-<!-- old slide 18 -->
-## Challenge 6: The "fake criminal" problem
-
-* Treat content as *performative*, unless corroborated
-* Do **not** assume authenticity
-* Analyse symbolic meaning, not literal truth
-
-<!-- old slide 19 -->
-## Challenge 7: Data storage
-
-::: {style="text-align: center; font-weight: bold;"}
-You want to save screenshots for analysis.\
-But some include weapons, threats, and usernames.
-:::
-
-$\leadsto$ How do you ethically store and anonymise digital data?
-
-<!-- old slide 20 -->
-## Challenge 7: Data storage
-
-* Remove usernames
-* Store encrypted on university servers
-* Do **not** keep sensitive metadata
+# Take-away messages
 
 <!-- old slide 64 -->
 ## Take-away message
